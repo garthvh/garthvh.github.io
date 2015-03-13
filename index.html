@@ -24,8 +24,8 @@ title: Github for Garth
     <div class="row bs-docs-featured-sites">
     {% for project in site.data.project %}
       <div class="col-xs-6 col-sm-3">
-        <a href="{{ showcase.expo_url }}" target="_blank" title="{{ showcase.name }}">
-          <img src="http://expo.getbootstrap.com/thumbs/{{ showcase.img }}-thumb.jpg" alt="{{ showcase.name }}" class="img-responsive">
+        <a href="{{ project.url }}" target="_blank" title="{{ project.name }}">
+          <img src="http://code.garthvh.com/assets/img/social/{{ project.img }}_thumb.jpg" alt="{{ project.name }}" class="img-responsive">
         </a>
       </div>
     {% endfor %}

@@ -1,7 +1,7 @@
-- name: Lyft
-  url: https://www.lyft.com
-  expo_url: http://expo.getbootstrap.com/2014/10/29/lyft/
-  img: lyft
+- name: Thingiverse
+  url: http://www.thingiverse.com/garthvh/about
+  expo_url: http://www.thingiverse.com/garthvh/about
+  img: thingiverse
 
 - name: Vogue
   url: http://www.vogue.com

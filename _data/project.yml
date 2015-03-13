@@ -6,12 +6,6 @@
   url: https://www.3dhubs.com/seattle/hubs/garth
   img: 3dhubs
 
-- name: Riot Design
-  url: http://riotdesign.eu/en/
-  expo_url: http://expo.getbootstrap.com/2014/03/13/riot-design/
-  img: riot
-
-- name: Newsweek
-  url: http://www.newsweek.com/
-  expo_url: http://expo.getbootstrap.com/2014/02/12/newsweek/
-  img: newsweek
+- name: YouTube
+  url: http://www.youtube.com/channel/UCI6UGZtVOmfsHNFmHK4tI-Q
+  img: youtube

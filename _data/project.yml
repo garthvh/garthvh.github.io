@@ -1,12 +1,10 @@
 - name: Thingiverse
   url: http://www.thingiverse.com/garthvh/about
-  expo_url: http://www.thingiverse.com/garthvh/about
   img: thingiverse
 
-- name: Vogue
-  url: http://www.vogue.com
-  expo_url: http://expo.getbootstrap.com/2014/09/30/vogue/
-  img: vogue
+- name: 3D Hubs
+  url: https://www.3dhubs.com/seattle/hubs/garth
+  img: 3dhubs
 
 - name: Riot Design
   url: http://riotdesign.eu/en/

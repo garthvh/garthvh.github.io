@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Github for Garth">
 <meta name="keywords" content="Arduino, Raspberry PI, Chromebook, Linux">
-<meta name="author" content="Garth Vander Houwen">
+<meta name="author" content="Garth Vander Houwen" >
 
 <title>
   {% if page.layout == "home" %}
@@ -17,7 +17,6 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/flatly/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="/assets/css/site.css" rel="stylesheet">
 
 <script src="../assets/js/ie-emulation-modes-warning.js"></script>
 

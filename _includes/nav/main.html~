@@ -11,6 +11,9 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse">
       <ul class="nav navbar-nav">
+        <li{% if page.slug == "arduino" %} class="active"{% endif %}>
+          <a href="../arduino">Arduion</a>
+        </li>
         <li{% if page.slug == "chromebook" %} class="active"{% endif %}>
           <a href="../chromebook">Chromebook</a>
         </li>

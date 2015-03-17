@@ -1,7 +1,4 @@
-/* Style the GitHub buttons via CSS instead of inline attributes */
-.github-btn {
-  overflow: hidden;
-  border: 0;
-}
+.content-main { margin-top:85px; }
 
-.content-main { margin-top:70px; }
+/* Style the GitHub buttons via CSS instead of inline attributes */
+.github-btn { overflow: hidden;border: 0; }

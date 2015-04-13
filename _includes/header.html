@@ -1,23 +1,21 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Github for Garth">
 <meta name="keywords" content="Arduino, Raspberry PI, Chromebook, Linux">
-<meta name="author" content="Garth Vander Houwen" >
+<meta name="description" content="{{site.description}}"/>
+<meta name="author" content="{{site.author}}"/>
+<link rel="author" href="humans.txt"/>
 
 <title>
-  {% if page.layout == "home" %}
-    {{ page.title }}
-  {% else %}
-    {{ page.title }} &middot; Garth 
-  {% endif %}
+  {% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}
 </title>
 
 <!-- Bootstrap, Darkly bootswatch and fornt awesome CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/flatly/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
 
 <script src="../assets/js/ie-emulation-modes-warning.js"></script>
 

@@ -3,7 +3,7 @@ layout: post
 fullwidth: false
 title: Setting Up Raspberry Pi For the Children
 category: Raspberry_Pi
-tags: RaspberryPi, PiGlow, Linux, Raspbian
+tags: [RaspberryPi, PiGlow, Linux, Raspbian]
 year: 2014
 month: 6
 day: 27

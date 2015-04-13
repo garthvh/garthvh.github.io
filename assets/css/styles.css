@@ -1,6 +1,6 @@
 .content-main { margin-top:75px; }
 
-.tag-cloud {}
+.tag-cloud { margin: 0; padding: 0;}
   .tag-cloud li { display: inline; }
 
 /* Style the GitHub buttons via CSS instead of inline attributes */

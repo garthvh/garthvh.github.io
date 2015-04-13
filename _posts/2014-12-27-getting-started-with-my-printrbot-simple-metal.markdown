@@ -1,7 +1,7 @@
 ---
 layout: post
 fullwidth: false
-title: 3D Printing — Getting Started with My Printrbot Simple Metal
+title: Getting Started with My Printrbot Simple Metal
 category: 3D Printing
 tags: [RaspberryPi, PiGlow, Linux, Raspbian]
 year: 2014
@@ -45,7 +45,7 @@ I even figured out how to upload all of my timelapses to youtube when they are c
           --keywords="OctoPrint, Printrbot, 3D Printing" --unlisted --private {movie}'
         event: MovieDone
         type: system
-        
+
 I did have one issue once I received a macro lens for my [camera mount](http://www.thingiverse.com/make:107006) and the status led on the camera was creating a red moon shaped reflection in the video. Good News is there is a raspberry pi setting in order to disable the camera status led, you will need to edit the boot config file:
 
     sudo nano /boot/config.txt

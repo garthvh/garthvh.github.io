@@ -10,7 +10,7 @@
       <div class="container">
         <h1 class="page-header">{{ page.title }}</h1>
         <p class="lead">{{ page.summary }}</p>
-        <span><i class="fa fa-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
+        <span><i class="fa fa-calendar-o"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
         <span class="category"><i class="fa fa-tag"></i> {{ page.categories | category_links }}</span><br/>
         <span class="author"><i class="fa fa-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
         <div class="row">

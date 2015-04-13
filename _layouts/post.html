@@ -14,10 +14,13 @@
         <span class="category"><i class="fa fa-tag"></i>&nbsp; {{ page.categories | category_links }}</span><br/>
         <span class="author"><i class="fa fa-user"></i>&nbsp; {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
         <div class="row">
-          <div class="col-lg-9 col-sm-12">
+          <div class="col-md-9 col-sm-12">
             <article>
               {{ content }}
             </article>
+          </div>
+          <div class="col-md-3 col-sm-12" role="complementary">
+            {% include tags.html %} 
           </div>
         </div>
       </div>

@@ -24,6 +24,7 @@
         </div>
         {% unless page.fullwidth == true %}
         <div class="col-md-3" role="complementary">
+          {% include tags.html %} 
           <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
             <ul class="nav bs-docs-sidenav">
               {% if page.slug == "chromebook" %}

@@ -6,15 +6,19 @@
   <body>
     <!-- main nav -->
     {% include nav/main.html %}
-    <article>
-      <header>
-          <h2>{{ page.title }}</h2>
-          <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
-          <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
-          <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
-      </header>
-      <div class="entry">{{ content }}</div>
-    </article>
+    <div class="row">
+      <div class="col-lg-9 col-sm-12">
+        <article>
+          <header>
+              <h2>{{ page.title }}</h2>
+              <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
+              <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
+              <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
+          </header>
+          <div class="entry">{{ content }}</div>
+        </article>
+      </div>
+    </div>
     {% include footer.html %}
   </body>
 </html>

@@ -1,0 +1,26 @@
+---
+layout: home
+title: garthvh.com - Personal website for Garth Vander Houwen
+---
+<div class="container">
+	<div class="jumbotron">
+		<h1>Garth's Site</h1>
+		<p class="lead">I am having all sorts of fun with my Printrbot Simple Metal 3D printer, view my makes and designs on Thingiverse, order a print on 3D Hubs or watch timelapse videos of it printing on YouTube. </p>
+	</div>
+
+	<h1></h1>
+	<div class="row">
+    {% for project in site.data.project %}
+		<div class="col-xs-12 col-sm-4">
+			<div class="thumbnail">
+				<a href="{{ project.url }}" target="_blank" title="{{ project.name }}">
+					<img src="http://garthvh.com/assets/img/social/{{ project.img }}_thumb.jpg" alt="{{ project.name }}" class="img-responsive">
+				</a>
+			<div class="caption">
+				<h3>{{ project.name }}</h3>
+				</div>
+			</div>
+		</div>
+    {% endfor %}
+	</div>
+</div>

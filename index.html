@@ -1,26 +1,42 @@
 ---
-layout: home
-title: garthvh.com - Personal website for Garth Vander Houwen
+layout: default
+title: Home
 ---
-<div class="container">
-	<div class="jumbotron">
-		<h1>Garth's Site</h1>
-		<p class="lead">I am having all sorts of fun with my Printrbot Simple Metal 3D printer, view my makes and designs on Thingiverse, order a print on 3D Hubs or watch timelapse videos of it printing on YouTube. </p>
-	</div>
 
-	<h1></h1>
-	<div class="row">
-    {% for project in site.data.project %}
-		<div class="col-xs-12 col-sm-4">
-			<div class="thumbnail">
-				<a href="{{ project.url }}" target="_blank" title="{{ project.name }}">
-					<img src="http://garthvh.com/assets/img/social/{{ project.img }}_thumb.jpg" alt="{{ project.name }}" class="img-responsive">
-				</a>
-			<div class="caption">
-				<h3>{{ project.name }}</h3>
-				</div>
-			</div>
-		</div>
-    {% endfor %}
-	</div>
+<!-- Show last 5 posts here -->
+{% for post in paginator.posts %}
+	<article>
+
+        <header>
+            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+            <span class="date"><i class="icon-clock"></i><time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></span><br/>
+            <span class="category"><i class="icon-tag"></i> {{ post.categories | category_links }}</span><br/>
+            <span class="author"><i class="icon-user"></i> {% if post.author %}{{post.author}}{% else %}{{site.author}}{% endif%}</span>
+        </header>
+
+		<div class="entry">{{ post.excerpt }}</div>
+
+	</article>
+{% endfor %}
+
+
+<div id="paginator">
+    {% if paginator.next_page %}
+            <a href="{{site.baseurl}}/page{{paginator.next_page}}">
+            &laquo; Older Posts</a>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+                <span class="more">
+                <a href="{{site.baseurl}}/">
+                Newer Posts &raquo; </a>
+                </span>
+        {% else %}
+                <span class="more">
+                <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
+                Newer Posts &raquo; </a>
+                </span>
+        {% endif %}
+    {% endif %}
 </div>

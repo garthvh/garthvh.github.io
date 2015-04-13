@@ -1,4 +1,7 @@
-.content-main { margin-top:85px; }
+.content-main { margin-top:75px; }
+
+.tag-cloud {}
+  .tag-cloud li { display: inline; }
 
 /* Style the GitHub buttons via CSS instead of inline attributes */
 .github-btn { overflow: hidden;border: 0; }

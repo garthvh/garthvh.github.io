@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting Up Raspberry Pi For the Children
-category: Raspberry Pi
+category: RaspberryPi
 tags: dotnet
 year: 2014
 month: 6

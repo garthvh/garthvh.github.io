@@ -1,0 +1,15 @@
+---
+layout: post
+fullwidth: false
+title: Faceman
+category: A-Team
+tags: [Faceman]
+year: 2006
+month: 6
+day: 30
+published: true
+summary: A photo of the faceman.
+image: post_three.jpg
+---
+<style type="text/css">.flickr-photo { border: solid 2px #000000; }.flickr-yourcomment { }.flickr-frame { text-align: left; padding: 3px; }.flickr-caption { font-size: 0.8em; margin-top: 0px; }</style><div class="flickr-frame"> <a href="http://www.flickr.com/photos/garthvh/156286755/" title="photo sharing"><img src="http://static.flickr.com/68/156286755_f8a4f50762.jpg" class="flickr-photo" alt="" /></a><br /> <span class="flickr-caption"><a href="http://www.flickr.com/photos/garthvh/156286755/">DSCF0013</a>, originally uploaded by <a href="http://www.flickr.com/people/garthvh/">garthvh</a>.</span></div>
+<p class="flickr-yourcomment"> Beautiful autographed photo of faceman from a bed and breakfast in park city</p>

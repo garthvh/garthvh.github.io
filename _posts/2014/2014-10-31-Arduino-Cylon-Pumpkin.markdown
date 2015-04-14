@@ -1,11 +1,16 @@
 ---
-layout: default
-title: Arduino Notes
-slug: arduino
-lead: "Assorted Arduino Projects"
-fullwidth: true
+layout: post
+fullwidth: false
+title: Charlieplexed Arduino Cylon Pumpkin
+category: Arduino
+tags: [Arduino, Cylon]
+year: 2014
+month: 10
+day: 31
+published: true
+summary: KITT for your pumpkin.
+image: post_three.jpg
 ---
-
 <section>
 	<div>
 	<img src="assets/img/arduino/charlieplexed_top.jpg" alt="" class="img-responsive img-rounded" />

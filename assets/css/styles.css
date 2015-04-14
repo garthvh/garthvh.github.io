@@ -13,7 +13,40 @@
 
 article .meta {
   color: #999;
-  font-family: "Open Sans";
   font-weight: 100;
   font-size: 1.2em;
 }
+
+.meta {
+    margin-left: 4px;
+    color: #999;
+}
+.meta a {
+    color: #999;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.meta a:hover { color: #666 }
+.meta .date,
+.meta .tags,
+.meta .comments,
+.meta .edit { padding-right: 10px }
+.meta .date:before,
+.meta .tags:before,
+.meta .comments:before,
+.meta .edit:before {
+    color: #ccc;
+    font: 1.3em FontAwesome;
+    left: 0;
+    margin-right: 5px;
+}
+
+article .meta { color: #999;font-family:"Open Sans";font-weight:100;font-size:1.2em }
+article .meta .date { display: inline }
+article h1 { font-family: "Open Sans";font-weight:800;font-size:5em;padding-bottom:15px; }
+article h1 a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
+
+article .meta { line-height: 1.5em;margin-top:0 }
+article .meta span::before { padding-right: 0 }

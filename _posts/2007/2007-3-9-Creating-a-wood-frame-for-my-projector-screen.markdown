@@ -21,9 +21,11 @@ My screen is 65" by 37" and my new house has a similar sized area, so I am keepi
 + 3 1/4 8' Hardwood boards
 + 1" Corner Join pieces (these handy deals pull the mitered corners together for a good fit)
 + 5/8 wood screws
-+ 4 18" hangman picture hangers (these came from Lowe's) <img src="http://farm1.static.flickr.com/151/385256460_b58c220e50_o.jpg" alt="Frame_Hang_Man" />
++ 4 18" hangman picture hangers (these came from Lowe's)
 + Glaziers Points
 + Mitre Box and saw
+
+<img src="http://farm1.static.flickr.com/151/385256460_b58c220e50_o.jpg" alt="Frame_Hang_Man" />
 
 <img src="http://farm1.static.flickr.com/133/385256495_a8ca54f7d7_o.jpg" class="img-responsive" alt="Frame_1" />
 

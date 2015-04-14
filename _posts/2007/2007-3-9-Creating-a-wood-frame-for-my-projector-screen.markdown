@@ -21,11 +21,11 @@ My screen is 65" by 37" and my new house has a similar sized area, so I am keepi
 + 3 1/4 8' Hardwood boards
 + 1" Corner Join pieces (these handy deals pull the mitered corners together for a good fit)
 + 5/8 wood screws
-+ 4 18" hangman picture hangers (these came from Lowe's) <a href="http://www.flickr.com/photos/garthvh/385256460/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/151/385256460_b58c220e50_o.jpg" width="115" height="450" alt="Frame_Hang_Man" />
++ 4 18" hangman picture hangers (these came from Lowe's) <img src="http://farm1.static.flickr.com/151/385256460_b58c220e50_o.jpg" alt="Frame_Hang_Man" />
 + Glaziers Points
 + Mitre Box and saw
 
-<a href="http://www.flickr.com/photos/garthvh/385256495/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/133/385256495_a8ca54f7d7_o.jpg" width="600" height="370" alt="Frame_1" /></a>
+<img src="http://farm1.static.flickr.com/133/385256495_a8ca54f7d7_o.jpg" class="img-responsive" alt="Frame_1" />
 
 After routing out the inside of the frame for the do-able board, I used wood glue and the corner join pieces to put the whole thing together.  If your screen is large, you are going to need a big area for this to sit for at least a day while it drys.
 
@@ -35,8 +35,8 @@ Yesterday I was in a conference room at Microsoft where they had a projection ar
 
 Here is the finished frame:
 
-<a href="http://www.flickr.com/photos/garthvh/415636134/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/126/415636134_0503d213fd.jpg" width="500" height="349" alt="Frame_2" /></a>
+<img src="http://farm1.static.flickr.com/126/415636134_0503d213fd.jpg" class="img-responsive" alt="Frame_2" />
 
 Here is a corner:
 
-<a href="http://www.flickr.com/photos/garthvh/415636756/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/147/415636756_4b23f80c60.jpg" width="470" height="500" alt="Frame_3" /></a>
+<img src="http://farm1.static.flickr.com/147/415636756_4b23f80c60.jpg" class="img-responsive" alt="Frame_3" />

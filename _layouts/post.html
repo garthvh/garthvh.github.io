@@ -11,12 +11,12 @@ single: true
 
 <nav>
 	<ul class="pager">
-		<li>
+		<li class="pull-left">
 	    {% if page.previous.url %}
 			<a href="{{page.previous.url}}" title="Previous Post:{{ page.previous.title }}">&laquo; {{page.previous.title}}</a>
 	    {% endif %}
 		</li>
-		<li>
+		<li  class="pull-right">
 			{% if page.next.url %}
 			<a href="{{page.next.url}}" title="next Post:{{ page.next.title }}">{{ page.next.title }} &raquo; </a>
 	    {% endif %}

@@ -8,6 +8,7 @@ year: 2014
 month: 6
 day: 27
 published: true
+comments: true
 summary: Learning a little Linux again.
 image: post_three.jpg
 ---

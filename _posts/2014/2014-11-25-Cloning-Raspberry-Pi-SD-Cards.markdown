@@ -8,6 +8,7 @@ year: 2014
 month: 11
 day: 25
 published: true
+comments: true
 summary: Backing up Raspberry Pi images.
 image: post_three.jpg
 ---

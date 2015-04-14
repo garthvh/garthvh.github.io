@@ -8,6 +8,7 @@ year: 2014
 month: 12
 day: 27
 published: true
+comments: true
 summary: Adventures in 3D Printing.
 image: post_three.jpg
 ---

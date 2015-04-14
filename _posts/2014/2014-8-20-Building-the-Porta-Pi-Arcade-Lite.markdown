@@ -8,6 +8,7 @@ year: 2014
 month: 8
 day: 20
 published: true
+comments: true
 summary: Making a portable raspberry pi arcade.
 image: post_three.jpg
 ---

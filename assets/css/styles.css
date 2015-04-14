@@ -10,3 +10,10 @@
 .gist .gist-file {
   border: none !important;
 }
+
+article .meta {
+  color: #999;
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 1.2em;
+}

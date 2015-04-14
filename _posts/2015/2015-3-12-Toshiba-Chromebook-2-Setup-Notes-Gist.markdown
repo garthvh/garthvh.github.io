@@ -1,6 +1,6 @@
 ---
 layout: post
-fullwidth: false
+fullwidth: true
 title: Toshiba Chromebook 2 Setup Notes
 category: Chromebook
 tags: [Chromebook,Linux]

@@ -1,6 +1,6 @@
 ---
 layout: post
-fullwidth: false
+fullwidth: true
 title: The Chili Peppers playing Brandy
 category: Music
 tags: [RHCP, Looking Glass]

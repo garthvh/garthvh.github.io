@@ -1,6 +1,6 @@
 ---
 layout: post
-fullwidth: false
+fullwidth: true
 title: Faceman
 category: A-Team
 tags: [Faceman]

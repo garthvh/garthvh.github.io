@@ -1,6 +1,6 @@
 ---
 layout: post
-fullwidth: false
+fullwidth: true
 title: Charlieplexed Arduino Cylon Pumpkin
 category: Arduino
 tags: [Arduino, Cylon]

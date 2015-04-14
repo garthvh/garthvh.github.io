@@ -7,9 +7,7 @@
 .github-btn { overflow: hidden;border: 0; }
 
 /* Override the gist border*/
-.gist .gist-file {
-  border: none !important;
-}
+.gist .gist-file { border: none !important; }
 
 article .meta {
   color: #999;
@@ -44,7 +42,9 @@ article .meta {
 }
 
 .meta .date:before { content: "\f073"; }
-
+.meta .tags:before { content: "\f02c" }
+.meta .comments:before { content: "\f075" }
+.meta .edit:before { content: "\f044" }
 
 article .meta { color: #999;font-weight:100;font-size:1.2em }
 article .meta .date { display: inline }

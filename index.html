@@ -19,24 +19,21 @@ title: Home
 	</article>
 {% endfor %}
 
-
-<div id="paginator">
-    {% if paginator.next_page %}
-            <a href="{{site.baseurl}}/page{{paginator.next_page}}">
-            &laquo; Older Posts</a>
-    {% endif %}
-
-    {% if paginator.previous_page %}
+<nav>
+	<ul class="pager">
+		{% if paginator.next_page %}
+		<li>
+			<a href="{{site.baseurl}}/page{{ paginator.next_page }}">&laquo; Older Posts</a>
+		</li>
+		{% endif %}
+		{% if paginator.previous_page %}
+		<li>
         {% if paginator.previous_page == 1 %}
-                <span class="more">
-                <a href="{{site.baseurl}}/">
-                Newer Posts &raquo; </a>
-                </span>
+					<a href="{{site.baseurl}}/">Newer Posts &raquo; </a>
         {% else %}
-                <span class="more">
-                <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
-                Newer Posts &raquo; </a>
-                </span>
+					<a href="{{site.baseurl}}/page{{paginator.previous_page}}">Newer Posts &raquo; </a>
         {% endif %}
+		</li>
     {% endif %}
-</div>
+	</ul>
+</nav>

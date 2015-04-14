@@ -1,5 +1,7 @@
-.content-main { margin-top:75px; }
+/* Margin at the top */
+.content-main { margin-top:70px; }
 
+/* Tag Cloud */
 .tag-cloud { margin: 0; padding: 0;}
   .tag-cloud li { display: inline; }
 
@@ -9,22 +11,11 @@
 /* Override the gist border*/
 .gist .gist-file { border: none !important; }
 
-article .meta {
-  color: #999;
-  font-weight: 100;
-  font-size: 1.2em;
-}
-
-.meta {
-    margin-left: 4px;
-    color: #999;
-}
-.meta a {
-    color: #999;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
+article .meta { color: #999;font-weight: 100;font-size: 1.2em; }
+.meta { margin-left: 4px;color: #999;}
+.meta a { color: #999;transition: 0.3s;-webkit-transition: 0.3s;-moz-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s;
+
 }
 .meta a:hover { color: #666 }
 .meta .date,
@@ -51,5 +42,6 @@ article .meta .date { display: inline }
 article h1 { font-weight:800;font-size:5em;padding-bottom:15px; }
 article h1 a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
 
+article h2 { font-weight:800;font-size:3em;padding-bottom:9px; }
 article .meta { line-height: 1.5em;margin-top:0 }
 article .meta span::before { padding-right: 0 }

@@ -1,5 +1,5 @@
 <div class="meta">
-	<span class="date"><i class="fa fa-calendar-o"></i>&nbsp;{% include post/date.html %}{{ time }}</span>
+	<span class="date">{% include post/date.html %}{{ time }}</span>
 	<span class="tags"><i class="fa fa-tags"></i>&nbsp;{% include post/categories.html %}</span>
 	{% if site.disqus_short_name and site.disqus_show_comment_count == true %}
 		{% include post/comments_link.html %}

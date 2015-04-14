@@ -43,9 +43,9 @@ article .meta {
     margin-right: 5px;
 }
 
-article .meta { color: #999;font-family:"Open Sans";font-weight:100;font-size:1.2em }
+article .meta { color: #999;font-weight:100;font-size:1.2em }
 article .meta .date { display: inline }
-article h1 { font-family: "Open Sans";font-weight:800;font-size:5em;padding-bottom:15px; }
+article h1 { font-weight:800;font-size:5em;padding-bottom:15px; }
 article h1 a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
 
 article .meta { line-height: 1.5em;margin-top:0 }

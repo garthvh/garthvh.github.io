@@ -43,6 +43,9 @@ article .meta {
     margin-right: 5px;
 }
 
+.meta .date:before { content: "\f073"; }
+
+
 article .meta { color: #999;font-weight:100;font-size:1.2em }
 article .meta .date { display: inline }
 article h1 { font-weight:800;font-size:5em;padding-bottom:15px; }

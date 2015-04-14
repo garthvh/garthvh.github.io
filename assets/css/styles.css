@@ -5,3 +5,8 @@
 
 /* Style the GitHub buttons via CSS instead of inline attributes */
 .github-btn { overflow: hidden;border: 0; }
+
+/* Override the gist border*/
+.gist .gist-file {
+  border: none;
+}

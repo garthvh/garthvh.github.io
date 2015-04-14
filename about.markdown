@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
-slug: about
-lead: "Site Setup Details"
+summary: Site Setup Details
 fullwidth: true
 ---
 

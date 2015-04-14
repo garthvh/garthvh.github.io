@@ -1,30 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include header.html %}
-  </head>
-  <body>
-    <!-- main nav -->
-    {% include nav/main.html %}
-    <main class="content-main">
-      <div class="container">
-        <h1 class="page-header">{{ page.title }}</h1>
-        <p class="lead">{{ page.summary }}</p>
-        <span><i class="fa fa-calendar-o"></i>&nbsp;<time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
-        <span class="category"><i class="fa fa-tag"></i>&nbsp; {{ page.categories | category_links }}</span><br/>
-        <span class="author"><i class="fa fa-user"></i>&nbsp; {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
-        <div class="row">
-          <div class="col-md-9 col-sm-12">
-            <article>
-              {{ content }}
-            </article>
-          </div>
-          <div class="col-md-3 col-sm-12" role="complementary">
-            {% include tags.html %} 
-          </div>
+---
+layout: default
+single: true
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">{% include article.html %}</article>
+
+{% unless page.sharing == false %}
+	{% include post/sharing.html %}
+{% endunless %}
+
+<div id="page-navigation">
+        <div class="previous">
+        {% if page.previous.url %}
+                <a href="{{page.previous.url}}" title="Previous Post:
+{{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+        {% endif %}
         </div>
-      </div>
-    </main>
-    {% include footer.html %}
-  </body>
-</html>
+
+        <div class="next">
+        {% if page.next.url %}
+               <a href="{{page.next.url}}" title="next Post:
+{{page.next.title}}">{{page.next.title}} &raquo; </a>
+        {% endif %}
+        </div>
+</div>
+
+{% if site.disqus_short_name and page.comments == true %}
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+</section>
+{% endif %}

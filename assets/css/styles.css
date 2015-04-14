@@ -8,5 +8,5 @@
 
 /* Override the gist border*/
 .gist .gist-file {
-  border: none;
+  border: none !important;
 }

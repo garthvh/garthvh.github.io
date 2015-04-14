@@ -1,9 +1,14 @@
 ---
 layout: post
-title: "Toshiba Chromebook 2 Setup Notes"
-date: 2015-3-12 -0800
+fullwidth: true
+title: Toshiba Chromebook 2 Setup Notes
+category: Chromebook
+tags: [Chromebook,Linux]
+year: 2015
+month: 3
+day: 12
+published: true
 comments: true
-categories: [Chromebook,Linux]
 summary: Setup notes for my Toshiba Chromebook 2 HD.
 image: post_three.jpg
 ---

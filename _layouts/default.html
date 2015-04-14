@@ -1,45 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include header.html %}
-  </head>
-  <body>
-    <a id="skippy" class="sr-only sr-only-focusable" href="#content"><div class="container"><span class="skiplink-text">Skip to main content</span></div></a>
+{% include head.html %}
 
-    <!-- Docs master nav -->
-    {% include nav/main.html %}
-	 <main class="content-main">
-    <!-- Docs page layout -->
+<body>
+  <!-- main nav -->
+  {% include nav/main.html %}
+  <main class="content-main">
     <div class="container">
-      <h1 class="page-header">{{ page.title }}</h1>
-      <p class="lead">{{ page.lead }}</p>
-    </div>
-
-    <div class="container">
-
       <div class="row">
         <div class="col-md-{% if page.fullwidth == true %}12{% else %}9{% endif %}" role="main">
           {{ content }}
         </div>
-        {% unless page.fullwidth == true %}
-        <div class="col-md-3" role="complementary">
-          <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
-            <ul class="nav bs-docs-sidenav">
-              {% if page.slug == "chromebook" %}
-                {% include nav/chromebook.html %}
-              {% elsif page.slug == "home" %}
-                {% include nav/index.html %}
-              {% endif %}
-            </ul>
-            <a class="back-to-top" href="#top">
-              Back to top
-            </a>
-          </nav>
+          {% unless page.fullwidth == true %}
+          <div class="col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
+              <ul class="nav bs-docs-sidenav">
+                {% if page.slug == "chromebook" %}
+                  {% include nav/chromebook.html %}
+                {% elsif page.slug == "home" %}
+                  {% include nav/index.html %}
+                {% endif %}
+              </ul>
+            </nav>
+          </div>
+          {% endunless %}
         </div>
-        {% endunless %}
       </div>
-    </div>
-	 </main>
+    </main>
     {% include footer.html %}
   </body>
 </html>

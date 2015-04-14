@@ -1,15 +1,24 @@
-<!-- Meta, title, CSS, favicons, etc. -->
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% if page.title %}{{ page.title }} - {% elsif post.title %}{{ post.title }} - {% endif %}{{ site.title }}</title>
+<meta name="author" content="{{ site.author }}">
+{% capture description %}
+  {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}
+{% endcapture %}
+<meta name="description" content="{{ description }}">
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="Arduino, Raspberry PI, Chromebook, Linux">
-<meta name="description" content="{{site.description}}"/>
-<meta name="author" content="{{site.author}}"/>
+
 <link rel="author" href="humans.txt"/>
 
-<title>
-  {% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}
-</title>
+<link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
+<link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
+{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
+<link rel="canonical" href="{{ canonical }}">
+
 
 <!-- Bootstrap, Darkly bootswatch and fornt awesome CSS -->
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">

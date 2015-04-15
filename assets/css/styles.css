@@ -45,4 +45,4 @@ article .meta span::before { padding-right: 0 }
 .youtube-circle{ color:#e52d27; }
 
 /* Center responsive images */
-.img-responsive { margin: 0 auto; }
+article .img-responsive { margin: 0 auto; }

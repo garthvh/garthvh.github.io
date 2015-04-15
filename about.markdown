@@ -4,7 +4,7 @@ title: About
 summary: Site Setup Details
 fullwidth: true
 ---
-## Styles
+### Styles
 
 For the site styles for my site I am trying to use as little custom css as possible, almost everything is standard Bootstrap 3 markup.
 
@@ -12,7 +12,7 @@ For the site styles for my site I am trying to use as little custom css as possi
 * Flatly Theme by [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab)
 * Font Awesome Icons
 
-## Content Management
+### Content Management
 
 After years of developing my own content management systems I have completely switched to markdown for security and ease of use.  Using the github Atom editor primarily. The content of this static site is built out using Jekyll for Github Pages.
 

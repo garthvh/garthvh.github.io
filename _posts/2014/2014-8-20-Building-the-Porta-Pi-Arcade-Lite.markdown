@@ -11,7 +11,7 @@ summary: Making a portable raspberry pi arcade.
 image: post_three.jpg
 ---
 
-<div class="block-center">
+<div class="center-block">
   <img src="{{ site.url}}assets/img/portapi/porta_pi_01.jpg" class-"img-responsive" alt="Porta Pi Arcade" />
 </div>
 

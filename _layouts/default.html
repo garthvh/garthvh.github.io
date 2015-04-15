@@ -13,10 +13,8 @@
           <div class="col-md-3" role="complementary">
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
               <ul class="nav bs-docs-sidenav">
-                {% if page.slug == "chromebook" %}
-                  {% include nav/chromebook.html %}
-                {% elsif page.slug == "home" %}
-                  {% include nav/index.html %}
+                {% if page.title == "Home" %}
+                  {% include tags.html %}
                 {% endif %}
               </ul>
             </nav>

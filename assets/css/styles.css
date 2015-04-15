@@ -37,4 +37,4 @@ article .meta { line-height: 1.5em;margin-top:0 }
 article .meta span::before { padding-right: 0 }
 
 /* Colors for Font Awesome social circles in the footer. */
-.rss-circle{ text-color:#ef7522; }
+.rss-circle{ color:#ef7522; }

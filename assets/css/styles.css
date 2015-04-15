@@ -1,5 +1,6 @@
 /* Margin at the top */
 .content-main { margin-top:70px; }
+footer { background-color:#333; }
 
 /* Tag Cloud */
 .tag-cloud { margin: 0; padding: 0;}

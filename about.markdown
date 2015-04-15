@@ -6,11 +6,11 @@ fullwidth: true
 ---
 ### Styles
 
-For the site styles for my site I am trying to use as little custom css as possible, almost everything is standard Bootstrap 3 markup.
+For the site styles I am trying to use as little of my own custom css as possible and lean on bootstrap and font awesome, almost everything is standard Bootstrap 3 or font awesome markup.
 
-* Using CDN Hosted [Bootstrap](http://www.bootstrapcdn.com/) styles and javascript.
-* Flatly Theme by [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab)
-* Font Awesome Icons
+* CDN Hosted [Bootstrap](http://www.bootstrapcdn.com/) styles and javascript
+* CDN Hosted Flatly Bootstrap Theme by [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab)
+* CDN Hosted [Font Awesome Icons](http://www.bootstrapcdn.com/#fontawesome_tab) and styles
 
 ### Content Management
 
@@ -22,3 +22,8 @@ I also stole some of the site structure and github connected features from @haac
 * Content built with markdown
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 * Custom domain registered with GoDaddy
+
+### Github Features
+
+* [Contact Link]({{ site.url }}contact) opens an issue.
+* Edit link on each post creates a pull request (in progress)

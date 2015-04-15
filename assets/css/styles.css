@@ -43,3 +43,6 @@ article .meta span::before { padding-right: 0 }
 .github-circle{ color:#afb6ca; }
 .twitter-circle{ color:#55CFF8; }
 .youtube-circle{ color:#e52d27; }
+
+/* Center responsive images */
+.img-responsive { margin: 0 auto; }

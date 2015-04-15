@@ -36,7 +36,7 @@ I have been really impressed with using GitHub Pages and Jekyll to build out a n
 * [Sitemap File]({{ site.url }}sitemap.xml)
 * [Humans File]({{ site.url }}humans.txt)
 * [Robots File]({{ site.url }}robots.txt)
-* [RSS Feed]({{ site.url }}atom.xml})
+* [RSS Feed]({{ site.url }}atom.xml)
 * [Archives Page]({{ site.url }}atom.xml)
 * Disqus Comments
 * AddThis Sharing link

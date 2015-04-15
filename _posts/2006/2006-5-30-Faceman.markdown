@@ -2,8 +2,7 @@
 layout: post
 fullwidth: true
 title: Faceman
-category: A-Team
-tags: [Faceman]
+categories: [a-team]
 year: 2006
 month: 6
 day: 30

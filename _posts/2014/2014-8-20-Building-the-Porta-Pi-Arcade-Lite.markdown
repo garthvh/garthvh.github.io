@@ -2,8 +2,7 @@
 layout: post
 fullwidth: true
 title: Building the Porta-Pi Arcade Lite
-category: Raspberry_Pi
-tags: [RaspberryPi, RetroPie, Linux]
+categories: [raspberrypi,retropi,linux]
 year: 2014
 month: 8
 day: 20

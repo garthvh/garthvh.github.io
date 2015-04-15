@@ -2,8 +2,7 @@
 layout: post
 fullwidth: true
 title: Cloning Raspberry PI SD Cards
-category: Raspberry_Pi
-tags: [RaspberryPi, Linux]
+categories: [raspberrypi,linux]
 year: 2014
 month: 11
 day: 25

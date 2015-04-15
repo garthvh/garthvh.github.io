@@ -2,8 +2,7 @@
 layout: post
 fullwidth: true
 title: The Chili Peppers playing Brandy
-category: Music
-tags: [RHCP, Looking Glass]
+categories: [rhcp,music]
 year: 2007
 month: 7
 day: 15

@@ -2,8 +2,7 @@
 layout: post
 fullwidth: true
 title: Creating a wood frame for my projector screen
-category: DIY
-tags: [Projector, DIY]
+categories: [diy,projector]
 year: 2007
 month: 3
 day: 9

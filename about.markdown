@@ -31,8 +31,12 @@ I also stole some of the site structure and github connected features from @haac
 
 ### Site Features
 
-* [Sitemap File]({{ site.url }sitemap.xml})
-* [Humans File]({{ site.url }humans.txt})
-* [Robots File]({{ site.url }robots.txt})
-* [RSS Feed]({{ site.url }atom.xml})
-* [Archives Page]({{ site.url }atom.xml})
+I have been really impressed with using GitHub Pages and Jekyll to build out a nice static stie with templates
+
+* [Sitemap File]({{ site.url }}sitemap.xml})
+* [Humans File]({{ site.url }}humans.txt})
+* [Robots File]({{ site.url }}robots.txt})
+* [RSS Feed]({{ site.url }}atom.xml})
+* [Archives Page]({{ site.url }}atom.xml})
+* Disqus Comments
+* AddThis Sharing link

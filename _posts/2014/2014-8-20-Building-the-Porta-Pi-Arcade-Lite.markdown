@@ -10,12 +10,9 @@ comments: true
 summary: Making a portable raspberry pi arcade.
 image: post_three.jpg
 ---
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-      <img src="{{ site.url}}assets/img/portapi/porta_pi_01.jpg" class-"img-responsive" alt="Porta Pi Arcade" />
-    </div>
-  </div>
+
+<div class="block-center">
+  <img src="{{ site.url}}assets/img/portapi/porta_pi_01.jpg" class-"img-responsive" alt="Porta Pi Arcade" />
 </div>
 
 After completing a number of simple Raspberry PI tutorials, I decided I wanted to try and build a [Porta-Pi Arcade Lite](http://www.retrobuiltgames.com/the-build-page/porta-pi-arcade-lite/) Raspberry PI retro gaming system. Since I already have a projector, several monitors and a TV the lite model without a built in screen really appealed to me.

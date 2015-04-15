@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+fullwidth: true
 ---
 
 {% assign index = true %}
@@ -24,11 +25,11 @@ title: Home
 		{% endif %}
 		{% if paginator.previous_page %}
 		<li>
-        {% if paginator.previous_page == 1 %}
-					<a href="{{site.baseurl}}/">Newer Posts &raquo; </a>
-        {% else %}
-					<a href="{{site.baseurl}}/page{{paginator.previous_page}}">Newer Posts &raquo; </a>
-        {% endif %}
+      {% if paginator.previous_page == 1 %}
+				<a href="{{site.baseurl}}/">Newer Posts &raquo; </a>
+      {% else %}
+				<a href="{{site.baseurl}}/page{{paginator.previous_page}}">Newer Posts &raquo; </a>
+      {% endif %}
 		</li>
     {% endif %}
 	</ul>

@@ -1,17 +1,20 @@
 /* Margin at the top */
 .content-main { margin-top:100px; }
 footer { padding-top:30px; margin-top: 100px; bottom: 0; width: 100%; height: 100px; background-color: #95a5a6; }
-article p { line-height: 1.5em; font-size: 1.5em; font-weight:400; }
 
 /* Tag Cloud */
 .tag-cloud { margin: 0; padding: 0;}
   .tag-cloud li { display: inline; }
 
-/* Style the GitHub buttons via CSS instead of inline attributes */
-.github-btn { overflow: hidden;border: 0; }
-
 /* Override the gist border*/
 .gist .gist-file { border: none !important; }
+
+/* Post Body styles*/
+article h1 { font-weight:800;font-size:5em;padding-bottom:15px; }
+article h1 a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
+article h2 { font-weight:800;font-size:3em;padding-bottom:9px; }
+article h3 { font-weight:800;font-size:2em;padding-bottom:6px; }
+article p { line-height: 1.5em; font-size: 1.5em; margin-bottom:15px; }
 
 /* Post Metadata styles date, tags, comments and edit links and icons */
 .meta { margin-left: 4px;color: #999;}
@@ -31,10 +34,6 @@ article p { line-height: 1.5em; font-size: 1.5em; font-weight:400; }
 .meta .edit:before { content: "\f044" }
 article .meta { color: #999;font-weight:100;font-size:1.2em }
 article .meta .date { display: inline }
-article h1 { font-weight:800;font-size:5em;padding-bottom:15px; }
-article h1 a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
-article h2 { font-weight:800;font-size:3em;padding-bottom:9px; }
-article h3 { font-weight:800;font-size:2em;padding-bottom:6px; }
 article .meta { line-height: 1.5em;margin-top:0 }
 article .meta span::before { padding-right: 0 }
 

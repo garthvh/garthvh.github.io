@@ -27,3 +27,12 @@ I also stole some of the site structure and github connected features from @haac
 
 * [Contact Link]({{ site.url }}contact) opens an issue.
 * Edit link on each post creates a pull request (in progress)
+
+
+### Site Features
+
+* [Sitemap File]({{ site.url }sitemap.xml})
+* [Humans File]({{ site.url }humans.txt})
+* [Robots File]({{ site.url }robots.txt})
+* [RSS Feed]({{ site.url }atom.xml})
+* [Archives Page]({{ site.url }atom.xml})

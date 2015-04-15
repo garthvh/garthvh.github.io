@@ -38,3 +38,6 @@ article .meta span::before { padding-right: 0 }
 
 /* Colors for Font Awesome social circles in the footer. */
 .rss-circle{ color:#ef7522; }
+.github-circle{ color:#afb6ca; }
+.twitter-circle{ color:#55CFF8; }
+.youtube-circle{ color:#e52d27; }

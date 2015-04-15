@@ -1,6 +1,5 @@
 ---
 layout: post
-fullwidth: true
 title: Faceman
 categories: [a-team]
 year: 2006

@@ -1,6 +1,5 @@
 ---
 layout: post
-fullwidth: true
 title: Creating a wood frame for my projector screen
 categories: [diy,projector]
 year: 2007

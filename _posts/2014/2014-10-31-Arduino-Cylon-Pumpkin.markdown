@@ -1,6 +1,5 @@
 ---
 layout: post
-fullwidth: true
 title: Charlieplexed Arduino Cylon Pumpkin
 categories: [arduino,cylon,leds]
 year: 2014

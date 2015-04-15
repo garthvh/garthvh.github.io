@@ -1,6 +1,5 @@
 ---
 layout: post
-fullwidth: true
 title: Building the Porta-Pi Arcade Lite
 categories: [raspberrypi,retropi,linux]
 year: 2014

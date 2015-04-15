@@ -1,6 +1,5 @@
 ---
 layout: post
-fullwidth: true
 title: Getting Started with My Printrbot Simple Metal
 categories: [raspberrypi,linux,piglow,3d printing]
 year: 2014

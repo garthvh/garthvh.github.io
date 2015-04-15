@@ -1,6 +1,5 @@
 ---
 layout: post
-fullwidth: true
 published: true
 comments: true
 title: Toshiba Chromebook 2 Setup Notes

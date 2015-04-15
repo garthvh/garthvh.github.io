@@ -1,6 +1,5 @@
 ---
 layout: post
-fullwidth: true
 title: The Chili Peppers playing Brandy
 categories: [rhcp,music]
 year: 2007

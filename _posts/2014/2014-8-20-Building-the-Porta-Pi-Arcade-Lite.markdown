@@ -10,9 +10,11 @@ comments: true
 summary: Making a portable raspberry pi arcade.
 image: post_three.jpg
 ---
-<div class="row">
-  <div class="col-md-12">
-    <img src="{{ site.url}}assets/img/portapi/porta_pi_01.jpg" class-"img-responsive" alt="Porta Pi Arcade" />
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="{{ site.url}}assets/img/portapi/porta_pi_01.jpg" class-"img-responsive" alt="Porta Pi Arcade" />
+    </div>
   </div>
 </div>
 

@@ -10,12 +10,30 @@ footer { padding-top:30px; margin-top: 100px; bottom: 0; width: 100%; height: 10
 .gist .gist-file { border: none !important; }
 
 /* Post Body styles*/
-article h1 { font-weight:800;font-size:5em;padding-bottom:15px; }
+article h1 { font-weight: 700; font-size:2em; overflow: hidden; }
 article h1 a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
-article h2 { font-weight:800;font-size:3em;padding-bottom:9px; }
-article h3 { font-weight:800;font-size:2em;padding-bottom:6px; }
+article h2 { font-weight:700;font-size:1.5em;overflow: hidden;  }
+article h3 { font-weight:700;font-size:1em; overflow: hidden; }
 article p { line-height: 1.4em; font-size: 1.5em; margin-bottom:15px; }
 article ul li { line-height: 1.2em; font-size: 1.3em; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  article h1 { font-weight:800;font-size:5em;padding-bottom:15px; }
+  article h1 a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
+  article h2 { font-weight:800;font-size:3em;padding-bottom:9px; }
+  article h3 { font-weight:800;font-size:2em;padding-bottom:6px; }
+  article p { line-height: 1.4em; font-size: 1.5em; margin-bottom:15px; }
+  article ul li { line-height: 1.2em; font-size: 1.3em; }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
 
 /* Post Metadata styles date, tags, comments and edit links and icons */
 .meta { margin-left: 4px;color: #999;}
@@ -37,6 +55,8 @@ article .meta { color: #999;font-weight:100;font-size:1.2em }
 article .meta .date { display: inline }
 article .meta { line-height: 1.5em;margin-top:0 }
 article .meta span::before { padding-right: 0 }
+
+
 
 /* Colors for Font Awesome social circles in the footer. */
 .rss-circle{ color:#ef7522; }

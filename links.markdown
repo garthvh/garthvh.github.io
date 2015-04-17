@@ -27,3 +27,7 @@ fullwidth: true
 + [How to set up wifi on your raspberry pi via the command line](http://www.howtogeek.com/167425/how-to-setup-wi-fi-on-your-raspberry-pi-via-the-command-line/)
 + [Raspberry Pi Games](http://www.raspians.com/Knowledgebase/1-debian-wheezy-games-repository-sudo-apt-get-install/)
 + [Check SOC temp from the command line](http://www.bitpi.co/2015/02/16/check-temperature-of-raspberry-pi-processor/)
++ [Logging to google docs](https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/connecting-to-googles-docs-updated)
+
+## Web Development
++ [Stack Share](http://stackshare.io/)

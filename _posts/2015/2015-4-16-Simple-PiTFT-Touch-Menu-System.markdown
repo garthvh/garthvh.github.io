@@ -19,6 +19,6 @@ I have made a model b+ [Touch Pi](https://learn.adafruit.com/touch-pi-portable-r
 
 I wanted a way to do common tasks like going to the desktop, rebooting and shutting down without needing to use a keyboard.  I also wanted the screen to display the current IP address to make it easier to ssh into the device.
 
-![Touch Pi Menu](/assets/img/touchpi/menu_touchpi.jpg "Touch Pi Menu")
+<img src="/assets/img/touchpi/menu_touchpi_2.jpg" alt="Touch Pi Menu" class="img-responsive img-rounded">
 
 You can get the source code from [github](https://github.com/garthvh/pitftmenu).

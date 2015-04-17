@@ -10,11 +10,11 @@ footer { padding-top:30px; margin-top: 100px; bottom: 0; width: 100%; height: 10
 .gist .gist-file { border: none !important; }
 
 /* Post Body styles*/
-article h1 { font-weight: 700; font-size:2em; overflow: hidden; }
+article h1 { font-weight: 700; font-size:2.5em; overflow: hidden; }
 article h1 a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
 article h2 { font-weight:700;font-size:1.5em;overflow: hidden;  }
 article h3 { font-weight:700;font-size:1em; overflow: hidden; }
-article p { line-height: 1.4em; font-size: 1.5em; margin-bottom:15px; }
+article p { line-height: 1.2em; font-size: 1.3em; margin-bottom:15px; }
 article ul li { line-height: 1.2em; font-size: 1.3em; }
 
 /* Small devices (tablets, 768px and up) */

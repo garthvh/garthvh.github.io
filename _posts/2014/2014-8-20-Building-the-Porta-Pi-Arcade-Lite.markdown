@@ -40,3 +40,14 @@ I also wound up buying two extra buttons and two ball tops after my daughter Els
 I already had a rocker switch to use with the shutdown circuit and a raspberry pi and power supply. I also used rubber feet, stain, wood glue and clamps I already had.
 
 All of the parts started shipping quickly after I ordered them and I received the wood kit and buttons in the mail in a few days.
+
+<div class="row">
+  <div class="col-md-6">
+  <img src="{{ site.url }}assets/img/portapi/porta_pi_06.jpg" class="img-responsive img-rounded" alt="Porta Pi Arcade" />
+  </div>
+  <div class="col-md-6">
+    <p>Wood kit and buttons mocked up.</p>
+    <p>I followed the instructions in the manual and fitted the pieces together a couple of times before staining and gluing. I have found my iPad to be really useful for viewing PDF’s, videos and tutorials while working on projects with the Raspberry Pi.</p>
+    <p>After fitting things together I laid out the pieces on some newspaper and stained the wood.</p>
+  </div>
+</div>

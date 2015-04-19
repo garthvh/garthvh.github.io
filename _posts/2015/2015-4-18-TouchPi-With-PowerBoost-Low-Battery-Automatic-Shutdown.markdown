@@ -16,13 +16,13 @@ After building a Raspberry Pi laptop with a Motorola LapDock I have been looking
 
 I also saw the [Pi-Top](http://www.pi-top.com/product) laptop, but it costs more than my ChromeBook 2 did and is huge.  I have the small keyboard and mouse in the original Pi-Top kit and really just wanted a way to do simple tasks like opening the desktop, restarting, shutting down or setting up wifi without having to use the keyboard at all.
 
-For about a hundred bucks the Touch Pi is a really nice way to have a nicely contained battery powered portable raspbery pi with touchscreen.  Wanting to learn a little bit of python I took a few different projects and cobbled together a menu for my Touch Pi to handle many common tasks, as well as displaying the hostname and IP address to make it easier to connect to the Pi.
+For about a hundred bucks the Touch Pi is a really nice way to have a neatly contained battery powered portable raspbery pi with touchscreen.  Wanting to learn a little bit of python I took a few different projects and cobbled together a menu for my Touch Pi to handle many common tasks, as well as displaying the hostname and IP address to make it easier to connect to the Touch Pi remotely.
 
 ![Touch Pi Menu](http://garthvh.com/assets/img/touchpi/menu_touchpi.jpg "Touch Pi Menu")
 
 You can find the code for the menu here [Simple PiTFT TouchPi Menu System](https://github.com/garthvh/pitftmenu).
 
-After using my new menu for a few days I found the awesome [PiFi](https://github.com/vicwomg/pifi.py) project and added a WiFi Settings button that runs the PiFi python script. My only issue with the Touch Pi at this point was that it would shut down without warning when running on the battery. I read a bit a about setting up some sort of battery indicator using the PowerBoost and it looked annoying so I soldered half a female jumper wire to the LBO pin on my PowerBoost and plugged it into pin 21 (Bottom Right Pin) of the GPIO on my B+.
+After using my new menu for a few days I found the awesome [PiFi](https://github.com/vicwomg/pifi.py) project and added a WiFi Settings button that runs the PiFi python script. My only issue with the Touch Pi at this point was that it would shut down without warning when running on the battery. I read a bit a about setting up some sort of battery indicator using the PowerBoost and it looked annoying, so I soldered half a female jumper wire to the [LBO - Low Battery Output pin](https://learn.adafruit.com/adafruit-powerboost-500-plus-charger/pinouts) on my PowerBoost and plugged it into pin 21 (Bottom Right Pin) of the GPIO on my B+. The documentation of the LBO pin appears to be cut off in adafruit's docs, but it does say the pin defaults to high. One of my favorite things about the pi and adafruit products, is that really all I needed to know.
 
 ![Touch Pi LBO GPIO Wiring](http://garthvh.com/assets/img/touchpi/menu_touchpi_3.jpg "Touch Pi LBO GPIO Wiring")
 

@@ -44,7 +44,7 @@ To see how the LBO pin behaved I wrote a small python script and saved it on my 
           print ("Pin High " + now )
           time.sleep(60)
 
-The LBO pin returned High when my touch pi battery switch was turned off and the unit was being powered from the regular micro usb power port, and while the battery had enough power for the pi.  The LBO input switched to low when the battery was able to power the Pi for about another 60 seconds. This would be perfect for setting up automated shutdown in the menu. I put together a bit of code that runs in the menu's while loop
+The LBO pin returned High when my touch pi battery switch was turned off and the unit was being powered from the regular micro usb power port, and while the switch was turned on an the battery had enough power for the pi.  The LBO input switched to low when the battery was only able to power the Pi for about another 60 seconds. This would be perfect for setting up automated shutdown in the menu. I put together a bit of python code that runs in the menu's while loop
 
     # LBO Pin from Powerboost setup before while loop
     RPi.GPIO.setmode (RPi.GPIO.BCM)
@@ -55,7 +55,7 @@ The LBO pin returned High when my touch pi battery switch was turned off and the
     if RPi.GPIO.input(21) == RPi.GPIO.LOW:
         screen.fill(black)
         font=pygame.font.Font(None,48)
-        label=font.render("Battery Low, Shutting down", 1, (blue))
+        label=font.render("Battery Low, Shutting down", 1, (white))
         screen.blit(label,(20,120))
         pygame.display.flip()
         time.sleep(10)
@@ -66,3 +66,7 @@ The LBO pin returned High when my touch pi battery switch was turned off and the
 I ran the battery out on my Touch Pi, and then charged it for about 20 minutes and started it up. A few minutes starting up I saw the following:
 
 ![Touch Pi Low Battery shutdown screen](http://garthvh.com/assets/img/touchpi/menu_touchpi_4.jpg "Touch Pi Low Battery shutdown screen")
+
+I ran the battery out a few times with the actual shutdown function line commented out, and it showed the low battery screen moments before the pi abruptly powered off every time.
+
+I am sure my approach here is not great for battery life, but I don't know anything about writing battery efficient python code at this point.

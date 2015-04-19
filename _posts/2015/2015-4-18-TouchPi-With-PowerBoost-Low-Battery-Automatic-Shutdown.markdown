@@ -67,7 +67,7 @@ The LBO pin returned High when my touch pi battery switch was turned off and the
 
 I ran the battery out on my Touch Pi, and then charged it for about 20 minutes and started it up. A few minutes starting up I saw the following:
 
-![Touch Pi Low Battery shutdown screen](http://garthvh.com/assets/img/touchpi/menu_touchpi_4.jpg "Touch Pi Low Battery shutdown screen")
+<img alt="Touch Pi Low Battery shutdown screen" src="http://garthvh.com/assets/img/touchpi/menu_touchpi_4.jpg" class="img-responsive img-rounded" />
 
 I ran the battery out a few times with the actual shutdown function line commented out, and it showed the low battery screen moments before the pi abruptly powered off every time.
 

@@ -18,15 +18,17 @@ I also saw the [Pi-Top](http://www.pi-top.com/product) laptop, but it costs more
 
 For about a hundred bucks the Touch Pi is a really nice way to have a neatly contained battery powered portable raspbery pi with touchscreen.  Wanting to learn a little bit of python I took a few different projects and cobbled together a menu for my Touch Pi to handle many common tasks, as well as displaying the hostname and IP address to make it easier to connect to the Touch Pi remotely.
 
-![Touch Pi Menu](http://garthvh.com/assets/img/touchpi/menu_touchpi.jpg "Touch Pi Menu")
+<img alt="Touch Pi Menu" src="http://garthvh.com/assets/img/touchpi/menu_touchpi.jpg" class="img-responsive img-rounded" />
 
 You can find the code for the menu here [Simple PiTFT TouchPi Menu System](https://github.com/garthvh/pitftmenu).
 
-After using my new menu for a few days I found the awesome [PiFi](https://github.com/vicwomg/pifi.py) project and added a WiFi Settings button that runs the PiFi python script. My only issue with the Touch Pi at this point was that it would shut down without warning when running on the battery. I read a bit a about setting up some sort of battery indicator using the PowerBoost and it looked annoying, so I soldered half a female jumper wire to the [LBO - Low Battery Output pin](https://learn.adafruit.com/adafruit-powerboost-500-plus-charger/pinouts) on my PowerBoost and plugged it into pin 21 (Bottom Right Pin) of the GPIO on my B+. The documentation of the LBO pin appears to be cut off in adafruit's docs, but it does say the pin defaults to high. One of my favorite things about the pi and adafruit products, is that really all I needed to know.
+After using my new menu for a few days I found the awesome [PiFi](https://github.com/vicwomg/pifi.py) project and added a WiFi Settings button that runs the PiFi python script. My only issue with the Touch Pi at this point was that it would shut down without warning when running on the battery.
 
-![Touch Pi LBO GPIO Wiring](http://garthvh.com/assets/img/touchpi/menu_touchpi_3.jpg "Touch Pi LBO GPIO Wiring")
+I read a bit a about setting up some sort of battery indicator using the PowerBoost and it looked annoying, so I soldered half a female jumper wire to the [LBO - Low Battery Output pin](https://learn.adafruit.com/adafruit-powerboost-500-plus-charger/pinouts) on my PowerBoost and plugged it into pin 21 (Bottom Right Pin) of the GPIO on my B+. The documentation of the LBO pin appears to be cut off in adafruit's docs, but it does say the pin defaults to high. One of my favorite things about the pi and adafruit products, is that the little bit of documentation available is really all I needed to know to get started.
 
-To see how the LBO pin behaved I wrote a small python script and saved it on my pi.  I then ran it from a SSH session on my desktop so that I could see the output from just before the battery died.
+<img alt="Touch Pi LBO GPIO Wiring" src="http://garthvh.com/assets/img/touchpi/menu_touchpi_3.jpg" class="img-responsive img-rounded" />
+
+To see how the LBO pin behaved I wrote a small python script and saved it on my pi.  I then ran it from a SSH session on my desktop so that I could see the output from just before the battery died. When running the following script I would see 6-9 Pin Low prints before the pi powered off (60-80 seconds before powerdown)
 
     import RPi.GPIO
     import time

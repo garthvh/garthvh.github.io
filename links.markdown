@@ -5,6 +5,9 @@ summary: A list of important links.
 fullwidth: true
 ---
 
+## C#
+[C# 7 Work List of Features](https://github.com/dotnet/roslyn/issues/2136)
+
 ## Crouton
 [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
 
@@ -31,3 +34,6 @@ fullwidth: true
 
 ## Web Development
 + [Stack Share](http://stackshare.io/)
++ [OWIN](http://owin.org/)
++ [OData](http://www.odata.org/)
++ 

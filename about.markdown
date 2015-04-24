@@ -18,7 +18,7 @@ After years of developing my own content management systems I have completely sw
 
 I also stole some of the site structure and github connected features from @haacked after reading about them on his blog.
 
-* Built for [Jekyll](http://jekyllrb.com)
+* Built with [Jekyll](http://jekyllrb.com)
 * Content built with markdown
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 * Custom domain registered with GoDaddy
@@ -26,7 +26,7 @@ I also stole some of the site structure and github connected features from @haac
 ### Github Features
 
 * [Contact Link]({{ site.url }}contact) opens an issue.
-* Edit link on each post creates a pull request (in progress)
+* Edit link on each post creates a pull request
 
 
 ### Site Features

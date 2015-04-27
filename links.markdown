@@ -9,8 +9,8 @@ fullwidth: true
 [C# 7 Work List of Features](https://github.com/dotnet/roslyn/issues/2136)
 
 ## Crouton
-[Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
-[Chromebook Crouton Cookbook](http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/)
++ [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
++ [Chromebook Crouton Cookbook](http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/)
 
 ## Git
 + [Free for Dev](https://github.com/ripienaar/free-for-dev)

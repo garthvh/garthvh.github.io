@@ -40,7 +40,7 @@ redcarpet:
   extensions: ["tables"]
 category_dir: categories
 permalink: pretty
-paginate: 20
+paginate: 3
 paginate_path: "page/:num"
 
 

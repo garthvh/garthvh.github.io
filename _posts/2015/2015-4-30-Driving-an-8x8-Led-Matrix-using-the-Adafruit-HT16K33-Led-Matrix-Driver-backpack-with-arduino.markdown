@@ -23,6 +23,6 @@ Then I laid out the breakout and a matrix on some breadboards and started wiring
 
 I cobbled together some code from a few different examples and finally got the matrix working. The code is on [github](https://github.com/garthvh/Arduino/blob/master/LED%20Matrix/8x8Examples.ino) and there is a video of the matrix in action below.
 
-<div class="block-center">
+<div class="embed-responsive embed-responsive-16by9 text-center">
   <iframe width="480" height="270" src="https://www.youtube.com/embed/Soj2ZwMjHMg" frameborder="0" allowfullscreen></iframe>
 </div>

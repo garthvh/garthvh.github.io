@@ -6,4 +6,5 @@
 # Allow crawling of all content
 User-agent: *
 Disallow: /_drafts/
+Disallow: /_data/
 Sitemap: {{ site.url }}/sitemap.xml

@@ -18,7 +18,9 @@ I enjoyed printing the first project, and after a few weeks I received an order 
 
 The first couple of months I had my printer I was unemployeed so I printed a ton of projects and gifts for the holidays and really got it dialed in. I had several hundred dollars of birthday and christmas amazon giftcards sitting in my amazon account so every time my daughter wanted to print with a new color I bought it and somehow I wound up with 12 different colors.
 
-Now I was working again and I having printed most of the things I needed for my projects I decided to see if I could use 3DHubs to utilize all the filament I had bought by printing projects for people on 3DHubs. My total 3DHubs revenue for february was only $30, so if I planned to pay for my printer and filament I needed some more orders. I did some basic math and figured I 
+Now I was working again and I having printed most of the things I needed for my projects I decided to see if I could use 3DHubs to utilize all the filament I had bought by printing projects for people on 3D Hubs. My total 3DHubs revenue for february was only $30, so if I planned to pay for my printer and filament I needed some more orders.
+
+3D Hubs releases a [monthly 3D printing trends report](https://www.3dhubs.com/trends) that aggrigates together some of their  
 
 
 

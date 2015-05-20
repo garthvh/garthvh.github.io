@@ -22,8 +22,11 @@ Now I was working again and I having printed most of the things I needed for my 
 
 3D Hubs releases a [monthly 3D printing trends report](https://www.3dhubs.com/trends) that aggregates together data from all of their hub orders into an overview. There is a lot of interesting data in this report, including some interesting average order price data by category.
 
-<img alt="Average order" src="http://garthvh.com/assets/img/3dhubs/3DHubsPopular_Print_Categories_May_2015.png" class="img-responsive img-rounded" />
-
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-8">
+    <img alt="Average order" src="http://garthvh.com/assets/img/3dhubs/3DHubsPopular_Print_Categories_May_2015.png" class="img-responsive img-rounded" />
+  </div>
+</div>
 Looking over the data, all of the categories are quite a bit over $20 for the average order price, and $20 is a pretty powerful dollar amount for most products.
 
 In march I lowered my prices to $0.20 per cubic cm and $5 setup (Lowest prices they allow) for my lowest priced medium quality option and since have done pretty well.
@@ -59,6 +62,12 @@ In march I lowered my prices to $0.20 per cubic cm and $5 setup (Lowest prices t
    </tr>
   </tbody>
 </table>
+
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-8">
+    <img alt="Hub Screenshot" src="http://garthvh.com/assets/img/3dhubs/hub_screenshot.jpg" class="img-responsive img-rounded" />
+  </div>
+</div>
 
 At this point 3dhubs has paid for my printer, now I am trying to see if I can pay for all my filament and the new computer I bought to handle 3d software. While I could probably make more money doing software development in my spare time, I have had a lot of fun printing people's projects and it has not occupied a ton of my time. As a hobby it has been pretty amazing, since it deposits money in my paypal account that I can use to buy more stuff from adafruit.
 

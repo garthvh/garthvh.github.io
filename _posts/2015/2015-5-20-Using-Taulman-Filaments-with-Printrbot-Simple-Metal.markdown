@@ -5,7 +5,7 @@ comments: true
 title: Using Taulman Filaments with Printrbot Simple Metal
 categories: [3d printing, filament]
 year: 2015
-month: 50
+month: 5
 day: 20
 ---
 After printing a lot of PLA on my Printrbot Simple Metal I started looking around at some of the exotic filaments available.  I have a roll of ninjaflex and was interested in some of the filaments from [taulman](http://taulman3d.com/).
@@ -54,7 +54,7 @@ I don't have a heated bed for my printrbot and don't really want to get one if I
 
 Then I tried a brim and it became much easier to print with these materials.  The problem I had with the raft was that if part of the outer structure of the raft did not lay down well the entire structure of the raft is compromised, where with a brim it just affects an inconsequential outer layer.
 
-Here are the basic settings that I eventually used for all 5 materials; I did slow down the t-glase a bit more than the others to 40mm/s. I read all sorts of tips in forums and such that all resulted in failed prints, here are the settings I used successfully.
+Here are the basic settings that I eventually used for all 4 materials; I did slow down the t-glase a bit more than the others to 40mm/s. I read all sorts of tips in forums and such that all resulted in failed prints, here are the settings I used successfully.
 
     Bed Prep: Blue Tape with Elmers Glue Stick
     Nozzle Size: 0.4mm

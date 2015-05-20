@@ -46,6 +46,7 @@ A 3D Hubs customer had been ordering parts for a prototype that was going to be 
 </table>
 </div>
 
+
 If some specific settings are used the t-glase filament can be printed with some very nice optical properties, but I have not played with any of those options yet, I was mostly interested in getting successful prints to start.
 
 I don't have a heated bed for my printrbot and don't really want to get one if I can avoid it.  For PLA I often print on a raft because it gives me a nice stable surface for parts and prevents warping, but I could not get a raft to lay down successfully with any of the taulman filaments.

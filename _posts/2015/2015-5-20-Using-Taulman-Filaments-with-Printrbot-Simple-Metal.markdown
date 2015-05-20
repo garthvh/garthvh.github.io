@@ -24,23 +24,23 @@ A 3D Hubs customer had been ordering parts for a prototype that was going to be 
     <thead>
     <tbody>
       <tr>
-        <td>[Alloy 910](http://taulman3d.com/910-features.html)</td>
+        <td><a href="http://taulman3d.com/910-features.html" target="_blank">Alloy 910</a></td>
         <td>Polymer Alloy</td>
         <td>Natural</td>
       </tr>
       <tr>
-        <td>[Bridge](http://taulman3d.com/bridge-features.html)</td>
+        <td><a href="http://taulman3d.com/bridge-features.html" target="_blank">Bridge</a></td>
         <td>Nylon </td>
         <td>Natural</td>
       </tr>
       <tr>
-        <td>[Nylon 680 FDA](http://taulman3d.com/680-features.html)</td>
+        <td><a href="http://taulman3d.com/680-features.html">Nylon 680 FDA</a></td>
         <td>Nylon</td>
         <td>Natural</td>
       </tr>
       <tr>
-        <td>[t-glase](http://taulman3d.com/t-glase-features.html)</td>
-        <td>PETT Plastic</td>
+        <td><a href="http://taulman3d.com/t-glase-features.html">t-glase</a></td>
+        <td>PET Plastic</td>
         <td>Clear, Black, Green, Red, Blue</td>
       </tr>
     </tbody>

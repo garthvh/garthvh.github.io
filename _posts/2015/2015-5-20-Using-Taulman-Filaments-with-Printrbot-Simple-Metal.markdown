@@ -12,40 +12,41 @@ After printing a lot of PLA on my Printrbot Simple Metal I started looking aroun
 
 A 3D Hubs customer had been ordering parts for a prototype that was going to be in contact with food so we decided to try out a bunch of the higher temperature taulman nylon and FDA materials.
 
-<div class="col-sm-8 col-offset-2">
-<table class="table table-bordered table-condensed">
-  <thead>
-    <tr>
-      <th>Filament</th>
-      <th>Material Type</th>
-      <th>Color</th>
-    </tr>
-  <thead>
-  <tbody>
-    <tr>
-      <td>[Alloy 910](http://taulman3d.com/910-features.html)</td>
-      <td>Polymer Alloy</td>
-      <td>Natural</td>
-    </tr>
-    <tr>
-      <td>[Bridge](http://taulman3d.com/bridge-features.html)</td>
-      <td>Nylon </td>
-      <td>Natural</td>
-    </tr>
-    <tr>
-      <td>[Nylon 680 FDA](http://taulman3d.com/680-features.html)</td>
-      <td>Nylon</td>
-      <td>Natural</td>
-    </tr>
-    <tr>
-      <td>[t-glase](http://taulman3d.com/t-glase-features.html)</td>
-      <td>PETT Plastic</td>
-      <td>Clear, Black, Green, Red, Blue</td>
-    </tr>
-  </tbody>
-</table>
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Filament</th>
+        <th>Material Type</th>
+        <th>Color</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td>[Alloy 910](http://taulman3d.com/910-features.html)</td>
+        <td>Polymer Alloy</td>
+        <td>Natural</td>
+      </tr>
+      <tr>
+        <td>[Bridge](http://taulman3d.com/bridge-features.html)</td>
+        <td>Nylon </td>
+        <td>Natural</td>
+      </tr>
+      <tr>
+        <td>[Nylon 680 FDA](http://taulman3d.com/680-features.html)</td>
+        <td>Nylon</td>
+        <td>Natural</td>
+      </tr>
+      <tr>
+        <td>[t-glase](http://taulman3d.com/t-glase-features.html)</td>
+        <td>PETT Plastic</td>
+        <td>Clear, Black, Green, Red, Blue</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
 </div>
-
 
 If some specific settings are used the t-glase filament can be printed with some very nice optical properties, but I have not played with any of those options yet, I was mostly interested in getting successful prints to start.
 

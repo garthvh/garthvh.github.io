@@ -22,3 +22,10 @@ I wanted a way to do common tasks like going to the desktop, rebooting and shutt
 <img src="/assets/img/touchpi/menu_touchpi_2.jpg" alt="Touch Pi Menu" class="img-responsive img-rounded" />
 
 You can get the source code from [github](https://github.com/garthvh/pitftmenu).
+
+Featured on the adafruit blog for pi day:
+
+<blockquote class="twitter-tweet" lang="en">
+	<p lang="ht" dir="ltr">Simple PiTFT TouchPi Menu System <a href="https://twitter.com/hashtag/piday?src=hash">#piday</a> <a href="https://twitter.com/hashtag/raspberrypi?src=hash">#raspberrypi</a> <a href="https://twitter.com/Raspberry_Pi">@Raspberry_Pi</a> <a href="http://t.co/JT9CbFiwvz">http://t.co/JT9CbFiwvz</a></p>&mdash; adafruit industries (@adafruit) <a href="https://twitter.com/adafruit/status/596675973615071232">May 8, 2015</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

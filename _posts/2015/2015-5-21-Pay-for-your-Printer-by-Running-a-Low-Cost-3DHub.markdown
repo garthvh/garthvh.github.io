@@ -23,7 +23,7 @@ Now I was working again and I having printed most of the things I needed for my 
 3D Hubs releases a [monthly 3D printing trends report](https://www.3dhubs.com/trends) that aggregates together data from all of their hub orders into an overview. There is a lot of interesting data in this report, including some interesting average order price data by category.
 
 <div class="row">
-  <div class="col-sm-8 col-sm-offset-8">
+  <div class="col-sm-8 col-sm-offset-2">
     <img alt="Average order" src="http://garthvh.com/assets/img/3dhubs/3DHubsPopular_Print_Categories_May_2015.png" class="img-responsive img-rounded" />
   </div>
 </div>
@@ -64,7 +64,7 @@ In March I lowered my prices to $0.20 per cubic cm and $5 setup (Lowest prices t
 </table>
 
 <div class="row">
-  <div class="col-sm-8 col-sm-offset-8">
+  <div class="col-sm-8 col-sm-offset-2">
     <img alt="Hub Screenshot" src="http://garthvh.com/assets/img/3dhubs/hub_screenshot.png" class="img-responsive img-rounded" />
   </div>
 </div>

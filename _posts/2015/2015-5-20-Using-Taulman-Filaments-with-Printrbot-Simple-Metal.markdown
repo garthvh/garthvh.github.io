@@ -14,7 +14,7 @@ A 3D Hubs customer had been ordering parts for a prototype that was going to be 
 
 <div class="row">
   <div class="col-sm-8 col-sm-offset-2">
-  <table class="table table-bordered table-condensed">
+  <table class="table table-bordered table-striped table-hover">
     <thead>
       <tr>
         <th>Filament</th>

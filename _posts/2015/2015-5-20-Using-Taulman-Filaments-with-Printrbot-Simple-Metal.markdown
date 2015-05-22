@@ -83,5 +83,10 @@ I had the hardest time printing th t-glase filament, it was difficult to get it 
    <img alt="t-glase Parts" src="http://garthvh.com/assets/img/taulman/tglase_auger.jpg" class="img-responsive img-rounded" />
   </div>
 </div>
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+     <img alt="t-glase Crushed espresso cup" src="http://garthvh.com/assets/img/taulman/crushed_coffee_cup.jpg" class="img-responsive img-rounded" />
+  </div>
+</div>
 
 The nylon 680 printed very similar to the alloy 910, my first print did have some discoloration but subsequent prints have been nice, not as white as the bridge but evenly colored.

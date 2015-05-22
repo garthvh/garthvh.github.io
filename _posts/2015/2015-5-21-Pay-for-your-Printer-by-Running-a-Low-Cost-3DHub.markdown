@@ -63,14 +63,16 @@ In March I lowered my prices to $0.20 per cubic cm and $5 setup (Lowest prices t
   </tbody>
 </table>
 
+
 <div class="row">
   <div class="col-sm-8 col-sm-offset-2">
     <img alt="Hub Screenshot" src="http://garthvh.com/assets/img/3dhubs/hub_screenshot.png" class="img-responsive img-rounded" />
   </div>
 </div>
 
+
 At this point 3dhubs has paid for my printer, now I am trying to see if I can pay for all my filament and the new computer I bought to handle 3d software. While I could probably make more money doing software development in my spare time, I have had a lot of fun printing people's projects and it has not occupied a ton of my time. As a hobby it has been pretty amazing, since it deposits money in my paypal account that I can use to buy more stuff from adafruit.
 
-I have now completed more than 25 orders and am the [second highest rated Printrbot Simple Metal on 3D Hubs](https://www.3dhubs.com/3dprint/printer/Printrbot_Simple_Metal) in the world, and based on the total of 161 reviews for hubs in Seattle it appears that I have accounted for 15-20% of the total order volume on 3D Hubs for Seattle.
+I have now completed more than 25 orders and am the [second highest rated Printrbot Simple Metal on 3D Hubs](https://www.3dhubs.com/3dprint/printer/Printrbot_Simple_Metal) in the world, and based on the total of 161 reviews for hubs in Seattle it appears that I have accounted for 15-20% of the total order volume on [3D Hubs for Seattle](https://www.3dhubs.com/seattle).
 
 Printing people's projects has really been a great experience and I highly recommend it to people who have their printer dialed in and are trying to figure out what to do with their filament.

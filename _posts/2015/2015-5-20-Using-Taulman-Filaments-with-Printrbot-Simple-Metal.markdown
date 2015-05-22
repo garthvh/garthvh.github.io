@@ -85,6 +85,7 @@ I had the hardest time printing th t-glase filament, it was difficult to get it 
 </div>
 <div class="row">
   <div class="col-sm-8 col-sm-offset-2">
+  <br/>
       <img alt="t-glase Parts" src="http://garthvh.com/assets/img/taulman/tglase_auger.jpg" class="img-responsive img-rounded" />
   </div>
 </div>

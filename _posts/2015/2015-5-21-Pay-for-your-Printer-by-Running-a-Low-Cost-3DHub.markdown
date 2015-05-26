@@ -69,6 +69,7 @@ In March I lowered my prices to $0.20 per cubic cm and $5 setup (Lowest prices t
     <img alt="Hub Screenshot" src="http://garthvh.com/assets/img/3dhubs/hub_screenshot.png" class="img-responsive img-rounded" />
   </div>
 </div>
+<br/>
 
 
 At this point 3dhubs has paid for my printer, now I am trying to see if I can pay for all my filament and the new computer I bought to handle 3d software. While I could probably make more money doing software development in my spare time, I have had a lot of fun printing people's projects and it has not occupied a ton of my time. As a hobby it has been pretty amazing, since it deposits money in my paypal account that I can use to buy more stuff from adafruit.

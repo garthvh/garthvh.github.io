@@ -58,7 +58,7 @@ In March I lowered my prices to $0.20 per cubic cm and $5 setup (Lowest prices t
    <tr>
      <td>May</td>
      <td>12</td>
-     <td>$179.00</td>
+     <td>$191.60</td>
    </tr>
   </tbody>
 </table>

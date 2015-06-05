@@ -58,7 +58,7 @@ After ordering the boards I found a project list on the [reprap forums](http://f
     </tr>
     <tr>
       <td>StepStick Stepper Motor Drivers</td>
-      <td>Steper motor drivers for the shields.</td>
+      <td>Stepper motor drivers for the shields.</td>
       <td>Amazon</td>
       <td>5</td>
       <td>$9.26</td>

@@ -1,8 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 comments: true
-title: Order a PCB and build your own Zum Scan Shield using-OSHPark
+title: Order a PCB to build your own Zum Scan Shield using OSHPark
 categories: [OSHPark,Ciclop]
 year: 2015
 month: 6
@@ -16,7 +16,7 @@ I currently don't have any of my own circuit board designs complete enough to ne
 
 I took the files from the github repository and uploaded them to OSHPark in a zip folder and was able to view a preview of the board before ordering.
 
-Somehow I did not properly submit the drills file, but OSHPark suppport was able to get my order fixed up before it was submitted to the panel. I placed my order on June 4th, and my order was panelized a few hours after it was ordered.
+Somehow I did not properly submit the drills file, but OSHPark suppport was able to get my order fixed up before it was submitted to the panel. I placed my order on June 4th, and my order was panelized a few hours after it was ordered. The confirmation mail says OSHPark expects to have the boards back from the fab about June 15th.
 
 After submitting my order I did find that someone has created a [shared project](https://oshpark.com/shared_projects/DvU87rGe) for the Zum Scan which does have the drills file submitted to OSHPark successfully.
 
@@ -61,4 +61,4 @@ After ordering the boards I found a project list on the [reprap forums](http://f
   </tbody>
 </table>
 
-[Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)
+It was a pretty easy process to get everything ordered, and I am pleased that the DIY cost remained less than the retail price of the shield, now I wait for all the pieces to arrive.

@@ -21,7 +21,7 @@ I took the files from the github repository and uploaded them to OSHPark in a zi
   <img alt="Average order" src="http://garthvh.com/assets/img/ciclop/zum_scan_pcb_front.png" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
-  <img alt="Average order" src="http://garthvh.com/assets/img/ciclop/zum_scan_pcb_front.png" class="img-responsive img-rounded" />
+  <img alt="Average order" src="http://garthvh.com/assets/img/ciclop/zum_scan_pcb_back.png" class="img-responsive img-rounded" />
   </div>
 </div>
 

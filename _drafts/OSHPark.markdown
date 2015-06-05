@@ -17,3 +17,5 @@ summary: Ordering a PCB for open hardware on OSHPark
 [Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)
 
 [Mouser Project Order](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=6952239cf8)
+
+[RepRap Forums Thread](http://forums.reprap.org/read.php?138,461968)

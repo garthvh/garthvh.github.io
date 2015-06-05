@@ -20,7 +20,7 @@ Somehow I did not properly submit the drills file, but OSHPark suppport was able
 
 After submitting my order I did find that someone has created a [shared project](https://oshpark.com/shared_projects/DvU87rGe) for the Zum Scan which does have the drills file submitted to OSHPark successfully.
 
-After ordering the boards I found a project list on the reprap forums for the other components needed for the board on [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=6952239cf8).  I ordered enough parts for all three boards I ordered from OSHPark, I did remove items like male headers and the button that I already have on hand. I also ordered some of the StepStick [stepper motor drivers on amazon](http://www.amazon.com/gp/product/B00MQR93QC).  Below is a summary of all the items I purchased to make the boards.  I bought enough parts and boards to make three Zum Scan Shields, and will have two extra stepper motor drivers when I am done.
+After ordering the boards I found a project list on the [reprap forums](http://forums.reprap.org/read.php?138,461968) for the other components needed for the board on [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=6952239cf8).  I ordered enough parts for all three boards I ordered from OSHPark, I did remove items like male headers and the button that I already have on hand. I also ordered some of the StepStick [stepper motor drivers on amazon](http://www.amazon.com/gp/product/B00MQR93QC).  Below is a summary of all the items I purchased to make the boards.  I bought enough parts and boards to make three Zum Scan Shields, and will have two extra stepper motor drivers when I am done.
 
 <table class="table table-striped table-hover">
   <thead>
@@ -60,3 +60,5 @@ After ordering the boards I found a project list on the reprap forums for the ot
     </tr>
   </tbody>
 </table>
+
+[Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)

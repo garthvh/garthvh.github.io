@@ -23,6 +23,9 @@ fullwidth: true
 ## Linux
 [Command Line WPA](http://linux.icydog.net/wpa.php)
 
+## Open hardware
++ [Open Energy Monitor](http://openenergymonitor.org/emon/)
+
 ## Printrbot
 
 [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)

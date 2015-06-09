@@ -1,0 +1,38 @@
+- slug: 3d%20printing
+  name: 3D Printing
+- slug: oshpark
+  name: OSHPark
+- slug: ciclop
+  name: Ciclop
+- slug: 3DHubs
+  name: 3D Hubs
+- slug: filament
+  name: filament
+- slug: arduino
+  name: Arduino
+- slug: raspberrypi
+  name: Raspberry Pi
+- slug: linux
+  name: Linux
+- slug: powerboost
+  name: Power Boost
+- slug: chromebook
+  name: Chromebook
+- slug: crouton
+  name: Crouton
+- slug: piglow
+  name: PiGlow
+- slug: cylon
+  name: Cylon
+- slug: leds
+  name: Leds
+- slug: retropi
+  name: Retro Pi
+- slug: diy
+  name: diy
+- slug: projector
+  name: Projector
+- slug: rhcp
+  name: rhcp
+- slug: music
+  name: Music

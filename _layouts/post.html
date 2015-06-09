@@ -21,7 +21,6 @@ single: true
     {% assign categories_content = '' %}
 {% endif %}
 
-<span class="tags">{{ categories_content }}</span>
 <article itemscope itemtype="http://schema.org/BlogPosting">{% include article.html %}</article>
 
 {% unless page.sharing == false %}

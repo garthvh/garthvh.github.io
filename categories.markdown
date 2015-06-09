@@ -6,8 +6,10 @@ lead: "Available site categories"
 fullwidth: true
 ---
 
-<div style="columns:4">
+<ul>
 {% for data_category in site.data.categories %}
-<h2><a href="/category/{{ data_category.slug}}">{{ data_category.name }}</a></h2>
+  <li>
+    <h2><a href="/category/{{ data_category.slug}}">{{ data_category.name }}</a></h2>
+  </li>
 {% endfor %}
-</div>
+</ul>

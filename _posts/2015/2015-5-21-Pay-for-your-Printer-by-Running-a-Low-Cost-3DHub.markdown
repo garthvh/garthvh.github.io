@@ -3,7 +3,7 @@ layout: post
 published: true
 comments: true
 title: Pay for your Printer by Running a Low Cost 3D Hub
-categories: [3DHubs, Printrbot]
+categories: [3dHubs, printrbot]
 year: 2015
 month: 5
 day: 21

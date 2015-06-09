@@ -3,7 +3,7 @@ layout: post
 published: true
 comments: true
 title: Using Taulman Filaments with Printrbot Simple Metal
-categories: [3d printing, filament]
+categories: [3d%20printing, filament]
 year: 2015
 month: 5
 day: 20
@@ -64,8 +64,8 @@ Here are the basic settings that I eventually used for all 4 materials; I did sl
     Temperature: 240 degrees Celsius
     Platform Adhesion: Brim
     Print Speed: 40-60 mm/s
-    
-I printed a 3D Hubs marvin in Alloy 910, the keychain loop on the top is much stronger than the PLA versions of this.    
+
+I printed a 3D Hubs marvin in Alloy 910, the keychain loop on the top is much stronger than the PLA versions of this.
 
 <img alt="Alloy 910 Marvin" src="http://garthvh.com/assets/img/taulman/alloy_910_marvin.jpg" class="img-responsive img-rounded" />
 

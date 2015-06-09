@@ -4,7 +4,7 @@
   name: OSHPark
 - slug: ciclop
   name: Ciclop
-- slug: 3DHubs
+- slug: 3dhubs
   name: 3D Hubs
 - slug: filament
   name: filament
@@ -22,8 +22,6 @@
   name: Crouton
 - slug: piglow
   name: PiGlow
-- slug: cylon
-  name: Cylon
 - slug: leds
   name: Leds
 - slug: retropi

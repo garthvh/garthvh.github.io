@@ -1,5 +1,5 @@
 ---
 layout: posts_by_category
-category: Ciclop
+category: ciclop
 permalink: /category/ciclop/
 ---

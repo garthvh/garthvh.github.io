@@ -11,7 +11,7 @@ fullwidth: true
 
 {% for data_category in site.data.categories %}
 <h2>{{ data_category.name }}</h2>
-{% if site.categories[data_category] %}
+{% if site.categories[data_category.slug] %}
     {% for post in site.categories[data_category] %}
         <a href="{{ post.url }}/">{{ post.title }}</a>
     {% endfor %}

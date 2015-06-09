@@ -21,7 +21,6 @@ single: true
     {% assign categories_content = '' %}
 {% endif %}
 
-
 <article itemscope itemtype="http://schema.org/BlogPosting">{% include article.html %}</article>
 
 {% unless page.sharing == false %}
@@ -43,7 +42,6 @@ single: true
 	</ul>
 </nav>
 
-<span class="tags">{{ tags_content }}</span>
 
 {% if site.disqus_short_name and page.comments == true %}
 <section id="comment">

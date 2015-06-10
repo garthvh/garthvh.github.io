@@ -9,7 +9,7 @@ fullwidth: true
 <div class="row">
   <div class="col-md-12">
   <p>
-    As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete projects easily.
+    As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete some of my favorite projects more easily.
   </p>
   <p>
     Payment is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.

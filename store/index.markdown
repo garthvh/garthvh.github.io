@@ -16,6 +16,7 @@ fullwidth: true
   </p>
   <hr/>
   <h2>Products (1)</h2>
+  <hr/>
   </div>
 </div>
 <div class="row">
@@ -33,6 +34,7 @@ fullwidth: true
       <li>15 #4-40 flat stainless steel phillips machine screws</li>
       <li>2 Neodymium Magnets 1/4 x 1/16 inch Disc N48</li>
     </ul>
+    <p class="lead">$19.99 Shipped!</p>
   </div>
   <div class="col-md-3">
   <h4>Select Options</h4>

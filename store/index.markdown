@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Store
 slug: store
 lead: "Project Store"

@@ -66,3 +66,9 @@ article .meta span::before { padding-right: 0 }
 
 /* Center responsive images */
 article .img-responsive { margin: 0 auto; }
+
+
+/* Paypal */
+.paypal-btn {
+  border-width: 0px !important;
+}

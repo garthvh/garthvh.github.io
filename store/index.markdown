@@ -9,7 +9,7 @@ fullwidth: true
 <div class="row">
   <div class="col-md-12">
   <p>
-    As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to complete projects when I wind up with excess.
+    As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete projects easily.
   </p>
   <p>
     Payment is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.
@@ -31,7 +31,7 @@ fullwidth: true
     <ul>
       <li>0.2MM Layer Height 3D Printed PLA Case Top and Bottom</li>
       <li>White(snow) Ninjaflex Buttons</li>
-      <li>15 #4-40 flat stainless steel phillips machine screws</li>
+      <li>12-15 #4-40 flat stainless steel phillips machine screws</li>
       <li>2 Neodymium Magnets 1/4 x 1/16 inch Disc N48</li>
     </ul>
     <p class="lead">$19.99 Shipped!</p>
@@ -83,7 +83,7 @@ fullwidth: true
     <p>Everything hard to find that you can't buy from Adafruit. </p>
     <ul>
       <li>0.2MM Layer Height 3D Printed PLA Case Top and Bottom</li>
-      <li>15 #4-40 flat stainless steel phillips machine screws</li>
+      <li>12-15 #4-40 flat stainless steel phillips machine screws</li>
       <li>18" of Gaffers tape</li>
     </ul>
     <p class="lead">$14.99 Shipped!</p>

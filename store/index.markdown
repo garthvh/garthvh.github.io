@@ -9,13 +9,13 @@ fullwidth: true
 <div class="row">
   <div class="col-md-12">
   <p>
-    As I am experimenting with the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to complete projects.
+    As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to complete projects when I wind up with excess.
   </p>
   <p>
     Payment is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.
   </p>
   <hr/>
-  <h2>Products (1)</h2>
+  <h2>Products (2)</h2>
   <hr/>
   </div>
 </div>
@@ -91,6 +91,36 @@ fullwidth: true
   <div class="col-md-3 col-lg-2">
   <div class="well well-sm">
   <h4>Select Options</h4>
+  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="5GRLAL6MCV2HC">
+<table>
+<tr><td><input type="hidden" name="on0" value="Top Color">Top Color</td></tr><tr><td><select name="os0">
+<option value="Pink">Pink </option>
+<option value="Purple">Purple </option>
+<option value="Blue">Blue </option>
+<option value="Yellow">Yellow </option>
+<option value="Green">Green </option>
+<option value="Gold">Gold </option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on1" value="Bottom Color">Bottom Color</td></tr><tr><td><select name="os1">
+<option value="Pink">Pink </option>
+<option value="Purple">Purple </option>
+<option value="Blue">Blue </option>
+<option value="Yellow">Yellow </option>
+<option value="Green">Green </option>
+<option value="Gold">Gold </option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on2" value="Case Type">Case Type</td></tr><tr><td><select name="os2">
+<option value="Raspberry Pi A+">Raspberry Pi A+ </option>
+<option value="Raspberry Pi B+ / 2">Raspberry Pi B+ / 2 </option>
+</select> </td></tr>
+</table>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
   </div>
   </div>
 </div>

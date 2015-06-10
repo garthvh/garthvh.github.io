@@ -23,7 +23,7 @@ fullwidth: true
   <div class="col-md-3">
   <img alt="Blue Pigrrl" src="http://garthvh.com/assets/img/pigrrl/pigrrl_300_blue.jpg" class="img-responsive img-rounded" />
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 col-lg-7">
     <h3>
     Pocket Pigrrl 3D Printed PLA Case with Ninjaflex Buttons, Magnets & Screws
     </h3>
@@ -36,7 +36,7 @@ fullwidth: true
     </ul>
     <p class="lead">$19.99 Shipped!</p>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-3 col-lg-2">
   <div class="well well-sm">
   <h4>Select Options</h4>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">

@@ -37,6 +37,7 @@ fullwidth: true
     <p class="lead">$19.99 Shipped!</p>
   </div>
   <div class="col-md-3">
+  <div class="well well-sm">
   <h4>Select Options</h4>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
   <input type="hidden" name="cmd" value="_s-xclick">
@@ -66,6 +67,6 @@ fullwidth: true
   <input class="paypal-btn" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
   </form>
-
+  </div>
   </div>
 </div>

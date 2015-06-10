@@ -14,6 +14,7 @@ fullwidth: true
   <p>
     Payment is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.
   </p>
+  <hr/>
   </div>
 </div>
 <div class="row">
@@ -33,6 +34,7 @@ fullwidth: true
     </ul>
   </div>
   <div class="col-md-3">
+  <h4>Select Options</h4>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
   <input type="hidden" name="cmd" value="_s-xclick">
   <input type="hidden" name="hosted_button_id" value="A2ASMNSF8VL5N">
@@ -58,7 +60,7 @@ fullwidth: true
   	<option value="Four Button">Four Button </option>
   </select> </td></tr>
   </table>
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <input type="button"  name="submit" alt="PayPal - The safer, easier way to pay online!" class="btn btn-primary" value="Add to Cart">
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
   </form>
 

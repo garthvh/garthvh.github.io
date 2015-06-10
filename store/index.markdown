@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Store
+title: "Project Store"
 slug: store
 lead: "Project Store"
 fullwidth: true

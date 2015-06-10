@@ -76,7 +76,7 @@ fullwidth: true
   <div class="col-md-3">
   <img alt="Transparent Black Touch Pi" src="http://garthvh.com/assets/img/touchpi/desktop_touchpi_300.jpg" class="img-responsive img-rounded" />
   </div>
-  <div class="col-md-6 col-lg-7">
+  <div class="col-md-6">
     <h3>
     Touch Pi 3D Printed PLA Case with Screws and Gaffers Tape
     </h3>
@@ -88,7 +88,7 @@ fullwidth: true
     </ul>
     <p class="lead">$14.99 Shipped!</p>
   </div>
-  <div class="col-md-3 col-lg-2">
+  <div class="col-md-3">
   <div class="well well-sm">
   <h4>Select Options</h4>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">

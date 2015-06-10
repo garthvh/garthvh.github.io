@@ -72,3 +72,8 @@ I ran the battery out on my Touch Pi, and then charged it for about 20 minutes a
 I ran the battery out a few times with the actual shutdown function line commented out, and it showed the low battery screen moments before the pi abruptly powered off every time.
 
 I am sure my approach here is not great for battery life, but I don't know anything about writing battery efficient python code at this point.
+
+<div class="callout callout-info">
+   <h4>Don't have a 3D Printer></h4>
+   <p>Get a printed touch pi case for your project in the [project store](http://www.garthvh.com/store)</p>
+ </div>

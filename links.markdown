@@ -5,11 +5,19 @@ summary: A list of important links.
 fullwidth: true
 ---
 
+# Arduino
++ [Visual Micro (Arduino development in visual studio)](http://www.visualmicro.com/)
+
 ## C#
 [C# 7 Work List of Features](https://github.com/dotnet/roslyn/issues/2136)
 
 ##Ciclop
 + [Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)
++ [Documentation: Ciclop and Horus](http://diwo.bq.com/en/documentation-ciclop-and-horus-2/)
++ [Ciclop building instructions](http://diwo.bq.com/en/video/instrucciones-de-montaje-de-ciclop/)
++ [Zum Scan Board](http://diwo.bq.com/en/zum-scan-released-2/)
++ [Ciclop Github](https://github.com/bq/ciclop)
++ [Piclop](http://bill-owens.blogspot.sg/2015/02/building-piclop.html)
 
 ## Crouton
 + [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
@@ -21,14 +29,14 @@ fullwidth: true
 + [Haacked - GitHub Flow Like a Pro with these 13 Git Aliases](http://haacked.com/archive/2014/07/28/github-flow-aliases/)
 
 ## Linux
-[Command Line WPA](http://linux.icydog.net/wpa.php)
++ [Command Line WPA](http://linux.icydog.net/wpa.php)
++ [Explain Shell](http://explainshell.com/)
 
 ## Open hardware
 + [Open Energy Monitor](http://openenergymonitor.org/emon/)
 
 ## Printrbot
-
-[Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
++ [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
 
 ## Raspberry Pi
 + [Raspberry Pi Pygame UI basics](http://jeremyblythe.blogspot.sg/2014/09/raspberry-pi-pygame-ui-basics.html)
@@ -43,4 +51,4 @@ fullwidth: true
 + [Stack Share](http://stackshare.io/)
 + [OWIN](http://owin.org/)
 + [OData](http://www.odata.org/)
-+
++ [Built With](http://builtwith.com/)

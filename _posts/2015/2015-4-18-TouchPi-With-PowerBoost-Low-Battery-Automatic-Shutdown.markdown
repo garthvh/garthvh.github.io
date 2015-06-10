@@ -74,6 +74,6 @@ I ran the battery out a few times with the actual shutdown function line comment
 I am sure my approach here is not great for battery life, but I don't know anything about writing battery efficient python code at this point.
 
 <div class="callout callout-info">
-   <h4>Don't have a 3D Printer></h4>
-   <p>Get a printed touch pi case for your project in the [project store](http://www.garthvh.com/store)</p>
+   <h4>Don't have a 3D Printer?</h4>
+   <p>Get a printed touch pi case for your project in the <a href="http://www.garthvh.com/store">project store</a></p>
  </div>

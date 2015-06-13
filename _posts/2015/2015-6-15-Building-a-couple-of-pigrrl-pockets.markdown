@@ -19,3 +19,172 @@ I started out by cutting down the half sized perma proto board and laying out th
 Next I wired up the switch and applied the heatshrink tubing, then I attached the wires to the audio jack of the raspberry pi and connected them to the PowerBoost.
 
 <img alt="Pigrrl Assembly" src="http://garthvh.com/assets/img/pigrrl/pigrrl_assembly_2.jpg" class="img-responsive img-rounded" />
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Wire #</th>
+      <th>Pin</th>
+      <th>Key</th>
+      <th>Connect to</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>GPIO 3V</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>GPIO 5V</td>
+      <td>N/A</td>
+      <td>PowerBoost</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>GPIO 2</td>
+      <td>Key X</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>GPIO GND</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>GPIO 3</td>
+      <td>Key Y</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>GND</td>
+      <td>N/A</td>
+      <td>PowerBoost</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>GPIO 4</td>
+      <td>Key Left</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>GPIO 14</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>GND</td>
+      <td>N/A</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>GPIO 15</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>GPIO 17</td>
+      <td>Key Right</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>GPIO 18</td>
+      <td>Key Up</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>GPIO 27</td>
+      <td>Key Down</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>GPIO GND</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>GPIO 22</td>
+      <td>Key A</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>GPIO 23</td>
+      <td>Key B</td>
+      <td>Perma Proto Controller</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>GPIO 3V</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>GPIO 24</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>GPIO 10</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>GPIO GND</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>GPIO 9</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>GPIO 25</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>GPIO 10</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>GPIO 8</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>GPIO GND</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>GPIO 7</td>
+      <td>N/A</td>
+      <td>Unused</td>
+    </tr>
+  </tbody>
+</table>

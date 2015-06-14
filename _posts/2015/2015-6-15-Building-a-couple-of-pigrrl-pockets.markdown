@@ -188,3 +188,5 @@ Next I wired up the switch and applied the heatshrink tubing, then I attached th
     </tr>
   </tbody>
 </table>
+
+I soldered all of the ground wires for the controller and clipped the unnecessary wires from the Pi GPIO cable

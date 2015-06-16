@@ -189,4 +189,8 @@ Next I wired up the switch and applied the heatshrink tubing, then I attached th
   </tbody>
 </table>
 
-I soldered all of the ground wires for the controller and clipped the unnecessary wires from the Pi GPIO cable
+I soldered all of the ground wires for the controller and clipped the unnecessary wires from the Pi GPIO cable.
+
+<img alt="Pigrrl Assembly" src="http://garthvh.com/assets/img/pigrrl/pigrrl_assembly_3.jpg" class="img-responsive img-rounded" />
+
+<img alt="Pigrrl Assembly" src="http://garthvh.com/assets/img/pigrrl/pigrrl_assembly_4.jpg" class="img-responsive img-rounded" />

@@ -9,7 +9,7 @@ fullwidth: true
 <ul>
 {% for data_category in site.data.categories %}
   <li>
-    <h2><a href="/category/{{ data_category.slug}}">{{ data_category.name }}</a></h2>
+  <h1 class="title"><a href="/category/{{ data_category.slug}}">{{ data_category.name }}</a></h1>
   </li>
 {% endfor %}
 </ul>

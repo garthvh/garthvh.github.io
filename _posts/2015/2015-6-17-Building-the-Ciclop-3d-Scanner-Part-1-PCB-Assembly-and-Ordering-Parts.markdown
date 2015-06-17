@@ -31,11 +31,6 @@ I am waiting on some more parts to arrive, and am still printing out all of the 
 
 I used a hacksaw to cut all the threaded rod pieces to size and have received the [16014 bearing](http://www.amazon.com/gp/product/B007HRXJ7A) which is huge and it fits perfectly in the bearing holder.
 
-Some of the parts provided by bq for the Ciclop scanner are too big for my Printrbot Simple Metal, but I found some nice models for the pieces that are too large.
-
-+ [Reduced size disc holder and bearing clip](http://www.thingiverse.com/thing:736815)
-+ [Two Piece Camera Mount](http://www.thingiverse.com/thing:818433)
-
 <div class="row">
   <div class="col-md-6">
     <img alt="Ciclop Bearing Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_bearing_holder.jpg" class="img-responsive img-rounded" />
@@ -44,6 +39,12 @@ Some of the parts provided by bq for the Ciclop scanner are too big for my Print
     <img alt="Ciclop Bearing Holder with bearing" src="http://garthvh.com/assets/img/ciclop/Ciclop_Bearing.jpg" class="img-responsive img-rounded" />
   </div>
 </div>
+
+Some of the parts provided by bq for the Ciclop scanner are too big for my Printrbot Simple Metal, but I found some nice models for the pieces that are too large.
+
++ [Reduced size disc holder and bearing clip](http://www.thingiverse.com/thing:736815)
++ [Two Piece Camera Mount](http://www.thingiverse.com/thing:818433)
+
 <div class="row">
   <div class="col-md-6">
     <img alt="Ciclop Pattern Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_pattern_holder.jpg" class="img-responsive img-rounded" />
@@ -52,6 +53,7 @@ Some of the parts provided by bq for the Ciclop scanner are too big for my Print
     <img alt="Ciclop Parts" src="http://garthvh.com/assets/img/ciclop/ciclop_parts_1.jpg" class="img-responsive img-rounded" />
   </div>
 </div>
+<br/>
 
 I still have to print the largest part (the motor housing) and am waiting on lasers, the motor and stepper drivers to arrive.  I also am working on getting the acrylic laser cutting done.
 

@@ -7,6 +7,9 @@
 - slug: arduino
   name: Arduino
 
+- slug: printrbot
+  name: Printrbot
+
 - slug: chromebook
   name: Chromebook
 

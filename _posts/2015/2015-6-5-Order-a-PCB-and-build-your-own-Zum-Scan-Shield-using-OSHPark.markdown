@@ -70,6 +70,6 @@ After ordering the boards I found a project list on the [reprap forums](http://f
       </tr>
     </tbody>
   </table>
-</tab>
+</div>
 
 It was a pretty easy process to get everything ordered, and I am pleased that the DIY cost remained less than the retail price of the shield, now I wait for all the pieces to arrive.

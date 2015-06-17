@@ -45,6 +45,8 @@ Some of the parts provided by bq for the Ciclop scanner are too big for my Print
 + [Reduced size disc holder and bearing clip](http://www.thingiverse.com/thing:736815)
 + [Two Piece Camera Mount](http://www.thingiverse.com/thing:818433)
 
+The holes on the smaller bearing holder exactly match the larger file, so the same acrylic disc dfx file can be used.
+
 <div class="row">
   <div class="col-md-6">
     <img alt="Ciclop Pattern Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_pattern_holder.jpg" class="img-responsive img-rounded" />

@@ -31,43 +31,45 @@ After submitting my order I did find that someone has created a [shared project]
 
 After ordering the boards I found a project list on the [reprap forums](http://forums.reprap.org/read.php?138,461968) for the other components needed for the board on [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=6952239cf8).  I ordered enough parts for all three boards I ordered from OSHPark, I did remove items like male headers and the button that I already have on hand. I also ordered some of the StepStick [stepper motor drivers on amazon](http://www.amazon.com/gp/product/B00MQR93QC).  Below is a summary of all the items I purchased to make the boards.  I bought enough parts and boards to make three Zum Scan Shields, and will have two extra stepper motor drivers when I am done.
 
-<table class="table table-striped table-bordered table-hover">
-  <thead>
-    <tr>
-      <td>Part</td>
-      <td>Description</td>
-      <td>Vendor</td>
-      <td>Quantity</td>
-      <td>Total Cost Shipped</td>
-    </tr>
-  <thead>
-  <tbody>
-    <tr>
-      <td>Zum Scan PCB</td>
-      <td>2 Layer printed circuit board for the Zum Scan shield.</td>
-      <td>OSHPark</td>
-      <td>3</td>
-      <td>$32.80</td>
-    </tr>
-    <tr>
-      <td>Zum Scan Components</td>
-      <td>All the necessary components for the Zum Scan shield.</td>
-      <td>Mouser</td>
-      <td>3</td>
-      <td>$32.63</td>
-    </tr>
-    <tr>
-      <td>StepStick Stepper Motor Drivers</td>
-      <td>Stepper motor drivers for the shields.</td>
-      <td>Amazon</td>
-      <td>5</td>
-      <td>$9.26</td>
-    </tr>
-    <tr>
-      <td colspan="4">Total Component Cost</td>
-      <td><strong>$74.69</strong></td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+        <td>Part</td>
+        <td>Description</td>
+        <td>Vendor</td>
+        <td>Quantity</td>
+        <td>Total Cost Shipped</td>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td>Zum Scan PCB</td>
+        <td>2 Layer printed circuit board for the Zum Scan shield.</td>
+        <td>OSHPark</td>
+        <td>3</td>
+        <td>$32.80</td>
+      </tr>
+      <tr>
+        <td>Zum Scan Components</td>
+        <td>All the necessary components for the Zum Scan shield.</td>
+        <td>Mouser</td>
+        <td>3</td>
+        <td>$32.63</td>
+      </tr>
+      <tr>
+        <td>StepStick Stepper Motor Drivers</td>
+        <td>Stepper motor drivers for the shields.</td>
+        <td>Amazon</td>
+        <td>5</td>
+        <td>$9.26</td>
+      </tr>
+      <tr>
+        <td colspan="4">Total Component Cost</td>
+        <td><strong>$74.69</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</tab>
 
 It was a pretty easy process to get everything ordered, and I am pleased that the DIY cost remained less than the retail price of the shield, now I wait for all the pieces to arrive.

@@ -36,7 +36,7 @@ title: Home
 	<ul class="pager">
 		{% if paginator.next_page %}
 		<li>
-			<a href="{{site.baseurl}}/page{{ paginator.next_page }}">&laquo; Older Posts</a>
+			<a href="{{site.baseurl}}/page/{{ paginator.next_page }}">&laquo; Older Posts</a>
 		</li>
 		{% endif %}
 		{% if paginator.previous_page %}
@@ -44,7 +44,7 @@ title: Home
       {% if paginator.previous_page == 1 %}
 				<a href="{{site.baseurl}}/">Newer Posts &raquo; </a>
       {% else %}
-				<a href="{{site.baseurl}}/page{{paginator.previous_page}}">Newer Posts &raquo; </a>
+				<a href="{{site.baseurl}}/page/{{paginator.previous_page}}">Newer Posts &raquo; </a>
       {% endif %}
 		</li>
     {% endif %}

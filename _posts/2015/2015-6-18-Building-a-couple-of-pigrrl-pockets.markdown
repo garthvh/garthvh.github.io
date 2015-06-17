@@ -19,6 +19,7 @@ I started out by cutting down the half sized perma proto board and laying out th
 Next I wired up the switch and applied the heatshrink tubing, then I attached the wires to the audio jack of the raspberry pi and connected them to the PowerBoost.
 
 <img alt="Pigrrl Assembly" src="http://garthvh.com/assets/img/pigrrl/pigrrl_assembly_2.jpg" class="img-responsive img-rounded" />
+
 <div class="table-responsive">
   <table class="table">
     <thead>

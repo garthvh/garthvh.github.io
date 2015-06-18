@@ -4,6 +4,13 @@ title: About
 summary: Site Setup Details
 fullwidth: true
 ---
+
+## About Me
+
+Hi I'm Garth Vander Houwen, a software engineer living in Seattle with my wife and daughter. 
+
+## About this site
+
 ### Styles
 
 For the site styles I am trying to use as little of my own custom css as possible and lean on bootstrap and font awesome, almost everything is standard Bootstrap 3 or font awesome markup.

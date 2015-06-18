@@ -32,8 +32,9 @@ fullwidth: true
 + [Command Line WPA](http://linux.icydog.net/wpa.php)
 + [Explain Shell](http://explainshell.com/)
 
-## Open hardware
+## Open Source hardware
 + [Open Energy Monitor](http://openenergymonitor.org/emon/)
++ [Mouser Open Source Hardware](http://www.mouser.com/applications/open-source-hardware/)
 
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)

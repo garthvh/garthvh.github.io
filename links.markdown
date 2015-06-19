@@ -39,6 +39,10 @@ fullwidth: true
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
 
+## Projects
++ [PIR Sensor Night Lamp](http://electronut.in/night-lamp/)
++ [Open Clock Project](http://clock.bonsignore.com/)
+
 ## Raspberry Pi
 + [Raspberry Pi Pygame UI basics](http://jeremyblythe.blogspot.sg/2014/09/raspberry-pi-pygame-ui-basics.html)
 + [Get IP Address](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=79936)

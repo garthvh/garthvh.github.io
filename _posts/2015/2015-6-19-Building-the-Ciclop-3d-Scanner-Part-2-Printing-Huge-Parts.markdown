@@ -59,7 +59,25 @@ The motor holder is the longest print I have ever done, it took a total of 17 ho
     <img alt="Ciclop Motor Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_1.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
-    <img alt="Ciclop Motor Holder Printing" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_2.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Motor Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_2.jpg" class="img-responsive img-rounded" />
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-md-6">
+    <img alt="Ciclop Motor Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_3.jpg" class="img-responsive img-rounded" />
+  </div>
+  <div class="col-md-6">
+    <img alt="Ciclop Motor Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_2.jpg" class="img-responsive img-rounded" />
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-md-6">
+    <img alt="Ciclop Motor Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_1.jpg" class="img-responsive img-rounded" />
+  </div>
+  <div class="col-md-6">
+    <img alt="Ciclop Motor Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_3.jpg" class="img-responsive img-rounded" />
   </div>
 </div>
 

@@ -52,6 +52,17 @@ summary: Building the Ciclop 3d-Scanner Part 2 Printing Huge Parts
   </div>
 </div>
 
+The motor holder is the longest print I have ever done, it took a total of 17 hours, but I think it turned out great.
+
+<div class="row">
+  <div class="col-md-6">
+    <img alt="Ciclop Motor Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_1.jpg" class="img-responsive img-rounded" />
+  </div>
+  <div class="col-md-6">
+    <img alt="Ciclop Motor Holder Printing" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_2.jpg" class="img-responsive img-rounded" />
+  </div>
+</div>
+
 I have received more parts and can verify that the Adafruit stepper motor fits perfectly and matches the motor specs on the DIWO site
 
 <div class="table-responsive">

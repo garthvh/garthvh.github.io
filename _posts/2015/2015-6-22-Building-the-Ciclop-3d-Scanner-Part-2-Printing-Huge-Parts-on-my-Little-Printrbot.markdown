@@ -1,24 +1,26 @@
 ---
 layout: post
-published: false
+published: true
 comments: true
 title: Building the Ciclop 3d-Scanner Part 2 Printing Huge Parts on my Little Printrbot
 categories: [ciclop,printrbot]
 year: 2015
 month: 6
-day: 19
+day: 22
 summary: Building the Ciclop 3d-Scanner Part 2 Printing Huge Parts on my Little Printrbot
 ---
 
 I have been working on printing a Ciclop 3D Scanner entirely using my Printrbot Simple Metal despite several of the pieces being to large for my bed. Reading forums and searching thingiverse I found most of the files I needed to print the Ciclop on my Simple. I also modified a couple of files so that I could print all the parts on my Printrbot.
 
-I only printed four parts from the original BQ Ciclop model, for the rest of the parts I had to use a file modified to fit on my bed.
+I only printed four parts from the original BQ Ciclop model, for the rest of the parts I had to use a file modified either to fit on my bed or to remove the support that was added to the stl files.
 
-For the motor holder I exported a new stl file without the custom support added and then printed the file with support added by Cura the motor holder would fit on my simple metal, but I did not like the support that was added to the STL file.  
+For the motor holder I exported a new stl file without the custom support added and then printed the file with grid support added by Cura the motor holder would fit on my simple metal, but I did not like the support that was added to the STL file.  
 
 I printed a reduced size disc holder that fits on the 152MM X 152MM Printrbot bed and a two piece version of the camera mount. I cut the motor wireway in the middle so that it fit on my print bed and printed two.
 
 The only part that failed to print was the back cover.  I tried printing it both standing up and with support and it was just too thin. I found a file in a forum that I used to print a very nice and sturdy back cover.
+
+All of the PLA parts were printed at 0.1MM layer height, 60-80MM Speed with 30% infill @ 210 degrees Celsius.
 
 You can find all the models I used below:
 
@@ -154,5 +156,4 @@ The Alloy 910 shaft coupler fits perfectly into the bearing holder connection, a
   </div>
 </div>
 
-
-I would recommend getting a spool of filament just for this project.  I wound up using ~800 grams of filament printing the parts.
+I would definitely recommend getting a spool of filament just for this project.  I wound up using ~800 grams of filament printing the parts. I am really pleased with the results and am eagerly awaiting the arrival of my lasers!

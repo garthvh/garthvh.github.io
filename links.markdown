@@ -12,6 +12,7 @@ fullwidth: true
 + [Scan-O-Tron Turntable v.2.0 for Full Body 3D Scanning](http://www.thingiverse.com/thing:729923)
 + [3D Scanning Table](https://hackaday.io/project/5756-3d-scanning-table)
 + [Open Skan](http://openskan.org/)
++ [Open Skan Thingiverse](http://www.thingiverse.com/thing:83776)
 
 ## 3D Laser Scanning
 + [Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)

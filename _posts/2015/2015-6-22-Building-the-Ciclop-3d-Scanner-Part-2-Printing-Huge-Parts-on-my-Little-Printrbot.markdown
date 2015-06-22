@@ -25,7 +25,7 @@ All of the PLA parts were printed at 0.1MM layer height, 60-80MM Speed with 30% 
 You can find all the models I used below:
 
 <div class="table-responsive">
-  <table class="table">
+  <table class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Part</th>
@@ -105,6 +105,7 @@ You can find all the models I used below:
     <img alt="Ciclop Motor Holder Printing" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_printing.jpg" class="img-responsive img-rounded" />
   </div>
 </div>
+
 
 The motor holder is the single longest print I have ever done, it took a total of 17 hours, but I think it turned out great. The [Adafruit stepper motor](https://www.adafruit.com/products/324) fits perfectly and matches the motor specs on the DIWO site so that makes sourcing a motor much easier and faster than having to order it from Aliexpress.
 

@@ -62,34 +62,32 @@ You can find all the models I used below:
       <tr>
         <td>Bearing Clips</td>
         <td>2 Hours</td>
-        <td>
-        [Reduced size disc holder and bearing clip](http://www.thingiverse.com/thing:736815)
-        </td>
+        <td><a href="http://www.thingiverse.com/thing:736815" >Reduced size disc holder and bearing clip</a></td>
       </tr>
       <tr>
         <td>Motor Holder</td>
         <td>17 Hours</td>
-        <td>[Motor Holder without Support](http://www.thingiverse.com/thing:890550)</td>
+        <td><a href="http://www.thingiverse.com/thing:890550">Motor Holder without Support</a></td>
       </tr>
       <tr>
         <td>Camera Holder Bottom</td>
         <td>8 Hours</td>
-        <td>[Two Piece Camera Mount](http://www.thingiverse.com/thing:818433)</td>
+        <td><a href="http://www.thingiverse.com/thing:818433">Two Piece Camera Mount</a></td>
       </tr>
       <tr>
         <td>Camera Holder Top</td>
         <td>14.5 Hours</td>
-        <td>[Two Piece Camera Mount](http://www.thingiverse.com/thing:818433)</td>
+        <td><a href="http://www.thingiverse.com/thing:818433">Two Piece Camera Mount</a></td>
       </tr>
       <tr>
         <td>Camera Holder Cover</td>
         <td>2 Hours</td>
-        <td>[Thicker Back Cover](http://www.thingiverse.com/thing:891835)</td>
+        <td><a href="http://www.thingiverse.com/thing:891835">Thicker Back Cover</a></td>
       </tr>
       <tr>
         <td>Motor Wireway</td>
         <td>1 Hour</td>
-        <td>[Half Motor Wireway](http://www.thingiverse.com/thing:892354)</td>
+        <td><a href="http://www.thingiverse.com/thing:892354">Half Motor Wireway</a></td>
       </tr>
       <tr>
         <td><strong>Total Print Time</strong></td>

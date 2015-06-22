@@ -5,14 +5,14 @@ summary: A list of important links.
 fullwidth: true
 ---
 
-# 3D Body Scanning
+## 3D Body Scanning
 + [3D Scanning Rig and DIY Turntable](http://hackaday.com/2015/05/23/3d-scanning-rig-and-diy-turntable/)
 + [Heavy Duty Turntable for 3D Scanning People](http://makezine.com/projects/guide-to-3d-printing-2014/heavy-duty-turntable/)
 + [Full Body Scanning with the Scan-O-Tron 3000](http://makezine.com/projects/guide-to-3d-printing-2014/scan-o-tron-3000/)
 + [Scan-O-Tron Turntable v.2.0 for Full Body 3D Scanning](http://www.thingiverse.com/thing:729923)
 + [3D Scanning Table](https://hackaday.io/project/5756-3d-scanning-table)
 
-# 3D Laser Scanning
+## 3D Laser Scanning
 + [Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)
 + [Documentation: Ciclop and Horus](http://diwo.bq.com/en/documentation-ciclop-and-horus-2/)
 + [Ciclop building instructions](http://diwo.bq.com/en/video/instrucciones-de-montaje-de-ciclop/)
@@ -20,7 +20,7 @@ fullwidth: true
 + [Ciclop Github](https://github.com/bq/ciclop)
 + [Piclop](http://bill-owens.blogspot.sg/2015/02/building-piclop.html)
 
-# Arduino
+## Arduino
 + [Visual Micro (Arduino development in visual studio)](http://www.visualmicro.com/)
 
 ## C&#35;

@@ -134,13 +134,22 @@ The Alloy 910 shaft coupler fits perfectly into the bearing holder connection, a
     <img alt="Ciclop Motor Holder" src="http://garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_3.jpg" class="img-responsive img-rounded" />
   </div>
 </div>
-
-
+<br/>
 <div class="row">
   <div class="col-md-6">
-    <img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_1.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_camera_holder_with_cover.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
+    <img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_back_cover_printing.jpg" class="img-responsive img-rounded" />
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-md-12">
+    <img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_1.jpg" class="img-responsive img-rounded" />
+    <br/>
+  </div>
+  <div class="col-md-12">
     <img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_2.jpg" class="img-responsive img-rounded" />
   </div>
 </div>

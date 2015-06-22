@@ -25,7 +25,7 @@ All of the PLA parts were printed at 0.1MM layer height, 60-80MM Speed with 30% 
 You can find all the models I used below:
 
 <div class="table-responsive">
-  <table class="table table-hover table-bordered">
+  <table class="table table-hover table-bordered table-striped">
     <thead>
       <tr>
         <th>Part</th>

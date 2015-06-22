@@ -37,32 +37,34 @@ You can find all the models I used below:
       <tr>
         <td>Pattern Holder</td>
         <td>5 Hours</td>
-        <td>[Ciclop 3D Scanner](http://www.thingiverse.com/thing:740357)</td>
+        <td><a href="http://www.thingiverse.com/thing:740357">Ciclop 3D Scanner</a></td>
       </tr>
       <tr>
         <td>Shaft Coupler</td>
         <td>1 Hour</td>
-        <td>[Ciclop 3D Scanner](http://www.thingiverse.com/thing:740357)</td>
+        <td><a href="http://www.thingiverse.com/thing:740357">Ciclop 3D Scanner</a></td>
       </tr>
       <tr>
         <td>Laser Holders</td>
         <td>1.5 Hour</td>
-        <td>[Ciclop 3D Scanner](http://www.thingiverse.com/thing:740357)</td>
+        <td><a href="http://www.thingiverse.com/thing:740357">Ciclop 3D Scanner</a></td>
       </tr>
       <tr>
         <td>Laser Wireways</td>
         <td>1.5 Hour</td>
-        <td>[Ciclop 3D Scanner](http://www.thingiverse.com/thing:740357)</td>
+        <td><a href="http://www.thingiverse.com/thing:740357">Ciclop 3D Scanner</a></td>
       </tr>
       <tr>
         <td>Bearing Holder</td>
         <td>7 Hours</td>
-        <td>[Reduced size disc holder and bearing clip](http://www.thingiverse.com/thing:736815)</td>
+        <td><a href="http://www.thingiverse.com/thing:736815" >Reduced size disc holder and bearing clip</a></td>
       </tr>
       <tr>
         <td>Bearing Clips</td>
         <td>2 Hours</td>
-        <td>[Reduced size disc holder and bearing clip](http://www.thingiverse.com/thing:736815)</td>
+        <td>
+        [Reduced size disc holder and bearing clip](http://www.thingiverse.com/thing:736815)
+        </td>
       </tr>
       <tr>
         <td>Motor Holder</td>

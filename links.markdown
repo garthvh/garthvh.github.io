@@ -24,10 +24,10 @@ fullwidth: true
 
 ## Arduino
 + [Visual Micro (Arduino development in visual studio)](http://www.visualmicro.com/)
++ [Arduino Shield List](http://shieldlist.org/0)
 
 ## C&#35;
 + [C# 7 Work List of Features](https://github.com/dotnet/roslyn/issues/2136)
-
 
 ## Crouton
 + [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
@@ -42,10 +42,20 @@ fullwidth: true
 + [Command Line WPA](http://linux.icydog.net/wpa.php)
 + [Explain Shell](http://explainshell.com/)
 
+## Online digital Fabrication
++ [Ponoko](https://www.ponoko.com/)
++ [3D Hubs](https://www.3dhubs.com/)
+
 ## Open Source hardware
 + [Open Energy Monitor](http://openenergymonitor.org/emon/)
 + [Mouser Open Source Hardware](http://www.mouser.com/applications/open-source-hardware/)
++ [Element 14 Open Source Hardware](http://www.element14.com/community/groups/open-source-hardware)
 + [Octopart API](https://octopart.com/api/home)
++ [List of Open Source Hardware Projects](https://en.wikipedia.org/wiki/List_of_open-source_hardware_projects)
++ [Githubiverse](http://garyhodgson.com/reprap/2012/09/githubiverse-a-github-pages-template-for-3d-printing-projects/)
++ [Open Source Ecology](http://opensourceecology.org/)
++ [Open Circuits Projects Page](http://www.opencircuits.com/Projects)
++ [USB PID Codes](http://pid.codes/)
 
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
@@ -53,6 +63,7 @@ fullwidth: true
 ## Projects
 + [PIR Sensor Night Lamp](http://electronut.in/night-lamp/)
 + [Open Clock Project](http://clock.bonsignore.com/)
++ [Piccolo Tiny CNC Bot](https://github.com/DiatomStudio/Piccolo)
 
 ## Raspberry Pi
 + [Raspberry Pi Pygame UI basics](http://jeremyblythe.blogspot.sg/2014/09/raspberry-pi-pygame-ui-basics.html)
@@ -62,6 +73,12 @@ fullwidth: true
 + [Raspberry Pi Games](http://www.raspians.com/Knowledgebase/1-debian-wheezy-games-repository-sudo-apt-get-install/)
 + [Check SOC temp from the command line](http://www.bitpi.co/2015/02/16/check-temperature-of-raspberry-pi-processor/)
 + [Logging to google docs](https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/connecting-to-googles-docs-updated)
+
+## Open Source Robots
++ [Arcna Quadruped](http://creativemachines.cornell.edu/aracna)
++ [Veter Robot](http://veterobot.com/)
++ [Open Robot Hardware](http://www.openrobothardware.org/linkedprojects/)
++ [Open Source Robotics Software/Hardware List](http://learnrobotix.com/open-source-robotics-software.html)
 
 ## Web Development
 + [Stack Share](http://stackshare.io/)

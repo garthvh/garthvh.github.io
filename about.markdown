@@ -7,13 +7,13 @@ fullwidth: true
 
 ## About Me
 
-Hi I'm Garth Vander Houwen, a software engineer living in Seattle with my wife and daughter. I write desktop and web software by day and dabble in open hardware and 3D at night.
+Hi I'm Garth Vander Houwen, a software engineer living in Seattle with my wife and daughter. I write desktop and web software by day and dabble in open hardware and 3D Printing at night.
 
 ## About this site
 
 ### Styles
 
-For the site styles I am trying to use as little of my own custom css as possible and lean on bootstrap and font awesome, almost everything is standard Bootstrap 3 or font awesome markup.
+For the site styles I am using as little of my own custom css as possible and leaning on bootstrap and font awesome, almost everything is standard Bootstrap 3 or font awesome markup.
 
 * CDN Hosted [Bootstrap](http://www.bootstrapcdn.com/) styles and javascript
 * CDN Hosted Flatly Bootstrap Theme by [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab)

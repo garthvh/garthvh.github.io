@@ -7,7 +7,7 @@ fullwidth: true
 
 ## About Me
 
-Hi I'm Garth Vander Houwen, a software engineer living in Seattle with my wife and daughter. I write desktop and web software by day and dabble in open hardware and 3D Printing at night.
+Hi I'm Garth Vander Houwen, a software engineer living in Seattle with my wife and daughter. I write desktop and web software by day and dabble in open hardware and 3D Printing in my spare time.
 
 ## About this site
 

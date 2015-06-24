@@ -13,6 +13,7 @@ fullwidth: true
 + [3D Scanning Table](https://hackaday.io/project/5756-3d-scanning-table)
 + [Open Skan](http://openskan.org/)
 + [Open Skan Thingiverse](http://www.thingiverse.com/thing:83776)
++ [Project Tango](https://www.google.com/atap/project-tango/)
 
 ## 3D Laser Scanning
 + [Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)
@@ -21,6 +22,7 @@ fullwidth: true
 + [Zum Scan Board](http://diwo.bq.com/en/zum-scan-released-2/)
 + [Ciclop Github](https://github.com/bq/ciclop)
 + [Piclop](http://bill-owens.blogspot.sg/2015/02/building-piclop.html)
++ [Horus Firmware](http://diwo.bq.com/en/horus-fw-released/)
 
 ## Arduino
 + [Visual Micro (Arduino development in visual studio)](http://www.visualmicro.com/)
@@ -56,6 +58,7 @@ fullwidth: true
 + [Open Source Ecology](http://opensourceecology.org/)
 + [Open Circuits Projects Page](http://www.opencircuits.com/Projects)
 + [USB PID Codes](http://pid.codes/)
++ [Upverter](https://upverter.com)
 
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
@@ -75,7 +78,7 @@ fullwidth: true
 + [Logging to google docs](https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/connecting-to-googles-docs-updated)
 
 ## Open Source Robots
-+ [Arcna Quadruped](http://creativemachines.cornell.edu/aracna)
++ [Aracna Quadruped](http://creativemachines.cornell.edu/aracna)
 + [Veter Robot](http://veterobot.com/)
 + [Open Robot Hardware](http://www.openrobothardware.org/linkedprojects/)
 + [Open Source Robotics Software/Hardware List](http://learnrobotix.com/open-source-robotics-software.html)

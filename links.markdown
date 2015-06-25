@@ -23,6 +23,7 @@ fullwidth: true
 + [Ciclop Github](https://github.com/bq/ciclop)
 + [Piclop](http://bill-owens.blogspot.sg/2015/02/building-piclop.html)
 + [Horus Firmware](http://diwo.bq.com/en/horus-fw-released/)
++ [3d-scanning digitizing on the cheap](http://www.willforfang.com/3d-scanning-digitizing-on-the-cheap/)
 
 ## Arduino
 + [Visual Micro (Arduino development in visual studio)](http://www.visualmicro.com/)
@@ -39,6 +40,9 @@ fullwidth: true
 + [Free for Dev](https://github.com/ripienaar/free-for-dev)
 + [Haacked - Git and GitHub Resources](http://haacked.com/archive/2014/12/03/git-and-github-resources/)
 + [Haacked - GitHub Flow Like a Pro with these 13 Git Aliases](http://haacked.com/archive/2014/07/28/github-flow-aliases/)
+
+## Laser cutting
++ [Glowforge](http://glowforge.com/)
 
 ## Linux
 + [Command Line WPA](http://linux.icydog.net/wpa.php)

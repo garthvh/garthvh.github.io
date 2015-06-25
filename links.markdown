@@ -63,6 +63,9 @@ fullwidth: true
 + [Open Circuits Projects Page](http://www.opencircuits.com/Projects)
 + [USB PID Codes](http://pid.codes/)
 + [Upverter](https://upverter.com)
++ [Open Hardware Hub](http://www.openhardwarehub.com/)
++ [Linux MCE](http://wiki.linuxmce.org/index.php/Main_Page)
++ [Open Hardware Labs](https://openhardwarelabs.com)
 
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
@@ -72,6 +75,7 @@ fullwidth: true
 + [Open Clock Project](http://clock.bonsignore.com/)
 + [Piccolo Tiny CNC Bot](https://github.com/DiatomStudio/Piccolo)
 + [OpenBuilds](http://www.openbuilds.com/)
++ [Home Alarm Plus Pi](https://github.com/ferraripr/HomeAlarmPlusPi)
 
 ## Raspberry Pi
 + [Raspberry Pi Pygame UI basics](http://jeremyblythe.blogspot.sg/2014/09/raspberry-pi-pygame-ui-basics.html)

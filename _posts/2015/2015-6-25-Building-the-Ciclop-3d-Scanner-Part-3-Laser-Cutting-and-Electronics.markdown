@@ -20,7 +20,7 @@ The other remaining piece was how to replace the BQ Zum 328 arduino board since 
 
 <img alt="Metro Mount" src="http://garthvh.com/assets/img/ciclop/ciclop_metro_mount_2.jpg" class="img-responsive img-rounded" />
 
-The camera mount stl files contain board pins that match the pattern for holes on the bq zum 328 arduino clone.  While you could modify the cad files to include the pin pattern for the regular arduino instead I don't really like PLA pins as they are really brittle.  I found an amazing [mount on thingiverse](http://www.thingiverse.com/thing:770664) that allowed me to clip off the pins on my camera mount and attach my Metro. I printed the mount using [Taulman Alloy 910](http://taulman3d.com/alloy-910-spec.html) wich is flexible and makes super strong pins.  The mount fits tight on the rectangular piece that had the pins on the camera mount.
+The camera mount stl files contain board pins that match the pattern for holes on the bq zum 328 arduino clone.  While you could modify the cad files to include the pin pattern for the regular arduino instead I don't really like PLA pins as they are really brittle.  I found an amazing [mount on thingiverse](http://www.thingiverse.com/thing:770664) that allowed me to clip off the pins on my camera mount and attach my Metro. I printed the mount using [Taulman Alloy 910](http://taulman3d.com/alloy-910-spec.html) which is flexible and makes super strong pins.  The mount fits tight on the rectangular piece that had the pins on the camera mount.
 
 <img alt="Metro Mount" src="http://garthvh.com/assets/img/ciclop/ciclop_metro_mount_1.jpg" class="img-responsive img-rounded" />
 

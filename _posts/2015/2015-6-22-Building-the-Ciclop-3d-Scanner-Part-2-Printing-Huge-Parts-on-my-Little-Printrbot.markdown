@@ -2,12 +2,12 @@
 layout: post
 published: true
 comments: true
-title: Building the Ciclop 3d-Scanner Part 2 Printing Huge Parts on my Little Printrbot
+title: Building the Ciclop 3d Scanner Part 2 Printing Huge Parts on my Little Printrbot
 categories: [ciclop,printrbot]
 year: 2015
 month: 6
 day: 22
-summary: Building the Ciclop 3d-Scanner Part 2 Printing Huge Parts on my Little Printrbot
+summary: Building the Ciclop 3d Scanner Part 2 Printing Huge Parts on my Little Printrbot
 ---
 
 I have been working on printing a Ciclop 3D Scanner entirely using my Printrbot Simple Metal despite several of the pieces being to large for my bed. Reading forums and searching thingiverse I found most of the files I needed to print the Ciclop on my Simple. I also modified a couple of files so that I could print all the parts on my Printrbot.

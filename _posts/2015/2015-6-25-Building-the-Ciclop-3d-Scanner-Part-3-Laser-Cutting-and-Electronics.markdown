@@ -7,7 +7,7 @@ categories: [ciclop,printrbot,ponoko,arduino]
 year: 2015
 month: 6
 day: 25
-summary: Building the Ciclop 3d Scanner Part 3 Laser Cutting with Ponoko
+summary: Building the Ciclop 3d Scanner Part 3 Laser Cutting and Electronics
 ---
 
 One of the final pieces that I had not figured out for my [Ciclop Scanner](http://www.thingiverse.com/thing:740357) was the 200MM diameter laser cut acrylic turntable disc. There were laser cutting services available from some people I had met at a 3D printing workshop and at local makerspaces but I wanted to try and find a more universal option.  

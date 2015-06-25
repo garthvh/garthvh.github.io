@@ -2,12 +2,12 @@
 layout: post
 published: true
 comments: true
-title: Building the Ciclop 3d-Scanner Part 1 PCB Assembly and Ordering Parts
+title: Building the Ciclop 3d Scanner Part 1 PCB Assembly and Ordering Parts
 categories: [ciclop,arduino,printrbot,oshpark]
 year: 2015
 month: 6
 day: 17
-summary: Building the Ciclop 3d-Scanner Part 1 PCB Assembly and Ordering Parts
+summary: Building the Ciclop 3d Scanner Part 1 PCB Assembly and Ordering Parts
 ---
 
 On June 4th I [ordered PCB's from OSHPark](http://garthvh.com/oshpark/ciclop/2015/06/05/Order-a-PCB-and-build-your-own-Zum-Scan-Shield-using-OSHPark/) for a Ciclop 3D Scanner, the OSHPark turnaround was amazing and my PCB's were manufactured and shipped on the 12th.  On June 16th I had three beautiful purple circuit boards in a nice purple envelope.

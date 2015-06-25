@@ -10,7 +10,7 @@ day: 25
 summary: Building the Ciclop 3d Scanner Part 3 Laser Cutting with Ponoko
 ---
 
-One of the final pieces that I had not figured out for my [Ciclop Scanner]() was the 200MM diameter laser cut acrylic turntable disc. There were laser cutting services available from some people I had met at a 3D printing workshop and at local makerspaces but I wanted to try and find a more universal option.  
+One of the final pieces that I had not figured out for my [Ciclop Scanner](http://www.thingiverse.com/thing:740357) was the 200MM diameter laser cut acrylic turntable disc. There were laser cutting services available from some people I had met at a 3D printing workshop and at local makerspaces but I wanted to try and find a more universal option.  
 
 I found [Ponoko](https://www.ponoko.com/) which is an online 3D printing and laser cutting service and marketplace and tried submitting the file from the BQ Ciclop Github.  I Received and error with some helpful links I ignored and promptly sent an email with my file asking what was wrong. I received a quick response to my email containing the helpful links again and the hint that the main issue with my file was the line colors. This time I read the helpful links and realized that I needed to change the color of the lines in the disc file to blue.
 

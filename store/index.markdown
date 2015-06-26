@@ -130,7 +130,7 @@ fullwidth: true
   <br/>
     <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
   </div>
-  <div class="col-md-6 col-lg-7">
+  <div class="col-md-6">
     <h3>
     Zum Scan PCB and Ciclop hardware
     </h3>
@@ -144,8 +144,9 @@ fullwidth: true
     </ul>
     <p class="lead">$39.99 Shipped!</p>
   </div>
-  <div class="col-md-3 col-lg-2">
+  <div class="col-md-3">
     <div class="well well-sm">
+    <h4>Purchase</h4>
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="9Y8EK4B77F4TC">

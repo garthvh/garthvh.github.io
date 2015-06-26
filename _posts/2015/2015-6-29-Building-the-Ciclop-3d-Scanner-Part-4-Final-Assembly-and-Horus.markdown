@@ -89,10 +89,10 @@ I am planning to build a 3D body scanner when I am done with the Ciclop so I bui
   </table>
 </div>
 
-Since the kit from BQ is unavailable here and costs about $280 US, I am pretty pleased with the cost of the project with filament even though I ordered some extra parts and hardware.  If you have a big enough printer it might also save some money to [print the platform disc](http://www.thingiverse.com/thing:652032) instead of having it laser cut, though I enjoyed going through the process of ordering the disc from Ponoko and I think it will add some polish to the project.
+Since the kit from BQ is unavailable here and costs €249 which is about $280 US, I am pretty pleased with the cost of the project with filament even though I ordered some extra parts and hardware.  If you have a big enough printer it might also save some money to [print the platform disc](http://www.thingiverse.com/thing:652032) instead of having it laser cut, though I enjoyed going through the process of ordering the disc from Ponoko and I think it will add some polish to the project.
 
 I extended the motor wires and added connectors from some jumper wires to the ends of the wires for both the motor and lasers so it will be easy to remove the electronics if necessary.
 
-I connected the motor and lasers and connected the micro USB from the Adafruit Metro and the Logitech web cam to my computer and started up [Horus](http://diwo.bq.com/en/horus-released/). The webcam worked right away and after using the Horus software and after loading the firmware on the metro using the Horus software the motor and lasers started working.
+I connected the motor and lasers to the pins on the Metro and then connected the micro USB from the Metro and the Logitech web cam to my computer and started up [Horus](http://diwo.bq.com/en/horus-released/). The webcam worked right away and after using the Horus software and after loading the firmware on the metro using the Horus software the motor and lasers started working.
 
 This has been an amazing open source hardware project that has allowed me to work with several awesome new vendors and learn a ton about low volume manufacturing. I was able to do many things I have not done before from ordering my own PCB's, working with threaded rods, learning about stepper motors and lasers, and preparing a file for laser cutting.

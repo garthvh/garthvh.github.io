@@ -4,6 +4,8 @@ single: true
 ---
 
 <h1>Posts by category :{{ page.category }}</h1>
+
+<p>{{ content }}</p>
 <div>
     {% if site.categories[page.category] %}
         {% for post in site.categories[page.category] %}

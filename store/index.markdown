@@ -15,7 +15,7 @@ fullwidth: true
     Payment is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.
   </p>
   <hr/>
-  <h2>Products (2)</h2>
+  <h2>Products (3)</h2>
   <hr/>
   </div>
 </div>
@@ -126,9 +126,9 @@ fullwidth: true
 </div>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/ciclop_zum_scan_4.jpg" class="img-responsive img-rounded" />
+  <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/zum_scan_4.jpg" class="img-responsive img-rounded" />
   <br/>
-    <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/ciclop_zum_scan_kit.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6 col-lg-7">
     <h3>
@@ -142,7 +142,7 @@ fullwidth: true
       <li>10 M3 10MM Screw</li>
       <li>6 M3 Hex Nuts</li>
     </ul>
-    <p class="lead">$49.99 Shipped!</p>
+    <p class="lead">$39.99 Shipped!</p>
   </div>
   <div class="col-md-3">
     <div class="well well-sm">

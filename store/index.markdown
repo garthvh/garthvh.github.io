@@ -126,7 +126,9 @@ fullwidth: true
 </div>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/pigrrl/pigrrl_300_blue.jpg" class="img-responsive img-rounded" />
+  <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/ciclop_zum_scan_4.jpg" class="img-responsive img-rounded" />
+  <br/>
+    <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/ciclop_zum_scan_kit.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6 col-lg-7">
     <h3>

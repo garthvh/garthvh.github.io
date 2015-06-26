@@ -124,3 +124,26 @@ fullwidth: true
   </div>
   </div>
 </div>
+<div class="row">
+  <div class="col-md-3">
+  <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/pigrrl/pigrrl_300_blue.jpg" class="img-responsive img-rounded" />
+  </div>
+  <div class="col-md-6 col-lg-7">
+    <h3>
+    Zum Scan PCB and Ciclop hardware
+    </h3>
+    <p>Zum Scan PCB with all shield parts and some M8 and M3 hardware. </p>
+    <ul>
+      <li>Zum Scan PCB and Parts</li>
+      <li>18 M8 Washers</li>
+      <li>28 M8 Nuts</li>
+      <li>10 M3 10MM Screw</li>
+      <li>6 M3 Hex Nuts</li>
+    </ul>
+    <p class="lead">$49.99 Shipped!</p>
+  </div>
+  <div class="col-md-3">
+    <div class="well well-sm">
+    </div>
+  </div>
+</div>

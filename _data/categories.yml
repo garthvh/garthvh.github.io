@@ -4,6 +4,9 @@
 - slug: 3d%20printing
   name: 3D Printing
 
+- slug: adafruit
+  name: Adafruit
+
 - slug: arduino
   name: Arduino
 
@@ -40,6 +43,9 @@
 - slug: piglow
   name: PiGlow
 
+- slug: ponoko
+  name: Ponoko
+
 - slug: powerboost
   name: Power Boost
 
@@ -54,6 +60,3 @@
 
 - slug: rhcp
   name: rhcp
-
-- slug: ponoko
-  name: Ponoko

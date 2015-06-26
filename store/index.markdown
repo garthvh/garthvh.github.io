@@ -124,6 +124,7 @@ fullwidth: true
   </div>
   </div>
 </div>
+<hr/>
 <div class="row">
   <div class="col-md-3">
   <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/zum_scan_4.jpg" class="img-responsive img-rounded" />
@@ -147,6 +148,7 @@ fullwidth: true
   <div class="col-md-3">
     <div class="well well-sm">
     <h4>Purchase</h4>
+    <br/>
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="9Y8EK4B77F4TC">

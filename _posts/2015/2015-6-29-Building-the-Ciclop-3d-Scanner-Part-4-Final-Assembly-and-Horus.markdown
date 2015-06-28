@@ -23,6 +23,8 @@ I am planning to build a 3D body scanner when I am done with the Ciclop so I bui
         <th>Part</th>
         <th>Vendor</th>
         <th>Cost</th>
+        <th>Order Date</th>
+        <th>Delivery Date</th>
       </tr>
     </thead>
     <tbody>
@@ -30,60 +32,82 @@ I am planning to build a 3D body scanner when I am done with the Ciclop so I bui
         <td>Hatchbox Orange PLA</td>
         <td>[Amazon](http://www.amazon.com/gp/product/B00J0EE1D4)</td>
         <td class="text-right">$21.90</td>
+        <td>6/12/2015</td>
+        <td>6/14/2015</td>
       </tr>
       <tr>
         <td>Threaded Rods and Hardware</td>
         <td>[Tacoma Screw](http://www.tacomascrew.com/)</td>
         <td class="text-right">$53.27</td>
+        <td>6/6/2015</td>
+        <td>6/7/2015</td>
       </tr>
       <tr>
         <td>2x Red Line Lasers</td>
         <td>[DX](http://www.dx.com/p/5mw-adjustable-focus-red-laser-line-module-4-5-5v-152279)</td>
         <td class="text-right">$10.50</td>
+        <td>6/11/2015</td>
+        <td>6/29/2015</td>
       </tr>
       <tr>
         <td>Stepper Motor</td>
         <td>[Adafruit](https://www.adafruit.com/products/324)</td>
         <td class="text-right">$14.00</td>
+        <td>6/15/2015</td>
+        <td>6/19/2015</td>
       </tr>
       <tr>
         <td>16014 Bearing</td>
         <td>[Amazon](http://www.amazon.com/WJB-Bearing-6006lbf-Dynamic-Capacity/dp/B007HRXJ7A)</td>
         <td class="text-right">$19.70</td>
+        <td>6/11/2015</td>
+        <td>6/15/2015</td>
       </tr>
       <tr>
         <td>StepStick Stepper Drivers (5)</td>
         <td>[Amazon](http://www.amazon.com/gp/product/B00MQR93QC)</td>
         <td class="text-right">$9.25</td>
+        <td>6/5/2015</td>
+        <td>6/17/2015</td>
       </tr>
       <tr>
         <td>Logitech Webcam C270</td>
         <td>[Amazon (used)](http://www.amazon.com/Logitech-Webcam-Widescreen-Calling-Recording/dp/B004FHO5Y6/)</td>
         <td class="text-right">$15.90</td>
+        <td>6/12/2015</td>
+        <td>6/18/2015</td>
       </tr>
       <tr>
         <td>Zum Scan Shield</td>
         <td>OSHPark, Mouser</td>
         <td class="text-right">$30.00</td>
+        <td>6/4/2015</td>
+        <td>6/15/2015</td>
       </tr>
       <tr>
         <td>Adafruit Metro Arduino Uno Clone</td>
         <td>[Adafruit](https://www.adafruit.com/products/2488)</td>
         <td class="text-right">$21.89</td>
+        <td>6/19/2015</td>
+        <td>6/24/2015</td>
       </tr>
       <tr>
         <td>200MM Acrylic Disc</td>
         <td>Ponoko</td>
         <td class="text-right">$28.39</td>
+        <td>6/23/2015</td>
+        <td>7/3/2015?</td>
       </tr>
       <tr>
         <td>Duck Brand Solid Grip Easy Liner</td>
         <td>[Amazon](http://www.amazon.com/gp/product/B00C2LMJPY)</td>
         <td class="text-right">$10.28</td>
+        <td>6/23/2015</td>
+        <td>?</td>
       </tr>
       <tr>
         <td colspan="2"><strong>Total</strong></td>
-        <td><strong>$235.08</strong></td>
+        <td colspan="3"><strong>$235.08</strong></td>
       </tr>
     </tbody>
   </table>

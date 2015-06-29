@@ -8,9 +8,13 @@ The Ciclop is an Open Source Hardware and Software 3D Scanner designed by [BQ](h
 
   <img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_1.jpg" class="img-responsive img-rounded" />
 
+Below are some resources where you can find additional information about the Ciclop.
+
 + [Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)
 + [Documentation: Ciclop and Horus](http://diwo.bq.com/en/documentation-ciclop-and-horus-2/)
 + [Ciclop building instructions](http://diwo.bq.com/en/video/instrucciones-de-montaje-de-ciclop/)
 + [Zum Scan Board](http://diwo.bq.com/en/zum-scan-released-2/)
 + [Ciclop Github](https://github.com/bq/ciclop)
 + [Horus Firmware](http://diwo.bq.com/en/horus-fw-released/)
+
+## Blog Posts

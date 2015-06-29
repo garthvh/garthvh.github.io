@@ -99,6 +99,13 @@ I am planning to build a 3D body scanner when I am done with the Ciclop so I bui
         <td>7/3/2015?</td>
       </tr>
       <tr>
+        <td>DC 12V /2.0A Switching Power Supply</td>
+        <td>[Amazon](http://www.amazon.com/gp/product/B00VDU9DYU)</td>
+        <td class="text-right">$5.99</td>
+        <td>6/25/2015</td>
+        <td>6/27/2015</td>
+      </tr>
+      <tr>
         <td>Duck Brand Solid Grip Easy Liner</td>
         <td>[Amazon](http://www.amazon.com/gp/product/B00C2LMJPY)</td>
         <td class="text-right">$10.28</td>
@@ -107,7 +114,7 @@ I am planning to build a 3D body scanner when I am done with the Ciclop so I bui
       </tr>
       <tr>
         <td colspan="2"><strong>Total</strong></td>
-        <td colspan="3"><strong>$235.08</strong></td>
+        <td colspan="3"><strong>$241.07</strong></td>
       </tr>
     </tbody>
   </table>

@@ -41,6 +41,13 @@ fullwidth: true
 + [Haacked - Git and GitHub Resources](http://haacked.com/archive/2014/12/03/git-and-github-resources/)
 + [Haacked - GitHub Flow Like a Pro with these 13 Git Aliases](http://haacked.com/archive/2014/07/28/github-flow-aliases/)
 
+## Internet of things
++ [Postcscapes](http://postscapes.com/)
++ [Node Red](http://nodered.org/)
++ [Eclipse IOT](http://iot.eclipse.org/)
++ [Tessel](https://tessel.io/)
++ [ESP 8266](http://hackaday.com/tag/esp8266/)
+
 ## Laser cutting
 + [Glowforge](http://glowforge.com/)
 

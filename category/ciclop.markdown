@@ -17,4 +17,4 @@ Below are some resources where you can find additional information about the Cic
 + [Ciclop Github](https://github.com/bq/ciclop)
 + [Horus Firmware](http://diwo.bq.com/en/horus-fw-released/)
 
-## Blog Posts
+## Ciclop Posts

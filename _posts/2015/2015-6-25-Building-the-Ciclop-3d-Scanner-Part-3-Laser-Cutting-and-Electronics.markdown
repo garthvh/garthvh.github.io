@@ -24,4 +24,4 @@ The camera mount stl files contain board pins that match the pattern for holes o
 
 <img alt="Metro Mount" src="http://garthvh.com/assets/img/ciclop/ciclop_metro_mount_1.jpg" class="img-responsive img-rounded" />
 
-I was able to easily install the firmware for the scanner on my metro using the Horus scanning software, now I have just to wait for the disc, lasers and some power connectors to arrive and I should be ready to scan.
+I was able to easily install the firmware for the scanner on my metro using the Horus scanning software, now I have just to wait for the disc, lasers and some power connectors to arrive and I should be ready to scan. I could not find any English discussion of the jumpers on the zum scan board, but I was able to read enough Spanish in the Ciclop google group to determine that i wanted to have all three jumpers in place on the X motor driver to get a smooth rotation of the platform.

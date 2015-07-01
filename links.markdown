@@ -47,6 +47,7 @@ fullwidth: true
 + [Eclipse IOT](http://iot.eclipse.org/)
 + [Tessel](https://tessel.io/)
 + [ESP 8266](http://hackaday.com/tag/esp8266/)
++ [Comparison of Internet of Things Platforms for Prototyping](https://openhardwarelabs.com/internet-of-things-platforms-prototyping/)
 
 ## Laser cutting
 + [Glowforge](http://glowforge.com/)

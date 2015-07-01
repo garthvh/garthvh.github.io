@@ -17,5 +17,6 @@ Below are some resources where you can find additional information about the Cic
 + [Ciclop Github](https://github.com/bq/ciclop)
 + [Horus Firmware](http://diwo.bq.com/en/horus-fw-released/)
 + [Ciclop 3D Scanner with Arduino CNC Shield](http://propslayer.blogspot.pt/2015/04/ciclop-3d-scanner-arduino-unocnc-shield.html)
++ [Ciclop Google Group](https://groups.google.com/forum/#!forum/ciclop-3d-scanner)
 
 ## Ciclop Posts

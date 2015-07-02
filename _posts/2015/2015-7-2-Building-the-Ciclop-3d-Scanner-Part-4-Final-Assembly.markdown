@@ -1,12 +1,12 @@
 ---
 layout: post
-published: false
+published: true
 comments: true
 title: Building the Ciclop 3d Scanner Part 4 Final Assembly
 categories: [ciclop,printrbot,oshpark,ponoko,arduino]
 year: 2015
-month: 6
-day: 29
+month: 7
+day: 2
 summary: Building the Ciclop 3d Scanner Part 4 Final Assembly
 ---
 
@@ -122,12 +122,18 @@ I am planning to build a 3D body scanner when I am done with the Ciclop so I bui
 
 Since the kit from BQ is unavailable here and costs €249 which is about $280 US, I am pretty pleased with the cost of the project with filament even though I ordered some extra parts and hardware.  If you have a big enough printer it might also save some money to [print the platform disc](http://www.thingiverse.com/thing:652032) instead of having it laser cut, though I enjoyed going through the process of ordering the disc from Ponoko and I think it will add some polish to the project.
 
-I extended the motor wires and added connectors from some jumper wires to the ends of the wires for both the motor and lasers so it will be easy to remove the electronics if necessary.
-
 <img alt="Ciclop Electronics" src="http://garthvh.com/assets/img/ciclop/ciclop_camera_holder_electronics.jpg" class="img-responsive img-rounded" />
 
-I connected the motor and lasers to the pins on the Metro and then connected the micro USB from the Metro and the Logitech web cam to my computer and started up [Horus](http://diwo.bq.com/en/horus-released/). The webcam worked right away and after using the Horus software and after loading the firmware on the metro using the Horus software the motor and lasers started working.
+I extended the motor wires and added connectors from some jumper wires to the ends of the wires for both the motor and lasers so it will be easy to remove the electronics if necessary.
 
-<img alt="Ciclop Electronics" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_4.jpg" class="img-responsive img-rounded" />
+I received my laser cut acrylic platform disc from Ponoko and opened up the package.  Ponoko sent the whole piece of acrylic I bought with my order along with the extra material.
+
+<img alt="Ciclop Acrylic Disc" src="http://garthvh.com/assets/img/ciclop/ciclop_acrylic_disc.jpg" class="img-responsive img-rounded" />
+
+I attached the acrylic disc to the bearing holder with the 30MM M8 bolts and then connected the motor and lasers to the pins on the Metro and then connected the micro USB from the Metro and the Logitech web cam to my computer and started up [Horus](http://diwo.bq.com/en/horus-released/). The webcam worked right away and after using the Horus software and after loading the firmware on the metro using the Horus software the motor and lasers started working.
+
+<img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_4.jpg" class="img-responsive img-rounded" />
 
 This has been an amazing open source hardware project that has allowed me to work with several awesome new vendors and learn a ton about low volume manufacturing. I was able to do many things I have not done before from ordering my own PCB's, working with threaded rods, learning about stepper motors and lasers, and preparing a file for laser cutting.
+
+Now I have to see if I can get it calibrated and make some scans!

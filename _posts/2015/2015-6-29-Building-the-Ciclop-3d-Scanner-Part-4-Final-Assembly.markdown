@@ -2,12 +2,12 @@
 layout: post
 published: false
 comments: true
-title: Building the Ciclop 3d Scanner Part 4 Final Assembly and Horus
+title: Building the Ciclop 3d Scanner Part 4 Final Assembly
 categories: [ciclop,printrbot,oshpark,ponoko,arduino]
 year: 2015
 month: 6
 day: 29
-summary: Building the Ciclop 3d Scanner Part 4 Final Assembly and Horus
+summary: Building the Ciclop 3d Scanner Part 4 Final Assembly
 ---
 
 I have been working on my Ciclop 3D scanner for about a month now and the build is almost complete.  I had been looking for a complex and complete open source hardware project and the Ciclop has been perfect. Because the BQ kit and components are not available yet in the United States.  
@@ -127,5 +127,7 @@ I extended the motor wires and added connectors from some jumper wires to the en
 <img alt="Ciclop Electronics" src="http://garthvh.com/assets/img/ciclop/ciclop_camera_holder_electronics.jpg" class="img-responsive img-rounded" />
 
 I connected the motor and lasers to the pins on the Metro and then connected the micro USB from the Metro and the Logitech web cam to my computer and started up [Horus](http://diwo.bq.com/en/horus-released/). The webcam worked right away and after using the Horus software and after loading the firmware on the metro using the Horus software the motor and lasers started working.
+
+<img alt="Ciclop Electronics" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_4.jpg" class="img-responsive img-rounded" />
 
 This has been an amazing open source hardware project that has allowed me to work with several awesome new vendors and learn a ton about low volume manufacturing. I was able to do many things I have not done before from ordering my own PCB's, working with threaded rods, learning about stepper motors and lasers, and preparing a file for laser cutting.

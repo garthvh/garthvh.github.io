@@ -6,7 +6,7 @@ permalink: /category/ciclop/
 
 The Ciclop is an Open Source Hardware and Software 3D Scanner designed by [BQ](http://www.bq.com/gb/ciclop).  Using an Arduino clone, a webcam, two line lasers and a custom shield called a Zum Scan that is a modified version of the [Arduino CNC Shield](http://blog.protoneer.co.nz/arduino-cnc-shield/).
 
-  <img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_1.jpg" class="img-responsive img-rounded" />
+  <img alt="Ciclop Assembled" src="http://garthvh.com/assets/img/ciclop/ciclop_assembled_4.jpg" class="img-responsive img-rounded" />
 
 Below are some resources where you can find additional information about the Ciclop Scanner.
 

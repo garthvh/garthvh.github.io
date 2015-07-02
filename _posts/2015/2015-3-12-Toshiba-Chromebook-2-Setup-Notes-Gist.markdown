@@ -50,23 +50,23 @@ Once the chroot is done installing and you have set up your user you launch your
 
 Click the dash icon in the top left corner and search for terminal, use xterm to install software using aptitude
 
-    sudo apt-get install terminator chromium-browser bluefish arduino vlc git retext htop
+    sudo apt-get install terminator vlc git xarchiver
+
+Install Google Chrome
+
+    sudo apt-get install libxss1 libappindicator1 libindicator7
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    sudo dpkg -i google-chrome*.deb
 
 Download Cura from http://software.ultimaker.com/
 
     cd Downloads
     sudo dpkg -i cura_15.02.1-debian_amd64.deb
 
-Download and install Papyrus notes
-
-    cd Downloads
-    wget http://aseman.co/downloads/papyrus/1/papyrus_1.0.0-1-amd64.deb
-    sudo dpkg -i papyrus_1.0.0-1-amd64.deb
-
 Download and install Github Atom
 
     cd Downloads
-    wget https://github.com/atom/atom/releases/download/v0.189.0/atom-amd64.deb
+    wget https://github.com/atom/atom/releases/download/v1.0.0/atom-amd64.deb
     sudo dpkg -i atom-amd64.deb
 
 ##5. Update Keyboard to match ChromeOS
@@ -93,4 +93,4 @@ Download and install Github Atom
 +   The chrome extension with chroot chrome window functionality is not working
 
 ## Notes
-You can copy and paste in the shell with Ctrl+Shift+C and Ctrl+Shift+V. 
+You can copy and paste in the shell with Ctrl+Shift+C and Ctrl+Shift+V.

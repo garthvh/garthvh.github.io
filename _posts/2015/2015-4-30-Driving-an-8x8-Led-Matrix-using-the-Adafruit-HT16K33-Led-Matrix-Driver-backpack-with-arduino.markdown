@@ -15,11 +15,11 @@ This seemed like an awesome plan, but this backpack was my first lesson in makin
 
 Eventually I found a [datasheet for my matrix](https://labviewhacker.com/doku.php?id=learn:hardware:components:led_matrix:nfm-12883as-11) and used a piece of paper to map out the pins from the matrix and where they needed to connect to on the backpack
 
-<img alt="Paper Pinouts" src="http://garthvh.com/assets/img/arduino/HT16K33_pinouts.jpg" class="img-responsive img-rounded" />
+<img alt="Paper Pinouts" src="//garthvh.com/assets/img/arduino/HT16K33_pinouts.jpg" class="img-responsive img-rounded" />
 
 Then I laid out the breakout and a matrix on some breadboards and started wiring it all together.
 
-<img alt="Circuit Image" src="http://garthvh.com/assets/img/arduino/HT16K33_1.jpg" class="img-responsive img-rounded" />
+<img alt="Circuit Image" src="//garthvh.com/assets/img/arduino/HT16K33_1.jpg" class="img-responsive img-rounded" />
 
 I cobbled together some code from a few different examples and finally got the matrix working. The code is on [github](https://github.com/garthvh/Arduino/blob/master/LED%20Matrix/8x8Examples.ino) and there is a video of the matrix in action below.
 

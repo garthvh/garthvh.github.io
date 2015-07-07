@@ -24,12 +24,12 @@ A 3D Hubs customer had been ordering parts for a prototype that was going to be 
     <thead>
     <tbody>
       <tr>
-        <td><a href="http://taulman3d.com/910-features.html" target="_blank">Alloy 910</a></td>
+        <td><a href="http://taulman3d.com/910-features.html">Alloy 910</a></td>
         <td>Polymer Alloy</td>
         <td>Natural</td>
       </tr>
       <tr>
-        <td><a href="http://taulman3d.com/bridge-features.html" target="_blank">Bridge</a></td>
+        <td><a href="http://taulman3d.com/bridge-features.html">Bridge</a></td>
         <td>Nylon </td>
         <td>Natural</td>
       </tr>
@@ -67,26 +67,26 @@ Here are the basic settings that I eventually used for all 4 materials; I did sl
 
 I printed a 3D Hubs marvin in Alloy 910, the keychain loop on the top is much stronger than the PLA versions of this.
 
-<img alt="Alloy 910 Marvin" src="http://garthvh.com/assets/img/taulman/alloy_910_marvin.jpg" class="img-responsive img-rounded" />
+<img alt="Alloy 910 Marvin" src="//garthvh.com/assets/img/taulman/alloy_910_marvin.jpg" class="img-responsive img-rounded" />
 
 The bridge filament is very similar to ninjaflex while printing much more easily, it is not as "rubbery" as the ninjaflex but is still very flexible. Below are some parts printed in bridge.
 
-<img alt="Bridge Parts" src="http://garthvh.com/assets/img/taulman/bridge_parts.jpg" class="img-responsive img-rounded" />
+<img alt="Bridge Parts" src="//garthvh.com/assets/img/taulman/bridge_parts.jpg" class="img-responsive img-rounded" />
 
 I had the hardest time printing th t-glase filament, it was difficult to get it to start sticking to the bed and it seemed to want to warp the most.  I was not able to print multiple parts on the bed at once with the t-glase without warping problems.
 
 <div class="row">
   <div class="col-sm-4">
-    <img alt="t-glase Parts" src="http://garthvh.com/assets/img/taulman/tglase_parts.jpg" class="img-responsive img-rounded" />
+    <img alt="t-glase Parts" src="//garthvh.com/assets/img/taulman/tglase_parts.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-sm-8">
-    <img alt="t-glase Crushed espresso cup" src="http://garthvh.com/assets/img/taulman/crushed_coffee_cup.jpg" class="img-responsive img-rounded" />
+    <img alt="t-glase Crushed espresso cup" src="//garthvh.com/assets/img/taulman/crushed_coffee_cup.jpg" class="img-responsive img-rounded" />
   </div>
 </div>
 <div class="row">
   <div class="col-sm-8 col-sm-offset-2">
   <br/>
-      <img alt="t-glase Parts" src="http://garthvh.com/assets/img/taulman/tglase_auger.jpg" class="img-responsive img-rounded" />
+      <img alt="t-glase Parts" src="//garthvh.com/assets/img/taulman/tglase_auger.jpg" class="img-responsive img-rounded" />
   </div>
 </div>
 

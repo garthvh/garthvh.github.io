@@ -21,7 +21,7 @@ fullwidth: true
 </div>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Blue Pigrrl" src="http://garthvh.com/assets/img/pigrrl/pigrrl_300_blue.jpg" class="img-responsive img-rounded" />
+  <img alt="Blue Pigrrl" src="{{ site.url }}assets/img/pigrrl/pigrrl_300_blue.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6 col-lg-7">
     <h3>
@@ -74,7 +74,7 @@ fullwidth: true
 <hr/>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Transparent Black Touch Pi" src="http://garthvh.com/assets/img/touchpi/desktop_touchpi_300.jpg" class="img-responsive img-rounded" />
+  <img alt="Transparent Black Touch Pi" src="{{ site.url }}assets/img/touchpi/desktop_touchpi_300.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
     <h3>
@@ -127,9 +127,9 @@ fullwidth: true
 <hr/>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/zum_scan_4.jpg" class="img-responsive img-rounded" />
+  <img alt="Ciclop and Zum Scan Parts" src="{{ site.url }}assets/img/ciclop/zum_scan_4.jpg" class="img-responsive img-rounded" />
   <br/>
-    <img alt="Ciclop and Zum Scan Parts" src="http://garthvh.com/assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop and Zum Scan Parts" src="{{ site.url }}assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
     <h3>

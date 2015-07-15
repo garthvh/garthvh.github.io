@@ -37,7 +37,7 @@ I am planning to build a 3D body scanner when I am done with the Ciclop so I bui
       </tr>
       <tr>
         <td>Threaded Rods and Hardware</td>
-        <td><a href="http://www.tacomascrew.com/"">Tacoma Screw</a></td>
+        <td><a href="http://www.tacomascrew.com/">Tacoma Screw</a></td>
         <td class="text-right">$53.27</td>
         <td>6/6/2015</td>
         <td>6/7/2015</td>

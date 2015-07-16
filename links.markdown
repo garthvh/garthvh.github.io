@@ -75,6 +75,7 @@ fullwidth: true
 + [Open Hardware Hub](http://www.openhardwarehub.com/)
 + [Linux MCE](http://wiki.linuxmce.org/index.php/Main_Page)
 + [Open Hardware Labs](https://openhardwarelabs.com)
++ [Open Pilot](http://www.openpilot.org/)
 
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
@@ -86,6 +87,7 @@ fullwidth: true
 + [OpenBuilds](http://www.openbuilds.com/)
 + [Home Alarm Plus Pi](https://github.com/ferraripr/HomeAlarmPlusPi)
 + [Kevin Rye Completed Projects](http://kevinrye.net/projects/)
++ [Spin](http://spin.media.mit.edu/)
 
 ## Raspberry Pi
 + [Raspberry Pi Pygame UI basics](http://jeremyblythe.blogspot.sg/2014/09/raspberry-pi-pygame-ui-basics.html)

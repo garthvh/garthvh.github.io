@@ -76,6 +76,7 @@ fullwidth: true
 + [Linux MCE](http://wiki.linuxmce.org/index.php/Main_Page)
 + [Open Hardware Labs](https://openhardwarelabs.com)
 + [Open Pilot](http://www.openpilot.org/)
++ [Paparazzi UAV](http://wiki.paparazziuav.org/wiki/Main_Page)
 
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)

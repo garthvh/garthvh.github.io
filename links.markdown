@@ -86,6 +86,16 @@ fullwidth: true
 + [Open Hardware Labs](https://openhardwarelabs.com)
 + [Open Pilot](http://www.openpilot.org/)
 + [Paparazzi UAV](http://wiki.paparazziuav.org/wiki/Main_Page)
++ [Laser Cat Turret](https://github.com/stuthedew/Arduino-Laser-Cat-Turret)
++ [Controller Pro](https://oshpark.com/shared_projects/R6wM66he)
++ [FamiLamp](https://github.com/myk3y/familamp)
+
+## OshPark
++ [Staff Picks](http://blog.oshpark.com/tag/staff-picks/)
++ [MakerBox Profile](https://oshpark.com/profiles/MakersBox)
++ [Andy Grove Profile](https://oshpark.com/profiles/andygrove)
++ [nsayer Profile](https://oshpark.com/profiles/nsayer)
++ [DarrenP Profile](https://oshpark.com/profiles/DarrenP)
 
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)

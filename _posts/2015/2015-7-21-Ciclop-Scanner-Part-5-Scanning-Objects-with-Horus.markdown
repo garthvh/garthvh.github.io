@@ -2,7 +2,7 @@
 layout: post
 published: true
 comments: true
-title: Building the Ciclop 3d Scanner Part 4 Final Assembly
+title: Ciclop Scanner Part 5 Scanning Objects with Horus
 categories: [ciclop,horus]
 year: 2015
 month: 7

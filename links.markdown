@@ -14,6 +14,7 @@ fullwidth: true
 + [Open Skan](http://openskan.org/)
 + [Open Skan Thingiverse](http://www.thingiverse.com/thing:83776)
 + [Project Tango](https://www.google.com/atap/project-tango/)
++ [Kscan 3D](http://www.kscan3d.com/)
 
 ## 3D Laser Scanning
 + [Reprap wiki Ciclop Page](http://reprap.org/wiki/Ciclop)
@@ -41,6 +42,9 @@ fullwidth: true
 + [Free for Dev](https://github.com/ripienaar/free-for-dev)
 + [Haacked - Git and GitHub Resources](http://haacked.com/archive/2014/12/03/git-and-github-resources/)
 + [Haacked - GitHub Flow Like a Pro with these 13 Git Aliases](http://haacked.com/archive/2014/07/28/github-flow-aliases/)
+
+## KiCad
++ [KiCad Tutorials](https://contextualelectronics.com/course/kicad-tutorial/)
 
 ## Internet of things
 + [Postcscapes](http://postscapes.com/)

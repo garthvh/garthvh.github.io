@@ -62,6 +62,8 @@ fullwidth: true
 + [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
 + [WiFi Light](http://pance.mk/index.php/wifi-light-with-esp8266-and-arduino-code/)
 + [Instapush with NodeMCU](http://www.thalin.se/2015/06/instapush-with-nodemcu-esp8266.html)
++ [Wikipedia ESP8266](https://en.wikipedia.org/wiki/ESP8266)
++ [ESP8266 and IFTTT](https://www.hackster.io/fablabeu/first-esp8266-and-ifttt-integration?ref=emailnotif)
 
 ## Laser cutting
 + [Glowforge](http://glowforge.com/)

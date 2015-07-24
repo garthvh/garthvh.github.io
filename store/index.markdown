@@ -124,38 +124,3 @@ fullwidth: true
   </div>
   </div>
 </div>
-<hr/>
-<div class="row">
-  <div class="col-md-3">
-  <img alt="Ciclop and Zum Scan Parts" src="{{ site.url }}assets/img/ciclop/zum_scan_4.jpg" class="img-responsive img-rounded" />
-  <br/>
-    <img alt="Ciclop and Zum Scan Parts" src="{{ site.url }}assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
-  </div>
-  <div class="col-md-6">
-    <h3>
-    Zum Scan PCB and Ciclop hardware
-    </h3>
-    <p>Zum Scan PCB with all shield parts and some M8 and M3 hardware. </p>
-    <ul>
-      <li>Zum Scan PCB and Parts</li>
-      <li>18 M8 Washers</li>
-      <li>28 M8 Nuts</li>
-      <li>10 M3 10MM Screw</li>
-      <li>6 M3 Hex Nuts</li>
-    </ul>
-    <p class="lead">$39.99 Shipped!</p>
-  </div>
-  <div class="col-md-3">
-    <div class="well well-sm">
-    <h4>Purchase</h4>
-    <br/>
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="9Y8EK4B77F4TC">
-<input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-    </div>
-  </div>
-</div>

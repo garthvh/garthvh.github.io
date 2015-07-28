@@ -76,6 +76,10 @@ fullwidth: true
 ## Online digital Fabrication
 + [Ponoko](https://www.ponoko.com/)
 + [3D Hubs](https://www.3dhubs.com/)
++ [Barcodatron](http://www.sudobob.com/barcodatron-a-barcode-reader-label-generation-environment/)
++ [Small Batch Assembly](http://www.smallbatchassembly.com/)
++ [Macro Fab](http://macrofab.net/)
++ [Circuit Hub](https://circuithub.com/)
 
 ## Open Source hardware
 + [Open Energy Monitor](http://openenergymonitor.org/emon/)

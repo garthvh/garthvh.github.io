@@ -111,6 +111,11 @@ fullwidth: true
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
 
+## Privacy
++ [ublock Origin](https://www.ublock.org/)
++ [Privacy Badger](https://www.eff.org/privacybadger)
++ [Disconnect Me](https://disconnect.me/)
+
 ## Projects
 + [PIR Sensor Night Lamp](http://electronut.in/night-lamp/)
 + [Open Clock Project](http://clock.bonsignore.com/)

@@ -33,6 +33,9 @@ fullwidth: true
 ## C&#35;
 + [C# 7 Work List of Features](https://github.com/dotnet/roslyn/issues/2136)
 
+## Chrome OS
++ [Chrome OS Touchpad Gestures](http://www.omgchrome.com/how-to-right-click-on-chromebook-and-other-touchpad-gestures/)
+
 ## Crouton
 + [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
 + [Chromebook Crouton Cookbook](http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/)

@@ -67,6 +67,7 @@ fullwidth: true
 + [Instapush with NodeMCU](http://www.thalin.se/2015/06/instapush-with-nodemcu-esp8266.html)
 + [Wikipedia ESP8266](https://en.wikipedia.org/wiki/ESP8266)
 + [ESP8266 and IFTTT](https://www.hackster.io/fablabeu/first-esp8266-and-ifttt-integration?ref=emailnotif)
++ [IFTTT Smart Button](https://www.hackster.io/noelportugal/ifttt-smart-button)
 
 ## Laser cutting
 + [Glowforge](http://glowforge.com/)

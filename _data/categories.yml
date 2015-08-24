@@ -63,3 +63,9 @@
 
 - slug: horus
   name: Horus
+
+- slug: iot
+  name: IoT
+
+- slug: esp8266
+  name: ESP8266

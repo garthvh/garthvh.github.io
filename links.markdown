@@ -41,6 +41,17 @@ fullwidth: true
 + [Chromebook Crouton Cookbook](http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/)
 + [Shorten OS Verification Screen](https://www.reddit.com/r/Crouton/comments/2szn59/how_to_shorten_os_verfication_warning_screen_on/)
 
+## ESP8266
++ [Wikipedia ESP8266](https://en.wikipedia.org/wiki/ESP8266)
++ [ESP 8266](http://hackaday.com/tag/esp8266/)
++ [ESP8266 and IFTTT](https://www.hackster.io/fablabeu/first-esp8266-and-ifttt-integration?ref=emailnotif)
++ [IFTTT Smart Button](https://www.hackster.io/noelportugal/ifttt-smart-button)
++ [Web Enabled Button](http://benlo.com/esp8266/esp8266Projects.html)
++ [Web Enabled Button II](https://importhack.wordpress.com/2014/11/22/how-to-use-ep8266-esp-01-as-a-sensor-web-client/)
++ [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
++ [WiFi Light](http://pance.mk/index.php/wifi-light-with-esp8266-and-arduino-code/)
++ [Instapush with NodeMCU](http://www.thalin.se/2015/06/instapush-with-nodemcu-esp8266.html)
+
 ## Git
 + [Free for Dev](https://github.com/ripienaar/free-for-dev)
 + [Haacked - Git and GitHub Resources](http://haacked.com/archive/2014/12/03/git-and-github-resources/)
@@ -54,20 +65,7 @@ fullwidth: true
 + [Node Red](http://nodered.org/)
 + [Eclipse IOT](http://iot.eclipse.org/)
 + [Tessel](https://tessel.io/)
-+ [ESP 8266](http://hackaday.com/tag/esp8266/)
 + [Comparison of Internet of Things Platforms for Prototyping](https://openhardwarelabs.com/internet-of-things-platforms-prototyping/)
-+ [NodeMCU](http://nodemcu.com/)
-+ [NodeMCU Firmware](https://github.com/Dejvino/nodemcu-firmware)
-+ [NodeMCU API](https://github.com/nodemcu/nodemcu-firmware/wiki/nodemcu_api_en)
-+ [NodeMCU Lua Examples](https://github.com/geekscape/nodemcu_esp8266)
-+ [Web Enabled Button](http://benlo.com/esp8266/esp8266Projects.html)
-+ [Web Enabled Button II](https://importhack.wordpress.com/2014/11/22/how-to-use-ep8266-esp-01-as-a-sensor-web-client/)
-+ [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
-+ [WiFi Light](http://pance.mk/index.php/wifi-light-with-esp8266-and-arduino-code/)
-+ [Instapush with NodeMCU](http://www.thalin.se/2015/06/instapush-with-nodemcu-esp8266.html)
-+ [Wikipedia ESP8266](https://en.wikipedia.org/wiki/ESP8266)
-+ [ESP8266 and IFTTT](https://www.hackster.io/fablabeu/first-esp8266-and-ifttt-integration?ref=emailnotif)
-+ [IFTTT Smart Button](https://www.hackster.io/noelportugal/ifttt-smart-button)
 
 ## Laser cutting
 + [Glowforge](http://glowforge.com/)

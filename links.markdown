@@ -51,6 +51,7 @@ fullwidth: true
 + [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
 + [WiFi Light](http://pance.mk/index.php/wifi-light-with-esp8266-and-arduino-code/)
 + [Instapush with NodeMCU](http://www.thalin.se/2015/06/instapush-with-nodemcu-esp8266.html)
++ [Coffee Button](https://blog.eikeland.se/2015/07/20/coffee-button/)
 
 ## Git
 + [Free for Dev](https://github.com/ripienaar/free-for-dev)

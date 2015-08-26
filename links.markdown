@@ -111,6 +111,10 @@ fullwidth: true
 + [nsayer Profile](https://oshpark.com/profiles/nsayer)
 + [DarrenP Profile](https://oshpark.com/profiles/DarrenP)
 
+## Pen Testing
++ [Tastic RFID Theif](http://www.bishopfox.com/resources/tools/rfid-hacking/attack-tools/)
++ [Tastic RFID Tool](http://sopwith.ismellsmoke.net/?p=301)
+
 ## Printrbot
 + [Bed Size Discussion](http://www.printrbottalk.com/forum/viewtopic.php?f=22&t=8974)
 

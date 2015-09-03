@@ -40,6 +40,7 @@ fullwidth: true
 + [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
 + [Chromebook Crouton Cookbook](http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/)
 + [Shorten OS Verification Screen](https://www.reddit.com/r/Crouton/comments/2szn59/how_to_shorten_os_verfication_warning_screen_on/)
++[Manage Crouton](http://www.howtogeek.com/210047/how-to-manage-the-crouton-linux-system-on-your-chromebook/)
 
 ## ESP8266
 + [Wikipedia ESP8266](https://en.wikipedia.org/wiki/ESP8266)

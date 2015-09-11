@@ -49,6 +49,7 @@ fullwidth: true
 + [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
 + [Instapush with NodeMCU](http://www.thalin.se/2015/06/instapush-with-nodemcu-esp8266.html)
 + [Coffee Button](https://blog.eikeland.se/2015/07/20/coffee-button/)
++ [Light Controller Clock](http://bitquill.net/blog/esp8266-light-controller-clock/)
 
 ## Git
 + [Free for Dev](https://github.com/ripienaar/free-for-dev)

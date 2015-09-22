@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 comments: true
 title: Installing the Printrbot Simple Z Axis Upgrade and v2 Extruder
 categories: [Printrbot]
@@ -19,7 +19,7 @@ After almost a year with my Printrbot I was excited to see the new Printrbot Sim
 
 <img alt="Z Upgrade in Progress" src="https://garthvh.com/assets/img/printrbot/z_upgrade_1.jpg" class="img-responsive img-rounded" />
 
-The upgrade kit is pretty simple, it comes with a set of 12MM smooth rods 15" long pressed into a aluminum rod plate, a 1/4" Acme rod 290MM long, and an aluminum Simple handle. I removed the existing 12MM rods and followed the original [kit assembly instructions](http://help.printrbot.com/Guide/Printrbot+Simple+Metal+%28Model+1403%29/142) to make sure I was putting things together properly.  I used some new thread locker and replaced the original rods with the new longer ones. After I completed the upgrade I found an [assembly video](https://youtu.be/a9bMh-npM-E) as well.
+The upgrade kit is pretty simple, it comes with a set of 12MM smooth rods 15" long pressed into a aluminum rod plate, a 1/4" Acme rod 290MM long, and an aluminum Simple handle. I already had the handle so if anyone wants one it is yours for $20 vis paypal. I removed the existing 12MM rods and followed the original [kit assembly instructions](http://help.printrbot.com/Guide/Printrbot+Simple+Metal+%28Model+1403%29/142) to make sure I was putting things together properly.  I used some new thread locker and replaced the original rods with the new longer ones. After I completed the upgrade I found an [assembly video](https://youtu.be/a9bMh-npM-E) as well.
 
 <img alt="Z Upgrade Complete" src="https://garthvh.com/assets/img/printrbot/z_upgrade_2.jpg" class="img-responsive img-rounded" />
 
@@ -31,3 +31,5 @@ The upgrade took about an hour and after it was complete I had to update the siz
 I have also been waiting to try out the new v2 extruder, the v1 extruder has worked great for me and has been acceptable with flexible filaments with some extra printed parts, but I have to watch the printer too closely when using Ninjaflex and have had difficulty printing large or complex parts in Ninjaflex and the new extruder has much tighter tolerances which should prevent the Ninjaflex from pushing out from the hobbed gear.
 
 <img alt="v2 Extruder" src="https://garthvh.com/assets/img/printrbot/extruder_v2.jpg" class="img-responsive img-rounded" />
+
+I am excited to try and print some larger parts, and am looking forward to Ninjaflex being a bit easier to work with as well.

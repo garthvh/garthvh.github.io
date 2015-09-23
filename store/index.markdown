@@ -14,7 +14,7 @@ fullwidth: true
   <p>
     Payment is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.
   </p>
-  <p>
+  <p>You can also order 3D Prints from 3D Hubs through the order widget on my website.  Orders placed through my website have a lower fee than those ordered directly through the 3D Hubs search interface.
   <a href="https://www.3dhubs.com/seattle/hubs/garth/3dprint" data-3dhubs-widget="button" data-hub-id="34464" data-type="orderWidget" data-color="light" data-size="large" data-text="Order a 3D Print">Order a 3D Print</a>
 <script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/2.0.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>
   </p>

@@ -156,6 +156,11 @@ fullwidth: true
 + [Open Robot Hardware](http://www.openrobothardware.org/linkedprojects/)
 + [Open Source Robotics Software/Hardware List](http://learnrobotix.com/open-source-robotics-software.html)
 
+## Seattle Mini Maker Faire Booths
++ [Robot Mesh - Seeed Studio Reseller - Kirkaland](http://robotmesh.com)
++ [Socially Shaped - 3D Printed Robots - Seattle](http://sociallyshaped.com/)
++ [AXIOS Modular Keyboard](https://www.crowdsupply.com/multiplxd/axios-keyboard)
+
 ## Web Development
 + [Stack Share](http://stackshare.io/)
 + [OWIN](http://owin.org/)

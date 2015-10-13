@@ -19,7 +19,9 @@ fullwidth: true
 
   </p>
   <p>
-  <a href="https://www.3dhubs.com/seattle/hubs/garth/3dprint" data-3dhubs-widget="button" data-hub-id="34464" data-type="orderWidget" data-color="red" data-size="large" data-text="Order a 3D Print from Garth">Order a 3D Print from Garth</a>
+  <br/>
+  <div class="text-center">
+  <a href="https://www.3dhubs.com/seattle/hubs/garth/3dprint" data-3dhubs-widget="button" data-hub-id="34464" data-type="orderWidget" data-color="red" data-size="large" data-text="Order a 3D Print from Garth">Order a 3D Print from Garth</a></div>
 <script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/2.0.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>
   </p>
   <hr/>

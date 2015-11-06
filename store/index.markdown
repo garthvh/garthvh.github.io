@@ -98,12 +98,12 @@ fullwidth: true
 <hr/>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Blue Pigrrl" src="{{ site.url }}assets/img/pigrrl/pigrrl_300_blue.jpg" class="img-responsive img-rounded" />
+  <img alt="Alu Handle" src="{{ site.url }}assets/img/printrbot/alu-handle-510x510.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
     <h3>
     Printrbot Simple Metal Aluminum Handle
-    </h3>
+    </h3>.
     <p>Aluminum handle for Simple Model 1403</p>
     <p class="lead">$19.99 Shipped!</p>
   </div>

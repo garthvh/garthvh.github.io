@@ -33,7 +33,7 @@ fullwidth: true
   <div class="col-md-3">
   <img alt="Blue Pigrrl" src="{{ site.url }}assets/img/pigrrl/pigrrl_300_blue.jpg" class="img-responsive img-rounded" />
   </div>
-  <div class="col-md-6 col-lg-7">
+  <div class="col-md-6">
     <h3>
     Pocket Pigrrl 3D Printed PLA Case with Ninjaflex Buttons, Magnets & Screws
     </h3>
@@ -46,7 +46,7 @@ fullwidth: true
     </ul>
     <p class="lead">$19.99 Shipped!</p>
   </div>
-  <div class="col-md-3 col-lg-2">
+  <div class="col-md-3">
   <div class="well well-sm">
   <h4>Select Options</h4>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -88,7 +88,7 @@ fullwidth: true
 	<option value="Fire">Fire </option>
 </select> </td></tr>
 </table>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
   </div>

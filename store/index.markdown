@@ -30,10 +30,7 @@ fullwidth: true
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-  <img alt="Blue Pigrrl" src="{{ site.url }}assets/img/pigrrl/pigrrl_300_blue.jpg" class="img-responsive img-rounded" />
-  </div>
-  <div class="col-md-6">
+  <div class="col-md-8">
     <h3>
     Pocket Pigrrl 3D Printed PLA Case with Ninjaflex Buttons, Magnets & Screws
     </h3>
@@ -46,7 +43,7 @@ fullwidth: true
     </ul>
     <p class="lead">$19.99 Shipped!</p>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-4">
   <div class="well well-sm">
   <h4>Select Options</h4>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -126,5 +123,8 @@ fullwidth: true
 
 
   </div>
+  </div>
+  <div class="col-md-12">
+  <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/3_pigrrls.jpg" class="img-responsive img-rounded" />
   </div>
 </div>

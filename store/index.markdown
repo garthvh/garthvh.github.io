@@ -125,6 +125,6 @@ fullwidth: true
   </div>
   </div>
   <div class="col-md-12">
-  <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/3_pigrrls.jpg" class="img-responsive img-rounded" />
+  <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/3_pigrrls.JPG" class="img-responsive img-rounded" />
   </div>
 </div>

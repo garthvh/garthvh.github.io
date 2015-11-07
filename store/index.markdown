@@ -42,6 +42,8 @@ fullwidth: true
       <li>2 Neodymium Magnets 1/4 x 1/16 inch Disc N48</li>
     </ul>
     <p class="lead">$19.99 Shipped!</p>
+    <br/>
+    <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/3_pigrrls.JPG" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-4">
   <div class="well well-sm">
@@ -90,9 +92,6 @@ fullwidth: true
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
   </div>
-  </div>
-  <div class="col-md-12">
-  <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/3_pigrrls.JPG" class="img-responsive img-rounded" />
   </div>
 </div>
 <hr/>

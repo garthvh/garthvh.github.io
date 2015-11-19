@@ -1,12 +1,12 @@
 ---
 layout: post
-published: false
+published: true
 comments: true
 title: Building a couple Pocket Pigrrl RetroPi 3D Printed Gaming Handhelds
 categories: [raspberrypi,retropi,pigrrl,printrbot,adafruit]
 year: 2015
-month: 6
-day: 26
+month: 11
+day: 18
 summary: Building a couple Pocket Pigrrl RetroPi 3D Printed Gaming Handhelds
 ---
 
@@ -14,11 +14,13 @@ I am building two customized Pocket Pigrrl's for my daughter and niece.  As a ki
 
 I started out by cutting down the half sized perma proto board and laying out the buttons for a 4 button pigrrl.  I used my dremel to cut down the perma proto boards and then attached the 6mm tactile buttons onto the cut down proto board. Then I layed out the Raspberry Pi A+, PowerBoost 1000C and Audio Amp boards inside the case and started cutting some wire.
 
-<img alt="Pigrrl Assembly" src="//garthvh.com/assets/img/pigrrl/pigrrl_assembly_1.jpg" class="img-responsive img-rounded" />
+<img alt="Pigrrl Assembly" src="https://garthvh.com/assets/img/pigrrl/pigrrl_assembly_1.jpg" class="img-responsive img-rounded" />
 
 Next I wired up the switch and applied the heatshrink tubing, then I attached the wires to the audio jack of the raspberry pi and connected them to the PowerBoost.
 
-<img alt="Pigrrl Assembly" src="//garthvh.com/assets/img/pigrrl/pigrrl_assembly_2.jpg" class="img-responsive img-rounded" />
+<img alt="Pigrrl Assembly" src="https://garthvh.com/assets/img/pigrrl/pigrrl_assembly_2.jpg" class="img-responsive img-rounded" />
+
+I made a table of all the GPIO inputs on the Pi, and where they map to in the Pocket Pigrrl project:
 
 <div class="table-responsive">
   <table class="table">
@@ -192,6 +194,14 @@ Next I wired up the switch and applied the heatshrink tubing, then I attached th
 </div>
 I soldered all of the ground wires for the controller and clipped the unnecessary wires from the Pi GPIO cable.
 
-<img alt="Pigrrl Assembly" src="//garthvh.com/assets/img/pigrrl/pigrrl_assembly_3.jpg" class="img-responsive img-rounded" />
+<img alt="Pigrrl Assembly" src="https://garthvh.com/assets/img/pigrrl/pigrrl_assembly_3.jpg" class="img-responsive img-rounded" />
 
-<img alt="Pigrrl Assembly" src="//garthvh.com/assets/img/pigrrl/pigrrl_assembly_4.jpg" class="img-responsive img-rounded" />
+<img alt="Pigrrl Assembly" src="https://garthvh.com/assets/img/pigrrl/pigrrl_assembly_4.jpg" class="img-responsive img-rounded" />
+
+The last step was to solder all of the controller buttons to the perma proto board and test that everything was working properly.  
+
+<img alt="Pigrrl Finished" src="https://garthvh.com/assets/img/pigrrl/pigrrl_finished_1.JPG" class="img-responsive img-rounded" />
+
+I downloaded the [Adafruit RetroPi image](https://learn.adafruit.com/pocket-pigrrl/software-1) and everything fired right up.  I found that the up button was turning off the screen, so I cut the GPIO18 backlight trace on the back of both screens and the system is working properly, now it is time to load some ROMS!
+
+<img alt="Pigrrl Finished" src="https://garthvh.com/assets/img/pigrrl/pigrrl_finished_2.JPG" class="img-responsive img-rounded" />

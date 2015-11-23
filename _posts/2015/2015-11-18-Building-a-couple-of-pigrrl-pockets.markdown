@@ -23,7 +23,7 @@ Next I wired up the switch and applied the heatshrink tubing, then I attached th
 I made a table of all the GPIO inputs on the Pi, and where they map to in the Pocket Pigrrl project:
 
 <div class="table-responsive">
-  <table class="table">
+  <table class="table table-condensed table-bordered table-hover">
     <thead>
       <tr>
         <th>Wire #</th>

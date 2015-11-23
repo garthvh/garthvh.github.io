@@ -129,7 +129,7 @@ fullwidth: true
 </div>
 <div class="row">
   <div class="col-md-3">
-  <img alt="V1 Extruder" src="{{ site.url }}assets/img/printrbot/V1_extruder.jpg" class="img-responsive img-rounded" />
+  <img alt="V1 Extruder" src="{{ site.url }}assets/img/printrbot/V1_Extruder.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
     <h3>

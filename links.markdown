@@ -137,6 +137,7 @@ fullwidth: true
 + [Home Alarm Plus Pi](https://github.com/ferraripr/HomeAlarmPlusPi)
 + [Kevin Rye Completed Projects](http://kevinrye.net/projects/)
 + [Spin](http://spin.media.mit.edu/)
++ [b robot](http://jjrobots.com/projects-2/b-robot/)
 
 ## Raspberry Pi
 + [Raspberry Pi Pygame UI basics](http://jeremyblythe.blogspot.sg/2014/09/raspberry-pi-pygame-ui-basics.html)

@@ -14,5 +14,5 @@ summary: Installing the Printrbot Simple X axis upgrade
 	// Set Bed Level Sensor Offset 
 	M212 X25 
 	
-	Set Build Dimensions
+	// Set Build Dimensions
 	M211 X250 Y152 Z240

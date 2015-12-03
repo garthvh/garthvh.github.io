@@ -140,7 +140,7 @@ fullwidth: true
   </div>
   <div class="col-md-3">
   <div class="well well-sm">
-  <h4>Select Options</h4>
+  <h4>Buy</h4>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="QPVZXNLN3WHA8">
@@ -167,7 +167,7 @@ fullwidth: true
   </div>
   <div class="col-md-3">
   <div class="well well-sm">
-  <h4>Select Options</h4>
+  <h4>Buy</h4>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="HFTRD69Z44QMC">

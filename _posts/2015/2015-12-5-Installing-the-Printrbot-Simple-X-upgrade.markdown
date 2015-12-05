@@ -32,7 +32,7 @@ The upgraded bed is a flat piece of aluminum with cutouts on either end of the b
 
 Then I used OctoPrint to test out the X area and to set the build area dimensions.  I already have an upgraded Z axis so the settings for my printer are as follows:
 
-	Set Build Dimensions
+	// Set Build Dimensions
 	M211 X250 Y152.4 Z240
 	// Save Settings
 	M500

@@ -46,3 +46,5 @@ My small printer table, the Z and X upgrades and my [printed spool holder](https
 The bed takes about 15 minutes to get up to 55-60C a bit longer to heat up then my old one, but I also followed Brook's advice from the installation video on youtube and this time I put the thermistor to the side of the heat plate for a more accurate reading.
 
 <img alt="X Upgrade" src="https://garthvh.com/assets/img/printrbot/x_upgrade_3.jpg" class="img-responsive img-rounded" />
+
+I bought a bunch of 6"x6" kapton sheets so I installed two of those with one cut down to 4".  I have not seen any kapton sheets for sale in 6"x10" size yet, so I will probably just wait until I run out of what I have before doing anything.

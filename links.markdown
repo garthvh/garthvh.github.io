@@ -59,6 +59,9 @@ fullwidth: true
 ## KiCad
 + [KiCad Tutorials](https://contextualelectronics.com/course/kicad-tutorial/)
 
+## Kindle Fire
++ [Remove Lock Screen Ads](http://mistical.com/2015/10/07/remove-lock-screen-ads-from-amazon-fire-7-2015-without-root/)
+
 ## Internet of things
 + [Postcscapes](http://postscapes.com/)
 + [Node Red](http://nodered.org/)

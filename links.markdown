@@ -61,6 +61,7 @@ fullwidth: true
 
 ## Kindle Fire
 + [Remove Lock Screen Ads](http://mistical.com/2015/10/07/remove-lock-screen-ads-from-amazon-fire-7-2015-without-root/)
++ [Install Google Play Services](http://mistical.com/2015/10/07/install-google-play-store-services-framework-on-amazon-fire-7-2015-without-root/)
 
 ## Internet of things
 + [Postcscapes](http://postscapes.com/)
@@ -159,6 +160,9 @@ fullwidth: true
 + [Veter Robot](http://veterobot.com/)
 + [Open Robot Hardware](http://www.openrobothardware.org/linkedprojects/)
 + [Open Source Robotics Software/Hardware List](http://learnrobotix.com/open-source-robotics-software.html)
+
+## Seattle Maker Services
++ [Zot Lasers](http://www.zotlasers.com/)
 
 ## Seattle Mini Maker Faire Booths
 + [Robot Mesh - Seeed Studio Reseller - Kirkaland](http://robotmesh.com)

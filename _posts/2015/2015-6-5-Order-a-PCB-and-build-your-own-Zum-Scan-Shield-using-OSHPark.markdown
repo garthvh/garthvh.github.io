@@ -73,3 +73,7 @@ After ordering the boards I found a project list on the [reprap forums](http://f
 </div>
 
 It was a pretty easy process to get everything ordered, and I am pleased that the DIY cost remained less than the retail price of the shield, now I wait for all the pieces to arrive.
+
+<div class="alert alert-info">
+    <strong>Don't want to order from 3 places? Buy a Zum Scan Shield kit in the <a href="/store">Project Store</a></strong>
+</div>

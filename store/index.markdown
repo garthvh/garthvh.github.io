@@ -95,11 +95,11 @@ fullwidth: true
 <hr/>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Alu Handle" src="{{ site.url }}assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
+  <img alt="Zum Scan Shield" src="{{ site.url }}assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
     <h3>
-    Zum Scan PCB Kit with Stepper Driver
+    Zum Scan Shield PCB Kit with Stepper Driver
     </h3>
     <p>1 Purple PCB and everything you need to make your on Zum Scan Board for a Ciclop 3D Scanner. </p>
     <p class="lead">$39.99 Shipped!</p>

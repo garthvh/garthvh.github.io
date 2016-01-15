@@ -9,7 +9,10 @@ month: 6
 day: 5
 summary: Ordering a PCB for open hardware on OSHPark
 ---
-
+<div class="alert alert-info">
+    <strong>Don't want to order from 3 places? Buy a Zum Scan Shield kit in the <a href="/store">Project Store</a></strong>
+</div>
+<br/>
 One of the more interesting components of open hardware to me has been the theoretical ability to produce low quantity custom hardware based on well tested open source designs at pretty low prices.
 
 I currently don't have any of my own circuit board designs complete enough to need to print any boards, but I am interested in making a [Ciclop 3D Laser Scanner](http://www.thingiverse.com/thing:740357) and the Arduino Shield for the scanner is not currently available in the US.  It seems to cost about 30 euros in Europe and the hardware files are all available in the [zum github repo](https://github.com/bq/zum) I decided to see if I could use OSHPark to build my own Zum shield.
@@ -74,6 +77,3 @@ After ordering the boards I found a project list on the [reprap forums](http://f
 
 It was a pretty easy process to get everything ordered, and I am pleased that the DIY cost remained less than the retail price of the shield, now I wait for all the pieces to arrive.
 
-<div class="alert alert-info">
-    <strong>Don't want to order from 3 places? Buy a Zum Scan Shield kit in the <a href="/store">Project Store</a></strong>
-</div>

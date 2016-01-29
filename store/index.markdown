@@ -102,7 +102,7 @@ fullwidth: true
     Zum Scan Shield PCB Kit with Stepper Driver
     </h3>
     <p>1 Purple PCB and everything you need to make your on Zum Scan Board for a Ciclop 3D Scanner. </p>
-    <p class="lead">$39.99 Shipped!</p>
+    <p class="lead">$35 Shipped!</p>
   </div>
   <div class="col-md-3">
   <div class="well well-sm">

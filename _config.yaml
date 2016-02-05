@@ -35,9 +35,7 @@ baseurl:
 #
 # Jekyll Settings
 #
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+markdown: kramdown
 category_dir: categories
 permalink: pretty
 paginate: 3

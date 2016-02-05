@@ -42,6 +42,9 @@ fullwidth: true
 + [Shorten OS Verification Screen](https://www.reddit.com/r/Crouton/comments/2szn59/how_to_shorten_os_verfication_warning_screen_on/)
 +[Manage Crouton](http://www.howtogeek.com/210047/how-to-manage-the-crouton-linux-system-on-your-chromebook/)
 
+## Cura
++ [Print One at a time](http://www.printrbottalk.com/forum/viewtopic.php?f=20&t=6914)
+
 ## ESP8266
 + [Wikipedia ESP8266](https://en.wikipedia.org/wiki/ESP8266)
 + [ESP 8266](http://hackaday.com/tag/esp8266/)

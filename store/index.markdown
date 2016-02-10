@@ -12,7 +12,7 @@ fullwidth: true
     As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete some of my favorite projects more easily.
   </p>
   <p>
-    Payment is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.
+    Payment is via paypal and currently I am only able to ship to the US and Canada. Canadian shipping starts at $10.  Products will be shipped using USPS first class in a padded envelope.
   </p>
   <p>You can also order 3D Prints from 3D Hubs through the order widget on my website.  Orders placed through my website have a lower fee than those ordered directly through the 3D Hubs search interface.
   </p>

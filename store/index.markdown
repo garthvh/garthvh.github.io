@@ -94,6 +94,65 @@ fullwidth: true
 </div>
 <hr/>
 <div class="row">
+  <div class="col-md-8">
+    <h3>
+    Pigrrl 2 3D Printed PLA Case with Ninjaflex Buttons & Screws
+    </h3>
+    <p>Case, buttons and all the screws required for the Pigrrl 2. </p>
+    <ul>
+      <li>0.2MM Layer Height 3D Printed PLA Case Top and Bottom</li>
+      <li>Ninjaflex Buttons</li>
+      <li>14 #4-40 3/8 machine screws</li>
+      <li>6 #2-56 3/8 machine screws</li>
+    </ul>
+    <p class="lead">$29.99 Shipped!</p>
+    <br/>
+    <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/pigrrl_2_red.jpg" class="img-responsive img-rounded" />
+  </div>
+  <div class="col-md-4">
+  <div class="well well-sm">
+  <h4>Select Options</h4>
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="8LN2EB59GR9BW">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Top Color">Top Color</td></tr><tr><td><select name="os0">
+            <option value="Black">Black </option>
+            <option value="White">White </option>
+            <option value="Green">Green </option>
+            <option value="Yellow">Yellow </option>
+            <option value="Orange">Orange </option>
+            <option value="Silver">Silver </option>
+            <option value="Blue">Blue </option>
+            <option value="Gold">Gold </option>
+        </select> </td></tr>
+        <tr><td><input type="hidden" name="on1" value="Bottom Color">Bottom Color</td></tr><tr><td><select name="os1">
+            <option value="Black">Black </option>
+            <option value="White">White </option>
+            <option value="Green">Green </option>
+            <option value="Yellow">Yellow </option>
+            <option value="Orange">Orange </option>
+            <option value="Silver">Silver </option>
+            <option value="Gold">Gold </option>
+            <option value="Blue">Blue </option>
+        </select> </td></tr>
+        <tr><td><input type="hidden" name="on2" value="Button Colors">Button Colors</td></tr><tr><td><select name="os2">
+            <option value="Black">Black </option>
+            <option value="Snow">Snow </option>
+            <option value="Sky">Sky </option>
+            <option value="Fire">Fire </option>
+            <option value="Orchid">Orchid </option>
+            <option value="Violet">Violet </option>
+        </select> </td></tr>
+        </table>
+        <input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+  </div>
+</div>
+<hr/>
+<div class="row">
   <div class="col-md-3">
   <img alt="Zum Scan Shield" src="{{ site.url }}assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
   </div>

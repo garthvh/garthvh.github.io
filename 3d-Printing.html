@@ -21,6 +21,20 @@ fullwidth: true
 			</p>
 	</div>
 	<div class="row">
+		{% for project in site.data.project %}
+		<div class="col-xs-12 col-sm-4">
+			<div class="thumbnail">
+				<a href="{{ project.url }}" target="_blank" title="{{ project.name }}">
+					<img src="http://garthvh.com/assets/img/social/{{ project.img }}_thumb.jpg" alt="{{ project.name }}" class="img-responsive">
+				</a>
+			<div class="caption">
+				<h3>{{ project.name }}</h3>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="row">
 		<div class="col-12-sm">
 			<h2>Material Information</h2>
 <div class="table-responsive">
@@ -229,20 +243,6 @@ fullwidth: true
 </table>
 </div>
 		</div>
-	</div>
-	<div class="row">
-    {% for project in site.data.project %}
-		<div class="col-xs-12 col-sm-4">
-			<div class="thumbnail">
-				<a href="{{ project.url }}" target="_blank" title="{{ project.name }}">
-					<img src="http://garthvh.com/assets/img/social/{{ project.img }}_thumb.jpg" alt="{{ project.name }}" class="img-responsive">
-				</a>
-			<div class="caption">
-				<h3>{{ project.name }}</h3>
-				</div>
-			</div>
-		</div>
-    {% endfor %}
 	</div>
 </div>
 <script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/1.0.min.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>

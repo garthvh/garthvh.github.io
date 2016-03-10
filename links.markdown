@@ -124,6 +124,7 @@ fullwidth: true
 + [Andy Grove Profile](https://oshpark.com/profiles/andygrove)
 + [nsayer Profile](https://oshpark.com/profiles/nsayer)
 + [DarrenP Profile](https://oshpark.com/profiles/DarrenP)
++ [Hackster IO Osh Park Projects](https://www.hackster.io/osh-park)
 
 ## Pen Testing
 + [Tastic RFID Theif](http://www.bishopfox.com/resources/tools/rfid-hacking/attack-tools/)

@@ -153,6 +153,11 @@ fullwidth: true
 + [Spin](http://spin.media.mit.edu/)
 + [b robot](http://jjrobots.com/projects-2/b-robot/)
 
+## QT
++ [QT 5.6 Documentation](http://doc.qt.io/qt-5/index.html)
++ [QT 5 Embedded Documentaiton](http://doc.qt.io/qt-5/embedded-linux.html)
++ [QT 5 Tutorial](http://zetcode.com/gui/qt5/)
+
 ## Raspberry Pi
 + [Raspberry Pi Pygame UI basics](http://jeremyblythe.blogspot.sg/2014/09/raspberry-pi-pygame-ui-basics.html)
 + [Get IP Address](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=79936)

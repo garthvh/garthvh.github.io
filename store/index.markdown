@@ -23,7 +23,7 @@ fullwidth: true
 <script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/2.0.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>
   </p>
   <hr/>
-  <h2>Products (6)</h2>
+  <h2>Products (4)</h2>
   <hr/>
   </div>
 </div>
@@ -208,5 +208,4 @@ fullwidth: true
 
   </div>
   </div>
-</div>
 </div>

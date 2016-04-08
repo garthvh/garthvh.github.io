@@ -107,7 +107,7 @@ fullwidth: true
     </ul>
     <p class="lead">$29.99 Shipped!</p>
     <br/>
-    <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/pigrrl_2_red.jpg" class="img-responsive img-rounded" />
+    <img alt="Pigrrls" src="//garthvh.com/assets/img/pigrrl/pigrrl_2_red.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-4">
   <div class="well well-sm">

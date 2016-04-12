@@ -39,6 +39,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  parse_block_html: true
 category_dir: categories
 permalink: pretty
 paginate: 3

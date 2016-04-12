@@ -35,7 +35,9 @@ baseurl:
 #
 # Jekyll Settings
 #
-markdown: redcarpet
+markdown: kramdown
+  input: GFM
+  hard_wrap: false
 category_dir: categories
 permalink: pretty
 paginate: 3

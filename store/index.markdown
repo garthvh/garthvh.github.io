@@ -23,7 +23,7 @@ fullwidth: true
 <script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/2.0.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>
   </p>
   <hr/>
-  <h2>Products (6)</h2>
+  <h2>Products (4)</h2>
   <hr/>
   </div>
 </div>
@@ -107,7 +107,7 @@ fullwidth: true
     </ul>
     <p class="lead">$29.99 Shipped!</p>
     <br/>
-    <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/pigrrl_2_red.jpg" class="img-responsive img-rounded" />
+    <img alt="Pigrrls" src="//garthvh.com/assets/img/pigrrl/pigrrl_2_red.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-4">
   <div class="well well-sm">
@@ -206,56 +206,6 @@ fullwidth: true
 </form>
 
 
-  </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-3">
-  <img alt="V1 Extruder" src="{{ site.url }}assets/img/printrbot/V1_Extruder.jpg" class="img-responsive img-rounded" />
-  </div>
-  <div class="col-md-6">
-    <h3>
-    Printrbot Simple Metal V1 Aluminum Extruder
-    </h3>.
-    <p>Aluminum extruder for Simple Model 1403</p>
-    <p class="lead">$19.99 Shipped!</p>
-  </div>
-  <div class="col-md-3">
-  <div class="well well-sm">
-  <h4>Buy</h4>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="QPVZXNLN3WHA8">
-<input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
-
-
-  </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-3">
- <!-- <img alt="Heated Bed Extruder" src="{{ site.url }}assets/img/printrbot/V1_Extruder.jpg" class="img-responsive img-rounded" /> -->
-  </div>
-  <div class="col-md-6">
-    <h3>
-    Printrbot Simple Metal Heated Bed
-    </h3>.
-    <p>Aluminum bed for Simple Model 1403, bed only no heater included</p>
-    <p class="lead">$49.99 Shipped!</p>
-  </div>
-  <div class="col-md-3">
-  <div class="well well-sm">
-  <h4>Buy</h4>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="HFTRD69Z44QMC">
-<input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
   </div>
   </div>
 </div>

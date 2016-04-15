@@ -1,3 +1,12 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-paginate', group: :jekyll_plugins
+
+gem "jekyll"
+
+gem 'jekyll-redirect-from', branch: "master", github: "jekyll/jekyll-redirect-from"
+
+
+gem "kramdown"
+gem "rouge"
+
+# Requires Pygments
+# sudo easy_install Pygments

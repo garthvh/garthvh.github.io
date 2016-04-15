@@ -4,6 +4,17 @@ title: Home
 ---
 
 
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}
+
 {% assign index = true %}
 <div itemscope itemtype="http://schema.org/Blog">
 {% for post in paginator.posts %}

@@ -8,7 +8,6 @@ year: 2015
 month: 6
 day: 5
 summary: Ordering a PCB for open hardware on OSHPark
-permalink: http://garthvh.com/oshpark/ciclop/2015/06/05/Order-a-PCB-and-build-your-own-Zum-Scan-Shield-using-OSHPark/
 ---
  
 <div class="alert alert-info">

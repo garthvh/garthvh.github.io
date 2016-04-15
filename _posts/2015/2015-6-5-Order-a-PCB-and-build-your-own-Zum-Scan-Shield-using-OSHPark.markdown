@@ -9,6 +9,7 @@ month: 6
 day: 5
 summary: Ordering a PCB for open hardware on OSHPark
 ---
+
 <div class="alert alert-info">
     <strong>Don't want to order from 3 places? Buy a Zum Scan Shield kit in the <a href="/store">Project Store</a></strong>
 </div>

@@ -42,7 +42,6 @@ kramdown:
 category_dir: categories
 paginate: 3
 paginate_path: "page/:num"
-gems:            [jekyll-paginate, jekyll-gist, redcarpet]
 permalink: /:categories/:year/:month/:day/:title/
 
 # Exclude metadata and development time dependencies (like Grunt plugins)

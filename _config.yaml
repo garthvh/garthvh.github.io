@@ -36,16 +36,17 @@ baseurl:
 # Jekyll Settings
 #
 markdown: kramdown
+
 kramdown:
-  input: GFM
-  hard_wrap: false
-  parse_block_html: true
-category_dir: categories
-permalink: pretty
+   input: GFM
+   syntax_highlighter: rouge
 gems: [jekyll-paginate]
+category_dir: categories
 paginate: 3
 paginate_path: "page/:num"
 
+# Permalinks
+permalink:        pretty
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

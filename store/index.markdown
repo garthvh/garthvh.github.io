@@ -154,31 +154,6 @@ fullwidth: true
 <hr/>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Zum Scan Shield" src="{{ site.url }}assets/img/ciclop/zum_scan_kit.jpg" class="img-responsive img-rounded" />
-  </div>
-  <div class="col-md-6">
-    <h3>
-    Zum Scan Shield PCB Kit with Stepper Driver
-    </h3>
-    <p>1 Purple PCB and everything you need to make your on Zum Scan Board for a Ciclop 3D Scanner. </p>
-    <p class="lead">$30 Shipped!</p>
-  </div>
-  <div class="col-md-3">
-  <div class="well well-sm">
-  <h4>Buy</h4>
-  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="9Y8EK4B77F4TC">
-<input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-  </div>
-  </div>
-</div>
-<hr/>
-<div class="row">
-  <div class="col-md-3">
   <img alt="Alu Handle" src="{{ site.url }}assets/img/printrbot/alu-handle-510x510.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">

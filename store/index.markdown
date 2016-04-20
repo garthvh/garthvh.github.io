@@ -23,7 +23,7 @@ fullwidth: true
 <script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/2.0.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>
   </p>
   <hr/>
-  <h2>Products (4)</h2>
+  <h2>Products (3)</h2>
   <hr/>
   </div>
 </div>
@@ -41,7 +41,7 @@ fullwidth: true
     </ul>
     <p class="lead">$19.99 Shipped!</p>
     <br/>
-    <img alt="Pigrrls" src="{{ site.url }}assets/img/pigrrl/3_pigrrls.JPG" class="img-responsive img-rounded" />
+    <img alt="Pigrrls" src="{{ site.url }}/assets/img/pigrrl/3_pigrrls.JPG" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-4">
   <div class="well well-sm">
@@ -154,7 +154,7 @@ fullwidth: true
 <hr/>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Alu Handle" src="{{ site.url }}assets/img/printrbot/alu-handle-510x510.jpg" class="img-responsive img-rounded" />
+  <img alt="Alu Handle" src="{{ site.url }}/assets/img/printrbot/alu-handle-510x510.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
     <h3>

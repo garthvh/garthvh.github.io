@@ -1,7 +1,6 @@
 ---
 layout: post
 published: true
-comments: true
 title: Building the Ciclop 3d Scanner Part 3 Laser Cutting and Electronics
 categories: [ciclop,printrbot,ponoko,arduino]
 year: 2015

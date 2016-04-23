@@ -8,7 +8,6 @@ year: 2015
 month: 3
 day: 12
 summary: Setup notes for my Toshiba Chromebook 2 HD.
-image: post_three.jpg
 ---
 
 These are notes for myself on the crouton setup for my chromebook

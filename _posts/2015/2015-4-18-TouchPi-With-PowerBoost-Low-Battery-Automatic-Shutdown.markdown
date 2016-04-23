@@ -1,7 +1,6 @@
 ---
 layout: post
 published: true
-comments: true
 title: TouchPi with PowerBoost Low Battery Automatic Shutdown
 categories: [raspberrypi,linux,powerboost]
 year: 2015

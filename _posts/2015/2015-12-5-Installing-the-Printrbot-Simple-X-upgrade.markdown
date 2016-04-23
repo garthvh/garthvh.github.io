@@ -1,7 +1,6 @@
 ---
 layout: post
 published: true
-comments: true
 title: Installing the Printrbot Simple X axis upgrade
 categories: [printrbot]
 year: 2015

@@ -6,9 +6,7 @@ year: 2014
 month: 8
 day: 20
 published: true
-comments: true
 summary: Making a portable raspberry pi arcade.
-image: post_three.jpg
 ---
 
 <img src="{{ site.url}}assets/img/portapi/porta_pi_01.jpg" class="img-responsive img-rounded" alt="Porta Pi Arcade" />

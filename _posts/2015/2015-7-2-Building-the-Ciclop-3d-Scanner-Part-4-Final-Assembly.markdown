@@ -1,7 +1,6 @@
 ---
 layout: post
 published: true
-comments: true
 title: Building the Ciclop 3d Scanner Part 4 Final Assembly
 categories: [ciclop,printrbot,oshpark,ponoko,arduino]
 year: 2015

@@ -6,9 +6,7 @@ year: 2014
 month: 6
 day: 27
 published: true
-comments: true
 summary: Learning a little Linux again.
-image: post_three.jpg
 ---
 
 I have not played with linux in probably 10 years, when i did then everything was a hassle. I made a firewall media server device out of a loud and huge dell power edge server. After buying a raspberry pi for my daughter and I to play with I was amazed at how easy it is to install and update linux now, especially on something with common hardware like the pi.

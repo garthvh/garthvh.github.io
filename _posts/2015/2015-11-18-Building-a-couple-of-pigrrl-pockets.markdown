@@ -1,7 +1,6 @@
 ---
 layout: post
 published: true
-comments: true
 title: Building a couple Pocket Pigrrl RetroPi 3D Printed Gaming Handhelds
 categories: [raspberrypi,retropi,pigrrl,printrbot,adafruit]
 year: 2015

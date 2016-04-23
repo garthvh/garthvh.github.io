@@ -11,6 +11,7 @@ subtitle:
 # Github repositories
 github_user: garthvh
 github_repo_url: https://github.com/garthvh/garthvh.github.io/
+repository: garthvh/garthvh.github.io
 
 # Twitter
 twitter_user: garthvh
@@ -21,10 +22,6 @@ youtube_channel: http://www.youtube.com/channel/UCI6UGZtVOmfsHNFmHK4tI-Q
 
 # Google Analytics
 google_analytics_tracking_id: UA-60861232-1
-
-# Disqus Comments
-disqus_short_name: garthvh
-disqus_show_comment_count: true
 
 # Uncomment if you are planning to run the blog in a subdirectory
 # Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
@@ -37,7 +34,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-gems: [jekyll-paginate, jekyll-sitemap]
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-github-metadata]
 category_dir: categories
 paginate: 3
 paginate_path: "page/:num"

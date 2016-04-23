@@ -1,7 +1,6 @@
 ---
 layout: post
 published: true
-comments: true
 title: Building the Ciclop 3d Scanner Part 1 PCB Assembly and Ordering Parts
 categories: [ciclop,arduino,printrbot,oshpark]
 year: 2015

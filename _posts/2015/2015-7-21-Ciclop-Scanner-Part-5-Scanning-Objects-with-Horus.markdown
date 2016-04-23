@@ -1,7 +1,6 @@
 ---
 layout: post
 published: true
-comments: true
 title: Ciclop Scanner Part 5 Scanning Objects with Horus
 categories: [ciclop,horus]
 year: 2015

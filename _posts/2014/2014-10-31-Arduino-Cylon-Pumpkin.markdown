@@ -7,7 +7,6 @@ month: 10
 day: 31
 published: true
 summary: KITT for your pumpkin.
-image: post_three.jpg
 ---
 <section>
 	<div>

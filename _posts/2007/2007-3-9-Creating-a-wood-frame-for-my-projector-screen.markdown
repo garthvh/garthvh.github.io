@@ -23,9 +23,9 @@ My screen is 65" by 37" and my new house has a similar sized area, so I am keepi
 + Glaziers Points
 + Mitre Box and saw
 
-<img src="http://farm1.static.flickr.com/151/385256460_b58c220e50_o.jpg" alt="Frame_Hang_Man" />
+<img src="//farm1.static.flickr.com/151/385256460_b58c220e50_o.jpg" alt="Frame_Hang_Man" />
 
-<img src="http://farm1.static.flickr.com/133/385256495_a8ca54f7d7_o.jpg" class="img-responsive" alt="Frame_1" />
+<img src="//farm1.static.flickr.com/133/385256495_a8ca54f7d7_o.jpg" class="img-responsive" alt="Frame_1" />
 
 After routing out the inside of the frame for the do-able board, I used wood glue and the corner join pieces to put the whole thing together.  If your screen is large, you are going to need a big area for this to sit for at least a day while it drys.
 
@@ -35,8 +35,8 @@ Yesterday I was in a conference room at Microsoft where they had a projection ar
 
 Here is the finished frame:
 
-<img src="http://farm1.static.flickr.com/126/415636134_0503d213fd.jpg" class="img-responsive" alt="Frame_2" />
+<img src="//farm1.static.flickr.com/126/415636134_0503d213fd.jpg" class="img-responsive" alt="Frame_2" />
 
 Here is a corner:
 
-<img src="http://farm1.static.flickr.com/147/415636756_4b23f80c60.jpg" class="img-responsive" alt="Frame_3" />
+<img src="//farm1.static.flickr.com/147/415636756_4b23f80c60.jpg" class="img-responsive" alt="Frame_3" />

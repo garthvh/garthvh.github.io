@@ -10,6 +10,6 @@ summary: A photo of the faceman.
 image: post_three.jpg
 ---
 
-<img src="http://static.flickr.com/68/156286755_f8a4f50762.jpg" alt="Touch Pi Menu" class="img-responsive img-rounded" />
+<img src="//static.flickr.com/68/156286755_f8a4f50762.jpg" alt="Touch Pi Menu" class="img-responsive img-rounded" />
 
 Beautiful autographed photo of faceman from a bed and breakfast in park city

@@ -30,7 +30,7 @@ fullwidth: true
 <!-- Zum Scan PCB row -->
 <div class="row">
   <div class="col-md-3">
-    <img alt="Zum Scan Shield" src="{{ site.url }}/assets/img/ciclop/zum_scan_pcb_black.JPG" class="img-responsive img-rounded" />
+    <img alt="Zum Scan Shield" src="/assets/img/ciclop/zum_scan_pcb_black.JPG" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
     <h3>Zum Scan Shield PCB With Stepper Driver</h3>
@@ -66,7 +66,7 @@ fullwidth: true
     </ul>
     <p class="lead">$19.99 Shipped!</p>
     <br/>
-    <img alt="Pigrrls" src="{{ site.url }}/assets/img/pigrrl/3_pigrrls.JPG" class="img-responsive img-rounded" />
+    <img alt="Pigrrls" src="/assets/img/pigrrl/3_pigrrls.JPG" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-4">
   <div class="well well-sm">
@@ -133,7 +133,7 @@ fullwidth: true
     </ul>
     <p class="lead">$29.99 Shipped!</p>
     <br/>
-    <img alt="Pigrrls" src="//garthvh.com/assets/img/pigrrl/pigrrl_2_red.jpg" class="img-responsive img-rounded" />
+    <img alt="Pigrrls" src="/assets/img/pigrrl/pigrrl_2_red.jpg" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-4">
   <div class="well well-sm">

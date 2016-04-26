@@ -10,7 +10,8 @@ summary: Ordering a PCB for open hardware on OSHPark
 ---
 
 <div class="alert alert-info">
-    <strong>Don't want to order from 3 places? Buy a Zum Scan Shield kit in the <a href="/store">Project Store</a></strong>
+    <h4 class="alert-header">Buy a Zum Scan PCB</h4>
+    <strong>Don't want to order from 3 places? Buy a Zum Scan PCB and Stepper Driver in the <a href="/store">Project Store</a></strong>
 </div>
 <br/>
 One of the more interesting components of open hardware to me has been the theoretical ability to produce low quantity custom hardware based on well tested open source designs at pretty low prices.

@@ -29,7 +29,7 @@ fullwidth: true
 </div>
 <div class="row">
   <div class="col-md-3">
-  <img alt="Zum Scan Shield" src="{{ site.url }}assets/img/ciclop/zum_scan_pcb_black" class="img-responsive img-rounded" />
+  <img alt="Zum Scan Shield" src="{{ site.url }}/assets/img/ciclop/zum_scan_pcb_black" class="img-responsive img-rounded" />
   </div>
   <div class="col-md-6">
     <h3>

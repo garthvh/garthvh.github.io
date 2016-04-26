@@ -64,6 +64,8 @@ fullwidth: true
 + [Free for Dev](https://github.com/ripienaar/free-for-dev)
 + [Haacked - Git and GitHub Resources](http://haacked.com/archive/2014/12/03/git-and-github-resources/)
 + [Haacked - GitHub Flow Like a Pro with these 13 Git Aliases](http://haacked.com/archive/2014/07/28/github-flow-aliases/)
++ [Gorce](http://gource.io/)
++ [hub](https://github.com/github/hub)
 
 ## KiCad
 + [KiCad Tutorials](https://contextualelectronics.com/course/kicad-tutorial/)

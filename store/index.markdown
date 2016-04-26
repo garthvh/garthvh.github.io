@@ -35,7 +35,7 @@ fullwidth: true
   <div class="col-md-6">
     <h3>Zum Scan Shield PCB With Stepper Driver</h3>
     <p>Black PCB and stepper driver for a Ciclop 3D Scanner.</p>
-    <p>An OctoPart BOM is available for the [remaining components](https://octopart.com/bom-lookup/IERv4FbT).</p>
+    <p>An OctoPart BOM is available for the <a href="https://octopart.com/bom-lookup/IERv4FbT">remaining components</a>.</p>
     <p class="lead">$15 Shipped!</p>
   </div>
   <div class="col-md-3">

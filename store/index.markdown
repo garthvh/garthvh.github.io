@@ -23,7 +23,7 @@ fullwidth: true
 <script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/2.0.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>
   </p>
   <hr/>
-  <h2>Products (4)</h2>
+  <h2>Products (3)</h2>
   <hr/>
   </div>
 </div>
@@ -48,7 +48,7 @@ fullwidth: true
 <input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-  </div>
+    </div>
   </div>
 </div>
 <div class="row">
@@ -172,39 +172,6 @@ fullwidth: true
         <input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
-  </div>
-  </div>
-</div>
-<hr/>
-<div class="row">
-  <div class="col-md-3">
-  <img alt="Alu Handle" src="{{ site.url }}/assets/img/printrbot/alu-handle-510x510.jpg" class="img-responsive img-rounded" />
-  </div>
-  <div class="col-md-6">
-    <h3>
-    Printrbot Simple Metal Aluminum Handle
-    </h3>.
-    <p>Aluminum handle for Simple Model 1403</p>
-    <p class="lead">$19.99 Shipped!</p>
-  </div>
-  <div class="col-md-3">
-  <div class="well well-sm">
-  <h4>Select Options</h4>
-  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BY58F9SHXWUVU">
-<table>
-<tr><td><input type="hidden" name="on0" value="Alu Handle">Alu Handle</td></tr><tr><td><select name="os0">
-	<option value="Alu">Alu $14.99 USD</option>
-</select> </td></tr>
-</table>
-<br/>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
   </div>
   </div>
 </div>

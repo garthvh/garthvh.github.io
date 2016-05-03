@@ -26,13 +26,6 @@ fullwidth: true
 + [Horus Firmware](http://diwo.bq.com/en/horus-fw-released/)
 + [3d-scanning digitizing on the cheap](http://www.willforfang.com/3d-scanning-digitizing-on-the-cheap/)
 
-## Arduino
-+ [Visual Micro (Arduino development in visual studio)](http://www.visualmicro.com/)
-+ [Arduino Shield List](http://shieldlist.org/0)
-
-## C&#35;
-+ [C# 7 Work List of Features](https://github.com/dotnet/roslyn/issues/2136)
-
 ## Chrome OS
 + [Chrome OS Touchpad Gestures](http://www.omgchrome.com/how-to-right-click-on-chromebook-and-other-touchpad-gestures/)
 
@@ -40,7 +33,8 @@ fullwidth: true
 + [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
 + [Chromebook Crouton Cookbook](http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/)
 + [Shorten OS Verification Screen](https://www.reddit.com/r/Crouton/comments/2szn59/how_to_shorten_os_verfication_warning_screen_on/)
-+[Manage Crouton](http://www.howtogeek.com/210047/how-to-manage-the-crouton-linux-system-on-your-chromebook/)
++ [Manage Crouton](http://www.howtogeek.com/210047/how-to-manage-the-crouton-linux-system-on-your-chromebook/)
++ [Elementary Crouton](http://angelicpenguins.blogspot.com/2016/01/setting-up-crouton-and-elementary-os-on.html)
 
 ## Cura
 + [Print One at a time](http://www.printrbottalk.com/forum/viewtopic.php?f=20&t=6914)
@@ -185,6 +179,13 @@ fullwidth: true
 + [Robot Mesh - Seeed Studio Reseller - Kirkland](http://robotmesh.com)
 + [Socially Shaped - 3D Printed Robots - Seattle](http://sociallyshaped.com/)
 + [AXIOS Modular Keyboard](https://www.crowdsupply.com/multiplxd/axios-keyboard)
+
+## Ubuntu Server
++ [Installing Owncloud](https://ittutorials.net/linux/owncloud/installing-owncloud-in-ubuntu/)
++ [Installing Owncloud on Ubuntu](http://tecadmin.net/install-owncloud-on-ubuntu/)
++ [Webmin](http://www.havetheknowhow.com/Configure-the-server/Install-Webmin.html)
++ [Set up SAMBA](http://www.havetheknowhow.com/Configure-the-server/Create-users-share-folders.html)
++ [Apt Cacher](https://help.ubuntu.com/community/Apt-Cacher-Server)
 
 ## Web Development
 + [Stack Share](http://stackshare.io/)

@@ -186,6 +186,7 @@ fullwidth: true
 + [Webmin](http://www.havetheknowhow.com/Configure-the-server/Install-Webmin.html)
 + [Set up SAMBA](http://www.havetheknowhow.com/Configure-the-server/Create-users-share-folders.html)
 + [Apt Cacher](https://help.ubuntu.com/community/Apt-Cacher-Server)
++ [Squid Deb Proxy Client](http://askubuntu.com/questions/3503/best-way-to-cache-apt-downloads-on-a-lan)
 
 ## Web Development
 + [Stack Share](http://stackshare.io/)

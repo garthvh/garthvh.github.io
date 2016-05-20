@@ -80,6 +80,7 @@ fullwidth: true
 ## Linux
 + [Command Line WPA](http://linux.icydog.net/wpa.php)
 + [Explain Shell](http://explainshell.com/)
++ [Software for a command-line world](http://tim.thechases.com/posts/cli/software-for-a-command-line-world/)
 
 ## Node
 + [Nodeschool](http://nodeschool.io/#workshoppers)

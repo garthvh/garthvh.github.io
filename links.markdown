@@ -36,6 +36,12 @@ fullwidth: true
 + [Manage Crouton](http://www.howtogeek.com/210047/how-to-manage-the-crouton-linux-system-on-your-chromebook/)
 + [Elementary Crouton](http://angelicpenguins.blogspot.com/2016/01/setting-up-crouton-and-elementary-os-on.html)
 
+## CUPS
++ [Raspberry Pi CUPS Print Server](https://www.hmazter.com/2013/05/raspberry-pi-printer-server-for-labelwriter)
++ [Google Cloud Print on a CUPS Server](https://support.google.com/a/answer/2906017?hl=en)
++ [Add Airprint Support to a Raspberry Pi Print Server](http://www.makeuseof.com/tag/add-airprint-support-raspberry-pi-print-server/)
++ [Airport and Google CUPS Printing](http://linuxsimba.com/airprint-google-print-cups)
+
 ## Docker
 + [Docker Introduction](https://www.howtoforge.com/tutorial/how-to-use-docker-introduction/)
 

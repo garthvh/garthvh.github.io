@@ -36,7 +36,7 @@ fullwidth: true
     <h3>Zum Scan Shield PCB With Stepper Driver</h3>
     <p>Black PCB and stepper driver for a Ciclop 3D Scanner.</p>
     <p>A Mouser Project BOM is available for the <a href="https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2F7241B59F"> remaining components including the Adafruit Metro</a>.</p>
-    <p class="lead">$15 Shipped!</p>
+    <p class="lead">$13 Shipped!</p>
   </div>
   <div class="col-md-3">
     <div class="well well-sm">
@@ -59,8 +59,8 @@ fullwidth: true
   <div class="col-md-6">
     <h3>Zum Scan Shield PCB</h3>
     <p>Black PCB Only for a Ciclop 3D Scanner.</p>
-    <p class="lead">$12 Shipped!</p>
-    <p class="lead">Each PCB is $9 with $3 shipping no matter how many you buy.</p>
+    <p class="lead">$10 Shipped!</p>
+    <p class="lead">Each PCB is $7 with $3 shipping no matter how many you buy.</p>
   </div>
   <div class="col-md-3">
     <div class="well well-sm">

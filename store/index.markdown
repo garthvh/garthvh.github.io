@@ -27,7 +27,7 @@ fullwidth: true
   <hr/>
   </div>
 </div>
-<!-- Zum Scan PCB row -->
+<!-- Zum Scan PCB and Stepper row -->
 <div class="row">
   <div class="col-md-3">
     <img alt="Zum Scan Shield" src="/assets/img/ciclop/zum_scan_pcb_black.JPG" class="img-responsive img-rounded" />
@@ -51,70 +51,26 @@ fullwidth: true
   </div>
 </div>
 <hr/>
-<!-- Pocket Pigrrl -->
+<!-- Zum Scan PCB Only row -->
 <div class="row">
-  <div class="col-md-8">
-    <h3>
-    Pocket Pigrrl 3D Printed PLA Case with Ninjaflex Buttons, Magnets & Screws
-    </h3>
-    <p>Everything hard to find that is not included in the pigrrl kit from Adafruit. </p>
-    <ul>
-      <li>0.2MM Layer Height 3D Printed PLA Case Top and Bottom</li>
-      <li>Ninjaflex Buttons</li>
-      <li>12-15 #4-40 flat stainless steel phillips machine screws</li>
-      <li>2 Neodymium Magnets 1/4 x 1/16 inch Disc N48</li>
-    </ul>
-    <p class="lead">$19.99 Shipped!</p>
-    <br/>
-    <img alt="Pigrrls" src="/assets/img/pigrrl/3_pigrrls.JPG" class="img-responsive img-rounded" />
+  <div class="col-md-3">
+    <img alt="Zum Scan Shield" src="/assets/img/ciclop/zum_scan_pcb_black.JPG" class="img-responsive img-rounded" />
   </div>
-  <div class="col-md-4">
-  <div class="well well-sm">
-  <h4>Select Options</h4>
-  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="A2ASMNSF8VL5N">
-<table>
-<tr><td><input type="hidden" name="on0" value="Top Color">Top Color</td></tr><tr><td><select name="os0">
-	<option value="Black">Black </option>
-	<option value="White">White </option>
-	<option value="Green">Green </option>
-	<option value="Yellow">Yellow </option>
-	<option value="Orange">Orange </option>
-	<option value="Purple">Purple </option>
-	<option value="Transparent Black">Transparent Black </option>
-	<option value="Blue">Blue </option>
-	<option value="Gold">Gold </option>
-	<option value="Silver">Silver </option>
-</select> </td></tr>
-<tr><td><input type="hidden" name="on1" value="Bottom Color">Bottom Color</td></tr><tr><td><select name="os1">
-	<option value="Black">Black </option>
-	<option value="White">White </option>
-	<option value="Green">Green </option>
-	<option value="Yellow">Yellow </option>
-	<option value="Orange">Orange </option>
-	<option value="Purple">Purple </option>
-	<option value="Transparent Black">Transparent Black </option>
-	<option value="Blue">Blue </option>
-	<option value="Gold">Gold </option>
-	<option value="Silver">Silver </option>
-</select> </td></tr>
-<tr><td><input type="hidden" name="on2" value="Action Buttons">Action Buttons</td></tr><tr><td><select name="os2">
-	<option value="Two Button">Two Button </option>
-	<option value="Four Button">Four Button </option>
-</select> </td></tr>
-<tr><td><input type="hidden" name="on3" value="Button Colors">Button Colors</td></tr><tr><td><select name="os3">
-	<option value="Black">Black </option>
-	<option value="Snow">Snow </option>
-	<option value="Sky">Sky </option>
-	<option value="Fire">Fire </option>
-</select> </td></tr>
-</table>
-<br/>
-<input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+  <div class="col-md-6">
+    <h3>Zum Scan Shield PCB</h3>
+    <p>Black PCB Only for a Ciclop 3D Scanner.</p>
+    <p class="lead">$12 Shipped!</p>
   </div>
+  <div class="col-md-3">
+    <div class="well well-sm">
+      <h4>Buy</h4>
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="THSHG2PRC98VG">
+        <input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+    </div>
   </div>
 </div>
 <hr/>

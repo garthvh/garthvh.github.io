@@ -49,7 +49,7 @@ Some generally cheap linux devices I own and like.
     </div>
     <div class="col-md-7">
         <h3>DYMO LabelWriter 450 Thermal Label Printer</h3>
-        <p>Used mostly to print shipping labels via paypal for 3D Hubs orders and Ciclop PCB orders from the project store, you can also print very nice looking labels, stickers and cards using [glabels]().</p>
+        <p>Used mostly to print shipping labels via paypal for 3D Hubs orders and Ciclop PCB orders from the project store, you can also print very nice looking labels, stickers and cards using <a href="http://glabels.org/" >gLabels</a> Label Designer.</p>
     </div>
  </div>
 <hr/>
@@ -59,6 +59,16 @@ Some generally cheap linux devices I own and like.
     </div>
     <div class="col-md-7">
         <h3>Brother P-touch 1230 PC Labeler</h3>
-        <p>I use my brother ptouch labeler for all sorts of random things using the fantastic [B-Label](http://apz.fi/blabel/) linux labeling program.</p>
+        <p>I use my brother ptouch labeler for all sorts of random things using the fantastic <a href="http://apz.fi/blabel/">B-Label</a> linux labeling program.</p>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-md-5">
+        <img alt="Microsoft Sculpt" src="https://garthvh.com/assets/img/linux/sculpt.jpg" class="img-responsive img-rounded" />
+    </div>
+    <div class="col-md-7">
+        <h3><a href="https://www.amazon.com/Microsoft-Ergonomic-Desktop-Keyboard-L5V-00003/dp/B00DUV029U/">Microsoft Sculpt Ergonomic Desktop USB Port Keyboard and Mouse Combo</a></h3>
+        <p>If you need an ergonomic keyboard, at this point there is pretty much a single competively priced model.</p>
     </div>
 </div>

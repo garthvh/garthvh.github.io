@@ -28,6 +28,16 @@ Some generally cheap linux devices I own and like.
     <p>MSI Nightblade gaming PC with a quad core I5, 16GB of RAM and an NVIDIA GTX960 Video Card.  With room for a full size video card, WIFI built in, a somewhat small case and an optical drive slot this has been a great PC.</p>
     </div>
 </div>
+<div class="row">
+  <div class="col-md-5">
+    <img alt="ASUS RT-N66W" src="https://garthvh.com/assets/img/linux/asus_rtn66w.jpg" class="img-responsive img-rounded" />
+
+  </div>
+  <div class="col-md-7">
+    <h3>ASUS RT-N66W Open Source Router</h3>
+    <p>Bought mostly to have a DD-WRT compatable device before they are restricted by the FCC, I am currently running the latest version of the Asus DD-WRT firmware.</p>
+  </div>
+</div>
 
 ## Devices that work with linux
 

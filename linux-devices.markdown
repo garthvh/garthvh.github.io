@@ -2,11 +2,13 @@
 layout: page
 title: "Linux Devices"
 slug: linux-devices
+categories: [linux,ubuntu]
 lead: "Linux Devices"
+description: "Some generally cheap and well supported linux devices I own and like."
 fullwidth: true
 ---
 
-Some generally cheap linux devices I own and like.
+Some generally cheap and well supported linux devices I own and like.
 
 ## Devices Running Linux
 <div class="row">

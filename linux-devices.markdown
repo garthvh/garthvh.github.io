@@ -69,7 +69,7 @@ Some generally cheap linux devices I own and like.
        
     </div>
     <div class="col-md-8">
-        <h3><a href="https://www.amazon.com/Plugable-Microscope-Flexible-Observation-Magnification/dp/B00XNYXQHE/">Pluggable USB microscope with 3d printable stand.</h3>
+        <h3><a href="https://www.amazon.com/Plugable-Microscope-Flexible-Observation-Magnification/dp/B00XNYXQHE/">Pluggable USB microscope with 3d printable stand.</a></h3>
     </div>
 </div>
 <hr/>

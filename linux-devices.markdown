@@ -65,7 +65,7 @@ Some generally cheap linux devices I own and like.
 <hr/>
 <div class="row">
     <div class="col-md-5">
-        <img alt="Microsoft Sculpt" src="https://garthvh.com/assets/img/linux/sculpt.jpg" class="img-responsive img-rounded" />
+        <img alt="Microsoft Sculpt" src="https://garthvh.com/assets/img/linux/sculpt.JPG" class="img-responsive img-rounded" />
     </div>
     <div class="col-md-7">
         <h3><a href="https://www.amazon.com/Microsoft-Ergonomic-Desktop-Keyboard-L5V-00003/dp/B00DUV029U/">Microsoft Sculpt Ergonomic Desktop USB Port Keyboard and Mouse Combo</a></h3>

@@ -65,10 +65,20 @@ Some generally cheap linux devices I own and like.
 <hr/>
 <div class="row">
     <div class="col-md-5">
+     <img alt="Plugable USB Microscope" src="https://garthvh.com/assets/img/linux/usb_microscope.jpg" class="img-responsive img-rounded" />
+       
+    </div>
+    <div class="col-md-7">
+        <h3><a href="https://www.amazon.com/Plugable-Microscope-Flexible-Observation-Magnification/dp/B00XNYXQHE/">Pluggable USB microscope with 3d printable stand.</p>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-md-5">
         <img alt="Microsoft Sculpt" src="https://garthvh.com/assets/img/linux/sculpt.JPG" class="img-responsive img-rounded" />
     </div>
     <div class="col-md-7">
-        <h3><a href="https://www.amazon.com/Microsoft-Ergonomic-Desktop-Keyboard-L5V-00003/dp/B00DUV029U/">Microsoft Sculpt Ergonomic Desktop USB Port Keyboard and Mouse Combo</a></h3>
+        <h3>Microsoft Sculpt Ergonomic Desktop Wireless Keyboard and Mouse Combo</h3>
         <p>If you need an ergonomic keyboard, at this point there is pretty much a single competively priced model.</p>
     </div>
 </div>

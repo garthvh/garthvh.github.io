@@ -74,7 +74,7 @@ Some generally cheap linux devices I own and like.
 </div>
 <hr/>
 <div class="row">
-    <div class="col-md-4>
+    <div class="col-md-4">
         <img alt="Microsoft Sculpt" src="https://garthvh.com/assets/img/linux/sculpt.JPG" class="img-responsive img-rounded" />
     </div>
     <div class="col-md-8">

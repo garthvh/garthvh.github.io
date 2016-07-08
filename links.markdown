@@ -161,6 +161,11 @@ fullwidth: true
 + [Raspberry Pi Games](http://www.raspians.com/Knowledgebase/1-debian-wheezy-games-repository-sudo-apt-get-install/)
 + [Check SOC temp from the command line](http://www.bitpi.co/2015/02/16/check-temperature-of-raspberry-pi-processor/)
 
+### Camera / Photo Booth
++ [Raspberry Pi High Def Photobooth](https://contractorwolf.com/raspberry-pi-high-def-photobooth/)
++ [Pi-Booth](http://roowilliams.github.io/projects/2014-07-16-pi-booth.html)
++ [Say Cheese](http://leemachin.github.io/say-cheese/)
+
 ## Retro Gaming
 + [Internet Arcade](https://archive.org/details/internetarcade)
 

@@ -3,22 +3,36 @@ layout: page
 single: true
 ---
 
-<h1>Posts by category :{{ page.category }}</h1>
-
-<p>{{ content }}</p>
 <div>
-    {% if site.categories[page.category] %}
-        {% for post in site.categories[page.category] %}
+
+{% for category in site.data.categories %}
+{% if page.category == category.slug%}
+<h1>Posts by category : {{ page.category }}</h1>
+<p>{{ content }}</p>
+    {% for post in site.categories[category.slug] %}
         <h3 class="title">  <a href="{{ post.url }}/">{{ post.title }}</a></h3>
         <div class="meta">
-          <span class="date"><time datetime="{{ post.date | datetime | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %e" }}</time></span>
+            <span class="date"><time datetime="{{ post.date | datetime | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d %Y" }}</time></span>
             {% if site.disqus_short_name and post.comments == true and site.disqus_show_comment_count == true %}
             {% include post/comments_link.html %}
             {% endif %}
             <span class="edit">{% include post/edit.html %}</span>
         </div>
-        {% endfor %}
-    {% else %}
-        <p>There are no posts for this tag.</p>
-    {% endif %}
+    {% endfor %}
+{% endif %}
+{% if page.category == category.name %}
+<h1>Posts by category : {{ page.category }}</h1>
+<p>{{ content }}</p>
+    {% for post in site.categories[category.slug] %}
+        <h3 class="title">  <a href="{{ post.url }}/">{{ post.title }}</a></h3>
+        <div class="meta">
+            <span class="date"><time datetime="{{ post.date | datetime | date_to_xmlschema }}" itemprop="datePublished">{{ post.date |date: "%b %-d %Y" }}</time></span>
+            {% if site.disqus_short_name and post.comments == true and site.disqus_show_comment_count == true %}
+            {% include post/comments_link.html %}
+            {% endif %}
+            <span class="edit">{% include post/edit.html %}</span>
+        </div>
+    {% endfor %}
+
+{% endif %}{% endfor %}
 </div>

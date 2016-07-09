@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with My Printrbot Simple Metal
-categories: [raspberrypi,linux,piglow,3d%20printing,printrbot]
+categories: [raspberrypi, linux, 3dprinting, printrbot]
 year: 2014
 month: 12
 day: 27

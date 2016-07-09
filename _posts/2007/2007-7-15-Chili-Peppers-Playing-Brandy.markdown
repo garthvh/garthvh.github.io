@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Chili Peppers playing Brandy
-categories: [rhcp,music]
+categories: [music]
 year: 2007
 month: 7
 day: 15

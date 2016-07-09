@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Using Taulman Filaments with Printrbot Simple Metal
-categories: [3d%20printing, filament]
+categories: [3dprinting, filament]
 year: 2015
 month: 5
 day: 20

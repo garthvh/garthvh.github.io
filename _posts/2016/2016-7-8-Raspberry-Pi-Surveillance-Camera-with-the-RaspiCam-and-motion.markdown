@@ -2,7 +2,7 @@
 layout: post
 published: false
 title: Raspberry Pi Surveillance Camera with the RaspiCam and motion
-categories: [linux,raspberrypi]
+categories: [linux, raspberrypi]
 year: 2016
 month: 7
 day: 9

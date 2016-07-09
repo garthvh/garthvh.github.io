@@ -1,7 +1,7 @@
 - slug: 3dhubs
   name: 3D Hubs
 
-- slug: 3d%20printing
+- slug: 3dprinting
   name: 3D Printing
 
 - slug: adafruit
@@ -25,14 +25,8 @@
 - slug: cura
   name: Cura
 
-- slug: diy
-  name: diy
-
 - slug: filament
-  name: filament
-
-- slug: leds
-  name: Leds
+  name: Filament
 
 - slug: linux
   name: Linux
@@ -42,9 +36,6 @@
 
 - slug: oshpark
   name: OSHPark
-
-- slug: piglow
-  name: PiGlow
 
 - slug: ponoko
   name: Ponoko
@@ -61,9 +52,6 @@
 - slug: retropi
   name: Retro Pi
 
-- slug: rhcp
-  name: rhcp
-
 - slug: horus
   name: Horus
 
@@ -76,7 +64,7 @@
 - slug: makeit
   name: MAKEiT
 
-- slug: simplify
+- slug: simplify3d
   name: Simplify 3D
   
 - slug: ubuntu

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting Up Raspberry Pi For the Children
-categories: [raspberrypi,piglow,linux]
+categories: [raspberrypi, linux]
 year: 2014
 month: 6
 day: 27

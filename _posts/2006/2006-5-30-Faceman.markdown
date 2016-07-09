@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Faceman
-categories: [a-team]
+categories:
 year: 2006
 month: 6
 day: 30

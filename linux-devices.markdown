@@ -81,6 +81,6 @@ Some generally cheap and well supported linux devices I own and like.
     </div>
     <div class="col-md-8">
         <h3>Microsoft Sculpt Ergonomic Desktop Wireless Keyboard and Mouse Combo</h3>
-        <p>If you need an ergonomic keyboard, at this point there is pretty much a single competively priced model.</p>
+        <p>If you need an ergonomic keyboard, at this point there is pretty much a single competively priced model. In Ubuntu the dedicated calculator button on the number pad opens a calculator.</p>
     </div>
 </div>

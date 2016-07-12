@@ -42,6 +42,16 @@ Some generally cheap and well supported linux devices I own and like.
     <p>Bought mostly to have a DD-WRT compatible device before they are restricted by the FCC, I am currently running the latest version of the Asus DD-WRT firmware.</p>
   </div>
 </div>
+<div class="row">
+  <div class="col-md-5">
+    <img alt="Toshiba FlashAir" src="https://garthvh.com/assets/img/linux/flash_air.jpg" class="img-responsive img-rounded" />
+
+  </div>
+  <div class="col-md-7">
+    <h3>Toshiba FlashAir 16 GB WiFi SD Card</h3>
+    <p>I have found using the SD card to be the most reliable way to run my 3D prints, my MAKEiT Pro-M 3D printer also allows me to make mid print configuration changes when printing from the SD card. Apparently it runs a tiny copy of linux and it lets me upload files to print straight to my printer.</p>
+  </div>
+</div>
 
 ## Devices that Work Well with Linux
 

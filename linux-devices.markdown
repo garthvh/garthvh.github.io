@@ -49,7 +49,7 @@ Some generally cheap and well supported linux devices I own and like.
   </div>
   <div class="col-md-7">
     <h3>Toshiba FlashAir 16 GB WiFi SD Card</h3>
-    <p>I have found using the SD card to be the most reliable way to run my 3D prints, my MAKEiT Pro-M 3D printer also allows me to make mid print configuration changes when printing from the SD card. Apparently it runs a tiny copy of linux and it lets me upload files to print straight to my printer.</p>
+    <p>I have found using the SD card to be the most reliable way to run my 3D prints, my MAKEiT Pro-M 3D printer also allows me to make mid print configuration changes when printing from the SD card. Apparently the Toshiba FlashAir runs a tiny copy of linux and it lets me upload files to print straight to my printer.</p>
   </div>
 </div>
 

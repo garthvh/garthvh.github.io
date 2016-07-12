@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Raspberry Pi Surveillance and Timelapse Camera with the RaspiCam
 categories: [linux, raspberrypi, 3dprinting]
 year: 2016
@@ -14,7 +14,7 @@ summary: Build your own Raspberry Pi Surveillance and Timelapse Camera with the 
 
 I have wanted to build a motion activated and time lapse capable raspberry pi camera for a while now but never really found a case I like. I found this [nice case](http://www.thingiverse.com/thing:1622184) for a raspberry pi and camera on thingiverse.  It was designed for a specific fisheye camera but looking at the model it appeared that one of the cheap Chinese fish eye  cell phone lenses I have would fit nicely in the hole.  
 
-I fired up tinkercad and used my calipers to measure the space inside the camera case and the thickness of the RaspiCam board and [created a model](http://www.thingiverse.com/thing:1664023) to mount the official RaspiCam.  I used two small pieces of gaffers tape to attach the camera to the support piece, snapped the lens into the hole in the case and slid the camera into the case.
+I fired up tinkercad and used my calipers to measure the space inside the camera case and the thickness of the RaspiCam board and [created a model](http://www.thingiverse.com/thing:1664023) to mount the official RaspiCam.  I used two small pieces of gaffers tape to attach the camera to the support piece, snapped the lens into the hole in the case and slid the camera into the case. You can find my camera part [here](http://www.thingiverse.com/thing:1664023)
 
 This is really a nice simple project, any raspberry pi and camera case will work, you will also need:
 
@@ -81,4 +81,4 @@ Once I had a bunch of images I made a video using FFMPEG
 
     ffmpeg -f image2 -i img%06d.jpg time-lapse.mp4
     
-A couple of nice raspberry pi camera projects that don't require many parts.
+These are both a couple of nice raspberry pi camera projects that don't require many parts..

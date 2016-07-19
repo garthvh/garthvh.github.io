@@ -54,7 +54,6 @@ fullwidth: true
 + [ESP 8266](http://hackaday.com/tag/esp8266/)
 + [Web Enabled Button](http://benlo.com/esp8266/esp8266Projects.html)
 + [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
-+ [Instapush with NodeMCU](http://www.thalin.se/2015/06/instapush-with-nodemcu-esp8266.html)
 + [Coffee Button](https://blog.eikeland.se/2015/07/20/coffee-button/)
 + [Light Controller Clock](http://bitquill.net/blog/esp8266-light-controller-clock/)
 
@@ -174,9 +173,6 @@ fullwidth: true
 + [Veter Robot](http://veterobot.com/)
 + [Open Robot Hardware](http://www.openrobothardware.org/linkedprojects/)
 + [Open Source Robotics Software/Hardware List](http://learnrobotix.com/open-source-robotics-software.html)
-
-## Seattle Maker Services
-+ [Zot Lasers](http://www.zotlasers.com/)
 
 ## Seattle Mini Maker Faire Booths
 + [Robot Mesh - Seeed Studio Reseller - Kirkland](http://robotmesh.com)

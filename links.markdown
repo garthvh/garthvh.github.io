@@ -26,6 +26,9 @@ fullwidth: true
 + [Horus Firmware](http://diwo.bq.com/en/horus-fw-released/)
 + [3d-scanning digitizing on the cheap](http://www.willforfang.com/3d-scanning-digitizing-on-the-cheap/)
 
+# API's
++ [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
+
 ## Chrome OS
 + [Chrome OS Touchpad Gestures](http://www.omgchrome.com/how-to-right-click-on-chromebook-and-other-touchpad-gestures/)
 

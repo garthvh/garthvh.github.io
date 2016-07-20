@@ -29,6 +29,10 @@ fullwidth: true
 # API's
 + [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 
+# Clocks
++ [Daylight Savings Time](http://woodsgood.ca/projects/2015/03/13/daylight-saving-time-simplified/)
++ [Daylight Savings Time Part 2](http://woodsgood.ca/projects/2015/11/02/dst-made-simple-hoisted-by-my-own-petard/)
+
 ## Chrome OS
 + [Chrome OS Touchpad Gestures](http://www.omgchrome.com/how-to-right-click-on-chromebook-and-other-touchpad-gestures/)
 

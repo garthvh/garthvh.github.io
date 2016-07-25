@@ -32,6 +32,8 @@ fullwidth: true
 # Clocks
 + [Daylight Savings Time](http://woodsgood.ca/projects/2015/03/13/daylight-saving-time-simplified/)
 + [Daylight Savings Time Part 2](http://woodsgood.ca/projects/2015/11/02/dst-made-simple-hoisted-by-my-own-petard/)
++ [DST Implementation](http://woodsgood.ca/projects/2015/06/20/weatherman-web-weather-forecaster/)
++ [Custom HD44780 Characters](https://omerk.github.io/lcdchargen/)
 
 ## Chrome OS
 + [Chrome OS Touchpad Gestures](http://www.omgchrome.com/how-to-right-click-on-chromebook-and-other-touchpad-gestures/)

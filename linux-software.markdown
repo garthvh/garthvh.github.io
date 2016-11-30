@@ -4,7 +4,7 @@ title: "Linux Software"
 slug: linux-sofware
 categories: [linux,ubuntu]
 lead: "Linux Software"
-summary: "Some generally awesome software I use on my Linux computerse."
+summary: "Some generally awesome software I use on my Linux computers."
 fullwidth: true
 ---
 
@@ -19,4 +19,6 @@ fullwidth: true
 * VirtualBox
 * Arduino IDE
 * Guvcview
-* Terminator
+* Open Media Vault
+* Simplify 3D
+

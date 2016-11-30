@@ -148,6 +148,8 @@ fullwidth: true
 + [Privacy Badger](https://www.eff.org/privacybadger)
 
 ## Projects
+
+### Potential Projects
 + [PIR Sensor Night Lamp](http://electronut.in/night-lamp/)
 + [Open Clock Project](http://clock.bonsignore.com/)
 + [Piccolo Tiny CNC Bot](https://github.com/DiatomStudio/Piccolo)
@@ -157,10 +159,12 @@ fullwidth: true
 + [Spin](http://spin.media.mit.edu/)
 + [b robot](http://jjrobots.com/projects-2/b-robot/)
 
-## QT
-+ [QT 5.6 Documentation](http://doc.qt.io/qt-5/index.html)
-+ [QT 5 Embedded Documentaiton](http://doc.qt.io/qt-5/embedded-linux.html)
-+ [QT 5 Tutorial](http://zetcode.com/gui/qt5/)
+### In Process Projects
+
+### Finished Projects
++ [PIX-E Gif Camera](https://community.makezine.com/share/nick-brewer/pix-e-gif-camera-323965)
++ [Ciclop Scanner](http://www.thingiverse.com/thing:740357)
++ [Pi-Cade](http://www.thingiverse.com/make:259633)
 
 ## Raspberry Pi
 + [Raspberry Pi Pygame UI basics](http://jeremyblythe.blogspot.sg/2014/09/raspberry-pi-pygame-ui-basics.html)
@@ -169,7 +173,7 @@ fullwidth: true
 + [Raspberry Pi Games](http://www.raspians.com/Knowledgebase/1-debian-wheezy-games-repository-sudo-apt-get-install/)
 + [Check SOC temp from the command line](http://www.bitpi.co/2015/02/16/check-temperature-of-raspberry-pi-processor/)
 
-### Camera / Photo Booth
+### Raspberry Pi Camera / Photo Booth
 + [Raspberry Pi High Def Photobooth](https://contractorwolf.com/raspberry-pi-high-def-photobooth/)
 + [Pi-Booth](http://roowilliams.github.io/projects/2014-07-16-pi-booth.html)
 + [Say Cheese](http://leemachin.github.io/say-cheese/)
@@ -187,14 +191,6 @@ fullwidth: true
 + [Robot Mesh - Seeed Studio Reseller - Kirkland](http://robotmesh.com)
 + [Socially Shaped - 3D Printed Robots - Seattle](http://sociallyshaped.com/)
 + [AXIOS Modular Keyboard](https://www.crowdsupply.com/multiplxd/axios-keyboard)
-
-## Ubuntu Server
-+ [Installing Owncloud](https://ittutorials.net/linux/owncloud/installing-owncloud-in-ubuntu/)
-+ [Installing Owncloud on Ubuntu](http://tecadmin.net/install-owncloud-on-ubuntu/)
-+ [Webmin](http://www.havetheknowhow.com/Configure-the-server/Install-Webmin.html)
-+ [Set up SAMBA](http://www.havetheknowhow.com/Configure-the-server/Create-users-share-folders.html)
-+ [Apt Cacher](https://help.ubuntu.com/community/Apt-Cacher-Server)
-+ [Squid Deb Proxy Client](http://askubuntu.com/questions/3503/best-way-to-cache-apt-downloads-on-a-lan)
 
 ## Web Development
 + [Stack Share](http://stackshare.io/)

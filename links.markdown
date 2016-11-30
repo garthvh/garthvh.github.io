@@ -26,10 +26,10 @@ fullwidth: true
 + [Horus Firmware](http://diwo.bq.com/en/horus-fw-released/)
 + [3d-scanning digitizing on the cheap](http://www.willforfang.com/3d-scanning-digitizing-on-the-cheap/)
 
-# API's
+## API's
 + [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 
-# Clocks
+## Clocks
 + [Daylight Savings Time](http://woodsgood.ca/projects/2015/03/13/daylight-saving-time-simplified/)
 + [Daylight Savings Time Part 2](http://woodsgood.ca/projects/2015/11/02/dst-made-simple-hoisted-by-my-own-petard/)
 + [DST Implementation](http://woodsgood.ca/projects/2015/06/20/weatherman-web-weather-forecaster/)

@@ -45,15 +45,6 @@ fullwidth: true
 + [Manage Crouton](http://www.howtogeek.com/210047/how-to-manage-the-crouton-linux-system-on-your-chromebook/)
 + [Elementary Crouton](http://angelicpenguins.blogspot.com/2016/01/setting-up-crouton-and-elementary-os-on.html)
 
-## CUPS
-+ [Raspberry Pi CUPS Print Server](https://www.hmazter.com/2013/05/raspberry-pi-printer-server-for-labelwriter)
-+ [Google Cloud Print on a CUPS Server](https://support.google.com/a/answer/2906017?hl=en)
-+ [Add Airprint Support to a Raspberry Pi Print Server](http://www.makeuseof.com/tag/add-airprint-support-raspberry-pi-print-server/)
-+ [Airport and Google CUPS Printing](http://linuxsimba.com/airprint-google-print-cups)
-
-## Docker
-+ [Docker Introduction](https://www.howtoforge.com/tutorial/how-to-use-docker-introduction/)
-
 ## Electron
 + [Electron](http://electron.atom.io/)
 + [Awesome Electron](https://github.com/sindresorhus/awesome-electron)
@@ -87,10 +78,6 @@ fullwidth: true
 + [Comparison of Internet of Things Platforms for Prototyping](https://openhardwarelabs.com/internet-of-things-platforms-prototyping/)
 + [Internet of Things Search](https://www.shodan.io/)
 
-## Laser cutting
-+ [Glowforge](http://glowforge.com/)
-+ [Ponoko](http://ponoko.com)
-
 ## Linux
 + [Command Line WPA](http://linux.icydog.net/wpa.php)
 + [Explain Shell](http://explainshell.com/)
@@ -100,7 +87,6 @@ fullwidth: true
 + [Nodeschool](http://nodeschool.io/#workshoppers)
 + [Deploying a Node.js Rest API to Openshift](https://strongloop.com/strongblog/node-js-rest-api-openshift-redhat/)
 + [JSON Files in Node](https://www.codementor.io/nodejs/tutorial/how-to-use-json-files-in-node-js)
-
 
 ## Online digital Fabrication
 + [Ponoko](https://www.ponoko.com/)

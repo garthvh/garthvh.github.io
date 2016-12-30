@@ -13,8 +13,11 @@ When I started using Linux printers eluded me a bit, my Canon multifunction prin
 
 I have been shipping enough 3D printed objects on [3DHubs](https://www.3dhubs.com/seattle/hubs/garth) that I became annoyed with printing out labels with my inkjet and then tapeing them to padded envelopes. A long time ago I worked with some commercial thermal printers and figured that was the way I wanted to go since they don't smudge or use any ink.  I looked a couple of different times but the printers were still pretty expensive. Eventually there was a sale and I purchased a [Dymo LabelWriter 450 Bundle](https://www.amazon.com/gp/product/B0146SDE0Y) for $49.  Before purchasing I checked and there were [linux cup drivers](http://www.dymo.com/en-US/dymo-label-sdk-and-cups-drivers-for-linux-dymo-label-sdk-cups-linux-p--1) available since I only have windows running in a VM.
 
-Once you have downloaded the drivers, unpack them and then install.
+Once you have downloaded the drivers, install libraries, unpack the drivers and then install.
 
+        sudo apt-get install libcups2-dev
+        sudo apt-get install libcupsimage2-dev
+        
         cd dymo-cups-drivers-1.4.0.5/
         sudo ./configure
         sudo make

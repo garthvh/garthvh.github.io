@@ -59,8 +59,8 @@ fullwidth: true
   <div class="col-md-6">
     <h3>Zum Scan Shield PCB</h3>
     <p>Black PCB Only for a Ciclop 3D Scanner.</p>
-    <p class="lead">$10 Shipped!</p>
-    <p class="lead">Each PCB is $7 with $3 shipping no matter how many you buy.</p>
+    <p class="lead">$8 Shipped!</p>
+    <p class="lead">Each PCB is $5 with $3 shipping no matter how many you buy.</p>
   </div>
   <div class="col-md-3">
     <div class="well well-sm">

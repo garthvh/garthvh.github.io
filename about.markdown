@@ -40,10 +40,9 @@ I also stole some of the site structure and github connected features from @haac
 
 I have been really impressed with using GitHub Pages and Jekyll to build out a nice static site with templates. The following features have been added to the blog and are built out dyanamically when the site is pushed to github.
 
-* [Sitemap File]({{ site.url }}sitemap.xml)
-* [Humans File]({{ site.url }}humans.txt)
-* [Robots File]({{ site.url }}robots.txt)
-* [RSS Feed]({{ site.url }}atom.xml)
-* [Archives Page]({{ site.url }}atom.xml)
-* Disqus Comments
+* [Sitemap File]({{ site.url }}/sitemap.xml)
+* [Humans File]({{ site.url }}/humans.txt)
+* [Robots File]({{ site.url }}/robots.txt)
+* [RSS Feed]({{ site.url }}/atom.xml)
+* [Archives Page]({{ site.url }}/atom.xml)
 * AddThis Sharing link

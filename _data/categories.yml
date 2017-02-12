@@ -63,3 +63,9 @@
   
 - slug: ubuntu
   name: Ubuntu
+
+- slug: ansible
+  name: Ansible
+
+- slug: clusterhat
+  name: ClusterHAT

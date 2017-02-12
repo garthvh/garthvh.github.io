@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Raspberry Pi Zero Cluster with Ansible
 categories: [linux, raspberrypi, clusterhat, ansible]
 year: 2017
@@ -12,7 +12,7 @@ summary: Raspberry Pi Zero Cluster with Ansible
 
 Out of habit I add a Pi Zero to every Adafruit order I make (or anywhere else that sells the Pi Zero for $5) and have built up quite a collection, I had been looking at some Pi cluster projects but the wiring for network and power always seemed [anoying and fragile](http://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/). 
 
-You may wonder why someone would want a slow pi cluster, I have been looking at using [Ansible](https://www.ansible.com/) as a way to manage software for all my pi based projects and for some cloud automation and thought a cluster might be a fun way to build an Ansible test bed and learn how to manage multiple Pi's.  Then I discovered the [ClusterHAT](https://clusterhat.com/) which attachs to a Raspberry Pi 2/3 "Controller" and uses USB Gadget mode to connect and power 4 Pi Zero "Nodes" into a small cluster.
+You may wonder why someone would want a slow pi cluster, I have been looking at using [Ansible](https://www.ansible.com/) as a way to manage software for all my pi based projects and for some cloud automation and thought a cluster might be a fun way to build an Ansible test bed and learn how to manage multiple Pi's.  Then I discovered the [ClusterHAT](https://clusterhat.com/) which attachs to a Raspberry Pi 2/3 "Controller" and uses USB Gadget mode to connect and power 4 Pi Zero "Nodes" into a small cluster with a hat that connects via USB and the GPIO with no other networking or wiring required.
 
 Since putting together a hub and all the cabling to make my own cluster still seemed anoying and was also more expensive I immediately ordered a ClusterHAT and another Pi Zero from [Pimoroni](https://shop.pimoroni.com/products/cluster-hat). Using the pre-built images provided in the simple section of the ClusterHAT [software setup page](https://clusterhat.com/setup-software) I prepared SD cards for each Pi before the hat arrived, I used a 10X 32GB card for the controller and 4 10X 16GB cards for each of the nodes.  Using my trusty label printer I labeled each Pi Zero and SD Card. After about a week they arrived from the UK and I installed the SD cards I had prepared for each Pi and set about attaching the hat to a Pi 2 and an acrylic plate I had laying around.
 
@@ -79,7 +79,7 @@ That worked, now lets see if we can ping all the nodes:
 
 <img alt="Cluster Hat Terminal" src="https://garthvh.com/assets/img/clusterhat/ansible_ping.png" class="img-responsive img-rounded" />
 
-That's it, ansible on a pi zero cluster using SSH keys for login, now I have to dig into making playbooks and additional ansible configuration options.  The ClusterHAT really is a nice way to build a little cluster without fighting with a ton of wiring and USB and ethernet hubs.
+That's it, ansible on a pi zero Clustercluster using SSH keys for login, now I have to dig into making playbooks and additional ansible configuration options.  The The ClusterHAT really is a nice way to build a little cluster without fighting with a ton of wiring and USB and ethernet hubs.
 
 
 

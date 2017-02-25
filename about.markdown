@@ -32,7 +32,7 @@ I also stole some of the site structure and github connected features from @haac
 
 ### Github Features
 
-* [Contact Link]({{ site.url }}contact) opens an issue.
+* [Contact Link]({{ site.url }}/contact) opens an issue.
 * Edit link on each post creates a pull request
 
 

@@ -17,7 +17,7 @@ summary: "Available site categories"
                     <a href="/category/{{ category.slug }}/"  class="list-group-item">
                         {{ category.name }}
                     </a>
-                {% endfor %} <div class="list-group">
+                {% endfor %}
                 </div>
             </div>
         </div>

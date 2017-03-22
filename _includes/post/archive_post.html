@@ -2,22 +2,29 @@
 {% capture this_year %}{{ date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
 	{% assign year = this_year %}
-	{% unless forloop.first %}
-		</ul>
-	{% endunless %}
-	<h2 class="year">{{ date | date: "%Y" }}</h2>
-	<ul>
+	<li class="time-label">
+		<span class="bg-blue">
+		{{ date | date: "%Y" }} Posts
+		</span>
+	</li>
 {% endunless %}
 	<li>
-		<h3 class="title"><a href="{{ post.url }}">{{post.title}}</a></h3>
-		<div class="meta">
-			<span class="date"><time datetime="{{ date | datetime | date_to_xmlschema }}" itemprop="datePublished">{{ date | date: "%b %e" }}</time></span>
+		<i class="fa fa-newspaper-o bg-green"></i>
+
+		<div class="timeline-item">
+		<span class="time"><i class="fa fa-calendar"></i> {% include post/date.html %}{{ time }}</span>
+
+		<h3 class="timeline-header"><a href="{{ post.url }}">{{post.title}}</a></h3>
+
+		<div class="timeline-body">
 			{% if post.categories.length > 0 %}
-			<span class="tags">{% include post/categories.html %}</span>
+				
 			{% endif %}
-		    {% if site.disqus_short_name and post.comments == true and site.disqus_show_comment_count == true %}
-		    {% include post/comments_link.html %}
-		    {% endif %}
-		    <span class="edit">{% include post/edit.html %}</span>
+			{{ post.excerpt }}. . .
+		</div>
+		<div class="timeline-footer">
+			<a href="{{ post.url }}" class="btn btn-default btn-xs">Read more</a>
+			{% include post/edit.html %}
+		</div>
 		</div>
 	</li>

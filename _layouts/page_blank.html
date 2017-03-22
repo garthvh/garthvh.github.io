@@ -1,0 +1,19 @@
+---
+layout: default_AdminLTE
+single: true
+---
+<section class="content-wraper">
+  <section class="content-header">
+    {% if page.title %}
+    <h1>{% if site.titlecase %}
+      {{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+      {% if page.summary %}
+      <small>{{ page.summary }}</small>
+      {% endif %}
+    </h1>
+    {% endif %}
+  </section>
+  <section class="content">
+    {{ content }}
+  </section>
+</section>

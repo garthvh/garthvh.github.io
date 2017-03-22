@@ -1,13 +1,92 @@
+
+
+
+<!-- Home Page  -->
 {% if index %}
-	<h1 itemprop="name"><a href="{{ post.url }}" itemprop="url">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-	{% include post/meta.html %}
-	<div class="entry-content" itemprop="articleBody">
-		{{ content | excerpt }}
-		{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-		{% if excerpted == 'true' %}<a href="{{ post.url }}" class="more-link">{{ site.excerpt_link }}</a>{% endif %}
+<!-- Content Header (Page header) -->
+<section class="content-header">
+  <h1 itemprop="name"><a href="{{ post.url }}" itemprop="url">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+		<small>{% include post/date.html %}{{ time }}</small>
+	</h1>
+	<div class="tags" style="padding-top:1em;padding-bottom:.5em;">
+		<i class="fa fa-tags"></i>{{ categories_content }}
+		<span class="edit pull-right">{% include post/edit.html %}</span>
 	</div>
+</section>
+<!-- Main content -->
+<section class="content">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="box">
+					<div class="box-body" itemprop="articleBody">
+							{{ content | excerpt }}
+							{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+							{% if excerpted == 'true' %}<a href="{{ post.url }}" class="more-link">{{ site.excerpt_link }}</a>{% endif %}
+							<nav>
+								<ul class="pager">
+									<li class="pull-left">
+									{% if page.previous.url %}
+										<a href="{{page.previous.url}}" title="Previous Post:{{ page.previous.title }}">&laquo; {{page.previous.title}}</a>
+									{% endif %}
+									</li>
+									<li  class="pull-right">
+										{% if page.next.url %}
+										<a href="{{page.next.url}}" title="next Post:{{ page.next.title }}">{{ page.next.title }} &raquo; </a>
+									{% endif %}
+									</li>
+								</ul>
+							</nav>
+					</div>
+					<!-- /.box-body -->
+				</div>
+				<!-- /.box -->
+		</div>
+		<!-- /.col -->
+	</div>
+	<!-- /.row -->
+</section>
 {% else %}
-	<h1 itemprop="name">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-	{% include post/meta.html %}
-	<div class="entry-content" itemprop="articleBody">{{ content }}</div>
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1 itemprop="name">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+		<small>{% include post/date.html %}{{ time }}</small>
+	</h1>
+	<div class="tags" style="padding-top:1em;padding-bottom:.5em;">
+		<i class="fa fa-tags"></i>{{ categories_content }}
+		<span class="edit pull-right">{% include post/edit.html %}</span>
+	</div>
+    <ol class="breadcrumb">
+    <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="{{ site.baseurl }}/archives"><i class="fa fa-newspaper-o"></i> Blog</a></li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="box">
+					<div class="box-body" itemprop="articleBody">{{ content }}
+						<nav>
+						<ul class="pager">
+							<li class="pull-left">
+							{% if page.previous.url %}
+								<a href="{{page.previous.url}}" title="Previous Post:{{ page.previous.title }}">&laquo; {{page.previous.title}}</a>
+							{% endif %}
+							</li>
+							<li  class="pull-right">
+								{% if page.next.url %}
+								<a href="{{page.next.url}}" title="next Post:{{ page.next.title }}">{{ page.next.title }} &raquo; </a>
+							{% endif %}
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.box-body -->
+			</div>
+			<!-- /.box -->
+		</div>
+		<!-- /.col -->
+	</div>
+	<!-- /.row -->
+</section>
 {% endif %}

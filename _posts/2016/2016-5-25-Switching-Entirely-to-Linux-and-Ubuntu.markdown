@@ -7,6 +7,7 @@ year: 2016
 month: 5
 day: 25
 summary: Switching Entirely to Linux and Ubuntu
+redirect_from: /linux/ubuntu/2016/05/25/Switching-Entirely-to-Linux-and-Ubuntu/
 ---
 
 <img alt="Print one at a time settings" src="https://garthvh.com/assets/img/ubuntu/ubuntu_desktop.png" class="img-responsive img-rounded" />

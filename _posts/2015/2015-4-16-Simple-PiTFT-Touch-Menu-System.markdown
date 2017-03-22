@@ -7,6 +7,7 @@ year: 2015
 month: 4
 day: 16
 summary: Simple PiTFT Touch Menu System
+redirect_from: /raspberrypi/linux/2015/04/16/Simple-PiTFT-Touch-Menu-System/
 ---
 
 Just completed a simple touch menu for Raspberry Pi projects using the [3.5" Adafruit PiTFT](http://www.adafruit.com/products/2097) 480x320 touch screen.

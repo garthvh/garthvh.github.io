@@ -2,11 +2,12 @@
 layout: post
 published: true
 title: Installing the Printrbot Simple Z Axis Upgrade and v2 Extruder
-categories: [printrbot]
+categories: [3dprinting]
 year: 2015
 month: 9
 day: 22
 summary: Installing the Printrbot Simple Z Axis Upgrade and v2 Extruder
+redirect_from: /printrbot/2015/09/22/Printrbot-Simple-Z-Axis-Upgrade-and-v2-Extruder/
 ---
 
 After almost a year with my Printrbot I was excited to see the new Printrbot Simple Z and X axis upgrades they recently made available.

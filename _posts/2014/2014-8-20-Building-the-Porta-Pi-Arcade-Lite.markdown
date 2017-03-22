@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Building the Porta-Pi Arcade Lite
-categories: [raspberrypi, retropi, linux]
+categories: [raspberrypi, retropie, retrogaming, linux]
 year: 2014
 month: 8
 day: 20
 published: true
 summary: Making a portable raspberry pi arcade.
+redirect_from: /retropi/linux/2014/08/20/Building-the-Porta-Pi-Arcade-Lite/
 ---
 
 <img src="/assets/img/portapi/porta_pi_01.jpg" class="img-responsive img-rounded" alt="Porta Pi Arcade" />

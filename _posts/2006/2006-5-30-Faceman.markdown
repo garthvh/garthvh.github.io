@@ -7,7 +7,6 @@ month: 6
 day: 30
 published: true
 summary: A photo of the faceman.
-image: post_three.jpg
 ---
 
 <img src="//static.flickr.com/68/156286755_f8a4f50762.jpg" alt="Touch Pi Menu" class="img-responsive img-rounded" />

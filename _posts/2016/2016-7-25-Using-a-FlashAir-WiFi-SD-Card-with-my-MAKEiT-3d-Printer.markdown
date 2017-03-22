@@ -7,6 +7,7 @@ year: 2016
 month: 7
 day: 25
 summary: Using a FlashAir WiFi SD Card with my MAKEiT 3d Printer
+redirect_from: /linux/3dprinting/2016/07/25/Using-a-FlashAir-WiFi-SD-Card-with-my-MAKEiT-3d-Printer/
 ---
 
 I have used OctoPrint to manage prints in the past with my Printrbot.  As time went on I found myself using the SD card more often because it was more reliable.  When I got my new MAKEiT Pro-M printer I continued to use the SD card because it has a fantastic tune feature that lets me adjust a number of settings on the fly if you are printing from the SD card.

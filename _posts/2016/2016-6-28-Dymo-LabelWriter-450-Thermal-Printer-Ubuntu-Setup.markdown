@@ -7,6 +7,7 @@ year: 2016
 month: 6
 day: 28
 summary: Dymo LabelWriter 450 Thermal Printer Ubuntu Setup
+redirect_from: /linux/ubuntu/2016/06/28/Dymo-LabelWriter-450-Thermal-Printer-Ubuntu-Setup/
 ---
 
 When I started using Linux printers eluded me a bit, my Canon multifunction printer did not have good linux drivers for quite some time and initially I could not find any software to run my small Brother label printer. Eventually Canon improved their driver and I found a program called [blabel](http://apz.fi/blabel/) for my brother label printer.  

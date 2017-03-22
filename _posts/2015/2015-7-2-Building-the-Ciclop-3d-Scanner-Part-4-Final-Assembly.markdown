@@ -2,11 +2,12 @@
 layout: post
 published: true
 title: Building the Ciclop 3d Scanner Part 4 Final Assembly
-categories: [ciclop,printrbot,oshpark,ponoko,arduino]
+categories: [ciclop,3dprinting,arduino,digitalfabrication]
 year: 2015
 month: 7
 day: 2
 summary: Building the Ciclop 3d Scanner Part 4 Final Assembly
+redirect_from: /ciclop/printrbot/oshpark/ponoko/arduino/2015/07/02/Building-the-Ciclop-3d-Scanner-Part-4-Final-Assembly/
 ---
 
 I have been working on my Ciclop 3D scanner for about a month now and the build is almost complete.  I had been looking for a complex and complete open source hardware project and the Ciclop has been perfect. Because the BQ kit and components are not available yet in the United States.  

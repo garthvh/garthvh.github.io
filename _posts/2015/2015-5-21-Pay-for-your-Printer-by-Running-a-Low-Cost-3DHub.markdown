@@ -2,11 +2,12 @@
 layout: post
 published: true
 title: Pay for your Printer by Running a Low Cost 3D Hub
-categories: [3dHubs, printrbot]
+categories: [3dhubs, 3dprinting, digitalfabrication]
 year: 2015
 month: 5
 day: 21
 summary: Replicate the money you spent on your printer with 3D Hubs
+redirect_from: /3dhubs/printrbot/2015/05/21/Pay-for-your-Printer-by-Running-a-Low-Cost-3DHub/
 ---
 
 After I had my Printrbot Simple Metal for about a month, I found [3D Hubs](https://www.3dhubs.com/) and I listed my printer at the suggested prices.  3D Hubs suggests a $10 setup fee and $1 per cubic centimeter of filament.

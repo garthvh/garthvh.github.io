@@ -1,25 +1,18 @@
 ---
 layout: page
-title: About
+title: About this Site
 summary: Site Setup Details
-fullwidth: true
 ---
 
-## About Me
-
-Hi I'm Garth Vander Houwen, a software engineer living in Seattle. I write desktop and web software by day and dabble in open hardware and 3D Printing in my spare time.
-
-## About this site
-
-### Styles
+#### Styles
 
 For the site styles I am using as little of my own custom css as possible and leaning on bootstrap and font awesome, almost everything is standard Bootstrap 3 or font awesome markup.
 
 * CDN Hosted [Bootstrap](http://www.bootstrapcdn.com/) styles and javascript
-* CDN Hosted Flatly Bootstrap Theme by [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab)
+* Admin LTE [Bootstrap 3 Theme](https://github.com/almasaeed2010/AdminLTE)
 * CDN Hosted [Font Awesome Icons](http://www.bootstrapcdn.com/#fontawesome_tab) and styles
 
-### Content Management
+#### Content Management
 
 After years of developing my own content management systems I have completely switched to markdown for security and ease of use.  Using the github Atom editor primarily. The content of this static site is built out using Jekyll for Github Pages.
 
@@ -30,13 +23,12 @@ I also stole some of the site structure and github connected features from @haac
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 * Custom domain registered with GoDaddy
 
-### Github Features
+#### Github Features
 
 * [Contact Link]({{ site.url }}/contact) opens an issue.
 * Edit link on each post creates a pull request
 
-
-### Site Features
+#### Site Features
 
 I have been really impressed with using GitHub Pages and Jekyll to build out a nice static site with templates. The following features have been added to the blog and are built out dyanamically when the site is pushed to github.
 
@@ -45,4 +37,4 @@ I have been really impressed with using GitHub Pages and Jekyll to build out a n
 * [Robots File]({{ site.url }}/robots.txt)
 * [RSS Feed]({{ site.url }}/atom.xml)
 * [Archives Page]({{ site.url }}/atom.xml)
-* AddThis Sharing link
+* CloudFlare Free SSL

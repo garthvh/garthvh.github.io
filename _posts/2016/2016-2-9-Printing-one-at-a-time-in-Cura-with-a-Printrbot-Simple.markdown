@@ -1,13 +1,13 @@
 ---
 layout: post
 published: true
-comments: true
 title: Printing one at a time in Cura with a Printrbot Simple
-categories: [printrbot,cura]
+categories: [3dprinting]
 year: 2016
 month: 2
 day: 9
 summary: Printing one at a time in Cura with a Printrbot Simple
+redirect_from: /printrbot/cura/2016/02/09/Printing-one-at-a-time-in-Cura-with-a-Printrbot-Simple/
 ---
 
 I love my Printerbot Simple, but I have had a limited amount of success printing plates full of parts since I installed my X axis upgrade.  Despite having more bed space I continued to have issues with printing batches. When printing all parts at the same time issues with one print seem to multiply themselves to all the prints sometimes wreaking the entire plate of parts.  There are also sometimes imperfections and stringing on parts caused by the extruder traveling between parts.

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Getting Started with My Printrbot Simple Metal
-categories: [raspberrypi, linux, 3dprinting, printrbot]
+categories: [raspberrypi, linux, 3dprinting]
 year: 2014
 month: 12
 day: 27
 published: true
 summary: Adventures in 3D Printing.
-image: post_three.jpg
+redirect_from: /raspberrypi/linux/3dprinting/printrbot/2014/12/27/getting-started-with-my-printrbot-simple-metal/
 ---
 
 I got a [printrbot simple metal kit](http://printrbot.com/shop/simple-metal-kit/) on black friday so I have had it a little longer than those who got one for Christmas. It has printed at least 4 hours a day since and I think I have it up and running pretty nicely now, here are my tips for getting great prints quickly.

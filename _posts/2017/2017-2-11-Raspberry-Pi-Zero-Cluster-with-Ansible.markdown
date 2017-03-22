@@ -2,11 +2,13 @@
 layout: post
 published: true
 title: Raspberry Pi Zero Cluster with Ansible
-categories: [linux, raspberrypi, clusterhat, ansible]
+categories: [linux, raspberrypi, ansible]
 year: 2017
 month: 2
 day: 11
 summary: Raspberry Pi Zero Cluster with Ansible
+redirect_from:
+  - /linux/raspberrypi/clusterhat/ansible/2017/02/11/Raspberry-Pi-Zero-Cluster-with-Ansible/
 ---
 <img alt="Cluster Hat" src="https://garthvh.com/assets/img/clusterhat/clusterhat_1.jpg" class="img-responsive img-rounded" />
 

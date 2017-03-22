@@ -1,38 +1,89 @@
 ---
-layout: page
+layout: default_AdminLTE
 single: true
 ---
 
-<div>
+
+
+
+
 
 {% for category in site.data.categories %}
-{% if page.category == category.slug%}
-<h1>Posts by category : {{ page.category }}</h1>
-<p>{{ content }}</p>
-    {% for post in site.categories[category.slug] %}
-        <h3 class="title">  <a href="{{ post.url }}/">{{ post.title }}</a></h3>
-        <div class="meta">
-            <span class="date"><time datetime="{{ post.date | datetime | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d %Y" }}</time></span>
-            {% if site.disqus_short_name and post.comments == true and site.disqus_show_comment_count == true %}
-            {% include post/comments_link.html %}
-            {% endif %}
-            <span class="edit">{% include post/edit.html %}</span>
-        </div>
-    {% endfor %}
-{% endif %}
+{% assign categorymatch = false %}
 {% if page.category == category.name %}
-<h1>Posts by category : {{ page.category }}</h1>
-<p>{{ content }}</p>
-    {% for post in site.categories[category.slug] %}
-        <h3 class="title">  <a href="{{ post.url }}/">{{ post.title }}</a></h3>
-        <div class="meta">
-            <span class="date"><time datetime="{{ post.date | datetime | date_to_xmlschema }}" itemprop="datePublished">{{ post.date |date: "%b %-d %Y" }}</time></span>
-            {% if site.disqus_short_name and post.comments == true and site.disqus_show_comment_count == true %}
-            {% include post/comments_link.html %}
-            {% endif %}
-            <span class="edit">{% include post/edit.html %}</span>
+    {% assign categorymatch = true %}
+    {% assign currentcategory = category %}
+{% endif %}
+{% if page.category == category.slug %}
+    {% assign categorymatch = true %}
+    {% assign currentcategory = category %}
+{% endif %}
+{% if categorymatch %}
+<section class="content-wraper">
+  <section class="content-header">
+    <h1>Category: {{ currentcategory.name }}</h1>
+  </section>
+  <section class="content">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <i class="fa fa-newspaper-o"></i>
+            <h3 class="box-title">Posts for {{ currentcategory.name }}</h3>
+          </div>
+          <div class="box-body">
+            {{ content }}
+            <ul class="timeline">
+            {% for post in site.categories[category.slug] %}
+              <li class="time-label">
+                <span class="{{ category.color }}">
+                {% include post/date.html %}{{ time }}
+                </span>
+              </li>
+              <li>
+                <i class="fa {{ category.icon }}"></i>
+                <div class="timeline-item">
+                  <span class="time"><i class="fa fa-tags"></i> {% include post/categories.html %}</span>
+                  <h3 class="timeline-header"><a href="{{ post.url }}">{{post.title}}</a></h3>
+                  <div class="timeline-body">
+                      {{ post.excerpt }}. . .
+                  </div>
+                  <div class="timeline-footer">
+                      <a href="{{ post.url }}" class="btn btn-default btn-xs">Read more</a>
+                      {% include post/edit.html %}
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+              <li>
+                <i class="fa fa-clock-o bg-gray"></i>
+              </li>
+            </ul>
+          </div>
         </div>
-    {% endfor %}
-
+      </div>
+      <div class="col-md-4">
+        <div class="box box-default">
+          <div class="box-header">
+            <i class="fa fa-link"></i>
+            <h3 class="box-title">Links for {{ currentcategory.name  }}</h3>
+          </div>
+          {% for category in site.data.links %}
+          {% if category.category == currentcategory.slug  %}
+          <div class="box-body">
+            <div class="list-group">
+            {% for link in category.links %}
+              <a href="{{ link.url }}" class="list-group-item">
+                {{ link.text }}
+              </a>
+            {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>  
+  </section>
+</section>
 {% endif %}{% endfor %}
-</div>

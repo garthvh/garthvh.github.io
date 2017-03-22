@@ -1,71 +1,109 @@
 - slug: 3dhubs
   name: 3D Hubs
+  color: bg-yellow
+  icon: fa-cogs bg-red
 
 - slug: 3dprinting
   name: 3D Printing
+  color: bg-navy
+  icon: fa-cogs bg-teal
+
+- slug: 3dscanning
+  name: 3D Scanning
+  color: bg-navy
+  icon: fa-cogs bg-teal
 
 - slug: adafruit
   name: Adafruit
-
-- slug: arduino
-  name: Arduino
-
-- slug: printrbot
-  name: Printrbot
-
-- slug: chromebook
-  name: Chromebook
-
-- slug: ciclop
-  name: Ciclop
-
-- slug: crouton
-  name: Crouton
-
-- slug: cura
-  name: Cura
-
-- slug: filament
-  name: Filament
-
-- slug: linux
-  name: Linux
-
-- slug: music
-  name: Music
-
-- slug: oshpark
-  name: OSHPark
-
-- slug: ponoko
-  name: Ponoko
-
-- slug: raspberrypi
-  name: Raspberry Pi
-
-- slug: retropi
-  name: Retro Pi
-
-- slug: horus
-  name: Horus
-
-- slug: iot
-  name: IoT
-
-- slug: esp8266
-  name: ESP8266
-
-- slug: makeit
-  name: MAKEiT
-
-- slug: simplify3d
-  name: Simplify 3D
-  
-- slug: ubuntu
-  name: Ubuntu
+  color: bg-navy
+  icon: fa-shopping-cart bg-purple
 
 - slug: ansible
   name: Ansible
+  color: bg-red
+  icon: fa-terminal bg-blue
 
-- slug: clusterhat
-  name: ClusterHAT
+- slug: arduino
+  name: Arduino
+  color: bg-green
+  icon: fa-microchip bg-black
+
+- slug: chromebook
+  name: Chromebook
+  color: bg-red
+  icon: fa-google bg-blue
+
+- slug: ciclop
+  name: Ciclop
+  color: bg-orange
+  icon: fa-cogs bg-red
+
+- slug: crouton
+  name: Crouton
+  color: bg-red
+  icon: fa-terminal bg-blue
+
+- slug: digitalfabrication
+  name: Online Digital Fabrication
+  color: bg-green
+  icon: fa-cogs bg-red
+
+- slug: electronics
+  name: Electronics
+  color: bg-green
+  icon: fa-plug bg-red
+
+- slug: iot
+  name: IoT
+  color: bg-purple
+  icon: fa-podcast bg-yellow
+
+- slug: linux
+  name: Linux
+  color: bg-blue
+  icon: fa-linux bg-green
+
+- slug: makeit
+  name: MAKEiT
+  color: bg-blue
+  icon: fa-cogs bg-black
+
+- slug: microcontrollers
+  name: Microcontrollers
+  color: bg-green
+  icon: fa-microchip bg-black
+
+- slug: music
+  name: Music
+  color: bg-yellow
+  icon: fa-music bg-green
+
+- slug: oshpark
+  name: OSHPark
+  color: bg-black
+  icon: fa-cogs bg-purple
+
+- slug: privacy
+  name: Privacy
+  color: bg-red
+  icon: fa-user-secret bg-black
+
+- slug: raspberrypi
+  name: Raspberry Pi
+  color: bg-red
+  icon: fa-file-code-o bg-blue
+
+- slug: retropie
+  name: Retro Pie
+  color: bg-red
+  icon: fa-gamepad bg-orange
+
+- slug: retrogaming
+  name: Retro Gaming
+  color: bg-green
+  icon: fa-gamepad bg-orange
+  
+- slug: ubuntu
+  name: Ubuntu
+  color: bg-green
+  icon: fa-linux bg-orange

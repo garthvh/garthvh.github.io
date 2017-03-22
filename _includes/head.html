@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-{% if site.lang %}
-<html lang="{{ site.lang }}">
-{% else %}
-<html>
-{% endif %}
+{% if site.lang %}<html lang="{{ site.lang }}">{% else %}<html>{% endif %}
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} - {% elsif post.title %}{{ post.title }} - {% endif %}{{ site.title }}</title>
@@ -29,6 +25,8 @@
   <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/flatly/bootstrap.min.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css" />
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/AdminLTE.min.css" />
 
 
   {% include google_analytics.html %}

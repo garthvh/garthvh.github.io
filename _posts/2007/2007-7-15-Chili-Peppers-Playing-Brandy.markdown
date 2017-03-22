@@ -7,7 +7,7 @@ month: 7
 day: 15
 published: true
 summary: The Chili Peppers play brandy.
-image: post_three.jpg
+redirect_from: /music/2007/07/15/Chili-Peppers-Playing-Brandy/
 ---
 
 What could be better than RHCP playing my favorite song by one hit wonder Looking Glass

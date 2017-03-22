@@ -1,166 +1,215 @@
 ---
-layout: default
+layout: default_AdminLTE
 title: 3d-Printing
 slug: 3d-printing
 lead: "3D Printing Services"
-fullwidth: true
 ---
-<div class="container">
-	<div class="jumbotron">
-		<h1 class="text-center">3D Printing Services</h1>
-		<p>Specializes in low cost high quality printing and small batch production with numerous available materials.</p>
-		<p>Printrbot Simple with heated bed, X and Z upgrades and UBIS 13S hot end.</p>
-		<p>Print pickup at <a href="http://www.cloudcitycoffee.com" target="_blank">Cloud City Coffee</a> in Maple Leaf (North Seattle). (I will meet you there, they will look totally confused if you ask coffee shop employees for your prints)</p>
-		<p>Shipping: Most parts ship in a 6x8 padded envelope first class and will arrive in the PNW in a day or two. Most items cost just $3 to ship.</p>
-		<p>
-			<br/>
-		  <div class="text-center">
-				<a href="https://www.3dhubs.com/seattle/hubs/garth/3dprint" data-3dhubs-widget="button" data-hub-id="34464" data-type="orderWidget" data-color="red" data-size="large" data-text="Order a 3D Print from Garth">Order a 3D Print from Garth</a>
-				<script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/2.0.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>
-			</div>
-			</p>
-	</div>
-	<div class="row">
-		{% for project in site.data.project %}
-		<div class="col-xs-12 col-sm-4">
-			<div class="thumbnail">
-				<a href="{{ project.url }}" target="_blank" title="{{ project.name }}">
-					<img src="/assets/img/social/{{ project.img }}_thumb.jpg" alt="{{ project.name }}" class="img-responsive">
-				</a>
-			<div class="caption">
-				<h3>{{ project.name }}</h3>
+<section class="content-wraper">
+	<section class="content-header">
+	<!--<h1>Posts by category: {{ page.category }}</h1>-->
+	</section>
+	<section class="content">
+		<div class="box box-primary">
+			<div class="box-body">
+				<div class="jumbotron" style="background-color:#fff;">
+					<h1 class="text-center">3D Printing Services</h1>
+
+					<p>MAKEiT Pro-M High Resolution, super accurate dual extruder printer http://www.makeit-3d.com/ Simplify3D for slicing.</p>
+					<p>Free Shipping or Pickup at Cloud City coffee in Maple Leaf (North Seattle) fwww.cloudcitycoffee.com. (I will meet you there, they will look totally confused if you ask coffee shop employees for your prints)</p>
+					<p>Specializes in low cost high quality printing, no 3D design services are available.</p>
+					<p>Free Shipping: Most parts ship in a 6x8 padded envelope first class and will generally arrive in 1-5 days after shipping. Most items that fit in the 6x8 or 8x10 padded envelope ship free.</p>
+					<p>
+						<br/>
+						<div class="text-center">
+							<a href="https://www.3dhubs.com/seattle/hubs/garth/3dprint" data-3dhubs-widget="button" data-hub-id="34464" data-type="orderWidget" data-color="red" data-size="large" data-text="Order a 3D Print from Garth">Order a 3D Print from Garth</a>
+							<script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/2.0.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
-		{% endfor %}
-	</div>
-	<div class="row">
-		<div class="col-12-sm">
-			<h2>Material Information</h2>
-<div class="table-responsive">
-<table class="table table-bordered table-hover">
-	<tbody>
-		<tr>
-			<td colspan="4"><h3>Filled PLA</h3>
-			<p>Exotic filaments that tend to be about 80% PLA mixed with about 20% filler material, enabling the ability to print wood, metal and conductive models. Many of the metal materials require post processing in order to created the desired finish (rusting, polishing etc). </p>
-			</td>
-		</tr>
-		<tr>
-			<th>Brand</th>
-			<th>Material</th>
-			<th colspan="2">Notes</th>
-		</tr>
-		<tr>
-			<td>Proto Pasta</td>
-			<td>Electrically Conductive Carbon PLA Composite</td>
-			<td colspan="2">Electrify prints for Simple Circuits & Touch-Sensitive Devices! <a href="http://www.proto-pasta.com/products/conductive-pla" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td>Proto Pasta</td>
-			<td>Rustable Magnetic Iron PLA Composite</td>
-			<td colspan="2">A material that responds to magnets and behaves similarly to pure iron, even to the point of rusting! Magnetism opens up a new world of practical applications and fun creations. <a href="http://www.proto-pasta.com/collections/retail/products/magnetic-iron-pla" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td>Proto Pasta</td>
-			<td>Polishable Stainless Steel PLA Composite</td>
-			<td colspan="2">A dense material that prints as easily as standard PLA but results in heavy cast metal looking prints that can be brushed, sanded, or polished post-print to achieve amazing results. Perfect for jewelry, costumes, props, figurines, crafting, robots, and more! <a href="http://www.proto-pasta.com/collections/retail/products/stainless-steel-pla" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td>eco3D</td>
-			<td>Plaster</td>
-			<td colspan="2">Biodegradable and environmentally friendly, eco3D Plaster is a 3D printing filament designed specifically for interior and/or exterior architects and artists. This product is perfect for neutral, clean and undisturbed surfaces, which allow designers to clearly bring their vision to life with this state-of-the-art  filament. <a href="https://www.cubicity.com/products/eco3d-plaster-3d-printing-filament" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td>Push Plastic</td>
-			<td>Wood Fill</td>
-			<td colspan="2">Wood filled PLA can be sanded and stained.</td>
-		</tr>
-		<tr>
-			<td colspan="4"><h3>Nylon</h3></td>
-		</tr>
-		<tr>
-			<th>Brand</th>
-			<th>Color</th>
-			<th colspan="2">Notes</th>
-		</tr>
-		<tr>
-			<td>Taulman</td>
-			<td>Natural - Bridge</td>
-			<td colspan="2">Strong and flexible material that can be dyed with fabric dye (RIT) <a href="http://taulman3d.com/bridge-features.html" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td>Taulman</td>
-			<td>Natural - Nylon 680</td>
-			<td colspan="2">Strong and flexible FDA approved material that allows for easy visual inspection. This is my best material for prototypes that will be in contact with food. [more info](http://taulman3d.com/680-features.html)</td>
-		</tr>
-		<tr>
-			<td>Taulman</td>
-			<td>Natural - Alloy 910</td>
-			<td colspan="2">Strong and flexible material, the best material I have for printing strong detail features like pins and loops. <a href="http://taulman3d.com/910-features.html" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td colspan="4"><h3>PET</h3></td>
-		</tr>
-		<tr>
-			<th colspan="2">Brand</th>
-			<th>Color(s)</th>
-			<th colspan="2">Notes</th>
-		</tr>
-		<tr>
-			<td colspan="2">Taulman - TGLASE(PETT)</td>
-			<td>Black, Blue, Clear, Green, Red</td>
-			<td >Strong and transparent FDA approved material that can be visually inspected with a higher printing tempature than PLA <a href="http://taulman3d.com/t-glase-features.html" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td colspan="2">Made Solid - PET+</td>
-			<td>Black, Clear</td>
-			<td colspan="2">Easy like PLA. Strong like ABS. More Flex than Both. <a href="https://madesolid.com/pages/pet-filament" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td colspan="2">Push Plastic - PETG</td>
-			<td>Black, Clear</td>
-			<td colspan="2">PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.<a href="http://pushplastic.com/collections/petg" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td colspan="4"><h3>PLA</h3></td>
-		</tr>
-		<tr>
-			<th class="col-2-sm">Brand</th>
-			<th colspan="2">Colors</th>
-			<th>Notes</th>
-		</tr>
-		<tr>
-			<td>Hatchbox</td>
-			<td colspan="2">Brown(731 C), Glow in the dark, Gold, Green(347 C), Orange(021 C), Silver, Yellow</td>
-			<td>High quality PLA, great color consistency between spools allowing for projects requiring multiple spools of material.</td>
-		</tr>
-		<tr>
-			<td>Push Plastic</td>
-			<td colspan="2">Black, White, Clear, Red, Blue, Dark Gray, Light Gray, Fatigue Green, Pink, Lavender</td>
-			<td>High quality PLA, made in the USA. Switching all PLA from Hatchbox to Push Plastic</td>
-		</tr>
-		<tr>
-			<td>Printrbot</td>
-			<td colspan="2">Purple</td>
-			<td>Bright true purple like the University of Washington uses, I found other "purple" filaments looked more pink to me.</td>
-		</tr>
-		<tr>
-			<td colspan="4"><h3>TPE - Ninjaflex & Semiflex</h3></td>
-		</tr>
-		<tr>
-			<td>NinjaTek - NinjaFlex</td>
-			<td colspan="2">Fire, Snow, Orchid</td>
-			<td> NinjaFlex creates extremely flexible, strong prints.  Great for buttons and other parts that require some flexibility or a rubbary texture. <a href="http://3dprintny.com/product/fire-1-75mm-large-spool-ninjaflex-3d-printing-filament/" target="_blank">more info</a></td>
-		</tr>
-		<tr>
-			<td>NinjaTek - SemiFlex</td>
-			<td colspan="2">Grass, Midnight, Sapphire</td>
-			<td> SemiFlex creates extremely flexible, strong prints.  Great for buttons and other parts that require some flexibility or a rubbary texture. <a href="http://3dprintny.com/product/midnight-1-75mm-large-spool-semiflex-3d-printing-filament/" target="_blank">more info</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
+	</section>
+	<section class="content-header">
+		<h1>Material Information</h1>
+	</section>
+	<section class="content">
+		<div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">PLA</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-striped">
+				  <thead>
+					<tr>
+					  	<th class="col-md-1">Brand</th>
+					  	<th class="col-md-3">Color</th>
+					  	<th>Notes</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+						<td>Hatchbox</td>
+						<td>Brown(731 C), Glow in the dark, Gold, Green(347 C), Orange(021 C), Silver, Yellow</td>
+						<td>High quality PLA.</td>
+					</tr>
+					<tr>
+						<td>Push Plastic</td>
+						<td>Black, White, Clear, Red, Blue, Dark Gray, Light Gray, Fatigue Green, Pink, Lavender</td>
+						<td>High quality PLA with great color consistency between spools allowing for projects requiring multiple spools of material, made in the USA. Switching all PLA from Hatchbox to Push Plastic</td>
+					</tr>
+					<tr>
+						<td>Printrbot</td>
+						<td>Purple</td>
+						<td>Bright true purple like the University of Washington uses, I found other "purple" filaments looked more pink to me.</td>
+					</tr>
+				  </tbody>
+			  </table>
+			</div>
 		</div>
-	</div>
-</div>
+		<div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Filled PLA</h3>
+				<p>Exotic filaments that tend to be about 80% PLA mixed with about 20% filler material, enabling the ability to print wood, metal and conductive models. Many of the metal materials require post processing in order to created the desired finish (rusting, polishing etc).</p>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-striped">
+				  <thead>
+					<tr>
+					  	<th class="col-md-1">Brand</th>
+					  	<th class="col-md-2">Material</th>
+					  	<th>Notes</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+						<td>Proto Pasta</td>
+						<td>Electrically Conductive Carbon PLA Composite</td>
+						<td>Electrify prints for Simple Circuits & Touch-Sensitive Devices! <a href="http://www.proto-pasta.com/products/conductive-pla" target="_blank">more info</a></td>
+					</tr>
+					<tr>
+						<td>Proto Pasta</td>
+						<td>Rustable Magnetic Iron PLA Composite</td>
+						<td>A material that responds to magnets and behaves similarly to pure iron, even to the point of rusting! Magnetism opens up a new world of practical applications and fun creations. <a href="http://www.proto-pasta.com/collections/retail/products/magnetic-iron-pla" target="_blank">more info</a></td>
+					</tr>
+					<tr>
+						<td>Proto Pasta</td>
+						<td>Polishable Stainless Steel PLA Composite</td>
+						<td>A dense material that prints as easily as standard PLA but results in heavy cast metal looking prints that can be brushed, sanded, or polished post-print to achieve amazing results. Perfect for jewelry, costumes, props, figurines, crafting, robots, and more! <a href="http://www.proto-pasta.com/collections/retail/products/stainless-steel-pla" target="_blank">more info</a></td>
+					</tr>
+					<tr>
+						<td>eco3D</td>
+						<td>Plaster</td>
+						<td>Biodegradable and environmentally friendly, eco3D Plaster is a 3D printing filament designed specifically for interior and/or exterior architects and artists. This product is perfect for neutral, clean and undisturbed surfaces, which allow designers to clearly bring their vision to life with this state-of-the-art  filament. <a href="https://www.cubicity.com/products/eco3d-plaster-3d-printing-filament" target="_blank">more info</a></td>
+					</tr>
+					<tr>
+						<td>Push Plastic</td>
+						<td>Wood Fill</td>
+						<td>Wood filled PLA can be sanded and stained.</td>
+					</tr>
+				  </tbody>
+			  </table>
+			</div>
+		</div>
+		<div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Nylon</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-striped">
+				  <thead>
+					<tr>
+					  	<th class="col-md-1">Brand</th>
+					  	<th class="col-md-2">Color</th>
+					  	<th>Notes</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+						<td>Taulman</td>
+						<td>Natural - Bridge</td>
+						<td>Strong and flexible material that can be dyed with fabric dye (RIT) <a href="http://taulman3d.com/bridge-features.html" target="_blank">more info</a></td>
+					</tr>
+					<tr>
+						<td>Taulman</td>
+						<td>Natural - Nylon 680</td>
+						<td>Strong and flexible FDA approved material that allows for easy visual inspection. This is my best material for prototypes that will be in contact with food. [more info](http://taulman3d.com/680-features.html)</td>
+					</tr>
+					<tr>
+						<td>Taulman</td>
+						<td>Natural - Alloy 910</td>
+						<td>Strong and flexible material, the best material I have for printing strong detail features like pins and loops. <a href="http://taulman3d.com/910-features.html" target="_blank">more info</a></td>
+					</tr>
+				  </tbody>
+			  </table>
+			</div>
+		</div>
+		<div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">PET Plastics</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-striped">
+				  <thead>
+					<tr>
+					  	<th class="col-md-2">Brand</th>
+					  	<th class="col-md-2">Color</th>
+					  	<th>Notes</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+						<td>Taulman - TGLASE(PETT)</td>
+						<td>Blue, Green, Red</td>
+						<td>Strong and transparent FDA approved material that can be visually inspected with a higher printing tempature than PLA <a href="http://taulman3d.com/t-glase-features.html" target="_blank">more info</a></td>
+					</tr>
+					<tr>
+						<td>Made Solid - PET+</td>
+						<td>Black</td>
+						<td>Easy like PLA. Strong like ABS. More Flex than Both. <a href="https://madesolid.com/pages/pet-filament" target="_blank">more info</a></td>
+					</tr>
+					<tr>
+						<td>Push Plastic - PETG</td>
+						<td>Black, Clear</td>
+						<td>PETG is a transparent thermoplastic which is an excellent choice for applications that require durability and clarity.<a href="http://pushplastic.com/collections/petg" target="_blank">more info</a></td>
+					</tr>
+				  </tbody>
+			  </table>
+			</div>
+		</div>
+		<div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Flexible TPE</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-striped">
+				  <thead>
+					<tr>
+					  	<th class="col-md-2">Brand</th>
+					  	<th class="col-md-2">Color</th>
+					  	<th>Notes</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+						<td>NinjaTek - NinjaFlex</td>
+						<td>Fire, Snow, Orchid</td>
+						<td>NinjaFlex creates extremely flexible, strong prints.  Great for buttons and other parts that require some flexibility or a rubbary texture. <a href="http://3dprintny.com/product/fire-1-75mm-large-spool-ninjaflex-3d-printing-filament/" target="_blank">more info</a></td>
+					</tr>
+					<tr>
+						<td>NinjaTek - SemiFlex</td>
+						<td>Grass, Midnight, Sapphire</td>
+						<td>SemiFlex creates extremely flexible, strong prints.  Great for buttons and other parts that require some flexibility or a rubbary texture. <a href="http://3dprintny.com/product/midnight-1-75mm-large-spool-semiflex-3d-printing-filament/" target="_blank">more info</a></td>
+					</tr>
+				  </tbody>
+			  </table>
+			</div>
+		</div>
+	</section>
+</section>	
+
 <script>!function(a,b,c,d){var e,g=(a.getElementsByTagName(b)[0],/^http:/.test(a.location)?"http":"https");a.getElementById(d)||(e=a.createElement(b),e.id=d,e.src=g+"://d3d4ig4df637nj.cloudfront.net/w/1.0.min.js",e.async=!0,a.body.appendChild(e))}(document,"script",1,"h3d-widgets-js");</script>

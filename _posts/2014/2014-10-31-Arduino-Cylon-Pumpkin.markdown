@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Charlieplexed Arduino Cylon Pumpkin
-categories: [arduino]
+categories: [arduino, microcontrollers]
 year: 2014
 month: 10
 day: 31
 published: true
 summary: KITT for your pumpkin.
+redirect_from: /arduino/2014/10/31/Arduino-Cylon-Pumpkin/
 ---
 <section>
 	<div>

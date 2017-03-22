@@ -7,6 +7,7 @@ month: 11
 day: 25
 published: true
 summary: Backing up Raspberry Pi images.
+redirect_from: /raspberrypi/linux/2014/11/25/Cloning-Raspberry-Pi-SD-Cards/
 ---
 
 After playing with the raspberry pi a bit longer it became clear that I needed some way to make backups of the SD card used for the OS. I quickly remembered that I could easily use Win32DiskImager to write an ISO image and was able to backup my PI easily.

@@ -2,11 +2,12 @@
 layout: post
 published: true
 title: Building a couple Pocket Pigrrl RetroPi 3D Printed Gaming Handhelds
-categories: [raspberrypi, retropi, printrbot, adafruit]
+categories: [raspberrypi, retropie, retrogaming, adafruit, 3dprinting]
 year: 2015
 month: 11
 day: 18
 summary: Building a couple Pocket Pigrrl RetroPi 3D Printed Gaming Handhelds
+redirect_from: /raspberrypi/retropi/printrbot/adafruit/2015/11/18/Building-a-couple-of-pigrrl-pockets/
 ---
 
 I am building two customized Pocket Pigrrl's for my daughter and niece.  As a kid the NES system was mine, but my younger sister owned the original gameboy which I constantly stole from her on car trips so it seemed right that both our kids have little portable gameboy like devices. I am also hoping that this device will help keep mommy's phone away from the children.

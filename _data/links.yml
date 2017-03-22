@@ -1,0 +1,270 @@
+## 3D Hubs
+- category: 3dhubs
+  links: 
+    - text: 3D Hubs
+      url: https://www.3dhubs.com/
+    - text: Garth's Hub
+      url: https://www.3dhubs.com/service/garth
+    - text: Electron Hub Tracking Software
+      url: https://github.com/garthvh/hub-tracking
+
+## 3D Printing
+- category: 3dprinting
+  links: 
+    - text: GBLEND
+      url: https://github.com/wd5gnr/gblend
+    - text: Githubiverse
+      url: http://garyhodgson.com/reprap/2012/09/githubiverse-a-github-pages-template-for-3d-printing-projects/
+
+## 3D Scanning
+- category: 3dscanning
+  links:
+    - text: 3D Scanning Rig and DIY Turntable
+      url: http://hackaday.com/2015/05/23/3d-scanning-rig-and-diy-turntable/
+    - text: Heavy Duty Turntable for 3D Scanning People
+      url: http://makezine.com/projects/guide-to-3d-printing-2014/heavy-duty-turntable/
+    - text: Full Body Scanning with the Scan-O-Tron 3000
+      url: http://makezine.com/projects/guide-to-3d-printing-2014/scan-o-tron-3000/
+    - text: Scan-O-Tron Turntable v.2.0 for Full Body 3D Scanning
+      url: http://www.thingiverse.com/thing:729923
+    - text: 3D Scanning Table
+      url: https://hackaday.io/project/5756-3d-scanning-table
+    - text: Open Skan
+      url: http://openskan.org/
+    - text: Open Skan Thingiverse
+      url: http://www.thingiverse.com/thing:83776
+    - text: Project Tango
+      url: https://www.google.com/atap/project-tango/
+    - text: Kscan 3D
+      url: http://www.kscan3d.com/
+    - text: 3d-scanning digitizing on the cheap
+      url: http://www.willforfang.com/3d-scanning-digitizing-on-the-cheap/
+    - text: Spin
+      url: http://spin.media.mit.edu/
+
+- category: ciclop
+  links:
+    - text: Reprap wiki Ciclop Page
+      url: http://reprap.org/wiki/Ciclop
+    - text: Documentation for Ciclop and Horus
+      url: http://diwo.bq.com/en/documentation-ciclop-and-horus-2/
+    - text: Ciclop building instructions
+      url: http://diwo.bq.com/en/video/instrucciones-de-montaje-de-ciclop/
+    - text: Zum Scan Board
+      url: http://diwo.bq.com/en/zum-scan-released-2/
+    - text: Ciclop Github
+      url: https://github.com/bq/ciclop
+    - text: Horus Firmware
+      url: http://diwo.bq.com/en/horus-fw-released/
+    - text: Ciclop Scanner Thingiverse
+      url: http://www.thingiverse.com/thing:740357
+      
+## Circuit Boards
+- category: circuitboards
+  links:
+    - text: OSH Park Staff Picks
+      url: http://blog.oshpark.com/tag/staff-picks/
+    - text: OSH Park Profile - MakersBox
+      url: https://oshpark.com/profiles/MakersBox
+    - text: OSH Park Profile - Andy Grove
+      url: https://oshpark.com/profiles/andygrove
+    - text: OSH Park Profile - nsayer
+      url: https://oshpark.com/profiles/nsayer
+    - text: OSH Park Profile - DarrenP
+      url: https://oshpark.com/profiles/DarrenP
+    - text: Hackster IO Osh Park Projects
+      url: https://www.hackster.io/osh-park
+    - text: KiCad Tutorials
+      url: https://contextualelectronics.com/course/kicad-tutorial/
+
+## Crouton
+- category: crouton
+  links:
+    - text: Crouton Command Cheat Sheet
+      url: https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet
+    - text: Chromebook Crouton Cookbook
+      url: http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/
+    - text: Shorten OS Verification Screen
+      url: https://www.reddit.com/r/Crouton/comments/2szn59/how_to_shorten_os_verfication_warning_screen_on/
+
+## Design
+- category: design
+  links:
+    - text: Little Big Details
+      url: http://littlebigdetails.com/
+
+## Development
+- category: development
+  links:
+    - text: Stack Share
+      url: http://stackshare.io/
+    - text: OWIN
+      url: http://owin.org/
+    - text: OData
+      url: http://www.odata.org/
+    - text: Built With
+      url: http://builtwith.com/
+    - text: Nodeschool
+      url: http://nodeschool.io/#workshoppers
+    - text: JSON Files in Node
+      url: https://www.codementor.io/nodejs/tutorial/how-to-use-json-files-in-node-js
+    - text: Electron
+      url: http://electron.atom.io/
+    - text: Awesome Electron
+      url: https://github.com/sindresorhus/awesome-electron
+    - text: Free for Dev
+      url: https://github.com/ripienaar/free-for-dev
+    - text: Haacked - Git and GitHub Resources
+      url: http://haacked.com/archive/2014/12/03/git-and-github-resources/
+    - text: Haacked - GitHub Flow Like a Pro with these 13 Git Aliases
+      url: http://haacked.com/archive/2014/07/28/github-flow-aliases/
+    - text: Microsoft REST API Guidelines
+      url: https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
+
+## Electronics
+- category: electronics
+  links:
+    - text: Custom Character Generator for HD44780 LCD Modules
+      url: https://omerk.github.io/lcdchargen/
+
+## IoT
+- category: iot
+  links:
+    - text: Postcscapes
+      url: http://postscapes.com/
+    - text: Node Red
+      url: http://nodered.org/
+    - text: Eclipse IOT
+      url: http://iot.eclipse.org/
+    - text: Comparison of Internet of Things Platforms for Prototyping
+      url: https://openhardwarelabs.com/internet-of-things-platforms-prototyping/
+    - text: Internet of Things Search
+      url: https://www.shodan.io/
+    - text: FamiLamp IoT lamp
+      url: https://github.com/myk3y/FamiLamp
+
+## Linux
+- category: linux
+  links:
+    - text: Explain Shell
+      url: http://explainshell.com/
+    - text: Software for a command-line world
+      url: http://tim.thechases.com/posts/cli/software-for-a-command-line-world/
+
+## Microcontrollers
+- category: microcontrollers
+  links:
+    - text: hackaday ESP8266
+      url: http://hackaday.com/tag/esp8266/
+    - text: ESP8266 touchscreen WiFi light controller and clock
+      url: http://bitquill.net/blog/esp8266-light-controller-clock/
+    - text: Arduino Daylight Savings Time
+      url: http://woodsgood.ca/projects/2015/03/13/daylight-saving-time-simplified/
+    - text: Arduino Daylight Savings Time Part 2
+      url: http://woodsgood.ca/projects/2015/11/02/dst-made-simple-hoisted-by-my-own-petard/
+    - text: Arduino DST Implementation
+      url: http://woodsgood.ca/projects/2015/06/20/weatherman-web-weather-forecaster/
+    - text: Open Clock Project
+      url: http://clock.bonsignore.com/
+    - text: 555 Timer PIR Sensor Night Lamp
+      url: http://electronut.in/night-lamp/
+    - text: Piccolo Tiny CNC Bot
+      url: https://github.com/DiatomStudio/Piccolo
+
+## Online digital Fabrication
+- category: digitalfabrication
+  links:
+    - text: Ponoko
+      url: https://www.ponoko.com/
+    - text: Barcodatron
+      url: http://www.sudobob.com/barcodatron-a-barcode-reader-label-generation-environment/
+    - text: Small Batch Assembly
+      url: http://www.smallbatchassembly.com/
+    - text: Macro Fab
+      url: http://macrofab.net/
+    - text: Circuit Hub
+      url: https://circuithub.com/
+
+## Open Source hardware
+- category: oshw
+  links:
+    - text: Open Energy Monitor
+      url: http://openenergymonitor.org/emon/
+    - text: Mouser Open Source Hardware
+      url: http://www.mouser.com/applications/open-source-hardware/
+    - text: Element 14 Open Source Hardware
+      url: http://www.element14.com/community/groups/open-source-hardware
+    - text: Octopart API
+      url: https://octopart.com/api/home
+    - text: Wikipedia List of Open Source Hardware Projects
+      url: https://en.wikipedia.org/wiki/List_of_open-source_hardware_projects
+    - text: Open Hardware Labs
+      url: https://openhardwarelabs.com
+    - text: Open Hardware Hub
+      url: http://www.openhardwarehub.com/
+    - text: Open Circuits Projects Page
+      url: http://www.opencircuits.com/Projects
+    - text: USB PID codes for open source hardware projects
+      url: http://pid.codes/
+    - text: Open Source Robotics Software/Hardware List
+      url: http://learnrobotix.com/open-source-robotics-software.html
+    - text: OpenBuilds
+      url: http://www.openbuilds.com/
+    - text: Kevin Rye Completed Projects
+      url: http://kevinrye.net/projects/
+
+## Privacy
+- category: privacy
+  links:
+    - text: ublock Origin
+      url: https://www.ublock.org/
+    - text: Privacy Badger
+      url: https://www.eff.org/privacybadger
+
+## Pen Testing
+- category: pentesting
+  links:
+    - text: Tastic RFID Theif
+      url: http://www.bishopfox.com/resources/tools/rfid-hacking/attack-tools/
+    - text: Tastic RFID Tool
+      url: http://sopwith.ismellsmoke.net/?p=301
+    - text: Pentesting Distributions for Raspberry Pi
+      url: http://resources.infosecinstitute.com/pentesting-distributions-and-installer-kits-for-your-raspberry-pi/
+
+## Raspberry Pi
+- category: raspberrypi
+  links:
+    - text: PIX-E Gif Camera
+      url: https://community.makezine.com/share/nick-brewer/pix-e-gif-camera-323965
+    - text: Raspberry Pi High Def Photobooth
+      url: https://contractorwolf.com/raspberry-pi-high-def-photobooth/
+    - text: Pi-Booth
+      url: http://roowilliams.github.io/projects/2014-07-16-pi-booth.html
+    - text: Check SOC temp from the command line
+      url: http://www.bitpi.co/2015/02/16/check-temperature-of-raspberry-pi-processor/
+    - text: Home Alarm Plus Pi
+      url: https://github.com/ferraripr/HomeAlarmPlusPi
+
+## Retro Gaming
+- category: retrogaming
+  links:
+    - text: Internet Arcade
+      url: https://archive.org/details/internetarcade
+    - text: RetroPie
+      url: https://retropie.org.uk/
+    - text: Controller Pro
+      url: https://oshpark.com/shared_projects/R6wM66he
+    - text: Pi-Cade 3D Printed Arcade
+      url: http://www.thingiverse.com/make:259633
+
+## Robotics
+- category: robotics
+  links:
+    - text: Aracna Quadruped
+      url: http://creativemachines.cornell.edu/aracna
+    - text: Veter Robot
+      url: http://veterobot.com/
+    - text: Open Robot Hardware
+      url: http://www.openrobothardware.org/linkedprojects/
+    - text: b robot
+      url: http://jjrobots.com/projects-2/b-robot/

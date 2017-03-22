@@ -2,11 +2,12 @@
 layout: post
 published: true
 title: Installing the Printrbot Simple X axis upgrade
-categories: [printrbot]
+categories: [3dprinting]
 year: 2015
 month: 12
 day: 5
 summary: Installing the Printrbot Simple X axis upgrade
+redirect_from: /printrbot/2015/12/05/Installing-the-Printrbot-Simple-X-upgrade/
 ---
 In my ongoing effort to buy every upgrade for the Simple Printrbot offers I bought the new [X axis upgrade](http://printrbot.com/shop/simple-x-axis-upgrade/) on Black Friday.
 

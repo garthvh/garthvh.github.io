@@ -2,10 +2,11 @@
 layout: post
 published: true
 title: Driving an 8x8 Led Matrix using the Adafruit HT16K33 Led Matrix Driver backpack with Arduino
-categories: [arduino]
+categories: [arduino, microcontrollers, electronics]
 year: 2015
 month: 4
 day: 30
+redirect_from: /arduino/2015/04/30/Driving-an-8x8-Led-Matrix-using-the-Adafruit-HT16K33-Led-Matrix-Driver-backpack-with-arduino/
 ---
 
 When Nwazet closed down I bought a number of 8x8 Led Matrices for $1 each. I had these for a while and then bought some [Adafruit 16x8 Led Matrix Driver Backpacks - HT16K33](http://www.adafruit.com/products/1427) to power the Matrices.

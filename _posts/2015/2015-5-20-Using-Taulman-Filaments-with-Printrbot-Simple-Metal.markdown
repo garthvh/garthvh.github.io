@@ -2,10 +2,11 @@
 layout: post
 published: true
 title: Using Taulman Filaments with Printrbot Simple Metal
-categories: [3dprinting, filament]
+categories: [3dprinting]
 year: 2015
 month: 5
 day: 20
+redirect_from: /3dprinting/filament/2015/05/20/Using-Taulman-Filaments-with-Printrbot-Simple-Metal/
 ---
 After printing a lot of PLA on my Printrbot Simple Metal I started looking around at some of the exotic filaments available.  I have a roll of ninjaflex and was interested in some of the filaments from [taulman](http://taulman3d.com/).
 

@@ -1,30 +1,48 @@
 ---
-layout: default
+layout: page_blank
 title: Site Categories
 slug: categories
-lead: "Available site categories"
-fullwidth: true
+summary: "Available site categories"
 ---
-
-<div class="container">
-  <div class="row">
-   <div class="col-md-12">
-   <article>
-		  <h1>Category Cloud</h1>
-
-      <ul class="tagcloud">
-      {% for category in site.categories %}
-          <li style="font-size: {{ category | last | size | times: 2200 | divided_by: site.categories.size }}%">
-              <a href="/category/{{ category | first | slugize }}/">
-                  {{ category | first }}
-              </a>
-          </li>
-      {% endfor %}
-      </ul>
-      </article>
+<div class="row">
+    <div class="col-md-3">
+        <div class="box">
+            <div class="box-header">
+                <i class="fa fa-list-alt"></i>
+                <h3 class="box-title">Category List</h3>
+            </div>
+            <div class="box-body">
+                <div class="list-group">
+                {% for category in site.data.categories %}
+                    <a href="/category/{{ category.slug }}/"  class="list-group-item">
+                        {{ category.name }}
+                    </a>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+    <div class="col-md-9">
+        <div class="box">
+            <div class="box-header with-border">
+                <i class="fa fa-cloud"></i>
+                <h3 class="box-title">Category Cloud</h3>
+            </div>
+            <div class="box-body">
+                <ul class="tagcloud">
+                {% for category in site.categories %}
+                    <li style="font-size: {{ category | last | size | times: 1800 | divided_by: site.categories.size }}%">
+                        <a href="/category/{{ category | first | slugize }}/">
+                            {{ category | first }}
+                        </a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
+ 
 <style type="text/css">
 ul.tagcloud, ul.tagcloud li
 {

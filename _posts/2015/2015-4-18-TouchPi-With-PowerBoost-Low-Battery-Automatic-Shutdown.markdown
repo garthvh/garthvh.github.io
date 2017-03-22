@@ -7,6 +7,7 @@ year: 2015
 month: 4
 day: 18
 summary: Shut down your TouchPi automatically when the battery runs low.
+redirect_from: /raspberrypi/linux/2015/04/18/TouchPi-With-PowerBoost-Low-Battery-Automatic-Shutdown/
 ---
 
 Part of the reason I bought a 3D Printer was to add some polish and portability to Raspberry Pi and Arduino projects, my favorite of those projects has been the 3D Printed [Touch Pi](https://learn.adafruit.com/touch-pi-portable-raspberry-pi) battery powered Raspberry Pi case with [Adafruit 3.5" PiTFT Touchscreen](http://www.adafruit.com/products/2097).

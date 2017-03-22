@@ -7,7 +7,6 @@ month: 3
 day: 9
 published: true
 summary: Building a wood frame for my projector screen.
-image: post_three.jpg
 ---
 
 I have an Infocus IN72 projector that I have been very happy with, in my old apartment I mounted my screen made of Do-Able board to the wall using industrial velcro and was happy. When I left my apartment, the industrial velcro removed the paint and a pretty substantial paper layer from the drywall.

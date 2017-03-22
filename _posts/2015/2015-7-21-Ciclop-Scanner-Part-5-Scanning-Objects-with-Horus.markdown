@@ -2,11 +2,12 @@
 layout: post
 published: true
 title: Ciclop Scanner Part 5 Scanning Objects with Horus
-categories: [ciclop,horus]
+categories: [ciclop,3dscanning]
 year: 2015
 month: 7
 day: 21
 summary: Ciclop Scanner Part 5 Scanning Objects with Horus
+redirect_from: /ciclop/horus/2015/07/21/Ciclop-Scanner-Part-5-Scanning-Objects-with-Horus/
 ---
 After getting my Ciclop Scanner assembled I installed horus on the Ubuntu Trusty chroot on my Toshiba Chromebook 2 and Horus runs great.
 

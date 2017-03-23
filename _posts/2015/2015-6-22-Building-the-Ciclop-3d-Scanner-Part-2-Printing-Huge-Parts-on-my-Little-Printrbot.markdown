@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Building the Ciclop 3d Scanner Part 2 Printing Huge Parts on my Little Printrbot
-categories: [ciclop,3dprinting]
+categories: [3dscanning,3dprinting,ciclop]
 year: 2015
 month: 6
 day: 22

@@ -1,16 +1,14 @@
-## 3D Hubs
-- category: 3dhubs
-  links: 
-    - text: 3D Hubs
-      url: https://www.3dhubs.com/
-    - text: Garth's Hub
-      url: https://www.3dhubs.com/service/garth
-    - text: Electron Hub Tracking Software
-      url: https://github.com/garthvh/hub-tracking
-
 ## 3D Printing
 - category: 3dprinting
   links: 
+    - text: 3D Hubs
+      url: https://www.3dhubs.com/
+    - text: Garth's 3D Hub
+      url: https://www.3dhubs.com/service/garth
+    - text: Electron Hub Tracking Software
+      url: https://github.com/garthvh/hub-tracking
+    - text: Garth's Thingiverse Profile
+      url: http://www.thingiverse.com/garthvh/about
     - text: GBLEND
       url: https://github.com/wd5gnr/gblend
     - text: Githubiverse
@@ -58,24 +56,6 @@
       url: http://diwo.bq.com/en/horus-fw-released/
     - text: Ciclop Scanner Thingiverse
       url: http://www.thingiverse.com/thing:740357
-      
-## Circuit Boards
-- category: circuitboards
-  links:
-    - text: OSH Park Staff Picks
-      url: http://blog.oshpark.com/tag/staff-picks/
-    - text: OSH Park Profile - MakersBox
-      url: https://oshpark.com/profiles/MakersBox
-    - text: OSH Park Profile - Andy Grove
-      url: https://oshpark.com/profiles/andygrove
-    - text: OSH Park Profile - nsayer
-      url: https://oshpark.com/profiles/nsayer
-    - text: OSH Park Profile - DarrenP
-      url: https://oshpark.com/profiles/DarrenP
-    - text: Hackster IO Osh Park Projects
-      url: https://www.hackster.io/osh-park
-    - text: KiCad Tutorials
-      url: https://contextualelectronics.com/course/kicad-tutorial/
 
 ## Crouton
 - category: crouton
@@ -87,15 +67,12 @@
     - text: Shorten OS Verification Screen
       url: https://www.reddit.com/r/Crouton/comments/2szn59/how_to_shorten_os_verfication_warning_screen_on/
 
-## Design
-- category: design
-  links:
-    - text: Little Big Details
-      url: http://littlebigdetails.com/
 
 ## Development
 - category: development
   links:
+    - text: Little Big Details
+      url: http://littlebigdetails.com/
     - text: Stack Share
       url: http://stackshare.io/
     - text: OWIN
@@ -126,6 +103,8 @@
   links:
     - text: Custom Character Generator for HD44780 LCD Modules
       url: https://omerk.github.io/lcdchargen/
+    - text: KiCad Tutorials
+      url: https://contextualelectronics.com/course/kicad-tutorial/
 
 ## IoT
 - category: iot
@@ -184,6 +163,22 @@
       url: http://macrofab.net/
     - text: Circuit Hub
       url: https://circuithub.com/
+
+## OSHPark
+- category: oshpark
+  links:
+    - text: OSH Park Staff Picks
+      url: http://blog.oshpark.com/tag/staff-picks/
+    - text: OSH Park Profile - MakersBox
+      url: https://oshpark.com/profiles/MakersBox
+    - text: OSH Park Profile - Andy Grove
+      url: https://oshpark.com/profiles/andygrove
+    - text: OSH Park Profile - nsayer
+      url: https://oshpark.com/profiles/nsayer
+    - text: OSH Park Profile - DarrenP
+      url: https://oshpark.com/profiles/DarrenP
+    - text: Hackster IO Osh Park Projects
+      url: https://www.hackster.io/osh-park
 
 ## Open Source hardware
 - category: oshw

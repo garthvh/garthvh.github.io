@@ -7,6 +7,7 @@ year: 2017
 month: 2
 day: 11
 summary: Raspberry Pi Zero Cluster with Ansible
+author: Garth Vander Houwen
 redirect_from:
   - /linux/raspberrypi/clusterhat/ansible/2017/02/11/Raspberry-Pi-Zero-Cluster-with-Ansible/
 ---

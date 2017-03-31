@@ -11,10 +11,10 @@ fullwidth: true
     <div class="box box-primary">
       <div class="box-body">
         <p>
-          As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete some of my favorite projects more easily.
+          As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete some of my favorite projects more easily. Occasionally I will also be selling completed projects on Etsy which you can see at the bottom of this page.
         </p>
         <p>
-          Payment is via paypal and currently I am only able to ship to the US and Canada.  Products will be shipped using USPS first class in a padded envelope.
+          Payment for the Zum Scan PCB's is via paypal and currently I am only able to ship to the US and Canada.  Products will be shipped using USPS first class in a padded envelope.
         </p>
         <p>You can also order 3D Prints from 3D Hubs through the order widget on my website.  Orders placed through my website have a lower fee than those ordered directly through the 3D Hubs search interface.
         </p>
@@ -78,5 +78,12 @@ fullwidth: true
         </div>
       </div>
     </div>
+    <div class="box">
+      <div class="box-header">Etsy Project Store</div>
+      <div class="box-body">
+          <script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script><script type='text/javascript'>new Etsy.Mini(14882293,'gallery',3,3,0,'https://www.etsy.com');</script>
+      </div>
+    </div>
+
   </div>
 </div>

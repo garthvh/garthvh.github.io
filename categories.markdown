@@ -31,7 +31,7 @@ summary: "Available site categories"
             <div class="box-body">
                 <ul class="tagcloud">
                 {% for category in site.categories %}
-                    <li style="font-size: {{ category | last | size | times: 1700 | divided_by: site.categories.size }}%">
+                    <li style="font-size: {{ category | last | size | times: 600 | divided_by: site.categories.size }}%">
                         <a href="/category/{{ category | first | slugize }}/">
                             {{ category | first }}
                         </a>
@@ -41,12 +41,14 @@ summary: "Available site categories"
             </div>
         </div>
     </div>
+    <div class="col-md-12">
+    </div>
 </div>
  
 <style type="text/css">
 ul.tagcloud, ul.tagcloud li
 {
-	font-size: 1em;
+	font-size: 2em;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;

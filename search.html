@@ -14,7 +14,8 @@ summary: Full text search for site content
         "author": "{{ post.author | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ post.url | xml_escape }}"
+        "url": "{{ post.url | xml_escape }}",
+        "date": "{{ post.date | date: "%B %e, %Y" }}"
       },
     {% endfor %}
     {% for page in site.pages %}
@@ -35,7 +36,8 @@ summary: Full text search for site content
         "author": "{{ '' }}",
         "category": "{{ 'Page' }}",
         "content": {{ page.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ page.url | xml_escape }}"
+        "url": "{{ page.url | xml_escape }}",
+        "date": "{{ page.date }}"
       }
       {% endif %}
       {% unless forloop.last %}

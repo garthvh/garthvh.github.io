@@ -25,7 +25,7 @@ summary: Site Setup Details
 * Category Landing Pages with posts and links
 * Links with categories using custom data
 * Full text search for posts and pages via [lunr.js](http://lunrjs.com/)
-* Redirects via [JekyllRedirectFrom](https://github.com/jekyll/jekyll-redirect-from)
+* Redirects for every post after I changed my mind about the URL structure via [JekyllRedirectFrom](https://github.com/jekyll/jekyll-redirect-from)
 
 #### Github Features
 

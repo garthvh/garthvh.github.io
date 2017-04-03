@@ -6,12 +6,20 @@
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
+        
         var item = store[results[i].ref];
+        console.log(results[i]);
         appendString += '<div class="box">';
         appendString += '<div class="box-header with-border">';
-        appendString += '<h3 class="box-title"><a href="' + item.url + '">' + item.title + '</a><br/><small class="text-success">' + item.url + '</small></h3></div>';
+        if (item.date.length > 0){
+            appendString += '<h3 class="box-title"><a href="' + item.url + '"><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp;' + item.title + ' - ' + item.date + '</a><br/><small class="text-success">' + item.url + '</small></h3></div>';
+        }
+        else {
+            appendString += '<h3 class="box-title"><a href="' + item.url + '"><i class="fa fa-file-o"></i>&nbsp;&nbsp;' + item.title + '</a><br/><small class="text-success">' + item.url + '</small></h3></div>';
+        }
+        
         appendString += '<div class="box-body">';
-        appendString += item.content.substring(0, 1000) + '...</div>';
+        appendString += item.content.substring(0, 500) + '...</div>';
         appendString += '</div>';
       }
       appendString += "";
@@ -47,6 +55,7 @@
       this.field('author');
       this.field('category');
       this.field('content');
+      this.field('date');
     });
 
     for (var key in window.store) { // Add the data to lunr
@@ -55,7 +64,8 @@
         'title': window.store[key].title,
         'author': window.store[key].author,
         'category': window.store[key].category,
-        'content': window.store[key].content
+        'content': window.store[key].content,
+        'date': window.store[key].date
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search

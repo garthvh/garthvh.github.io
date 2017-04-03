@@ -9,10 +9,9 @@
         var item = store[results[i].ref];
         appendString += '<div class="box">';
         appendString += '<div class="box-header with-border">';
-        appendString += '<h3 class="box-title"><a href="' + item.url + '">' + item.title + '</a><br/><small>' + item.url + '</small></h3></div>';
+        appendString += '<h3 class="box-title"><a href="' + item.url + '">' + item.title + '</a><br/><small class="text-success">' + item.url + '</small></h3></div>';
         appendString += '<div class="box-body">';
-        appendString += '<div>' + item.author +'</div>';
-        appendString += item.content.substring(0, 150) + '...</div>';
+        appendString += item.content.substring(0, 1000) + '...</div>';
         appendString += '</div>';
       }
       appendString += "";

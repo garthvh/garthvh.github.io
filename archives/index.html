@@ -5,11 +5,11 @@ title: Blog Archives
 <div class="row">
   <div class="col-xs-12">
     <ul class="timeline" itemscope itemtype="http://schema.org/Blog">
-    {% for post in site.posts reverse %}
-    {% if post.layout == 'post' %}
-      {% include post/archive_post.html %}
-    {% endif %}
-    {% endfor %}
+      {% for post in site.posts reverse %}
+        {% if post.layout == 'post' %}
+          {% include post/archive_post.html %}
+        {% endif %}
+      {% endfor %}
       <li>
         <i class="fa fa-clock-o bg-gray"></i>
       </li>

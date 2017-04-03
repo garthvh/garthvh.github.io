@@ -63,11 +63,6 @@
   color: bg-green
   icon: fa-microchip bg-black
 
-- slug: music
-  name: Music
-  color: bg-yellow
-  icon: fa-music bg-green
-
 - slug: oshpark
   name: OSHPark
   color: bg-black

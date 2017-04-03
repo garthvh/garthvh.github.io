@@ -4,9 +4,7 @@ title: About this Site
 summary: Site Setup Details
 ---
 
-#### Styles
-
-For the site styles I am using as little of my own custom css as possible and leaning on bootstrap and font awesome, almost everything is standard Bootstrap 3 or font awesome markup.
+#### Site Styles
 
 * CDN Hosted [Bootstrap](http://www.bootstrapcdn.com/) styles and javascript
 * Admin LTE [Bootstrap 3 Theme](https://github.com/almasaeed2010/AdminLTE)
@@ -14,14 +12,20 @@ For the site styles I am using as little of my own custom css as possible and le
 
 #### Content Management
 
-After years of developing my own content management systems I have completely switched to markdown for security and ease of use.  Using the github Atom editor primarily. The content of this static site is built out using Jekyll for Github Pages.
-
-I also stole some of the site structure and github connected features from @haacked after reading about them on his blog.
-
 * Built with [Jekyll](http://jekyllrb.com)
-* Content built with markdown
+* Content made with markdown and html
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Custom domain registered with GoDaddy
+* Custom domain registered with hover
+* CloudFlare Free SSL
+
+#### Jekyll Features
+
+* Bootstrap 3 AdminLTE Theme
+* Category List and Cloud
+* Category Landing Pages with posts and links
+* Links with categories using custom data
+* Full text search for posts and pages via [lunr.js](http://lunrjs.com/)
+* Redirects via [JekyllRedirectFrom](https://github.com/jekyll/jekyll-redirect-from)
 
 #### Github Features
 
@@ -37,4 +41,4 @@ I have been really impressed with using GitHub Pages and Jekyll to build out a n
 * [Robots File]({{ site.url }}/robots.txt)
 * [RSS Feed]({{ site.url }}/atom.xml)
 * [Archives Page]({{ site.url }}/atom.xml)
-* CloudFlare Free SSL
+* [Site Search]({{ site.url }}/search/)

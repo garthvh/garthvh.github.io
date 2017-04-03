@@ -8,7 +8,6 @@
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         
         var item = store[results[i].ref];
-        console.log(results[i]);
         appendString += '<div class="box">';
         appendString += '<div class="box-header with-border">';
         if (item.date.length > 0){

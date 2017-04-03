@@ -58,11 +58,6 @@
   color: bg-blue
   icon: fa-linux bg-green
 
-- slug: makeit
-  name: MAKEiT
-  color: bg-blue
-  icon: fa-cogs bg-black
-
 - slug: microcontrollers
   name: Microcontrollers
   color: bg-green

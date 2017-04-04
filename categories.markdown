@@ -33,6 +33,11 @@ summary: "Available site categories"
                 {% for category in site.categories %}
                     <li style="font-size: {{ category | last | size | times: 600 | divided_by: site.categories.size }}%">
                         <a href="/category/{{ category | first | slugize }}/">
+                            {% for data_category in site.data.categories %}
+                                {% if data_category.slug == category %}
+                                  xx  {{ data_category.Name }}
+                                {% endif %}
+                            {% endfor %}
                             {{ category | first }}
                         </a>
                     </li>

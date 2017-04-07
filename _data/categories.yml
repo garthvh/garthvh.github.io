@@ -23,11 +23,6 @@
   color: bg-green
   icon: fa-microchip bg-black
 
-- slug: chromebook
-  name: Chromebook
-  color: bg-red
-  icon: fa-google bg-blue
-
 - slug: ciclop
   name: Ciclop
   color: bg-orange
@@ -37,6 +32,11 @@
   name: Crouton
   color: bg-red
   icon: fa-terminal bg-blue
+
+- slug: development
+  name: Software Development
+  color: bg-black
+  icon: fa-code bg-blue
 
 - slug: digitalfabrication
   name: Online Digital Fabrication
@@ -68,6 +68,16 @@
   color: bg-black
   icon: fa-cogs bg-purple
 
+- slug: oshw
+  name: Open Source Hardware
+  color: bg-black
+  icon: fa-cogs bg-purple
+
+- slug: pentesting
+  name: Penetration Testing
+  color: bg-red
+  icon: fa-user-secret bg-black
+
 - slug: privacy
   name: Privacy
   color: bg-red
@@ -87,6 +97,11 @@
   name: Retro Gaming
   color: bg-green
   icon: fa-gamepad bg-orange
+
+- slug: robotics
+  name: Robotics
+  color: bg-green
+  icon: fa-robot bg-orange
   
 - slug: ubuntu
   name: Ubuntu

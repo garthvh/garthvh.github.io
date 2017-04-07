@@ -9,7 +9,11 @@ fullwidth: true
     <div class="col-lg-3 col-sm-6">
         <div class="box">
             <div class="box-header">
-                <h3 class="box-title">{{ category.category }}</h3>
+            {% for data_category in site.data.categories %}
+                {% if data_category.slug == category.category %}
+                    <h3 class="box-title">{{ data_category.name }} <span class="badge">{{ category.links.size }}</span></h3>
+                {% endif %}
+            {% endfor%}
             </div>
             <div class="box-body">
                 <div class="list-group">

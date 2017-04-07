@@ -5,7 +5,7 @@ slug: categories
 summary: "Available site categories"
 ---
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
         <div class="box">
             <div class="box-header">
                 <i class="fa fa-list-alt"></i>
@@ -15,14 +15,14 @@ summary: "Available site categories"
                 <div class="list-group">
                 {% for category in site.data.categories %}
                     <a href="/category/{{ category.slug }}/"  class="list-group-item">
-                        {{ category.name }}
+                        {{ category.name }} {% if site.categories[category.slug].size > 0 %} <span class="pull-right label bg-blue"> {{ site.categories[category.slug].size }} </span> {%endif%}
                     </a>
                 {% endfor %}
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-8">
         <div class="box">
             <div class="box-header with-border">
                 <i class="fa fa-cloud"></i>
@@ -30,23 +30,16 @@ summary: "Available site categories"
             </div>
             <div class="box-body">
                 <ul class="tagcloud">
-                {% for category in site.categories %}
-                    <li style="font-size: {{ category | last | size | times: 600 | divided_by: site.categories.size }}%">
-                        <a href="/category/{{ category | first | slugize }}/">
-                            {% for data_category in site.data.categories %}
-                                {% if data_category.slug == category %}
-                                  xx  {{ data_category.Name }}
-                                {% endif %}
-                            {% endfor %}
-                            {{ category | first }}
+                {% for category in site.data.categories %}
+                    <li style="font-size: {{ site.categories[category.slug].size | times: 600 | divided_by: site.categories.size }}%">
+                        <a href="/category/{{ category.slug }}/">
+                            {{ category.name }}
                         </a>
                     </li>
                 {% endfor %}
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="col-md-12">
     </div>
 </div>
  

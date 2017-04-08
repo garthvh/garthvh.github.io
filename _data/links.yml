@@ -122,8 +122,8 @@
 ## IoT
 - category: iot
   links:
-    - text: Postcscapes
-      url: http://postscapes.com/
+    - text: Postcscapes DIY Internet of Things Award
+      url: https://www.postscapes.com/internet-of-things-award/diy/
     - text: Node Red
       url: http://nodered.org/
     - text: Eclipse IOT

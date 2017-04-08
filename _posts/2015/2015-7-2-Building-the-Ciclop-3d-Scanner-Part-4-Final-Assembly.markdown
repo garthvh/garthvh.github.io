@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Building the Ciclop 3d Scanner Part 4 Final Assembly
-categories: [3dscanning,3dprinting,ciclop,arduino,digitalfabrication]
+categories: [3dscanning,3dprinting,ciclop,arduino,digitalfabrication,oshw]
 year: 2015
 month: 7
 day: 2

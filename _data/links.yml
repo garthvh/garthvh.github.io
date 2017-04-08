@@ -40,6 +40,17 @@
     - text: Spin
       url: http://spin.media.mit.edu/
 
+- category: adafruit
+  links:
+    - text: '3D Printed ESP8266 Button: The DIY Amazon Dash'
+      url: https://blog.adafruit.com/2015/08/26/3d-printed-esp8266-button-the-diy-amazon-dash/
+
+
+- category: ansible
+  links:
+    - text: Ansible
+      url: https://ansible.com
+
 - category: ciclop
   links:
     - text: Reprap wiki Ciclop Page

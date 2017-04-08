@@ -44,6 +44,8 @@
   links:
     - text: '3D Printed ESP8266 Button: The DIY Amazon Dash'
       url: https://blog.adafruit.com/2015/08/26/3d-printed-esp8266-button-the-diy-amazon-dash/
+    - text: Simple PiTFT TouchPi Menu System 
+      url: https://blog.adafruit.com/2015/05/08/simple-pitft-touchpi-menu-system-piday-raspberrypi-raspberry_pi/
 
 
 - category: ansible

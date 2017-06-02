@@ -28,6 +28,11 @@
   color: bg-orange
   icon: fa-cogs bg-red
 
+- slug: cnc
+  name: Computer Numerical Control
+  color: bg-blue
+  icon: fa-cogs bg-red
+
 - slug: crouton
   name: Crouton
   color: bg-red
@@ -47,6 +52,11 @@
   name: Electronics
   color: bg-green
   icon: fa-plug bg-red
+
+- slug: fireworks
+  name: Fireworks Controller
+  color: bg-blue
+  icon: fa-fireworks bg-red
 
 - slug: iot
   name: IoT

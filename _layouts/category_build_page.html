@@ -1,0 +1,61 @@
+---
+layout: default
+single: true
+---
+
+{% for category in site.data.categories %}
+{% assign categorymatch = false %}
+{% if page.category == category.name %}
+    {% assign categorymatch = true %}
+    {% assign currentcategory = category %}
+{% endif %}
+{% if page.category == category.slug %}
+    {% assign categorymatch = true %}
+    {% assign currentcategory = category %}
+{% endif %}
+
+
+{% if categorymatch %}
+
+<section class="content-wraper">
+  <section class="content-header">
+    <h1>Project Category: {{ currentcategory.name }}</h1>
+  </section>
+  <section class="content">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <i class="fa fa-newspaper-o"></i>
+            <h3 class="box-title">Project Timeline for {{ page.title }}</h3>
+          </div>
+          <div class="box-body">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box box-default">
+          <div class="box-header">
+            <i class="fa fa-link"></i>
+            <h3 class="box-title">Links for {{ currentcategory.name  }}</h3>
+          </div>
+          {% for category in site.data.links %}
+          {% if category.category == currentcategory.slug  %}
+          <div class="box-body">
+            <div class="list-group">
+            {% for link in category.links %}
+              <a href="{{ link.url }}" class="list-group-item">
+                {{ link.text }}
+              </a>
+            {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>  
+  </section>
+</section>
+{% endif %}{% endfor %}

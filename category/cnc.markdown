@@ -4,7 +4,7 @@ category: cnc
 permalink: /category/cnc/
 title: 3D Printed Desktop CNC
 ---
-
+<script src="https://app.guidantfinancial.com/Scripts/PreQualify.js" cid="70140000000V6lzAAC"></script>
 <div class="box-body">
     <ul class="timeline">
         <li class="time-label">

@@ -13,17 +13,6 @@ fullwidth: true
     <div class="col-lg-3 col-sm-6">
         <div class="box">
             <div class="box-header">
-                <h3 class="box-title">Toshiba Chromebook 2 - 4GB RAM</h3>
-            </div>
-            <div class="box-body">
-                <p>Great Chromebook running Ubuntu via Crouton. A chromebook with crouton is a great way to learn linux and play with different distros without having to fight with network hardware setup. If you make a mistake it is easy to powerclean and start over.</p>
-                <img alt="Toshiba Chromebook 2" src="https://garthvh.com//assets/img/linux/chromebook_2.jpg" class="img-responsive img-rounded" />
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <div class="box">
-            <div class="box-header">
                 <h3 class="box-title">MSI Nightblade Gaming PC</h3>
             </div>
             <div class="box-body">
@@ -34,7 +23,7 @@ fullwidth: true
             </div>
         </div>
     </div>
-    <div class="col-lg-3 col-sm-6">
+    <!-- <div class="col-lg-3 col-sm-6">
         <div class="box">
             <div class="box-header">
                 <h3 class="box-title">ASUS RT-N66W Open Source Router</h3>
@@ -45,7 +34,7 @@ fullwidth: true
                 <a target="_blank" href="https://www.amazon.com/gp/product/B00FK1E46U/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00FK1E46U&linkCode=as2&tag=garthvh-20&linkId=7f2dfe735f860d48d896481460adb89d">ASUS RT-N66W Dual-Band Wireless-N900 Gigabit Router (White Version)</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=garthvh-20&l=am2&o=1&a=B00FK1E46U" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="col-lg-3 col-sm-6">
         <div class="box">
             <div class="box-header">

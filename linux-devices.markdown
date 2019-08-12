@@ -23,18 +23,6 @@ fullwidth: true
             </div>
         </div>
     </div>
-    <!-- <div class="col-lg-3 col-sm-6">
-        <div class="box">
-            <div class="box-header">
-                <h3 class="box-title">ASUS RT-N66W Open Source Router</h3>
-            </div>
-            <div class="box-body">
-                <p>Bought mostly to have a DD-WRT compatible device before they are restricted by the FCC, I am currently running the latest version of the Asus DD-WRT firmware.</p>
-                <img alt="ASUS RT-N66W" src="https://garthvh.com/assets/img/linux/asus_rtn66w.jpg" class="img-responsive img-rounded" />
-                <a target="_blank" href="https://www.amazon.com/gp/product/B00FK1E46U/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00FK1E46U&linkCode=as2&tag=garthvh-20&linkId=7f2dfe735f860d48d896481460adb89d">ASUS RT-N66W Dual-Band Wireless-N900 Gigabit Router (White Version)</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=garthvh-20&l=am2&o=1&a=B00FK1E46U" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-            </div>
-        </div>
-    </div> -->
     <div class="col-lg-3 col-sm-6">
         <div class="box">
             <div class="box-header">
@@ -61,18 +49,6 @@ fullwidth: true
                 <p>I use my brother ptouch labeler for all sorts of random things using the fantastic <a href="http://apz.fi/blabel/">B-Label</a> linux labeling program.</p>
                 <img alt="Brother P-touch 1230 PC" src="https://garthvh.com/assets/img/linux/ptouch.jpg" class="img-responsive img-rounded" />
                 <a target="_blank" href="https://www.amazon.com/gp/product/B001IKKIVM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001IKKIVM&linkCode=as2&tag=garthvh-20&linkId=70c4f200694970ee1e1d1d27cf9c836a">Brother PC-Connectable Label Maker (PT-1230PC)</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=garthvh-20&l=am2&o=1&a=B001IKKIVM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <div class="box">
-            <div class="box-header">
-                <h3 class="box-title">DYMO LabelWriter 450 Thermal Label Printer</h3>
-            </div>
-            <div class="box-body">
-                <p>Used mostly to print shipping labels via paypal for 3D Hubs orders and Ciclop PCB orders from the project store, you can also print very nice looking labels, stickers and cards using <a href="http://glabels.org/" >gLabels</a> Label Designer.</p>
-                <img alt="DYMO LabelWriter 450" src="https://garthvh.com/assets/img/linux/Dymo_LabelWriter_450.jpg" class="img-responsive img-rounded" />
-                <a target="_blank" href="https://www.amazon.com/gp/product/B0027JIIKQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0027JIIKQ&linkCode=as2&tag=garthvh-20&linkId=be9ffabbacc9a6dc45417ba0e8358da7">DYMO LabelWriter 450 Turbo Thermal Label Printer (1752265)</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=garthvh-20&l=am2&o=1&a=B0027JIIKQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
             </div>
         </div>
     </div>

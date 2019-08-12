@@ -72,10 +72,10 @@
 
 - category: cnc
   links:
-    - text: 3D Printed CNC Mill
-      url: http://www.instructables.com/id/3D-printed-CNC-mill/
-    - text: 3D Printed &amp; Laser Cut, Lil-CNC Mill ACv2
-      url: https://www.thingiverse.com/thing:826098
+    - text: SainSmart Genmitsu CNC Router 3018 Pro
+      url: https://www.sainsmart.com/products/sainsmart-genmitsu-cnc-router-3018-pro-diy-kit
+    - text: CNC.JS
+      url: https://cnc.js.org/
     - text: Table CNC Engraver
       url: https://www.thingiverse.com/thing:1933464
     - text: Chilipeppr

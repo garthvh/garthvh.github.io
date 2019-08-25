@@ -83,7 +83,7 @@ title: SainSmart Genmitsu 3018 Pro CNC
                 Related Links: 
                 <ul>
                     <li><a href="https://cncjs.org">CNCJS</a></li>
-                     <li><a href="https://github.com/GridSpace/grid-apps/wiki/Kiri:Moto">Kiri:Moto</a></li>
+                    <li><a href="https://github.com/GridSpace/grid-apps/wiki/Kiri:Moto">Kiri:Moto</a></li>
                 </ul>
                 </div>
             </div>
@@ -102,59 +102,48 @@ title: SainSmart Genmitsu 3018 Pro CNC
                     <p>
                         After testing that everything worked right I used pibakery to set up a new Pi 3 running Raspbian buster 7-10.  The following is my raspberry pi setup after having connected the device to my wifi.
                     </p>
-                    <p>Below are the commands necessary to get cncjs running on the pi.</p>
-                    <pre>
-sudo apt install build-essential git nodejs npm
-sudo npm i -g npm
-sudo rm -rf ~/.npm/ 
-sudo npm install node-gyp -g
-sudo npm install -g cncjs@latest
-cncjs</pre>
-                    <p>After cncjs is installed, visit http://{youripaddress}:8000/ to access the web interface.</p>
-                    <p>If you want to run kiri:moto or meta:moto as well run the following commands to install and run the grid-apps npm package.</p>
-                                        <pre>
+                    <p>Below are the commands necessary to get cncjs running on the pi. You will need to install <a href=https://github.com/nvm-sh/nvm">NVM</a> and use Node version 8.  Because the node-dualshock-controller project seems to have been abandonded I had to fork the repo in order to fix some errors with node-hid on the pi, as a result the installation is a little fragile.</p>
+
+<pre>
+// Install required build and gitt tools
+sudo apt install build-essential git
+
+// Install NVM and then use node v 8
+nvm install 8
+nvm use 8
+
+// Install cncjs
+sudo npm install --unsafe-perm -g cncjs
+
+// Install and link the local dualshock-controller 1.2 package
+git clone https://github.com/garthvh/node-dualshock-controller.git
+cd node-dualshock-controller
+npm install -g
+npm link
+cd
+
+// Install cncjs-pendant-ps3 using the local dualshock-controller package
+git clone https://github.com/garthvh/cncjs-pendant-ps3.git
+cd cncjs-pendant-ps3
+npm link dualshock-controller
+sudo npm install -g --unsafe-perm
+
+// Run cncjs and the pendant
+cncjs && cncjs-pendant-ps3 -p "/dev/ttyUSB0"
+
+</pre>
+
+<p>After cncjs is installed, visit http://{youripaddress}:8000/ to access the web interface.</p>
+<p>If you want to run kiri:moto or meta:moto as well run the following commands to install and run the grid-apps npm package.</p>
+<pre>
 sudo npm install GridSpace/grid-apps
-cncjs</pre>
-                    <pre>
-$0=10 (Step pulse time, microseconds) 
-$1=25 (Step idle delay, milliseconds)
-$2=0 (Step pulse invert, mask)
-$3=5 (Step direction invert, mask)
-$4=0 (Invert step enable pin, boolean)
-$5=0 (Invert limit pins, boolean)
-$6=0 (Invert probe pin, boolean)
-$10=3 (Status report options, mask)
-$11=0.010 (Junction deviation, millimeters)
-$12=0.002 (Arc tolerance, millimeters)
-$13=0 (Report in inches, boolean)
-$20=0 (Soft limits enable, boolean)
-$21=1 (Hard limits enable, boolean)
-$22=1 (Homing cycle enable, boolean)
-$23=3 (Homing direction invert, mask)
-$24=25.000 (Homing locate feed rate, mm/min)
-$25=500.000 (Homing search seek rate, mm/min)
-$26=250 (Homing switch debounce delay, milliseconds)
-$27=2.000 (Homing switch pull-off distance, millimeters)
-$30=9000 (Maximum spindle speed, RPM)
-$31=0 (Minimum spindle speed, RPM)
-$32=0 (Laser-mode enable, boolean)
-$100=800.000 (X-axis travel resolution, step/mm)
-$101=800.000 (Y-axis travel resolution, step/mm)
-$102=800.000 (Z-axis travel resolution, step/mm)
-$110=800.000 (X-axis maximum rate, mm/min)
-$111=800.000 (Y-axis maximum rate, mm/min)
-$112=800.000 (Z-axis maximum rate, mm/min)
-$120=10.000 (X-axis acceleration, mm/sec^2)
-$121=10.000 (Y-axis acceleration, mm/sec^2)
-$122=10.000 (Z-axis acceleration, mm/sec^2)
-$130=300.000 (X-axis maximum travel, millimeters)
-$131=180.000 (Y-axis maximum travel, millimeters)
-$132=45.000 (Z-axis maximum travel, millimeters)</pre>
+</pre>
                 </div>
                 <div class="timeline-footer">
                 Related Links: 
                 <ul>
-                    <li><a href=""></a></li>
+                     <li><a href="https://cncjs.org">CNCJS</a></li>
+                     <li><a href="https://github.com/GridSpace/grid-apps/wiki/Kiri:Moto">Kiri:Moto</a></li>
                 </ul>
                 </div>
             </div>

@@ -90,7 +90,7 @@ title: SainSmart Genmitsu 3018 Pro CNC
         </li>
         <li class="time-label">
             <span class="bg-blue">
-                <time datetime="2019-08-11T00:00:00-07:00" itemprop="datePublished">August  11, 2019</time>
+                <time datetime="2019-08-25T00:00:00-07:00" itemprop="datePublished">August  25, 2019</time>
             </span>
         </li>
         <li>

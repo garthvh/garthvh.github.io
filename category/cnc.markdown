@@ -102,7 +102,7 @@ title: SainSmart Genmitsu 3018 Pro CNC
                     <p>
                         After testing that everything worked right I used pibakery to set up a new Pi 3 running Raspbian buster 7-10.  The following is my raspberry pi setup after having connected the device to my wifi.
                     </p>
-                    <p>Below are the commands necessary to get cncjs running on the pi. You will want to follow the instructions <a href="http://orikad.com/sixpair_instructions.html">here</a> to connect your PS3 controller.  You will need to install <a href="https://github.com/nvm-sh/nvm">NVM</a> and use Node version 8.  Because the node-dualshock-controller project seems to have been abandonded I had to fork the repo in order to fix some errors with node-hid on the pi, as a result the installation is a little fragile.  I am still getting an error when using bluetooth so I am only able to use the pendant wired currently</p>
+                    <p>Below are the commands necessary to get cncjs running on the pi. You will want to follow the instructions <a href="http://orikad.com/sixpair_instructions.html">here</a> to connect your PS3 controller.  You will need to install <a href="https://github.com/nvm-sh/nvm">NVM</a> and use Node version 8.  Because the node-dualshock-controller project seems to have been abandonded I had to fork the repo in order to fix some errors with node-hid on the pi, as a result the installation is a little fragile.  The controller works wired or wirelessly, but seems to throw an error if you start wired and then disconnect the controller.</p>
                     <img src="//garthvh.com/assets/img/cnc/buttonmap.jpg" class="img-responsive img-rounded" />
 
 <pre>
@@ -113,6 +113,7 @@ sudo apt install build-essential git
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install 8
 nvm use 8
+nvm alias default 8.16.1
 
 // Install cncjs
 sudo npm install --unsafe-perm -g cncjs
@@ -133,13 +134,34 @@ sudo npm install -g --unsafe-perm
 // Run cncjs and the pendant
 cncjs && cncjs-pendant-ps3 -p "/dev/ttyUSB0"
 
+# Use pm2 to startup cncjs and cncjs-pendant-ps3
+# pm2 will keep the pendant running when the bluetooth disconnects
+npm install pm2 -g
+
+# Setup PM2 Startup Script
+pm2 startup
+
+#[PM2] You have to run this command as root. Execute the following command:
+sudo su -c "env PATH=$PATH:/home/pi/.nvm/versions/node/v8.16.1/bin pm2 startup -u pi --hp /home/pi"
+
+# Set current running apps to startup
+pm2 save
+
+# Show running apps
+pm2 list
+
+sudo npm install GridSpace/grid-apps
+cd grid-apps
+npm install
+
+# Start kiri.moto with pm2
+pm2 start "npm start"
+
+
 </pre>
 
-<p>After cncjs is installed, visit http://{youripaddress}:8000/ to access the web interface.</p>
+<p>After everything is installed, visit http://{youripaddress}:8000/ to access the cncjs web interface, http://{youripaddress}:8080/kiri to access the web interface for kiri:moto and http://{youripaddress}:8080/meta to access the web interface for meta:moto.</p>
 <p>If you want to run kiri:moto or meta:moto as well run the following commands to install and run the grid-apps npm package.</p>
-<pre>
-sudo npm install GridSpace/grid-apps
-</pre>
                 </div>
                 <div class="timeline-footer">
                 Related Links: 

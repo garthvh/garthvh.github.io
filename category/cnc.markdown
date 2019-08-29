@@ -118,18 +118,8 @@ nvm alias default 8.16.1
 // Install cncjs
 sudo npm install --unsafe-perm -g cncjs
 
-// Install and link the local dualshock-controller 1.2 package
-git clone https://github.com/garthvh/node-dualshock-controller.git
-cd node-dualshock-controller
-npm install -g
-npm link
-cd
-
-// Install cncjs-pendant-ps3 using the local dualshock-controller package
-git clone https://github.com/garthvh/cncjs-pendant-ps3.git
-cd cncjs-pendant-ps3
-npm link dualshock-controller
-sudo npm install -g --unsafe-perm
+// Install the PS3 DualShock Pendant
+sudo npm install cncjs-pendant-ps3 -g --unsafe-perm
 
 // Run cncjs and the pendant
 cncjs && cncjs-pendant-ps3 -p "/dev/ttyUSB0"
@@ -141,8 +131,13 @@ npm install pm2 -g
 # Setup PM2 Startup Script
 pm2 startup
 
-#[PM2] You have to run this command as root. Execute the following command:
+#[PM2] You have to run this command one time as root. Execute the following command:
 sudo su -c "env PATH=$PATH:/home/pi/.nvm/versions/node/v8.16.1/bin pm2 startup -u pi --hp /home/pi"
+
+# Start CNCjs (on port 8000, /w Tinyweb mount point) with PM2
+pm2 start $(which cncjs) -- --port 8000 -m /tinyweb:/home/pi/tinyweb
+# Start cncjs-pendant.ps3
+pm2 start $(which cncjs-pendant-ps3) -- -p "/dev/ttyUSB0"
 
 # Set current running apps to startup
 pm2 save

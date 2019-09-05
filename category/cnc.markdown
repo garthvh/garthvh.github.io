@@ -15,7 +15,7 @@ title: SainSmart Genmitsu 3018 Pro CNC
             <i class="fa fa-truck bg-red"></i>
             <div class="timeline-item">
                 <span class="time"></span>
-                <h3 class="timeline-header">3018 CNC Purchased and Build</h3>
+                <h3 class="timeline-header">3018 CNC Purchased and Built</h3>
                 <div class="timeline-body">
                     <p>I just purchased the SainSmart Genmitsu 3018 Pro CNC machine, I had started printing parts to build my own CNC but decided to get a kit since I don't know much about CNC currently and was concerned with the rigidity of a machine made from thin plywood sheets.  I also find myself most interested in the software available and it has been hard for me to grok how everything works together without a working machine. </p>
                     <p>Assembly was really easy, there is a short assembly manual and a pretty small number of parts overall. </p>
@@ -24,6 +24,27 @@ title: SainSmart Genmitsu 3018 Pro CNC
                 Related Links:
                 <ul>
                     <li><a href="https://www.sainsmart.com/products/sainsmart-genmitsu-cnc-router-3018-pro-diy-kit">SainSmart Genmitsu CNC Router 3018 Pro DIY Kit</a></li>
+                </ul>
+                </div>
+            </div>
+        </li>
+                <li class="time-label">
+            <span class="bg-blue">
+                <time datetime="2019-07-20T00:00:00-07:00" itemprop="datePublished">July  20, 2019</time>
+            </span>
+        </li>
+        <li>
+            <i class="fa fa-gamepad bg-blue"></i>
+            <div class="timeline-item">
+                <span class="time"></span>
+                <h3 class="timeline-header">Offline Controller</h3>
+                <div class="timeline-body">
+                    <p>I bought the offline controller, but once I fully realized the limitations of only being able to control the machine from either the offline controller or serial connected software.  Since I eventually plan on having my router in an enclosure I want to have both physical and software based control available at the same time, I sent the offline controller back to amazon and am searching for a solution that works with the machine controller.</p>
+                </div>
+                <div class="timeline-footer">
+                Related Links:
+                <ul>
+                    <li><a href="https://www.amazon.com/gp/product/B07JLJ4HC8/">SainSmart Genmitsu CNC Router Offline Controller</a></li>
                 </ul>
                 </div>
             </div>
@@ -106,7 +127,7 @@ title: SainSmart Genmitsu 3018 Pro CNC
                     <img src="//garthvh.com/assets/img/cnc/buttonmap.jpg" class="img-responsive img-rounded" />
 
 <pre>
-// Install required build and gitt tools
+// Install required build and git tools
 sudo apt install build-essential git
 
 // Install NVM and then use node v 8

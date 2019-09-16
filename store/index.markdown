@@ -35,10 +35,7 @@ fullwidth: true
         <p class="lead">Each PCB is $3 with $4 shipping no matter how many you buy.</p>
       </div>
       <div class="col-md-3">
-        <div class="well well-sm">
-          <h4>Buy</h4>
-          <a href="https://www.etsy.com/listing/723076628/zum-scan-shield-pcb" type="button" class="btn btn-lg btn-success" >Buy Now</a>
-        </div>
+          <a href="https://www.etsy.com/listing/723076628/zum-scan-shield-pcb" class="btn btn-lg btn-success" >Buy Now</a>
       </div>
     </div>
   </div>

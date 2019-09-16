@@ -10,11 +10,8 @@ fullwidth: true
   <div class="col-xs-12">
     <div class="box box-primary">
       <div class="box-body">
-        <p>
-          As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete some of my favorite projects more easily. Occasionally I will also be selling completed projects on Etsy which you can see at the bottom of this page.
-        </p>
-        <p>
-          Payment for the Zum Scan PCB's is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.
+        <p class="lead">
+          As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete some of my favorite projects more easily. Occasionally I will also be selling completed projects.
         </p>
       </div>
     </div>

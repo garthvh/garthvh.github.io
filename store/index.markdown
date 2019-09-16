@@ -46,6 +46,6 @@ fullwidth: true
 <div class="box">
   <div class="box-header">Etsy Project Store</div>
   <div class="box-body">
-      <script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script><script type='text/javascript'>new Etsy.Mini(14882293,'gallery',3,3,0,'https://www.etsy.com');</script>
+      <script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script><script type='text/javascript'>new Etsy.Mini(14882293,'gallery',5,2,0,'https://www.etsy.com');</script>
   </div>
 </div>

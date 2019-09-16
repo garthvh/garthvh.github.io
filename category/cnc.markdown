@@ -28,7 +28,7 @@ title: SainSmart Genmitsu 3018 Pro CNC
                 </div>
             </div>
         </li>
-                <li class="time-label">
+        <li class="time-label">
             <span class="bg-blue">
                 <time datetime="2019-07-20T00:00:00-07:00" itemprop="datePublished">July  20, 2019</time>
             </span>
@@ -39,7 +39,7 @@ title: SainSmart Genmitsu 3018 Pro CNC
                 <span class="time"></span>
                 <h3 class="timeline-header">Offline Controller</h3>
                 <div class="timeline-body">
-                    <p>I bought the offline controller, but once I fully realized the limitations of only being able to control the machine from either the offline controller or serial connected software.  Since I eventually plan on having my router in an enclosure I want to have both physical and software based control available at the same time, I sent the offline controller back to amazon and am searching for a solution that works with the machine controller.</p>
+                    <p>I bought the offline controller, but once I fully realized the limitations of only being able to control the machine from either the offline controller or serial connected software, I sent the offline controller back to amazon and am searching for a solution that works with the machine controller.  Since I eventually plan on having my router in an enclosure I want to have both physical and software based control available at the same time.</p>
                 </div>
                 <div class="timeline-footer">
                 Related Links:
@@ -184,6 +184,27 @@ pm2 start "npm start"
                 <ul>
                      <li><a href="https://cncjs.org">CNCJS</a></li>
                      <li><a href="https://github.com/GridSpace/grid-apps/wiki/Kiri:Moto">Kiri:Moto</a></li>
+                </ul>
+                </div>
+            </div>
+        </li>
+         <li class="time-label">
+            <span class="bg-blue">
+                <time datetime="2019-9-4T00:00:00-07:00" itemprop="datePublished">September  4, 2019</time>
+            </span>
+        </li>
+        <li>
+            <i class="fa fa-cogs bg-orange"></i>
+            <div class="timeline-item">
+                <span class="time"></span>
+                <h3 class="timeline-header">Z Probe Setup</h3>
+                <div class="timeline-body">
+                    <p>I received my cheap Z probe and got it set up pretty quickly, connected the wires to A5 and used the probe widget in CNCJS, set the height to 20mm and ran the probe.  After it ran I put the resulting Z number (after retraction) into the command line G92 Z(Z Reading) and was able to go right to Z zero once the probe was removed. It would be nice if I could set the offset Z distance in the UI somewhere, I am probbaly missing and obvious feature.</p>
+                </div>
+                <div class="timeline-footer">
+                Related Links:
+                <ul>
+                    <li><a href="https://www.amazon.com/gp/product/B074R8J2KS/">Generic Z Probe</a></li>
                 </ul>
                 </div>
             </div>

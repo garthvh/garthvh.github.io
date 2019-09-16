@@ -14,39 +14,15 @@ fullwidth: true
           As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete some of my favorite projects more easily. Occasionally I will also be selling completed projects on Etsy which you can see at the bottom of this page.
         </p>
         <p>
-          Payment for the Zum Scan PCB's is via paypal and currently I am only able to ship to the US and Canada.  Products will be shipped using USPS first class in a padded envelope.
+          Payment for the Zum Scan PCB's is via paypal and currently I am only able to ship to the US.  Products will be shipped using USPS first class in a padded envelope.
         </p>
       </div>
     </div>
   </div>
 </div>
 <div class="box">
-  <div class="box-header">Products (2)</div>
+  <div class="box-header">Products (1)</div>
   <div class="box-body">
-    <!-- Zum Scan PCB and Stepper row -->
-    <div class="row">
-      <div class="col-md-3">
-        <img alt="Zum Scan Shield" src="/assets/img/ciclop/zum_scan_pcb_black.JPG" class="img-responsive img-rounded" />
-      </div>
-      <div class="col-md-6">
-        <h3>Zum Scan Shield PCB With Stepper Driver</h3>
-        <p>Black PCB and stepper driver for a Ciclop 3D Scanner.</p>
-        <p>A Mouser Project BOM is available for the <a href="https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2F7241B59F"> remaining components including the Adafruit Metro</a>.</p>
-        <p class="lead">$13 Shipped!</p>
-      </div>
-      <div class="col-md-3">
-        <div class="well well-sm">
-          <h4>Buy</h4>
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="NHXZNP9N6HXXA">
-            <input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-          </form>
-        </div>
-      </div>
-    </div>
-    <hr/>
     <!-- Zum Scan PCB Only row -->
     <div class="row">
       <div class="col-md-3">
@@ -55,18 +31,13 @@ fullwidth: true
       <div class="col-md-6">
         <h3>Zum Scan Shield PCB</h3>
         <p>Black PCB Only for a Ciclop 3D Scanner.</p>
-        <p class="lead">$8 Shipped!</p>
-        <p class="lead">Each PCB is $5 with $3 shipping no matter how many you buy.</p>
+        <p class="lead">$7 Shipped!</p>
+        <p class="lead">Each PCB is $3 with $4 shipping no matter how many you buy.</p>
       </div>
       <div class="col-md-3">
         <div class="well well-sm">
           <h4>Buy</h4>
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="THSHG2PRC98VG">
-            <input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-          </form>
+          <a href="https://www.etsy.com/listing/723076628/zum-scan-shield-pcb" type="button" class="btn btn-lg btn-success" >Buy Now</a>
         </div>
       </div>
     </div>

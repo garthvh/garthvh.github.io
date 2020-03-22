@@ -11,28 +11,8 @@ fullwidth: true
     <div class="box box-primary">
       <div class="box-body">
         <p class="lead">
-          As I am experimenting with open hardware and the available low volume prototyping and manufacturing options periodically I will be selling some kits and components to help people complete some of my favorite projects more easily. Occasionally I will also be selling completed projects.
+          An assortment of project parts, finished projects and materials for sale.
         </p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="box">
-  <div class="box-header">Products (1)</div>
-  <div class="box-body">
-    <!-- Zum Scan PCB Only row -->
-    <div class="row">
-      <div class="col-md-3">
-        <img alt="Zum Scan Shield" src="/assets/img/ciclop/zum_scan_pcb_black.JPG" class="img-responsive img-rounded" />
-      </div>
-      <div class="col-md-6">
-        <h3>Zum Scan Shield PCB</h3>
-        <p>Black PCB Only for a Ciclop 3D Scanner.</p>
-        <p class="lead">$7 Shipped!</p>
-        <p class="lead">Each PCB is $3 with $4 shipping no matter how many you buy.</p>
-      </div>
-      <div class="col-md-3">
-          <a href="https://www.etsy.com/listing/723076628/zum-scan-shield-pcb" class="btn btn-lg btn-success" >Buy Now</a>
       </div>
     </div>
   </div>

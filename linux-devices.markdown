@@ -29,7 +29,7 @@ fullwidth: true
                 <h3 class="box-title">Open Media Vault Server</h3>
             </div>
             <div class="box-body">
-                <p>Quad Core Open Media Vault Server with 32 GB RAM, 120GB OS SSD, 4 TB of redundant storage and a 1 TB SSD.</p>
+                <p>Quad Core Open Media Vault Server with 32 GB RAM, 120GB OS SSD, 4 TB of redundant storage and a 1 TB SSD for hosting docker containers..</p>
                 <p>Build information available at <a href="https://pcpartpicker.com/user/garthvh/saved/3NFvWZ">PC Part Picker</a> </p>
                 <p>
                 Used for storage as well as a host for docker containers.

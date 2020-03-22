@@ -86,53 +86,8 @@
         </div>
       </form>
       <!-- /.search form -->
-      <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu">
-        <li class="header">MAIN NAVIGATION</li>
-        <li>
-          <a href="{{ site.baseurl }}/archives">
-            <i class="fa fa-archive"></i> <span>Blog Archives</span>
-            <span class="pull-right-container">
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/categories">
-            <i class="fa fa-cloud"></i> <span>Category Cloud</span>
-            <span class="pull-right-container">
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/links">
-            <i class="fa fa-list"></i> <span>Link List</span>
-            <span class="pull-right-container">
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/linux-devices">
-            <i class="fa fa-television"></i> <span>Linux Devices</span>
-            <span class="pull-right-container">
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/store">
-            <i class="fa fa-shopping-cart"></i> <span>Project Store</span>
-            <span class="pull-right-container">
-            </span>
-          </a>
-        </li>
-        <li class="header">GET IN TOUCH</li>
-        <li><a href="{{ site.baseurl }}/about"><i class="fa fa-list-alt"></i> <span>About this site</span></a></li>
-        <li><a href="https://github.com/{{ site.github_user }}/garthvh.github.io/issues/new"><i class="fa fa-bullhorn"></i> <span>Contact</span></a></li>
-        <li><a href="https://github.com/{{ site.github_user }}"><i class="fa fa-github"></i> <span>GitHub Profile</span></a></li>
-        <li><a href="https://www.linkedin.com/in/garthvh/"><i class="fa fa-linkedin"></i> <span>LinkedIn Profile</span></a></li>
-        <li><a href="{{ site.baseurl }}/atom.xml"><i class="fa fa-rss"></i> <span>RSS Feed</span></a></li>
-        <li><a href="https://twitter.com/{{ site.twitter_user }}"><i class="fa fa-twitter"></i> <span>Twitter Profile</span></a></li>
-        <li><a href="{{ site.youtube_channel }}"><i class="fa fa-youtube-play"></i> <span>Youtube Channel</span></a></li>
-      </ul>
+      <!-- Data Driven Nav -->
+      {% include left_nav.html %}
     </section>
     <!-- /.sidebar -->
   </aside>

@@ -23,6 +23,19 @@ fullwidth: true
             </div>
         </div>
     </div>
+        <div class="col-lg-3 col-sm-6">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Open Media Vault Server</h3>
+            </div>
+            <div class="box-body">
+                <p>Open Media Vault Server with 4 Cores with 32 GB RAM, 4 TB of redundant storage and a 1 TB SSD running docker containers.</p>
+                <p>Build information available at <a href="https://pcpartpicker.com/user/garthvh/saved/3NFvWZ">PC Part Picker</a> </p>
+                <p></p>
+                <img alt="Fractal Designs Node 304" src="https://garthvh.com/assets/img/linux/node304.jpg" class="img-responsive img-rounded" />
+            </div>
+        </div>
+    </div>
     <div class="col-lg-3 col-sm-6">
         <div class="box">
             <div class="box-header">
@@ -49,18 +62,6 @@ fullwidth: true
                 <p>I use my brother ptouch labeler for all sorts of random things using the fantastic <a href="http://apz.fi/blabel/">B-Label</a> linux labeling program.</p>
                 <img alt="Brother P-touch 1230 PC" src="https://garthvh.com/assets/img/linux/ptouch.jpg" class="img-responsive img-rounded" />
                 <a target="_blank" href="https://www.amazon.com/gp/product/B001IKKIVM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001IKKIVM&linkCode=as2&tag=garthvh-20&linkId=70c4f200694970ee1e1d1d27cf9c836a">Brother PC-Connectable Label Maker (PT-1230PC)</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=garthvh-20&l=am2&o=1&a=B001IKKIVM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <div class="box">
-            <div class="box-header">
-                <h3 class="box-title">Plugable USB Microscope</h3>
-            </div>
-            <div class="box-body">
-                <p>Pluggable USB microscope with 3d printable stand.</p>
-                <img alt="Plugable USB Microscope" src="https://garthvh.com/assets/img/linux/usb_microscope.jpg" class="img-responsive img-rounded" />
-                <a target="_blank" href="https://www.amazon.com/gp/product/B00XNYXQHE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00XNYXQHE&linkCode=as2&tag=garthvh-20&linkId=7fa63473368cdbb7d3327f9ee85d0989">Plugable USB 2.0 Digital Microscope with Flexible Arm Observation Stand for Windows, Mac, Linux (2MP, 250x Magnification)</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=garthvh-20&l=am2&o=1&a=B00XNYXQHE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
             </div>
         </div>
     </div>

@@ -29,9 +29,11 @@ fullwidth: true
                 <h3 class="box-title">Open Media Vault Server</h3>
             </div>
             <div class="box-body">
-                <p>Open Media Vault Server with 4 Cores with 32 GB RAM, 4 TB of redundant storage and a 1 TB SSD running docker containers.</p>
+                <p>Quad Core Open Media Vault Server with 32 GB RAM, 120GB OS SSD, 4 TB of redundant storage and a 1 TB SSD.</p>
                 <p>Build information available at <a href="https://pcpartpicker.com/user/garthvh/saved/3NFvWZ">PC Part Picker</a> </p>
-                <p></p>
+                <p>
+                Used for storage as well as a host for docker containers.
+                </p>
                 <img alt="Fractal Designs Node 304" src="https://garthvh.com/assets/img/linux/node304.jpg" class="img-responsive img-rounded" />
             </div>
         </div>

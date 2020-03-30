@@ -4,21 +4,26 @@
 
     if (results.length) { // Are there any results?
       var appendString = '';
-
+      console.log(results);
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         
         var item = store[results[i].ref];
-        appendString += '<div class="box">';
-        appendString += '<div class="box-header with-border">';
+        appendString += '<div class="card">';
+        appendString += '<div class="card-header">';
         if (item.date.length > 0){
-            appendString += '<h3 class="box-title"><a href="' + item.url + '"><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp;' + item.title + ' - ' + item.date + '</a><br/><small class="text-success">' + item.url + '</small></h3></div>';
+            appendString += '<a href="' + item.url + '"><i class="fas fa-newspaper"></i>&nbsp;&nbsp;' + item.title + ' - ' + item.date + '</a><br/><small class="text-success">' + item.url + '</small></div>';
         }
         else {
-            appendString += '<h3 class="box-title"><a href="' + item.url + '"><i class="fa fa-file-o"></i>&nbsp;&nbsp;' + item.title + '</a><br/><small class="text-success">' + item.url + '</small></h3></div>';
+            appendString += '<a href="' + item.url + '"><i class="fas fa-file"></i>&nbsp;&nbsp;' + item.title + '</a><br/><small class="text-success">' + item.url + '</small></div>';
         }
         
-        appendString += '<div class="box-body">';
-        appendString += item.content.substring(0, 500) + '...</div>';
+        appendString += '<div class="card-body">';
+        if(item.content.length > 0) {
+          appendString += item.content.substring(0, 500) + '...</div>';
+        }
+        else { 
+          appendString += '</div>';
+        }
         appendString += '</div>';
       }
       appendString += "";

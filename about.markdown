@@ -1,16 +1,17 @@
 ---
 layout: page
 title: About this Site
+last_updated: "March 22, 2020"
 summary: Site Setup Details
 ---
 
-#### Site Styles
+### Site Styles
 
 * CDN Hosted [Bootstrap](http://www.bootstrapcdn.com/) styles and javascript
-* Admin LTE [Bootstrap 3 Theme](https://github.com/almasaeed2010/AdminLTE)
+* Admin LTE [Bootstrap 4 Theme](https://github.com/almasaeed2010/AdminLTE)
 * CDN Hosted [Font Awesome Icons](http://www.bootstrapcdn.com/#fontawesome_tab) and styles
 
-#### Content Management
+### Content Management
 
 * Built with [Jekyll](http://jekyllrb.com)
 * Content made with markdown and html
@@ -18,21 +19,22 @@ summary: Site Setup Details
 * Custom domain registered with hover
 * CloudFlare Free SSL
 
-#### Jekyll Features
+### Jekyll Features
 
-* Bootstrap 3 AdminLTE Theme
+* Navigation from Data file
+* Bootstrap 4 AdminLTE Theme
 * Category List and Cloud
 * Category Landing Pages with posts and links
 * Links with categories using custom data
 * Full text search for posts and pages via [lunr.js](http://lunrjs.com/)
 * Redirects for every post after I changed my mind about the URL structure via [JekyllRedirectFrom](https://github.com/jekyll/jekyll-redirect-from)
 
-#### Github Features
+### Github Features
 
 * [Contact Link]({{ site.url }}/contact) opens an issue.
 * Edit link on each post creates a pull request
 
-#### Site Features
+### Site Features
 
 I have been really impressed with using GitHub Pages and Jekyll to build out a nice static site with templates. The following features have been added to the blog and are built out dyanamically when the site is pushed to github.
 

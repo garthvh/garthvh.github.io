@@ -24,7 +24,7 @@ Now I was working again and I having printed most of the things I needed for my 
 
 <div class="row">
   <div class="col-sm-8 col-sm-offset-2">
-    <img alt="Average order" src="//garthvh.com/assets/img/3dhubs/3DHubsPopular_Print_Categories_May_2015.png" class="img-responsive img-rounded" />
+    <img alt="Average order" src="//garthvh.com/assets/img/3dhubs/3DHubsPopular_Print_Categories_May_2015.png" class="img-fluid" />
   </div>
 </div>
 Looking over the data, all of the categories are quite a bit over $20 for the average order price, and $20 is a pretty powerful dollar amount for most products.
@@ -66,7 +66,7 @@ In March I lowered my prices to $0.20 per cubic cm and $5 setup (Lowest prices t
 
 <div class="row">
   <div class="col-sm-8 col-sm-offset-2">
-    <img alt="Hub Screenshot" src="//garthvh.com/assets/img/3dhubs/hub_screenshot.png" class="img-responsive img-rounded" />
+    <img alt="Hub Screenshot" src="//garthvh.com/assets/img/3dhubs/hub_screenshot.png" class="img-fluid" />
   </div>
 </div>
 <br/>

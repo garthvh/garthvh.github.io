@@ -52,7 +52,7 @@ title: 12 Cue 50 Cal Ammo Can 3D Printed Fireworks Controller
                     I want to have a key switch to activate the whole unit, and a rocker switch and LED's for Test and Armed modes once the key switch is activated.
                     </p>
                     <p>
-                        <img alt="Initial Drawing" src="/assets/img/fireworks/initial_drawing.jpg" class="img-responsive img-rounded" />
+                        <img alt="Initial Drawing" src="/assets/img/fireworks/initial_drawing.jpg" class="img-fluid" />
                     </p>
                 </div>
                 <div class="timeline-footer">
@@ -78,13 +78,13 @@ title: 12 Cue 50 Cal Ammo Can 3D Printed Fireworks Controller
                     I have been playing around with the TinkerCad drawings as the parts come in.  I have some left over pink and magenta filament so I printed the face of the controller so I could test fit some of the parts.
                     </p>
                      <p>
-                        <img alt="Prototype 1" src="/assets/img/fireworks/prototype_pink_2.jpg" class="img-responsive img-rounded" />
+                        <img alt="Prototype 1" src="/assets/img/fireworks/prototype_pink_2.jpg" class="img-fluid" />
                     </p>
                     <p>
                     I think I can fit everything I need for 12 ques and still have quite a bit of room left for storing the ignition wires and ignitors as well.
                     </p>
                      <p>
-                        <img alt="Prototype 1" src="/assets/img/fireworks/prototype_pink_1.jpg" class="img-responsive img-rounded" />
+                        <img alt="Prototype 1" src="/assets/img/fireworks/prototype_pink_1.jpg" class="img-fluid" />
                     </p>
                 </div>
                 <div class="timeline-footer">

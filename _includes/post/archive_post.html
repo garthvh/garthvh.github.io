@@ -1,21 +1,18 @@
 {% capture date %}{{ post.date }}{% endcapture %}
 {% capture this_year %}{{ date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
-	{% assign year = this_year %}
-	<li class="time-label">
-		<span class="bg-blue">
-		{{ date | date: "%Y" }} Posts
-		</span>
-	</li>
+{% assign year = this_year %}
+<div class="time-label">
+	<span class="bg-blue">
+	{{ date | date: "%Y" }} Posts
+	</span>
+</div>
 {% endunless %}
-	<li>
-		<i class="fa fa-newspaper-o bg-green"></i>
-
-		<div class="timeline-item">
+<div>
+	<i class="far fa-newspaper bg-green"></i>
+	<div class="timeline-item">
 		<span class="time"><i class="fa fa-calendar"></i> {% include post/date.html %}{{ time }}</span>
-
 		<h3 class="timeline-header"><a href="{{ post.url }}">{{post.title}}</a></h3>
-
 		<div class="timeline-body">
 			{% if post.categories.length > 0 %}
 				
@@ -23,8 +20,7 @@
 			{{ post.excerpt }}. . .
 		</div>
 		<div class="timeline-footer">
-			<a href="{{ post.url }}" class="btn btn-default btn-xs">Read more</a>
-			{% include post/edit.html %}
+			<a href="{{ post.url }}" class="btn btn-primary btn-sm">Read more</a>
 		</div>
-		</div>
-	</li>
+	</div>
+</div>

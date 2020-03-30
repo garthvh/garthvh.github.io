@@ -10,7 +10,7 @@ summary: Switching Entirely to Linux and Ubuntu
 redirect_from: /linux/ubuntu/2016/05/25/Switching-Entirely-to-Linux-and-Ubuntu/
 ---
 
-<img alt="Print one at a time settings" src="https://garthvh.com/assets/img/ubuntu/ubuntu_desktop.png" class="img-responsive img-rounded" />
+<img alt="Print one at a time settings" src="https://garthvh.com/assets/img/ubuntu/ubuntu_desktop.png" class="img-fluid" />
 
 I have been dual booting with Windows 8.1 & 10 and Ubuntu for a couple of years now.  For much of that time I mostly used windows for day to day tasks and used Ubuntu to play with git, node and ruby applications which generally work much more easily on linux. I have a MSI Nightblade gaming pc with an I5 a NVIDIA 980 Graphics card and 16GB of ram. I am currently running Ubuntu 15.10 desktop.
 

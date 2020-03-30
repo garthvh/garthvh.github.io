@@ -1,10 +1,37 @@
 ---
-layout: page_blank
+layout: default
 title: Site Search
 summary: Full text search for site content
 ---
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-12">
+        <h1 class="m-0 text-dark">
+         {{ page.title }}
+        </h1>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+<div class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+          <div id="search-results"></div>
+        <!-- /.card -->
+      </div>
+      <!-- /.col-md-6 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container-fluid -->
+</div>
+<!-- /.content -->
 
-<div id="search-results"></div>
 
 <script type="">
   window.store = {

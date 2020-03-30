@@ -1,12 +1,7 @@
 ---
-layout: default
+layout: default-3
 single: true
 ---
-
-
-
-
-
 
 {% for category in site.data.categories %}
 {% assign categorymatch = false %}
@@ -21,88 +16,53 @@ single: true
 
 
 {% if categorymatch %}
-
-<section class="content-wraper">
-  <section class="content-header">
-    <h1>Category: {{ currentcategory.name }}</h1>
-  </section>
+	<!-- Content Header (Page header) -->
+  <div class="content-header">
+		<div class="container-fluid">
+		  <div class="row mb-2">
+			<div class="col-sm-12">
+			  <h1 class="m-0 text-dark">Category: {{ currentcategory.name }}</h1>
+			</div><!-- /.col -->
+		  </div><!-- /.row -->
+		</div><!-- /.container-fluid -->
+  </div>
   <section class="content">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="box box-primary">
-          <div class="box-header with-border">
-            <i class="fa fa-newspaper-o"></i>
-            <h3 class="box-title">Posts for {{ currentcategory.name }}</h3>
-          </div>
-          <div class="box-body">
-            {{ content }}
-            <ul class="timeline">
-            {% for post in site.categories[category.slug] %}
-            {% if post.categories.size > 0 %}
-                {% capture categories_content %} {% endcapture %}
-                {% for post_category in post.categories %}
-                    {% for data_category in site.data.categories %}
-                        {% if data_category.slug == post_category %}
-                            {% assign stored_category = data_category %}
-                        {% endif %}
-                    {% endfor %}
-                    {% if stored_category %}
-                        {% capture categories_content_temp %}{{ categories_content }}<a class="label label-default" href="/category/{{ stored_category.slug }}/">{{ stored_category.name }}</a>{% if forloop.last == false %}&nbsp;&nbsp;{% endif %}{% endcapture %}
-                        {% assign categories_content = categories_content_temp %}
-                    {% endif %}
-                {% endfor %}
-            {% else %}
-                {% assign categories_content = '' %}
+    <div class="container-fluid">
+      <!-- Timelime -->
+      <div class="row">
+        <div class="col-lg-12">
+          {{ content }}
+        </div>
+        <div class="col-lg-8">
+          <div class="timeline" itemscope itemtype="http://schema.org/Blog">
+          {% for post in site.categories[category.slug] %}
+            {% if post.layout == 'post' %}
+              {% include post/archive_post.html %}
             {% endif %}
-              <li class="time-label">
-                <span class="{{ category.color }}">
-                {% include post/date.html %}{{ time }}
-                </span>
-              </li>
-              <li>
-                <i class="fa {{ category.icon }}"></i>
-                <div class="timeline-item">
-                  <span class="time"><i class="fa fa-tags"></i>{{ categories_content }}</span>
-                  <h3 class="timeline-header"><a href="{{ post.url }}">{{post.title}}</a></h3>
-                  <div class="timeline-body">
-                      {{ post.excerpt }}. . .
-                  </div>
-                  <div class="timeline-footer">
-                      <a href="{{ post.url }}" class="btn btn-default btn-xs">Read more</a>
-                      {% include post/edit.html %}
-                  </div>
-                </div>
-              </li>
-            {% endfor %}
-              <li>
-                <i class="fa fa-clock-o bg-gray"></i>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="box box-default">
-          <div class="box-header">
-            <i class="fa fa-link"></i>
-            <h3 class="box-title">Links for {{ currentcategory.name  }}</h3>
-          </div>
-          {% for category in site.data.links %}
-          {% if category.category == currentcategory.slug  %}
-          <div class="box-body">
-            <div class="list-group">
-            {% for link in category.links %}
-              <a href="{{ link.url }}" class="list-group-item">
-                {{ link.text }}
-              </a>
-            {% endfor %}
-            </div>
-          </div>
-          {% endif %}
           {% endfor %}
+          </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title"><i class="fas fa-link"></i> Links for {{ currentcategory.name }}</h3>
+          </div>
+          <div class="card-body p-0">
+            {% for category in site.data.links %}
+            {% if category.category == currentcategory.slug  %}
+              <div class="list-group">
+              {% for link in category.links %}
+                <a href="{{ link.url }}" class="list-group-item">
+                  {{ link.text }}
+                </a>
+              {% endfor %}
+              </div>
+            {% endif %}
+            {% endfor %}
+          </div>
         </div>
       </div>
-    </div>  
+      <!-- /.col-lg-4 -->
+    </div>
   </section>
-</section>
 {% endif %}{% endfor %}

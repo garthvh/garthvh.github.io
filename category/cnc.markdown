@@ -124,7 +124,7 @@ title: SainSmart Genmitsu 3018 Pro CNC
                         After testing that everything worked right I used pibakery to set up a new Pi 3 running Raspbian buster 7-10.  The following is my raspberry pi setup after having connected the device to my wifi.
                     </p>
                     <p>Below are the commands necessary to get cncjs running on the pi. You will want to follow the instructions <a href="http://orikad.com/sixpair_instructions.html">here</a> to connect your PS3 controller.  You will need to install <a href="https://github.com/nvm-sh/nvm">NVM</a> and use Node version 8.  Because the node-dualshock-controller project seems to have been abandonded I had to fork the repo in order to fix some errors with node-hid on the pi, as a result the installation is a little fragile.  The controller works wired or wirelessly, but seems to throw an error if you start wired and then disconnect the controller.</p>
-                    <img src="//garthvh.com/assets/img/cnc/buttonmap.jpg" class="img-responsive img-rounded" />
+                    <img src="//garthvh.com/assets/img/cnc/buttonmap.jpg" class="img-fluid" />
 
 <pre>
 // Install required build and git tools

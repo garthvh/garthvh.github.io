@@ -12,16 +12,16 @@ redirect_from: /ciclop/arduino/printrbot/oshpark/2015/06/17/Building-the-Ciclop-
 
 On June 4th I [ordered PCB's from OSHPark](//garthvh.com/oshpark/ciclop/2015/06/05/Order-a-PCB-and-build-your-own-Zum-Scan-Shield-using-OSHPark/) for a Ciclop 3D Scanner, the OSHPark turnaround was amazing and my PCB's were manufactured and shipped on the 12th.  On June 16th I had three beautiful purple circuit boards in a nice purple envelope.
 
-<img alt="Zum Scan PCB Package" src="//garthvh.com/assets/img/ciclop/zum_scan_1.jpg" class="img-responsive img-rounded" />
+<img alt="Zum Scan PCB Package" src="//garthvh.com/assets/img/ciclop/zum_scan_1.jpg" class="img-fluid" />
 
 I had already ordered all of the parts using a [Mouser project list](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=6952239cf8) that I found online, and the parts had arrived last week.  Really easy shield assembly as BQ had marked the board well and provided [a nice BOM and image.](http://diwo.bq.com/en/zum-scan-released-2/) The pads on the OSHPark boards were easy to solder to and the shield went together really quickly.
 
 <div class="row">
   <div class="col-md-6">
-    <img alt="Zum Scan PCB Front Assembled" src="//garthvh.com/assets/img/ciclop/zum_scan_2.jpg" class="img-responsive img-rounded" />
+    <img alt="Zum Scan PCB Front Assembled" src="//garthvh.com/assets/img/ciclop/zum_scan_2.jpg" class="img-fluid" />
   </div>
   <div class="col-md-6">
-    <img alt="Zum Scan PCB Back Assembled" src="//garthvh.com/assets/img/ciclop/zum_scan_3.jpg" class="img-responsive img-rounded" />
+    <img alt="Zum Scan PCB Back Assembled" src="//garthvh.com/assets/img/ciclop/zum_scan_3.jpg" class="img-fluid" />
   </div>
 </div>
 
@@ -33,10 +33,10 @@ I used a hacksaw to cut all the threaded rod pieces to size and have received th
 
 <div class="row">
   <div class="col-md-6">
-    <img alt="Ciclop Bearing Holder" src="//garthvh.com/assets/img/ciclop/ciclop_bearing_holder.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Bearing Holder" src="//garthvh.com/assets/img/ciclop/ciclop_bearing_holder.jpg" class="img-fluid" />
   </div>
   <div class="col-md-6">
-    <img alt="Ciclop Bearing Holder with bearing" src="//garthvh.com/assets/img/ciclop/Ciclop_Bearing.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Bearing Holder with bearing" src="//garthvh.com/assets/img/ciclop/Ciclop_Bearing.jpg" class="img-fluid" />
   </div>
 </div>
 
@@ -49,10 +49,10 @@ The holes on the smaller bearing holder exactly match the larger file, so the sa
 
 <div class="row">
   <div class="col-md-6">
-    <img alt="Ciclop Pattern Holder" src="//garthvh.com/assets/img/ciclop/ciclop_pattern_holder.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Pattern Holder" src="//garthvh.com/assets/img/ciclop/ciclop_pattern_holder.jpg" class="img-fluid" />
   </div>
   <div class="col-md-6">
-    <img alt="Ciclop Parts" src="//garthvh.com/assets/img/ciclop/ciclop_parts_1.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Parts" src="//garthvh.com/assets/img/ciclop/ciclop_parts_1.jpg" class="img-fluid" />
   </div>
 </div>
 <br/>

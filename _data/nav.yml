@@ -2,39 +2,39 @@
   items:
     - title: Blog Archives
       url: archives
-      icon: fa-archive
+      icon: fas fa-archive
     - title: Category Cloud
-      icon: fa-cloud
+      icon: fas fa-cloud
       url: categories
     - title: Link List
-      icon: fa-list
+      icon: fas fa-list
       url: links
     - title: Linux Devices
-      icon: fa-television
+      icon: fas fa-tv
       url: linux-devices
     - title: Project Store
-      icon: fa-shopping-cart
+      icon: fas fa-shopping-cart
       url: store
 - title: GET IN TOUCH
   items:
     - title: About this site
       url: about
-      icon: fa-list-alt
+      icon: fas fa-list-alt
     - title: Contact
-      icon: fa-bullhorn
+      icon: fas fa-bullhorn
       external_url: https://github.com/garthvh/garthvh.github.io/issues/new
     - title: GitHub Profile
-      icon: fa-github
+      icon: fab fa-github
       external_url: https://github.com/garthvh
     - title: LinkedIn Profile
-      icon: fa-linkedin
+      icon: fab fa-linkedin
       external_url: https://www.linkedin.com/in/garthvh/
     - title: RSS Feed
-      icon: fa-rss
+      icon: fas fa-rss
       url: atom.xml
     - title: Twitter Profile
-      icon: fa-twitter
+      icon: fab fa-twitter
       external_url: https://twitter.com/garthvh
     - title: YouTube Channel
-      icon: fa-youtube-play
+      icon: fab fa-youtube
       external_url: https://www.youtube.com/channel/UCI6UGZtVOmfsHNFmHK4tI-Q

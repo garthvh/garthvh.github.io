@@ -99,10 +99,10 @@ You can find all the models I used below:
 
 <div class="row">
   <div class="col-md-6">
-    <img alt="Ciclop Bearing Holder" src="//garthvh.com/assets/img/ciclop/ciclop_bearing_holder.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Bearing Holder" src="//garthvh.com/assets/img/ciclop/ciclop_bearing_holder.jpg" class="img-fluid" />
   </div>
   <div class="col-md-6">
-    <img alt="Ciclop Motor Holder Printing" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_printing.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Motor Holder Printing" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_printing.jpg" class="img-fluid" />
   </div>
 </div>
 <br/>
@@ -110,19 +110,19 @@ The motor holder is the single longest print I have ever done, it took a total o
 
 <div class="row">
   <div class="col-md-6">
-    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_1.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_1.jpg" class="img-fluid" />
   </div>
   <div class="col-md-6">
-    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_2.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_2.jpg" class="img-fluid" />
   </div>
 </div>
 <br/>
 <div class="row">
   <div class="col-md-6">
-    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_3.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_3.jpg" class="img-fluid" />
   </div>
   <div class="col-md-6">
-    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_2.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_2.jpg" class="img-fluid" />
   </div>
 </div>
 
@@ -130,29 +130,29 @@ The Alloy 910 shaft coupler fits perfectly into the bearing holder connection, a
 
 <div class="row">
   <div class="col-md-6">
-    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_1.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_1.jpg" class="img-fluid" />
   </div>
   <div class="col-md-6">
-    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_3.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Motor Holder" src="//garthvh.com/assets/img/ciclop/ciclop_motor_holder_with_motor_3.jpg" class="img-fluid" />
   </div>
 </div>
 <br/>
 <div class="row">
   <div class="col-md-6">
-    <img alt="Ciclop Assembled" src="//garthvh.com/assets/img/ciclop/ciclop_camera_holder_with_cover.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Assembled" src="//garthvh.com/assets/img/ciclop/ciclop_camera_holder_with_cover.jpg" class="img-fluid" />
   </div>
   <div class="col-md-6">
-    <img alt="Ciclop Assembled" src="//garthvh.com/assets/img/ciclop/ciclop_back_cover_printing.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Assembled" src="//garthvh.com/assets/img/ciclop/ciclop_back_cover_printing.jpg" class="img-fluid" />
   </div>
 </div>
 <br/>
 <div class="row">
   <div class="col-md-12">
-    <img alt="Ciclop Assembled" src="//garthvh.com/assets/img/ciclop/ciclop_assembled_1.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Assembled" src="//garthvh.com/assets/img/ciclop/ciclop_assembled_1.jpg" class="img-fluid" />
     <br/>
   </div>
   <div class="col-md-12">
-    <img alt="Ciclop Assembled" src="//garthvh.com/assets/img/ciclop/ciclop_assembled_2.jpg" class="img-responsive img-rounded" />
+    <img alt="Ciclop Assembled" src="//garthvh.com/assets/img/ciclop/ciclop_assembled_2.jpg" class="img-fluid" />
   </div>
 </div>
 

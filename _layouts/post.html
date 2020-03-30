@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-3
 single: true
 ---
 
@@ -13,7 +13,7 @@ single: true
             {% endif %}
         {% endfor %}
         {% if category %}
-            {% capture categories_content_temp %}{{ categories_content }}<a class="label label-default" href="/category/{{ category.slug }}/">{{ category.name }}</a>{% if forloop.last == false %}&nbsp;&nbsp;{% endif %}{% endcapture %}
+            {% capture categories_content_temp %}{{ categories_content }}<a class="badge badge-secondary" href="/category/{{ category.slug }}/">{{ category.name }}</a>{% if forloop.last == false %}&nbsp;&nbsp;{% endif %}{% endcapture %}
             {% assign categories_content = categories_content_temp %}
         {% endif %}
     {% endfor %}

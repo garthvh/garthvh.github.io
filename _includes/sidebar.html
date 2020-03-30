@@ -1,0 +1,25 @@
+ <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+    {% for entry in site.data.nav %}
+        <li class="nav-header">{{entry.title}}</li>
+        {% for item in entry.items %}
+        <li class="nav-item">
+            {% if item.external_url %}
+            <a href="{{item.external_url}}" target="_blank" rel="noopener" class="nav-link">
+                <i class="nav-icon {{ item.icon }}"></i>
+                <p>{{ item.title }}</p>
+            </a>
+            {% elsif page.url contains item.url %}
+            <a href="{{ site.url }}/{{ item.url }}" class="nav-link active"> 
+                <i class="nav-icon {{ item.icon }}"></i>
+                <p>{{ item.title }}</p>
+            </a>
+            {% else %}
+            <a href="{{ site.url }}/{{ item.url }}" class="nav-link">
+                <i class="nav-icon {{ item.icon }}"></i>
+                <p>{{ item.title }}</p>
+            </a>
+            {% endif %}
+        </li>
+        {% endfor %}
+    {% endfor %}
+</ul>

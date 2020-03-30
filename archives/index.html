@@ -1,18 +1,32 @@
 ---
-layout: page
+layout: default
 title: Blog Archives
 ---
-<div class="row">
-  <div class="col-xs-12">
-    <ul class="timeline" itemscope itemtype="http://schema.org/Blog">
-      {% for post in site.posts reverse %}
-        {% if post.layout == 'post' %}
-          {% include post/archive_post.html %}
-        {% endif %}
-      {% endfor %}
-      <li>
-        <i class="fa fa-clock-o bg-gray"></i>
-      </li>
-    </ul>
-  </div>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-12">
+        <h1 class="m-0 text-dark">
+          {{ page.title }}
+        </h1>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
 </div>
+<!-- /.content-header -->
+<section class="content">
+  <div class="container-fluid">
+    <!-- Timelime -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="timeline" itemscope itemtype="http://schema.org/Blog">
+          {% for post in site.posts reverse %}
+            {% if post.layout == 'post' %}
+              {% include post/archive_post.html %}
+            {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+</section>

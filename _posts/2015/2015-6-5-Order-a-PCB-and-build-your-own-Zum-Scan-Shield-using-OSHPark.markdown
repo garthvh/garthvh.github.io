@@ -23,10 +23,10 @@ I took the files from the github repository and uploaded them to OSHPark in a zi
 
 <div class="row">
   <div class="col-md-6">
-  <img alt="Average order" src="//garthvh.com/assets/img/ciclop/zum_scan_pcb_front.png" class="img-responsive img-rounded" />
+  <img alt="Average order" src="//garthvh.com/assets/img/ciclop/zum_scan_pcb_front.png" class="img-fluid" />
   </div>
   <div class="col-md-6">
-  <img alt="Average order" src="//garthvh.com/assets/img/ciclop/zum_scan_pcb_back.png" class="img-responsive img-rounded" />
+  <img alt="Average order" src="//garthvh.com/assets/img/ciclop/zum_scan_pcb_back.png" class="img-fluid" />
   </div>
 </div>
 

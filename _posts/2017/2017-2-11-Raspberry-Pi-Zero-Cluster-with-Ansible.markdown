@@ -11,7 +11,7 @@ author: Garth Vander Houwen
 redirect_from:
   - /linux/raspberrypi/clusterhat/ansible/2017/02/11/Raspberry-Pi-Zero-Cluster-with-Ansible/
 ---
-<img alt="Cluster Hat" src="https://garthvh.com/assets/img/clusterhat/clusterhat_1.jpg" class="img-responsive img-rounded" />
+<img alt="Cluster Hat" src="https://garthvh.com/assets/img/clusterhat/clusterhat_1.jpg" class="img-fluid" />
 
 Out of habit I add a Pi Zero to every Adafruit order I make (or anywhere else that sells the Pi Zero for $5) and have built up quite a collection, I had been looking at some Pi cluster projects but the wiring for network and power always seemed [anoying and fragile](http://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/). 
 
@@ -19,7 +19,7 @@ You may wonder why someone would want a slow pi cluster, I have been looking at 
 
 Since putting together a hub and all the cabling to make my own cluster still seemed anoying and was also more expensive I immediately ordered a ClusterHAT and another Pi Zero from [Pimoroni](https://shop.pimoroni.com/products/cluster-hat). Using the pre-built images provided in the simple section of the ClusterHAT [software setup page](https://clusterhat.com/setup-software) I prepared SD cards for each Pi before the hat arrived, I used a 10X 32GB card for the controller and 4 10X 16GB cards for each of the nodes.  Using my trusty label printer I labeled each Pi Zero and SD Card. After about a week they arrived from the UK and I installed the SD cards I had prepared for each Pi and set about attaching the hat to a Pi 2 and an acrylic plate I had laying around.
 
-<img alt="Cluster Hat" src="https://garthvh.com/assets/img/clusterhat/clusterhat_2.jpg" class="img-responsive img-rounded" />
+<img alt="Cluster Hat" src="https://garthvh.com/assets/img/clusterhat/clusterhat_2.jpg" class="img-fluid" />
 
 I connected the Pi 2 to ethernet and powered it up, using [Angry IP Scanner](http://angryip.org/download) I angrily scanned my network and found the IP address for my new cluster controller and used SSH to connect to it:
 
@@ -27,11 +27,11 @@ I connected the Pi 2 to ethernet and powered it up, using [Angry IP Scanner](htt
 
 After logging in I just typed clusterhat to see what would happen:
 
-<img alt="Cluster Hat Terminal" src="https://garthvh.com/assets/img/clusterhat/clusterhat_info.png" class="img-responsive img-rounded" />
+<img alt="Cluster Hat Terminal" src="https://garthvh.com/assets/img/clusterhat/clusterhat_info.png" class="img-fluid" />
 
 Seems legit, let's turn them all on and then back off again:
 
-<img alt="Cluster Hat Terminal" src="https://garthvh.com/assets/img/clusterhat/clusterhat_on_off.png" class="img-responsive img-rounded" />
+<img alt="Cluster Hat Terminal" src="https://garthvh.com/assets/img/clusterhat/clusterhat_on_off.png" class="img-fluid" />
 
 A nice indicator light on the ClusterHAT lights up when each Pi Zero is turned on. After turning them back on again I angrily scanned my network again and saw 4 new IP addresses for P1, P2, P3 and P4. It really was that easy to get the ClusterHAT up and running I used SSH to connect to each pi and expand the file system, I didn't make any other raspi-config changes as I want to try and use Ansible for that later.
 
@@ -74,13 +74,13 @@ If everything has gone perfectly you should be able to issue some ansible comman
 
     ansible -i ~/ansible/hosts clusternodes --list-hosts
 
-<img alt="Ansible Hosts Terminal" src="https://garthvh.com/assets/img/clusterhat/ansible_hosts.png" class="img-responsive img-rounded" />
+<img alt="Ansible Hosts Terminal" src="https://garthvh.com/assets/img/clusterhat/ansible_hosts.png" class="img-fluid" />
 
 That worked, now lets see if we can ping all the nodes:
 
     ansible -i ~/ansible/hosts clusternodes -m ping
 
-<img alt="Cluster Hat Terminal" src="https://garthvh.com/assets/img/clusterhat/ansible_ping.png" class="img-responsive img-rounded" />
+<img alt="Cluster Hat Terminal" src="https://garthvh.com/assets/img/clusterhat/ansible_ping.png" class="img-fluid" />
 
 That's it, ansible on a pi zero Clustercluster using SSH keys for login, now I have to dig into making playbooks and additional ansible configuration options.  The The ClusterHAT really is a nice way to build a little cluster without fighting with a ton of wiring and USB and ethernet hubs.
 

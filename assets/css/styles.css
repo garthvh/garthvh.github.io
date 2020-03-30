@@ -65,7 +65,7 @@ article .meta span::before { padding-right: 0 }
 .youtube-circle{ color:#e52d27; }
 
 /* Center responsive images */
-article .img-responsive { margin: 0 auto; }
+article .img-fluid { margin: 0 auto; }
 
 
 /* Paypal */

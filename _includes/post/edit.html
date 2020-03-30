@@ -1,7 +1,0 @@
-{% if post.url %}
-  {% assign path = post.path %}
-{% else %}
-  {% assign path = page.path %}
-{% endif %}
-
-<a class="btn btn-default btn-xs" role="button" href="{{ site.github_repo_url }}edit/master/{{ path }}"><i class="fa fa-pencil"></i> Edit</a>

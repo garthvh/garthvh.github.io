@@ -11,9 +11,9 @@ redirect_from: /printrbot/2015/12/05/Installing-the-Printrbot-Simple-X-upgrade/
 ---
 In my ongoing effort to buy every upgrade for the Simple Printrbot offers I bought the new [X axis upgrade](http://printrbot.com/shop/simple-x-axis-upgrade/) on Black Friday.
 
-<img alt="X Upgrade" src="https://garthvh.com/assets/img/printrbot/x_upgrade_1.jpg" class="img-responsive img-rounded" />
+<img alt="X Upgrade" src="https://garthvh.com/assets/img/printrbot/x_upgrade_1.jpg" class="img-fluid" />
 
-<img alt="X Upgrade 2" src="https://garthvh.com/assets/img/printrbot/x_upgrade_2.jpg" class="img-responsive img-rounded" />
+<img alt="X Upgrade 2" src="https://garthvh.com/assets/img/printrbot/x_upgrade_2.jpg" class="img-fluid" />
 
 The upgrade was pretty simple, I bought the X upgrade without the heat plate since I already have one with my current heated bed. I did have to extend the wires on the heat plate as they were shorter than the thermistor wires.  I am not sure if the heat plate came this way or if I had trimmed them when doing the installation.  
 
@@ -41,10 +41,10 @@ Then I used OctoPrint to test out the X area and to set the build area dimension
 
 My small printer table, the Z and X upgrades and my [printed spool holder](https://www.youmagine.com/designs/printrbot-simple-filament-spool-holder) all combined to make the printer a bit more unstable than before, specifically in the home position so I printed some [screw down feet](http://www.thingiverse.com/thing:724909).
 
-<img alt="X Upgrade" src="https://garthvh.com/assets/img/printrbot/x_upgrade_4.jpg" class="img-responsive img-rounded" />
+<img alt="X Upgrade" src="https://garthvh.com/assets/img/printrbot/x_upgrade_4.jpg" class="img-fluid" />
 
 The bed takes about 15 minutes to get up to 55-60C a bit longer to heat up then my old one, but I also followed Brook's advice from the installation video on youtube and this time I put the thermistor to the side of the heat plate for a more accurate reading.
 
-<img alt="X Upgrade" src="https://garthvh.com/assets/img/printrbot/x_upgrade_3.jpg" class="img-responsive img-rounded" />
+<img alt="X Upgrade" src="https://garthvh.com/assets/img/printrbot/x_upgrade_3.jpg" class="img-fluid" />
 
 I bought a bunch of 6"x6" kapton sheets so I installed two of those with one cut down to 4".  I have not seen any kapton sheets for sale in 6"x10" size yet, so I will probably just wait until I run out of what I have before doing anything.

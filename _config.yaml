@@ -27,7 +27,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-gems: [jekyll-paginate, jekyll-sitemap, jekyll-github-metadata, jekyll-redirect-from]
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-github-metadata, jekyll-redirect-from]
 category_dir: categories
 paginate: 3
 paginate_path: "page/:num"

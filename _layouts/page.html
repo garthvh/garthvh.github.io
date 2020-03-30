@@ -1,26 +1,40 @@
 ---
-layout: default
+layout: default-3
 single: true
 ---
-
-<section class="content-wraper">
-  <section class="content-header">
-    {% if page.title %}
-    <h1>{% if site.titlecase %}
-      {{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
-      {% if page.summary %}
-      <small>{{ page.summary }}</small>
-      {% endif %}
-    </h1>
-    {% endif %}
-  </section>
-  <section class="content">
-    <div class="box box-default">
-      <div class="box-body">
-        {{ content }}
+{% if page.title %}
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-12">
+        <h1 class="m-0 text-dark">
+          {% if site.titlecase %}
+          {{ page.title | titlecase }}{% else %}{{ page.title }}
+          {% endif %}
+        </h1>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+{% endif %}
+<!-- Main content -->
+<div class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            {{ content }}
+          </div>
+        </div>
+        <!-- /.card -->
       </div>
+      <!-- /.col-md-6 -->
     </div>
-  </section>
-</section>
-
-
+    <!-- /.row -->
+  </div>
+  <!-- /.container-fluid -->
+</div>
+<!-- /.content -->

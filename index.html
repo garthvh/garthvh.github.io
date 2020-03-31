@@ -2,50 +2,51 @@
 layout: default
 title: Home
 ---
-
-{% assign index = true %}
-<div itemscope itemtype="http://schema.org/Blog">
-{% for post in paginator.posts %}
-    {% unless post.redirect %}
-    {% assign content = post.content %}
-        {% if post.categories.size > 0 %}
-            {% capture categories_content %} {% endcapture %}
-            {% for post_category in post.categories %}
-                {% for data_category in site.data.categories %}
-                    {% if data_category.slug == post_category %}
-                        {% assign category = data_category %}
-                    {% endif %}
-                {% endfor %}
-                {% if category %}
-                    {% capture categories_content_temp %}{{ categories_content }}<a class="badge badge-secondary" href="/category/{{ category.slug }}/">{{ category.name }}</a>{% if forloop.last == false %} &nbsp; {% endif %}{% endcapture %}
-                    {% assign categories_content = categories_content_temp %}
+<div class="row">
+    <div class="col-md-12">
+        {% assign index = true %}
+        <div itemscope itemtype="http://schema.org/Blog">
+        {% for post in paginator.posts %}
+            {% unless post.redirect %}
+            {% assign content = post.content %}
+                {% if post.categories.size > 0 %}
+                    {% capture categories_content %} {% endcapture %}
+                    {% for post_category in post.categories %}
+                        {% for data_category in site.data.categories %}
+                            {% if data_category.slug == post_category %}
+                                {% assign category = data_category %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if category %}
+                            {% capture categories_content_temp %}{{ categories_content }}<a class="badge badge-secondary" href="/category/{{ category.slug }}/">{{ category.name }}</a>{% if forloop.last == false %} &nbsp; {% endif %}{% endcapture %}
+                            {% assign categories_content = categories_content_temp %}
+                        {% endif %}
+                    {% endfor %}
+                {% else %}
+                    {% assign categories_content = '' %}
                 {% endif %}
-            {% endfor %}
-        {% else %}
-            {% assign categories_content = '' %}
-        {% endif %}
-        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            {% include article.html %}
-        </article>
-    {% endunless %}
-{% endfor %}
+                <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                    {% include article.html %}
+                </article>
+            {% endunless %}
+        {% endfor %}
+        </div>
+        <div class="pager" style="padding-left: 7px;">
+            {% if paginator.next_page %}
+            <div class="float-left">
+                <a class="btn btn-default btn-flat" href="{{site.baseurl}}/page/{{ paginator.next_page }}"><i class="fas fa-arrow-left"></i> Older Posts</a>
+            </div>
+            {% endif %}
+            {% if paginator.previous_page %}
+            <div class="float-right">
+                {% if paginator.previous_page == 1 %}
+                <a href="{{site.baseurl}}/">Newer Posts <i class="fas fa-arrow-right"></i></a>
+                {% else %}
+                <a class="btn btn-default btn-flat" href="{{site.baseurl}}/page/{{paginator.previous_page}}">Newer Posts <i class="fas fa-arrow-right"></i></a>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+        <br/><br/>
+    </div>
 </div>
-
-<nav>
-	<ul class="pager">
-		{% if paginator.next_page %}
-		<li>
-			<a href="{{site.baseurl}}/page/{{ paginator.next_page }}">&laquo; Older Posts</a>
-		</li>
-		{% endif %}
-		{% if paginator.previous_page %}
-		<li>
-      {% if paginator.previous_page == 1 %}
-				<a href="{{site.baseurl}}/">Newer Posts &raquo; </a>
-      {% else %}
-				<a href="{{site.baseurl}}/page/{{paginator.previous_page}}">Newer Posts &raquo; </a>
-      {% endif %}
-		</li>
-    {% endif %}
-	</ul>
-</nav>

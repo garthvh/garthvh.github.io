@@ -35,11 +35,14 @@ single: true
         </div>
         <div class="col-lg-8">
           <div class="timeline" itemscope itemtype="http://schema.org/Blog">
-          {% for post in site.categories[category.slug] %}
-            {% if post.layout == 'post' %}
-              {% include post/archive_post.html %}
-            {% endif %}
-          {% endfor %}
+            {% for post in site.categories[category.slug] %}
+              {% if post.layout == 'post' %}
+                {% include post/archive_post.html %}
+              {% endif %}
+            {% endfor %}
+            <div>
+              <i class="fas fa-clock bg-gray"></i>
+            </div>
           </div>
       </div>
       <div class="col-lg-4">

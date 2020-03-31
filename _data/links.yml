@@ -46,6 +46,8 @@
   links:
     - text: Ansible
       url: https://ansible.com
+    - text: Ansible Semaphore
+      url: https://github.com/ansible-semaphore/semaphore
 
 - category: ciclop
   links:
@@ -235,14 +237,6 @@
     - text: Kevin Rye Completed Projects
       url: http://kevinrye.net/projects/
 
-## Privacy
-- category: privacy
-  links:
-    - text: ublock Origin
-      url: https://www.ublock.org/
-    - text: Privacy Badger
-      url: https://www.eff.org/privacybadger
-
 ## Pen Testing
 - category: pentesting
   links:
@@ -278,15 +272,3 @@
       url: https://oshpark.com/shared_projects/R6wM66he
     - text: Pi-Cade 3D Printed Arcade
       url: http://www.thingiverse.com/make:259633
-
-## Robotics
-- category: robotics
-  links:
-    - text: Aracna Quadruped
-      url: http://creativemachines.cornell.edu/aracna
-    - text: Veter Robot
-      url: http://veterobot.com/
-    - text: Open Robot Hardware
-      url: http://www.openrobothardware.org/linkedprojects/
-    - text: b robot
-      url: http://jjrobots.com/projects-2/b-robot/

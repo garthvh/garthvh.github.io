@@ -128,13 +128,6 @@
     - text: KiCad Tutorials
       url: https://contextualelectronics.com/course/kicad-tutorial/
 
-- category: fireworks
-  links: 
-    - text: .50 Cal Ammo Box Firework Controller Build
-      url: http://www.instructables.com/id/Firework-Controller-Build/    
-    - text: Fireworks Controller
-      url: http://www.instructables.com/id/Fireworks-Controller/
-
 ## IoT
 - category: iot
   links:

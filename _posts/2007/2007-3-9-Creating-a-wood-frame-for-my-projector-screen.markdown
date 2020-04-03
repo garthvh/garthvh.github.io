@@ -22,7 +22,7 @@ My screen is 65" by 37" and my new house has a similar sized area, so I am keepi
 + Glaziers Points
 + Mitre Box and saw
 
-<img src="//farm1.static.flickr.com/151/385256460_b58c220e50_o.jpg" alt="Frame_Hang_Man" />
+<img src="//farm1.static.flickr.com/151/385256460_b58c220e50_o.jpg" class="img-fluid" alt="Frame_Hang_Man" />
 
 <img src="//farm1.static.flickr.com/133/385256495_a8ca54f7d7_o.jpg" class="img-fluid" alt="Frame_1" />
 

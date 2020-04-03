@@ -12,7 +12,7 @@ redirect_from: /linux/raspberrypi/3dprinting/2016/07/12/Raspberry-Pi-Surveillanc
 
 I have wanted to build a motion activated and time lapse capable raspberry pi camera for a while now but never really found a case I like. I found this [nice case](http://www.thingiverse.com/thing:1622184) for a raspberry pi and camera on thingiverse.  It was designed for a specific fisheye camera but looking at the model it appeared that one of the cheap Chinese fish eye  cell phone lenses I have would fit nicely in the hole.  
 
-<img alt="Pi Cam Assembly" src="/assets/img/picam/picam_1.jpg" class="img-responsive img-rounded" />
+<img alt="Pi Cam Assembly" src="/assets/img/picam/picam_1.jpg" class="img-fluid" />
 
 I fired up tinkercad and used my calipers to measure the space inside the camera case and the thickness of the RaspiCam board and [created a model](http://www.thingiverse.com/thing:1664023) to mount the official RaspiCam.  I used two small pieces of gaffers tape to attach the camera to the support piece, snapped the lens into the hole in the case and slid the camera into the case. You can find my camera part [here](http://www.thingiverse.com/thing:1664023)
 
@@ -54,7 +54,7 @@ disable_camera_led=1
 </p>
     </div>
     <div class="col-md-5">
-        <img alt="Pi Cam Assembly" src="/assets/img/picam/picam_2.jpg" class="img-responsive img-rounded" />
+        <img alt="Pi Cam Assembly" src="/assets/img/picam/picam_2.jpg" class="img-fluid" />
     </div>
 </div>
 <br/>

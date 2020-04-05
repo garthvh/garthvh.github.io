@@ -1,5 +1,8 @@
 - title:  MAIN NAVIGATION
   items:
+    - title: Projects
+      url: project
+      icon: fas fa-tools
     - title: Blog Archives
       url: archives
       icon: fas fa-archive

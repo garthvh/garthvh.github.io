@@ -2,6 +2,7 @@
 layout: default
 title: Site Search
 summary: Full text search for site content
+sitemap: false
 ---
 <!-- Content Header (Page header) -->
 <div class="content-header">

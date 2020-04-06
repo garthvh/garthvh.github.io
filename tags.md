@@ -4,6 +4,7 @@ title: Site Tags
 slug: tags
 summary: "Available site tags"
 redirect_from: /categories/
+sitemap: false
 ---
 <!-- Content Header (Page header) -->
 <div class="content-header">

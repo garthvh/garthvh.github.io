@@ -1,7 +1,0 @@
-- name: Blockchain Playground
-  repoUrl: 
-  feedUrl: https://raw.githubusercontent.com/frogg/Blockchain-Swift-Playground/master/frederik-riedel-playgrounds.json
-  
-- name: Image Filtering
-  repoUrl: 
-  feedUrl: https://raw.githubusercontent.com/lennet/image-filtering/master/feed.json

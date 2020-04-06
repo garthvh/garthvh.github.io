@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Installing the Printrbot Simple Z Axis Upgrade and v2 Extruder
-categories: [3dprinting]
+tags: [3D Printing]
 year: 2015
 month: 9
 day: 22

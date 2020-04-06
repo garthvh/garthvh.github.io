@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Driving an 8x8 Led Matrix using the Adafruit HT16K33 Led Matrix Driver backpack with Arduino
-categories: [arduino, microcontrollers, electronics]
+tags: [Arduino, Microcontrollers, Electronics]
 year: 2015
 month: 4
 day: 30

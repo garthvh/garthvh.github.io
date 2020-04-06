@@ -1,5 +1,5 @@
 ## 3D Printing
-- category: 3dprinting
+- tag: 3D Printing
   links: 
     - text: Garth's Thingiverse Profile
       url: http://www.thingiverse.com/garthvh/about
@@ -9,7 +9,7 @@
       url: http://garyhodgson.com/reprap/2012/09/githubiverse-a-github-pages-template-for-3d-printing-projects/
 
 ## 3D Scanning
-- category: 3dscanning
+- tag: 3D Scanning
   links:
     - text: 3D Scanning Rig and DIY Turntable
       url: http://hackaday.com/2015/05/23/3d-scanning-rig-and-diy-turntable/
@@ -34,7 +34,7 @@
     - text: Spin
       url: http://spin.media.mit.edu/
 
-- category: adafruit
+- tag: Adafruit
   links:
     - text: '3D Printed ESP8266 Button: The DIY Amazon Dash'
       url: https://blog.adafruit.com/2015/08/26/3d-printed-esp8266-button-the-diy-amazon-dash/
@@ -42,14 +42,14 @@
       url: https://blog.adafruit.com/2015/05/08/simple-pitft-touchpi-menu-system-piday-raspberrypi-raspberry_pi/
 
 
-- category: ansible
+- tag: Ansible
   links:
     - text: Ansible
       url: https://ansible.com
     - text: Ansible Semaphore
       url: https://github.com/ansible-semaphore/semaphore
 
-- category: ciclop
+- tag: Ciclop
   links:
     - text: Reprap wiki Ciclop Page
       url: http://reprap.org/wiki/Ciclop
@@ -66,7 +66,7 @@
     - text: Ciclop Scanner Thingiverse
       url: http://www.thingiverse.com/thing:740357
 
-- category: cnc
+- tag: CNC
   links:
     - text: SainSmart Genmitsu CNC Router 3018 Pro
       url: https://www.sainsmart.com/products/sainsmart-genmitsu-cnc-router-3018-pro-diy-kit
@@ -80,7 +80,7 @@
       url: http://winder.github.io/ugs_website/
 
 ## Crouton
-- category: crouton
+- tag: Crouton
   links:
     - text: Crouton Command Cheat Sheet
       url: https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet
@@ -89,39 +89,8 @@
     - text: Shorten OS Verification Screen
       url: https://www.reddit.com/r/Crouton/comments/2szn59/how_to_shorten_os_verfication_warning_screen_on/
 
-
-## Development
-- category: development
-  links:
-    - text: Little Big Details
-      url: http://littlebigdetails.com/
-    - text: Stack Share
-      url: http://stackshare.io/
-    - text: OWIN
-      url: http://owin.org/
-    - text: OData
-      url: http://www.odata.org/
-    - text: Built With
-      url: http://builtwith.com/
-    - text: Nodeschool
-      url: http://nodeschool.io/#workshoppers
-    - text: JSON Files in Node
-      url: https://www.codementor.io/nodejs/tutorial/how-to-use-json-files-in-node-js
-    - text: Electron
-      url: http://electron.atom.io/
-    - text: Awesome Electron
-      url: https://github.com/sindresorhus/awesome-electron
-    - text: Free for Dev
-      url: https://github.com/ripienaar/free-for-dev
-    - text: Haacked - Git and GitHub Resources
-      url: http://haacked.com/archive/2014/12/03/git-and-github-resources/
-    - text: Haacked - GitHub Flow Like a Pro with these 13 Git Aliases
-      url: http://haacked.com/archive/2014/07/28/github-flow-aliases/
-    - text: Microsoft REST API Guidelines
-      url: https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
-
 ## Electronics
-- category: electronics
+- tag: Electronics
   links:
     - text: Custom Character Generator for HD44780 LCD Modules
       url: https://omerk.github.io/lcdchargen/
@@ -129,7 +98,7 @@
       url: https://contextualelectronics.com/course/kicad-tutorial/
 
 ## IoT
-- category: iot
+- tag: IOT
   links:
     - text: Postcscapes DIY Internet of Things Award
       url: https://www.postscapes.com/internet-of-things-award/diy/
@@ -145,7 +114,7 @@
       url: https://github.com/myk3y/FamiLamp
 
 ## Linux
-- category: linux
+- tag: Linux
   links:
     - text: Explain Shell
       url: http://explainshell.com/
@@ -153,7 +122,7 @@
       url: http://tim.thechases.com/posts/cli/software-for-a-command-line-world/
 
 ## Microcontrollers
-- category: microcontrollers
+- tag: Microcontrollers
   links:
     - text: hackaday ESP8266
       url: http://hackaday.com/tag/esp8266/
@@ -173,7 +142,7 @@
       url: https://github.com/DiatomStudio/Piccolo
 
 ## Online digital Fabrication
-- category: digitalfabrication
+- tag: Digital Fabrication
   links:
     - text: Ponoko
       url: https://www.ponoko.com/
@@ -186,8 +155,8 @@
     - text: Circuit Hub
       url: https://circuithub.com/
 
-## OSHPark
-- category: oshpark
+## OSH Park
+- tag: OSH Park
   links:
     - text: OSH Park Staff Picks
       url: http://blog.oshpark.com/tag/staff-picks/
@@ -203,7 +172,7 @@
       url: https://www.hackster.io/osh-park
 
 ## Open Source hardware
-- category: oshw
+- tag: OSHW
   links:
     - text: Open Energy Monitor
       url: http://openenergymonitor.org/emon/
@@ -230,18 +199,8 @@
     - text: Kevin Rye Completed Projects
       url: http://kevinrye.net/projects/
 
-## Pen Testing
-- category: pentesting
-  links:
-    - text: Tastic RFID Theif
-      url: http://www.bishopfox.com/resources/tools/rfid-hacking/attack-tools/
-    - text: Tastic RFID Tool
-      url: http://sopwith.ismellsmoke.net/?p=301
-    - text: Pentesting Distributions for Raspberry Pi
-      url: http://resources.infosecinstitute.com/pentesting-distributions-and-installer-kits-for-your-raspberry-pi/
-
 ## Raspberry Pi
-- category: raspberrypi
+- tag: Raspberry Pi
   links:
     - text: PIX-E Gif Camera
       url: https://community.makezine.com/share/nick-brewer/pix-e-gif-camera-323965

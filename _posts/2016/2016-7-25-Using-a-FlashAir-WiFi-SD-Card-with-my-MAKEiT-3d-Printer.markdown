@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Using a FlashAir WiFi SD Card with my MAKEiT 3d Printer
-categories: [linux, 3dprinting]
+tags: [Linux,3D Printing]
 year: 2016
 month: 7
 day: 25

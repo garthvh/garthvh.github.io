@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Printing one at a time in Cura with a Printrbot Simple
-categories: [3dprinting]
+tags: [3D Printing]
 year: 2016
 month: 2
 day: 9

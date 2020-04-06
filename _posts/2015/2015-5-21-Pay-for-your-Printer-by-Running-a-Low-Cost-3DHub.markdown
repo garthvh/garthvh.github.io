@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Pay for your Printer by Running a Low Cost 3D Hub
-categories: [3dprinting, digitalfabrication]
+tags: [3D Printing, Digital Fabrication]
 year: 2015
 month: 5
 day: 21

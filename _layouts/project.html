@@ -27,7 +27,7 @@ single: true
             <div class="col-12 col-sm-6">
               <h3 class="d-inline-block d-sm-none">{{ page.title }}</h3>
               <div class="col-12">
-                <img src="{{ page.featured_image }}" class="product-image" alt="Product Image">
+                {% include page/photocarousel.html %}
               </div>
             </div>
             <div class="col-12 col-sm-6">
@@ -41,10 +41,8 @@ single: true
               {{ content }}
             </div>
           </div>
-        </div>
-        <!-- /.card-body -->
-      </div>
-      <!-- /.card -->
+        </div><!-- /.card-body -->
+      </div><!-- /.card -->
     </div>
     <div class="col-12">
       <div class="card">
@@ -53,8 +51,9 @@ single: true
         </div>
         <div class="card-body">
             <div class="row">
-            {% for image in site.static_files %}
-            {% if image.path contains page.photos_path and (image.path contains '.jpg' or image.path contains '.png' or image.path contains '.jpeg')  %}
+            {% assign project_images = site.static_files | where_exp:"image", "image.path contains page.photos_path" %}
+            {% for image in project_images %}
+            {% if image.extname == '.jpg' or image.extname == '.png' or image.extname == '.jpeg' %}
               <div class="col-sm-2">
                 <a href="../..{{ site.baseurl }}{{ image.path }}">
                   <img src="../..{{ site.baseurl }}{{ image.path }}" class="img-fluid mb-2" />
@@ -67,7 +66,4 @@ single: true
       </div>
     </div>
   </div>
-</section>
-<!-- /.content -->
-
-
+</section><!-- /.content -->

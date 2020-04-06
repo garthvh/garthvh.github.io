@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Building a couple Pocket Pigrrl RetroPi 3D Printed Gaming Handhelds
-categories: [raspberrypi, retropie, retrogaming, adafruit, 3dprinting]
+tags: [Raspberry Pi,RetroPie,Retro Gaming,Adafruit,3D Printing]
 year: 2015
 month: 11
 day: 18

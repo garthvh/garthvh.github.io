@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Building the Ciclop 3d Scanner Part 3 Laser Cutting and Electronics
-categories: [ciclop,3dprinting,arduino,oshw]
+tags: [Ciclop,3D Printing,Arduino,OSHW]
 year: 2015
 month: 6
 day: 25

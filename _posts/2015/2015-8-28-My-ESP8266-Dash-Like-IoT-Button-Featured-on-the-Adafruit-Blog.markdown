@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: My ESP8266 Dash Like IoT Button Featured on the Adafruit Blog
-categories: [microcontrollers,iot,adafruit]
+tags: [Microcontrollers,IOT,Adafruit]
 year: 2015
 month: 8
 day: 28

@@ -2,7 +2,7 @@
 layout: post
 published: false
 title: Mid T Bot Drawing Machine
-categories: [esp32, microcontroller]
+tags: [ESP32,Microcontrollers]
 year: 2020
 month: 4
 day: 1

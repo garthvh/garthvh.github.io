@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Installing the Printrbot Simple X axis upgrade
-categories: [3dprinting]
+tags: [3D Printing]
 year: 2015
 month: 12
 day: 5

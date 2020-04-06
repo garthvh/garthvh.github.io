@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Switching-Entirely-to-Linux-and-Ubuntu
-categories: [linux,ubuntu]
+tags: [Linux,Ubuntu]
 year: 2016
 month: 5
 day: 25

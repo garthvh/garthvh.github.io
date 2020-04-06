@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Raspberry Pi Surveillance and Timelapse Camera with the RaspiCam
-categories: [linux, raspberrypi, 3dprinting]
+tags: [Linux,Raspberry Pi,3D Printing]
 year: 2016
 month: 7
 day: 12

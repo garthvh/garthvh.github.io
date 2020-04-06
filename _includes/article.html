@@ -21,7 +21,12 @@
 				  <div class="d-flex justify-content-between">
 					<h3 class="card-title"><small>{% include post/date.html %}{{ time }}</small></h3> 
 					<div class="tags">
-						<i class="fas fa-tags"></i>{{ categories_content }}
+						<i class="fas fa-tags"></i>
+						{% if post.tags.size > 0 %}
+						{% for post_tag in post.tags %}
+							<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}/">{{ post_tag }}</a>
+						{% endfor %}
+						{% endif %}
 					</div>
 				  </div>
 				</div>
@@ -68,7 +73,12 @@
 							<div class="d-flex justify-content-between">
 								<h3 class="card-title"><small>{% include post/date.html %}{{ time }}</small></h3> 
 								<div class="tags">
-									<i class="fas fa-tags"></i>{{ categories_content }}
+									<i class="fas fa-tags"></i>
+									{% if page.tags.size > 0 %}
+									{% for post_tag in page.tags %}
+										<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}/">{{ post_tag }}</a>
+									{% endfor %}
+									{% endif %}
 								</div>
 							</div>
 						</div>

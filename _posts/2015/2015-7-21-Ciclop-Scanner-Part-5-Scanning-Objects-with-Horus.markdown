@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Ciclop Scanner Part 5 Scanning Objects with Horus
-categories: [3dscanning,3dprinting,ciclop,oshw]
+tags: [3D Scanning,3D Printing,Ciclop,OSHW]
 year: 2015
 month: 7
 day: 21

@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Order a PCB to build your own Zum Scan Shield using OSHPark
-categories: [3dscanning,oshpark,ciclop]
+tags: [3D Scanning,OSH Park,Ciclop]
 year: 2015
 month: 6
 day: 5

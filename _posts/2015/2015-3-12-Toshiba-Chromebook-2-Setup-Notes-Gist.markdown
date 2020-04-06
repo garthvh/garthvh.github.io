@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Toshiba Chromebook 2 Setup Notes
-categories: [linux,crouton]
+tags: [Linux,Crouton]
 year: 2015
 month: 3
 day: 12

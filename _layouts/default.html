@@ -23,7 +23,7 @@ layout: default
   <!-- IonIcons -->
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adminlte.min.css">
+  <link rel="stylesheet" href="{{ "/assets/css/adminlte.min.css" | relative_url }}"> 
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ site.baseurl }}/atom.xml" />
@@ -37,16 +37,6 @@ layout: default
   <![endif]-->
   {% include google_analytics.html %}
 </head>
-<!--
-BODY TAG OPTIONS:
-=================
-Apply one or more of the following classes to to the body tag
-to get the desired effect
-|---------------------------------------------------------|
-|LAYOUT OPTIONS | sidebar-collapse                        |
-|               | sidebar-mini                            |
-|---------------------------------------------------------|
--->
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
   <!-- Navbar -->
@@ -60,7 +50,6 @@ to get the desired effect
         <a href="{{ site.url }}" class="nav-link">Home</a>
       </li>
     </ul>
-
     <!-- SEARCH FORM -->
     <form class="form-inline ml-3" action="/search/" method="get">
       <div class="input-group input-group-sm">
@@ -94,7 +83,7 @@ to get the desired effect
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    {{ content }}
+  {{ content }}
   </div>
   <!-- /.content-wrapper -->
 
@@ -122,9 +111,7 @@ to get the desired effect
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!-- SlimScroll -->
 <!-- AdminLTE -->
-<script src="{{ site.baseurl }}/assets/js/adminlte.js"></script>
-
+<script src="{{ "/assets/js/adminlte.js" | relative_url }}"></script>
 <!-- OPTIONAL SCRIPTS -->
-<script src="{{ site.baseurl }}/assets/js/demo.js"></script>
 </body>
 </html>

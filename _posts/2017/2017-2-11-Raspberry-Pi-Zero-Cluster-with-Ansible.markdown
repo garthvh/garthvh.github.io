@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Raspberry Pi Zero Cluster with Ansible
-categories: [linux, raspberrypi, ansible]
+tags: [Linux,Raspberry Pi,Ansible]
 year: 2017
 month: 2
 day: 11

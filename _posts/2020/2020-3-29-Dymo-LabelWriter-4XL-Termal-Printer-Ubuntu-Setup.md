@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Dymo LabelWriter 4XL Thermal Printer Ubuntu Setup
-categories: [linux,ubuntu]
+tags: [Linux,Ubuntu]
 year: 2020
 month: 3
 day: 29

@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Dymo LabelWriter 450 Thermal Printer Ubuntu Setup
-categories: [linux,ubuntu]
+tags: [Linux,Ubuntu]
 year: 2016
 month: 6
 day: 28

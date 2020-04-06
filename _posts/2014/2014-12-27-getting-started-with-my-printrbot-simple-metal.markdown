@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with My Printrbot Simple Metal
-categories: [raspberrypi, linux, 3dprinting]
+tags: [Raspberry Pi,Linux,3D Printing]
 year: 2014
 month: 12
 day: 27

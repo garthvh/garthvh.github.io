@@ -2,9 +2,11 @@
 layout: project
 title: 12 Cue Ammo Can Fireworks Controller
 summary: 12 cue fireworks controller powered by a lead acid battery with a custom tinkercad designed and 3D printed insert and controller face for a standard 50 cal ammo can.
-featured_image: '../../assets/img/fireworks/12_all_test.jpg'
-photos_path: '/assets/img/fireworks'
+featured_image: '/assets/img/fireworks/12_all_test.jpg'
+photos_path: /assets/img/fireworks
 redirect_from: /category/fireworks/
+project_status: Complete
+tags: [project]
 ---
 <div class="timeline">
   <div class="time-label">

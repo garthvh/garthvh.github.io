@@ -16,21 +16,25 @@ title: Projects
 <div class="content">
     <div class="container-fluid">
         <div class="row">
-        {% for page in site.pages %}
-        {% if page.url contains '/project/' and page.url != '/project/' )  %}
+        {% assign projects = site.pages | where: "layout" , "project" %}
+        {% for page in projects %}
             <div class="col-6">
                 <div class="card">
+                    <div class="ribbon-wrapper ribbon-lg">
+                      <div class="ribbon bg-success text-lg">
+                        {{ page.project_status }}
+                      </div>
+                    </div>
                     <div class="card-header">
                         <h3 class="card-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
                     </div>
                     <div class="card-body">
-                        <img src="{{ page.featured_image }}" class="product-image" alt="{{ page.title }}">
+                        <img src="{{ page.featured_image | relative_url }}" class="product-image" alt="{{ page.title }}">
                         <br/><br/>
                         <p>{{ page.summary }}</p>                    
                     </div>
                 </div>
             </div>
-        {% endif %}
         {% endfor %}
         </div>
     </div>

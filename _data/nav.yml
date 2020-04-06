@@ -6,9 +6,9 @@
     - title: Blog Archives
       url: archives
       icon: fas fa-archive
-    - title: Category Cloud
+    - title: Tag Cloud
       icon: fas fa-cloud
-      url: categories
+      url: tags
     - title: Link List
       icon: fas fa-list
       url: links

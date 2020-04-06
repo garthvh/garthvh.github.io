@@ -21,7 +21,7 @@ title: Blog Archives
     <div class="row">
       <div class="col-md-12">
         <div class="timeline" itemscope itemtype="http://schema.org/Blog">
-          {% for post in site.posts reverse %}
+          {% for post in site.posts reversed %}
             {% if post.layout == 'post' %}
               {% include post/archive_post.html %}
             {% endif %}

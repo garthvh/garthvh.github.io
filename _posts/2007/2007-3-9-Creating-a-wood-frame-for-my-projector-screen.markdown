@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Creating a wood frame for my projector screen
-categories:
 year: 2007
 month: 3
 day: 9

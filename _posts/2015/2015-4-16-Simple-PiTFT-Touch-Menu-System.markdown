@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Simple PiTFT Touch Menu System
-categories: [raspberrypi, linux]
+tags: [Raspberry Pi,Linux]
 year: 2015
 month: 4
 day: 16

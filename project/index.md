@@ -18,7 +18,7 @@ title: Projects
         <div class="row">
         {% assign projects = site.pages | where: "layout" , "project" %}
         {% for page in projects %}
-            <div class="col-6">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
                     {% if page.project_status == 'Complete' %}
                     <div class="ribbon-wrapper ribbon-lg">

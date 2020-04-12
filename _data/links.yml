@@ -95,6 +95,14 @@
     - text: Custom Character Generator for HD44780 LCD Modules
       url: https://omerk.github.io/lcdchargen/
 
+## Fireworks
+- tag: Fireworks
+  links:
+    - text: Fireworks Controller Instructable
+      url: http://www.instructables.com/id/Fireworks-Controller/
+    - text: .50 Cal Ammo Box Firework Controller Build
+      url: http://www.instructables.com/id/Firework-Controller-Build/"
+
 ## IoT
 - tag: IOT
   links:

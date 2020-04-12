@@ -1,0 +1,36 @@
+---
+layout: default
+title: Blog Front Page
+---
+<div class="row">
+    <div class="col-md-12">
+        {% assign index = true %}
+        <div itemscope itemtype="http://schema.org/Blog">
+        {% for post in paginator.posts %}
+            {% unless post.redirect %}
+            {% assign content = post.content %}
+                <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                    {% include article.html %}
+                </article>
+            {% endunless %}
+        {% endfor %}
+        </div>
+        <div class="pager" style="padding-left: 7px;">
+            {% if paginator.next_page %}
+            <div class="float-left">
+                <a class="btn btn-default btn-flat" href="{{site.baseurl}}/page/{{ paginator.next_page }}"><i class="fas fa-arrow-left"></i> Older Posts</a>
+            </div>
+            {% endif %}
+            {% if paginator.previous_page %}
+            <div class="float-right">
+                {% if paginator.previous_page == 1 %}
+                <a href="{{site.baseurl}}/">Newer Posts <i class="fas fa-arrow-right"></i></a>
+                {% else %}
+                <a class="btn btn-default btn-flat" href="{{site.baseurl}}/page/{{paginator.previous_page}}">Newer Posts <i class="fas fa-arrow-right"></i></a>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+        <br/><br/>
+    </div>
+</div>

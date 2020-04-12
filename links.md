@@ -19,20 +19,16 @@ summary: A list of important links.
 <div class="content">
     <div class="container-fluid">
         <div class="row">
-            {% for category in site.data.links %}
+            {% for tag in site.data.links %}
             <div class="col-lg-4 col-md-6">
                 <div class="card">
                     <div class="card-header">
-                    {% for data_category in site.data.categories %}
-                        {% if data_category.slug == category.category %}
-                            <span class="badge badge-secondary float-right">{{ category.links.size }}</span>
-                            <h3 class="card-title">{{ data_category.name }} </h3>
-                        {% endif %}
-                    {% endfor%}
+                      <span class="badge badge-secondary float-right">{{ tag.links.size }}</span>
+                      <h3 class="card-title">{{ tag.tag }} </h3>
                     </div>
                     <div class="card-body p-0">
                         <ul class="nav nav-pills flex-column">
-                        {% for link in category.links %}
+                        {% for link in tag.links %}
                             <li class="nav-item">
                                 <a href="{{ link.url }}" class="nav-link">{{ link.text }}</a>
                             </li>

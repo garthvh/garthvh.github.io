@@ -94,8 +94,6 @@
   links:
     - text: Custom Character Generator for HD44780 LCD Modules
       url: https://omerk.github.io/lcdchargen/
-    - text: KiCad Tutorials
-      url: https://contextualelectronics.com/course/kicad-tutorial/
 
 ## IoT
 - tag: IOT
@@ -154,6 +152,14 @@
       url: http://macrofab.net/
     - text: Circuit Hub
       url: https://circuithub.com/
+
+## Open Media Vault
+- tag: Open Media Vault
+  links: 
+    - text: Open Media Vault
+      url: https://www.openmediavault.org
+    - text: Open Media Vault Server Parts List
+      url: https://pcpartpicker.com/user/garthvh/saved/3NFvWZ
 
 ## OSH Park
 - tag: OSH Park

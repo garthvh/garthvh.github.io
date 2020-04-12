@@ -20,11 +20,13 @@ title: Projects
         {% for page in projects %}
             <div class="col-6">
                 <div class="card">
+                    {% if page.project_status == 'Complete' %}
                     <div class="ribbon-wrapper ribbon-lg">
                       <div class="ribbon bg-success text-lg">
                         {{ page.project_status }}
                       </div>
                     </div>
+                    {% endif %}
                     <div class="card-header">
                         <h3 class="card-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
                     </div>

@@ -34,10 +34,33 @@ single: true
               <h3 class="my-3">{{ page.title }}</h3>
               <p class="lead">{{ page.summary }}</p>
               <hr>
+              <h5 class="mt-5 text-muted">Project links</h5>
+              <ul class="list-unstyled">
+                {% assign page_tag = site.data.links | where_exp:"tag", "tag.tag contains page.tag" %}
+                {% for tag in page_tag %}
+                {% for link in tag.links %}
+                <li>
+                  <a href="{{ link.url }}" target="_blank" class="btn-link text-secondary"><i class="fas fa-fw fa-link"></i>&nbsp;{{ link.text }}</a>
+                </li>
+                {% endfor %}
+                {% endfor %}
+              </ul>
             </div>
           </div>
           <div class="row mt-4">
             <div class="col-12">
+              {% if site.tags[page.tag].size > 0 %}
+              <div class="timeline" itemscope itemtype="http://schema.org/Blog">
+                {% for post in site.tags[page.tag] | reverse %}
+                {% if post.layout == 'post' %}
+                    {% include post/archive_post.html %}
+                {% endif %}
+                {% endfor %}
+                <div>
+                    <i class="fas fa-clock bg-gray"></i>
+                </div>
+              </div>
+              {% endif %}
               {{ content }}
             </div>
           </div>

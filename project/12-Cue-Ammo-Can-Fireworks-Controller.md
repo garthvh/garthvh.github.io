@@ -6,7 +6,7 @@ featured_image: '/assets/img/fireworks/12_all_test.jpg'
 photos_path: /assets/img/fireworks
 redirect_from: /category/fireworks/
 project_status: Complete
-tags: [project]
+tag: Firework
 ---
 <div class="timeline">
   <div class="time-label">

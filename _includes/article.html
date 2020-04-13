@@ -1,117 +1,82 @@
-<!-- Home Page  -->
-{% if index %}
-	<!-- Content Header (Page header) -->
-    <div class="content-header">
-		<div class="container-fluid">
-		  <div class="row mb-2">
-			<div class="col-sm-12">
-			  <h1 class="m-0 text-dark"><a href="{{ post.url }}" itemprop="url">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-			</div><!-- /.col -->
-		  </div><!-- /.row -->
-		</div><!-- /.container-fluid -->
+<!-- Content Header (Page header) -->
+<div class="content-header">
+	<div class="container-fluid">
+		<div class="row mb-2">
+		<div class="col-sm-7">
+			{% if index %}
+			<h1 class="m-0 text-dark"><a href="{{ post.url }}" itemprop="url">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+			{% else %}
+			<h1 class="m-0 text-dark">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+			{% endif %}
+		</div><!-- /.col -->
+		{% if index != true %}
+		<div class="col-sm-5">
+			<ol class="breadcrumb float-sm-right">
+			<li class="breadcrumb-item"><a href="{{ site.baseurl }}/"><i class="fas fa-home"></i> Home</a></li>
+			<li class="breadcrumb-item"><a href="{{ site.baseurl }}/blog"><i class="fas fa-newspaper"></i> Blog</a></li>
+			</ol>
+		</div><!-- /.col -->
+		{% endif %}
+		</div><!-- /.row -->
+	</div><!-- /.container-fluid -->
 	</div>
-	  <!-- /.content-header -->
-	  <!-- Main content -->
-	  <div class="content">
-		<div class="container-fluid">
-		  <div class="row">
+<!-- /.content-header -->
+<!-- Main content -->
+<div class="content">
+	<div class="container-fluid">
+		<div class="row">
 			<div class="col-lg-12">
-			  <div class="card">
-				<div class="card-header">
-				  <div class="d-flex justify-content-between">
-					<h3 class="card-title"><small>{% include post/date.html %}{{ time }}</small></h3> 
-					<div class="tags">
-						<i class="fas fa-tags"></i>
-						{% if post.tags.size > 0 %}
-						{% for post_tag in post.tags %}
-							<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}/">{{ post_tag }}</a>
-						{% endfor %}
-						{% endif %}
-					</div>
-				  </div>
-				</div>
-				<div class="card-body">
-					{{ content | excerpt }}
-					{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-					{% if excerpted == 'true' %}<a href="{{ post.url }}" class="more-link">{{ site.excerpt_link }}</a>{% endif %}
-				</div>
-			  </div>
-			  <!-- /.card -->
-			</div>
-			<!-- /.col-md-6 -->
-		  </div>
-		  <!-- /.row -->
-		</div>
-		<!-- /.container-fluid -->
-	  </div>
-	  <!-- /.content -->
-{% else %}
-	<!-- Content Header (Page header) -->
-	<div class="content-header">
-		<div class="container-fluid">
-			<div class="row mb-2">
-			<div class="col-sm-7">
-				<h1 class="m-0 text-dark">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-			</div><!-- /.col -->
-			<div class="col-sm-5">
-				<ol class="breadcrumb float-sm-right">
-				<li class="breadcrumb-item"><a href="{{ site.baseurl }}/"><i class="fas fa-home"></i> Home</a></li>
-				<li class="breadcrumb-item"><a href="{{ site.baseurl }}/archives"><i class="fas fa-newspaper"></i> Blog</a></li>
-				</ol>
-			</div><!-- /.col -->
-			</div><!-- /.row -->
-		</div><!-- /.container-fluid -->
-		</div>
-	<!-- /.content-header -->
-	<!-- Main content -->
-	<div class="content">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="card">
-						<div class="card-header">
-							<div class="d-flex justify-content-between">
-								<h3 class="card-title"><small>{% include post/date.html %}{{ time }}</small></h3> 
-								<div class="tags">
-									<i class="fas fa-tags"></i>
-									{% if page.tags.size > 0 %}
-									{% for post_tag in page.tags %}
-										<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}/">{{ post_tag }}</a>
-									{% endfor %}
-									{% endif %}
-								</div>
+				<div class="card">
+					<div class="card-header">
+						<div class="d-flex justify-content-between">
+							<h3 class="card-title"><small>{% include post/date.html %}{{ time }}</small></h3> 
+							<div class="tags">
+								<i class="fas fa-tags"></i>
+								{% if index %}
+								{% if post.tags.size > 0 %}
+								{% for post_tag in post.tags %}
+									<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}/">{{ post_tag }}</a>
+								{% endfor %}
+								{% endif %}
+								{% else %}
+								{% if page.tags.size > 0 %}
+								{% for post_tag in page.tags %}
+									<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}/">{{ post_tag }}</a>
+								{% endfor %}
+								{% endif %}
+								{% endif %}
 							</div>
 						</div>
-						<div class="card-body">
-							{{ content | excerpt }}
-							{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-							{% if excerpted == 'true' %}<a href="{{ post.url }}" class="more-link">{{ site.excerpt_link }}</a>{% endif %}
-						</div>
 					</div>
-					<!-- /.card -->
-					<div class="pager">
-						<div class="float-left">
-							{% if page.previous.url %}
-							<a class="btn btn-default btn-flat" href="{{page.previous.url}}">
-								<i class="fas fa-arrow-left"></i> {{ page.previous.title }}
-							</a>
-							{% endif %}
-						</div>
-						<div class="float-right">
-							{% if page.next.url %}
-							<a class="btn btn-default btn-flat" href="{{page.next.url}}">
-								{{ page.next.title }} <i class="fas fa-arrow-right"></i>
-							</a>
-							{% endif %}
-						</div>
-						<br/><br/>
+					<div class="card-body">
+						{{ content | excerpt }}
+						{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+						{% if excerpted == 'true' %}<a href="{{ post.url }}" class="more-link">{{ site.excerpt_link }}</a>{% endif %}
 					</div>
 				</div>
-				<!-- /.col-lg-12 -->
+				<!-- /.card -->
+				<div class="pager">
+					<div class="float-left">
+						{% if page.previous.url %}
+						<a class="btn btn-default btn-flat" href="{{page.previous.url}}">
+							<i class="fas fa-arrow-left"></i> {{ page.previous.title }}
+						</a>
+						{% endif %}
+					</div>
+					<div class="float-right">
+						{% if page.next.url %}
+						<a class="btn btn-default btn-flat" href="{{page.next.url}}">
+							{{ page.next.title }} <i class="fas fa-arrow-right"></i>
+						</a>
+						{% endif %}
+					</div>
+					<br/><br/>
+				</div>
 			</div>
-			<!-- /.row -->
+			<!-- /.col-lg-12 -->
 		</div>
-		<!-- /.container-fluid -->
+		<!-- /.row -->
 	</div>
-	<!-- /.content -->
-{% endif %}
+	<!-- /.container-fluid -->
+</div>
+<!-- /.content -->

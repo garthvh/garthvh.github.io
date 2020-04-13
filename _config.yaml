@@ -2,11 +2,10 @@
 # Blog Settings
 #
 author: Garth Vander Houwen
-description: Garth's Website
+description: A website I use to document the assorted hardware, software and projects I am working on.  It has been useful for me, hopefully others find some of it interesting and useful too.
 url: https://garthvh.com
-name: Garth's Website
-title: Garth's Website
-subtitle:
+name: GVH
+title: Garth's Stuff
 
 # Github repositories
 github_user: garthvh
@@ -30,8 +29,7 @@ kramdown:
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-github-metadata, jekyll-redirect-from]
 category_dir: categories
 paginate: 3
-paginate_path: "page/:num"
-permalink: /blog/:year/:month/:day/:title/
+paginate_path: "/blog/page/:num/"
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

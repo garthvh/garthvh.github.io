@@ -1,36 +1,64 @@
 ---
 layout: default
-title: Home
 ---
-<div class="row">
-    <div class="col-md-12">
-        {% assign index = true %}
-        <div itemscope itemtype="http://schema.org/Blog">
-        {% for post in paginator.posts %}
-            {% unless post.redirect %}
-            {% assign content = post.content %}
-                <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-                    {% include article.html %}
-                </article>
-            {% endunless %}
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-12">
+          <h1 class="m-0 text-dark">
+              {{ site.title }}
+          </h1>
+          <p class="lead">{{ site.description }}</p>
+          <hr/>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </div>
+  <!-- /.content-header -->
+  <section class="content">
+    <div class="container-fluid">
+      <!-- Timelime -->
+      <div class="row">
+        <div class="col-6">
+          <h4>Recent Posts</h4>
+          <div class="timeline" itemscope itemtype="http://schema.org/Blog">
+            {% for post in site.posts limit:5 %}
+              {% if post.layout == 'post' %}
+                {% include post/archive_post.html %}
+              {% endif %}
+            {% endfor %}
+            <div>
+              <i class="fas fa-clock bg-gray"></i>
+            </div>
+          </div>
+      </div>
+      <div class="col-6">
+        <h4>Projects</h4>
+        <div class="row">
+        {% assign projects = site.pages | where: "layout" , "project" %}
+        {% for page in projects %}
+            <div class="col-12">
+                <div class="card">
+                    {% if page.project_status == 'Complete' %}
+                    <div class="ribbon-wrapper ribbon-lg">
+                        <div class="ribbon bg-success text-lg">
+                        {{ page.project_status }}
+                        </div>
+                    </div>
+                    {% endif %}
+                    <div class="card-header">
+                        <h3 class="card-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="{{ page.featured_image | relative_url }}" class="product-image" alt="{{ page.title }}">
+                        <br/><br/>
+                        <p>{{ page.summary }}</p>                    
+                    </div>
+                </div>
+            </div>
         {% endfor %}
         </div>
-        <div class="pager" style="padding-left: 7px;">
-            {% if paginator.next_page %}
-            <div class="float-left">
-                <a class="btn btn-default btn-flat" href="{{site.baseurl}}/page/{{ paginator.next_page }}"><i class="fas fa-arrow-left"></i> Older Posts</a>
-            </div>
-            {% endif %}
-            {% if paginator.previous_page %}
-            <div class="float-right">
-                {% if paginator.previous_page == 1 %}
-                <a href="{{site.baseurl}}/">Newer Posts <i class="fas fa-arrow-right"></i></a>
-                {% else %}
-                <a class="btn btn-default btn-flat" href="{{site.baseurl}}/page/{{paginator.previous_page}}">Newer Posts <i class="fas fa-arrow-right"></i></a>
-                {% endif %}
-            </div>
-            {% endif %}
-        </div>
-        <br/><br/>
+      </div>
     </div>
-</div>
+  </section>

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Site Tags
-slug: tags
 summary: "Available site tags"
 redirect_from: /categories/
 sitemap: false

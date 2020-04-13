@@ -23,16 +23,10 @@ summary: Site Setup Details
 
 * Navigation from Data file
 * Bootstrap 4 AdminLTE Theme
-* Category List and Cloud
-* Category Landing Pages with posts and links
-* Links with categories using custom data
+* Tag List and Cloud
+* Tag Landing Pages with posts and links
 * Full text search for posts and pages via [lunr.js](http://lunrjs.com/)
 * Redirects for every post after I changed my mind about the URL structure via [JekyllRedirectFrom](https://github.com/jekyll/jekyll-redirect-from)
-
-### Github Features
-
-* [Contact Link]({{ site.url }}/contact) opens an issue.
-* Edit link on each post creates a pull request
 
 ### Site Features
 

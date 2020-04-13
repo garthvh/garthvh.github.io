@@ -1,7 +1,6 @@
 ---
 layout: default
-title: "Project Store"
-slug: store
+title: Project Store
 ---
 <!-- Content Header (Page header) -->
 <div class="content-header">
@@ -9,7 +8,7 @@ slug: store
     <div class="row mb-2">
       <div class="col-sm-12">
         <h1 class="m-0 text-dark">
-         Project Store
+         {{ page.title }}
         </h1>
       </div><!-- /.col -->
     </div><!-- /.row -->

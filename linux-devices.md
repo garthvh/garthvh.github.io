@@ -1,19 +1,13 @@
 ---
 layout: page_blank
-title: "Linux Devices"
-slug: linux-devices
-categories: [linux,ubuntu]
-lead: "Linux Devices"
-summary: "Some generally cheap and well supported linux devices I own and like."
-fullwidth: true
+title: Devices running Linux
+tags: [Linux,Ubuntu]
+summary: Some generally cheap and well supported linux devices I own and like.
 ---
 
 <div class="content">
   <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-12">
-           <h4>Devices running Linux</h4>
-        </div>
         <div class="col-lg-4">
             <div class="card">
                 <div class="card-header">

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About this Site
-last_updated: "March 22, 2020"
 summary: Site Setup Details
 ---
 

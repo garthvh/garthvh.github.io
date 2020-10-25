@@ -76,7 +76,7 @@ single: true
             <div class="row">
             {% assign project_images = site.static_files | where_exp:"image", "image.path contains page.photos_path" %}
             {% for image in project_images %}
-            {% if image.extname == '.jpg' or image.extname == '.png' or image.extname == '.jpeg' %}
+            {% if image.extname.tolower == '.jpg' or image.extname == '.png' or image.extname == '.jpeg' or image.extname == '.JPG' or image.extname == '.JPEG' %}
               <div class="col-sm-2">
                 <a href="../..{{ site.baseurl }}{{ image.path }}">
                   <img src="../..{{ site.baseurl }}{{ image.path }}" class="img-fluid mb-2" />

@@ -42,6 +42,11 @@
       url: https://blog.adafruit.com/2015/05/08/simple-pitft-touchpi-menu-system-piday-raspberrypi-raspberry_pi/
 
 
+- tag: Blast Box
+  links:
+    - text: Parts-Express Blast Box Kit
+      url: https://www.parts-express.com/blast-box-200-watt-portable-bluetooth-speaker-kit--300-7162
+
 - tag: Ansible
   links:
     - text: Ansible

@@ -21,11 +21,10 @@ layout: default
       <!-- Timelime -->
       <div class="row">
       <div class="col-md-8 col-sm-12">
-        <h4>Current Projects</h4>
+        <h4>Projects</h4>
         <div class="row">
-        {% assign projects = site.pages | where: "layout" , "project" | sort:"title" %}
+        {% assign projects = site.projects | sort:"order" | reverse %}
         {% for page in projects %}
-          {% if page.project_status != 'Complete' %}
             <div class="col-12">
                 <div class="card">
                     <div class="ribbon-wrapper ribbon-lg">
@@ -43,33 +42,6 @@ layout: default
                     </div>
                 </div>
             </div>
-          {% endif %}
-        {% endfor %}
-        </div>
-        <h4>Completed Projects</h4>
-        <div class="row">
-        {% for page in projects %}
-          {% if page.project_status == 'Complete' %}
-            <div class="col-12">
-                <div class="card">
-                    {% if page.project_status == 'Complete' %}
-                    <div class="ribbon-wrapper ribbon-lg">
-                        <div class="ribbon bg-success text-lg">
-                        {{ page.project_status }}
-                        </div>
-                    </div>
-                    {% endif %}
-                    <div class="card-header">
-                        <h3 class="card-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
-                    </div>
-                    <div class="card-body">
-                        <img src="{{ page.featured_image | relative_url }}" class="product-image" alt="{{ page.title }}">
-                        <br/><br/>
-                        <p>{{ page.summary }}</p>                    
-                    </div>
-                </div>
-            </div>
-          {% endif %}
         {% endfor %}
         </div>
       </div>

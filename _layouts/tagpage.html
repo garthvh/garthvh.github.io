@@ -22,8 +22,9 @@ single: true
                 {% if page.tag == 'Blast Box' %}
                 <h2>Project: <a href="{{ page.url }}">{{ page.title }}</a></h2>
                 <div class="card">
+                    {% include page/photocarousel.html %}
                     <div class="card-body">
-                        {{ page.content }}
+                        <p>{{ page.summary }}</p>
                     </div>
                 </div>
                 {% endif %}

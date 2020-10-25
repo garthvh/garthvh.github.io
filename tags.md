@@ -34,7 +34,7 @@ sitemap: false
                     <ul class="nav nav-pills flex-column">
                         {% for tag in site.tags %}
                         <li class="nav-item active">
-                        <a href="/tag/{{ tag[0] | slugify }}/" class="nav-link">
+                        <a href="/tag/{{ tag[0] | slugify }}" class="nav-link">
                             {{ tag[0] }} 
                             {% if tag[1].size > 0 %} <span class="badge bg-primary float-right"> {{ tag[1].size }} </span> {%endif%}
                         </a>

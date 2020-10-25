@@ -8,6 +8,7 @@ tags: [Open Media Vault]
 tag: "Open Media Vault"
 project_status: Complete
 order: 3
+redirect_from: /project/Open-Media-Vault-Server/
 ---
 
 My Open Media Vault server started out as a way to replace my dying HP 470 Windows Home Server after it was abandoned by Microsoft.  Initially I thought the killer feature I wanted to maintain was the drive extender function of WHS that allows you to add various sized disks to a single storage folder and then use the UI to specify how many copies you wanted of each folder and the server would manage backups for you. 

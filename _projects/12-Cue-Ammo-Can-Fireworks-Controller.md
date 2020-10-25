@@ -8,6 +8,7 @@ redirect_from: /category/fireworks/
 project_status: Complete
 tag: Fireworks
 order: 2
+redirect_from: /project/12-Cue-Ammo-Can-Fireworks-Controller/
 ---
 
 <h3> Bill of Materials (BOM)<h3>

@@ -7,4 +7,5 @@ photos_path: /assets/img/ciclop
 project_status: Complete
 tag: Ciclop
 order: 1
+redirect_from: /project/Ciclop-3D-Scanner/
 ---

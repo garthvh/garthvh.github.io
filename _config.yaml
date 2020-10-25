@@ -33,3 +33,11 @@ paginate_path: "/blog/page/:num/"
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+
+# Define Jekyll collections
+collections:
+  # Define a collection named "docs", its documents reside in the "_projects" directory
+  projects:
+    permalink: "/:collection/:path/"
+    label: Projects
+    output: true

@@ -1,12 +1,13 @@
 ---
 layout: project
 title: Open Media Vault Server
-summary: Open Media Vault server with 13 terrabytes of storage, 7 drives and 32 gigs of ram for use as redundant file backup and host for Docker containers running assorted services.
+summary: Open Media Vault server with 9 terrabytes of storage, 6 drives and 32 gigs of ram for use as redundant file backup and host for Docker containers running assorted services.
 featured_image: '../../assets/img/omv/01-node_304.jpg'
 photos_path: /assets/img/omv
 tags: [Open Media Vault]
 tag: "Open Media Vault"
 project_status: Complete
+order: 3
 ---
 
 My Open Media Vault server started out as a way to replace my dying HP 470 Windows Home Server after it was abandoned by Microsoft.  Initially I thought the killer feature I wanted to maintain was the drive extender function of WHS that allows you to add various sized disks to a single storage folder and then use the UI to specify how many copies you wanted of each folder and the server would manage backups for you. 

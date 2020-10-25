@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Projects
+permalink: /projects/
+redirect_from: /project/
 ---
 <!-- Content Header (Page header) -->
 <div class="content-header">
@@ -16,7 +18,7 @@ title: Projects
 <div class="content">
     <div class="container-fluid">
         <div class="row">
-        {% assign projects = site.pages | where: "layout" , "project" | sort: "project_status" %}
+        {% assign projects = site.projects | sort: 'order' | reverse %}
         {% for page in projects %}
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card">

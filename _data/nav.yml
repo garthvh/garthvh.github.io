@@ -1,7 +1,7 @@
 - title:  MAIN NAVIGATION
   items:
     - title: Projects
-      url: project
+      url: projects
       icon: fas fa-tools
     - title: Blog
       url: blog

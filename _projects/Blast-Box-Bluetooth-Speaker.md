@@ -19,7 +19,7 @@ Because of the COVID a memorial gathering me and some friends hold every summer 
 * Black protective corners and aluminum angle for case
 
 ## BOM
-
+<div class="table-responsive" markdown="block">
 {:.table .table-striped .table-bordered .table-hover. .table-sm}
 
 | Part | Qty | Unit Cost  | Total Cost   |   
@@ -40,3 +40,4 @@ Because of the COVID a memorial gathering me and some friends hold every summer 
 | 48" 1/2" Aluminum Angle | 3  | $7.00  | $21.00 |  
 | Matte Black Rustoleum Paint | 1  | $5.00  | $5.00 | 
 | **TOTAL** |   |  | **$392.60** | 
+</div>

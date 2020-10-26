@@ -35,13 +35,13 @@
 								{% if index %}
 								{% if post.tags.size > 0 %}
 								{% for post_tag in post.tags %}
-									<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}/">{{ post_tag }}</a>
+									<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}">{{ post_tag }}</a>
 								{% endfor %}
 								{% endif %}
 								{% else %}
 								{% if page.tags.size > 0 %}
 								{% for post_tag in page.tags %}
-									<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}/">{{ post_tag }}</a>
+									<a class="badge badge-secondary" href="/tag/{{ post_tag | slugify }}">{{ post_tag }}</a>
 								{% endfor %}
 								{% endif %}
 								{% endif %}

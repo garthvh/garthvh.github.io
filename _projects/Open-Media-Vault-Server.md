@@ -1,6 +1,8 @@
 ---
 layout: project
 title: Open Media Vault Server
+date: 2019-12-7 8:00
+updated: 2020-10-14 8:00
 summary: Open Media Vault server with 9 terrabytes of storage, 6 drives and 32 gigs of ram for use as redundant file backup and host for Docker containers running assorted services.
 featured_image: '../../assets/img/omv/01-node_304.jpg'
 photos_path: /assets/img/omv

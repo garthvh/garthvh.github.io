@@ -10,15 +10,14 @@ order: 4
 redirect_from: /project/Blast-Box-Bluetooth-Speaker/
 ---
 
-Because of the COVID a memorial gathering me and some friends hold every summer was adjusted to be smaller and more socially distant, since we were camping more spread out outside the bluetooth speakers we had seemed inadequate. I wanted something that could be run of battery if necessary, did not require internet and had actually good bass.  
+Because of the COVID a memorial gathering me and some friends hold every summer was adjusted to be smaller and more socially distant, since we were camping more spread out outside the bluetooth speakers we had seemed inadequate. I wanted something that could be run of battery if necessary, did not require internet and had actually good bass when used outside.  Even with some models costing $300-500 they still sounded pretty bad outside.  Parts Express offers a number of different bluetooth speaker kits and the Blast Box seems to be designed to be the best sounding model in open areas.
 
-
-### Upgrades
+## My Upgrades
 * 1/2" Square Boombox inspired handle
 * Upgraded to 21 Volt Battery pack from included 12 volt.
 * Black protective corners and aluminum angle for case
 
-## BOM
+## Bill Of Materials (BOM)
 <div class="table-responsive" markdown="block">
 {:.table .table-striped .table-bordered .table-hover. .table-sm}
 

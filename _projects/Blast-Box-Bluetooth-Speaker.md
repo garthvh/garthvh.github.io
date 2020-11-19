@@ -13,7 +13,7 @@ redirect_from: /project/Blast-Box-Bluetooth-Speaker/
 Because of the COVID a memorial gathering me and some friends hold every summer was adjusted to be smaller and more socially distant, since we were camping more spread out outside the bluetooth speakers we had seemed inadequate. I wanted something that could be run of battery if necessary, did not require internet and had actually good bass when used outside.  Even with some models costing $300-500 they still sounded pretty bad outside.  Parts Express offers a number of different bluetooth speaker kits and the Blast Box seems to be designed to be the best sounding model in open areas.
 
 ## My Upgrades
-* 1/2" Square Boombox inspired handle
+* 2 Spring Loaded Side Handles
 * Upgraded to 21 Volt Battery pack from included 12 volt.
 * Black protective corners and aluminum angle for case
 
@@ -33,7 +33,6 @@ Because of the COVID a memorial gathering me and some friends hold every summer 
 | [Penn-Elcom C1823K Metal Cabinet Corner Black 3 Leg](https://www.parts-express.com/penn-elcom-c1823k-metal-cabinet-corner-black-3-leg--262-150) | 16  | $0.60 | $9.60 |  
 | [External Bluetooth Antenna Kit with 11.8" (300 mm) Cable](https://www.parts-express.com/external-bluetooth-antenna-kit-with-118-(300-mm)-cable--320-626) | 1  | $5.00 | $5.00 |  
 | **Amazon** |   |   |  |  
-| [Black Stainless Steel Square Corner Bar Handle 1/2" Width 13" Long](https://www.amazon.com/gp/product/B07KCCK9ZS/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)  | 1  | $9.00 | $9.00 |  
 | [Reliable Hardware Company RH-5112BO-A Screws](https://www.amazon.com/gp/product/B00JJ192NW/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)  | 1  | $6.00 | $6.00 |  
 | **ACE Hardware** |   |   |  |  
 | 48" 1/2" Aluminum Angle | 3  | $7.00  | $21.00 |  

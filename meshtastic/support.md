@@ -27,7 +27,7 @@ title: Meshtastic iOS App Support Page
             </div>
           </div>
           <div class="card-body">
-             <p><Body</p>
+             <p>Body</p>
          </div>
         </div>
         <!-- /.card -->

@@ -27,7 +27,7 @@ title: Meshtastic iOS App Support Page
             </div>
           </div>
           <div class="card-body">
-             <p>Body</p>
+             <p>Please use the feedback option in testflight for app support</p>
          </div>
         </div>
         <!-- /.card -->
